@@ -1,0 +1,31 @@
+name: Compress Files and Release Package
+
+on:
+  push:
+    tags:
+    - '*'
+
+jobs:
+  compress-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Compress Directory
+        uses: somaz94/compress-decompress@v1
+        with:
+          command: compress
+          source: ./data
+          format: tgz
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: compressed-data
+          path: ./data.tgz
+
+      - name: Release Package
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "data.tgz"
