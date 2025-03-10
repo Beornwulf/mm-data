@@ -1,2 +1,4 @@
 .DS_Store
 Thumbs.db
+/data/images/temp/*
+!/data/images/temp/.gitkeep
