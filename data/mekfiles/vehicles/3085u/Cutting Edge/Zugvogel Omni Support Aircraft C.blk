@@ -1,4 +1,13 @@
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-27
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -36,7 +45,8 @@ Aerodyne
 </motion_type>
 
 <transporters>
-cargobay:20.0:1:1::-1:0:omni
+cargobay:20.0:1:1:omni
+troopspace:12.0:omni
 </transporters>
 
 <SafeThrust>
@@ -62,14 +72,6 @@ cargobay:20.0:1:1::-1:0:omni
 <engine_type>
 0
 </engine_type>
-
-<armor_type>
-51
-</armor_type>
-
-<armor_tech_rating>
-4
-</armor_tech_rating>
 
 <omni>
 1
@@ -117,10 +119,6 @@ Advanced Fire Control
 4
 </structural_tech_rating>
 
-<engine_tech_rating>
-4
-</engine_tech_rating>
-
 <notes>
 This configuration is 4 tons overweight as given in the official source.
 </notes>
@@ -136,4 +134,3 @@ TRO: 3085
 <baseChassisFireConWeight>
 5.5
 </baseChassisFireConWeight>
-

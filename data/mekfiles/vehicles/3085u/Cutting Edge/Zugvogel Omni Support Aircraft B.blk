@@ -1,4 +1,13 @@
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-27
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -36,7 +45,7 @@ Aerodyne
 </motion_type>
 
 <transporters>
-lightvehiclebay:1.0:1:1::-1:0:omni
+lightvehiclebay:1.0:1:1:omni
 troopspace:4.0:omni
 </transporters>
 
@@ -63,14 +72,6 @@ troopspace:4.0:omni
 <engine_type>
 0
 </engine_type>
-
-<armor_type>
-51
-</armor_type>
-
-<armor_tech_rating>
-4
-</armor_tech_rating>
 
 <omni>
 1
@@ -101,6 +102,16 @@ Searchlight:OMNI
 </Wings Equipment>
 
 <Body Equipment>
+MASH Core Component:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
+MASH Operation Theater:OMNI
 Paramedic Equipment:OMNI
 Paramedic Equipment:OMNI
 Paramedic Equipment:OMNI
@@ -111,7 +122,6 @@ Armored Chassis
 STOLChassisMod
 OmniChassisMod
 Advanced Fire Control
-MASH Equipment:OMNI:SIZE:10.0
 </Body Equipment>
 
 <barrating>
@@ -121,10 +131,6 @@ MASH Equipment:OMNI:SIZE:10.0
 <structural_tech_rating>
 4
 </structural_tech_rating>
-
-<engine_tech_rating>
-4
-</engine_tech_rating>
 
 <source>
 TRO: 3085
@@ -137,4 +143,3 @@ TRO: 3085
 <baseChassisFireConWeight>
 5.5
 </baseChassisFireConWeight>
-

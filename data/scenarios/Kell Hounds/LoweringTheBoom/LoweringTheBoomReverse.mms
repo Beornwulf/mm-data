@@ -154,9 +154,9 @@ messages:
       units: [ 101, 102, 103, 104, 105, 106 ]
       atleast: 3
 
-  - header: Decisive Victory
+  - header: Decisive Defeat
     text: |
-      ## Decisive Victory
+      ## Decisive Defeat
       
       Not more than one Marik Mek managed to evade the Kell Hounds forces. The Kell Hounds
       have won a decivise victory.
@@ -172,9 +172,9 @@ messages:
       units: [ 101, 102, 103, 104, 105, 106 ]
       atmost: 1
 
-  - header: Marginal Victory
+  - header: Marginal Defeat
     text: |
-      ## Marginal Victory
+      ## Marginal Defeat
       
       Only two Marik Meks managed to evade the Kell Hounds forces.
       
@@ -187,6 +187,19 @@ messages:
       modify: atend
       units: [ 101, 102, 103, 104, 105, 106 ]
       count: 2
+
+  - header: Decisive Marik Victory
+    text: At least five Marik Meks managed to evade the Kell Hounds forces. The FWL
+      has won a decivise victory.
+    
+      Ward's Wolves failed to inflict significant losses on the Marik Meks. With the atomic weapons supply
+      depot bombarded, Nage decided to withdraw.
+    image: loweringboom_splash.png
+    trigger:
+      type: fledunits
+      modify: atend
+      units: [ 101, 102, 103, 104, 105, 106 ]
+      atleast: 5
 
   - header: A Draw!
     text: Three Marik Meks managed to evade the Kell Hounds forces. This result is considered
@@ -201,8 +214,9 @@ messages:
       units: [ 101, 102, 103, 104, 105, 106 ]
       count: 3
 
-  - header: Marginal Defeat
-    text: Four Marik Meks managed to evade the Kell Hounds forces. 
+  - header: Marginal Marik Victory
+    text: Four Marik Meks managed to evade the Kell Hounds forces. The FWL
+      has won a marginal victory.
     
       Ward's Wolves failed to inflict significant losses on the Marik Meks. With the atomic weapons supply
       depot bombarded, Col. Nage decided to withdraw.
@@ -212,19 +226,6 @@ messages:
       modify: atend
       units: [ 101, 102, 103, 104, 105, 106 ]
       count: 4
-
-  - header: Decisive Defeat
-    text: At least five Marik Meks managed to evade the Kell Hounds forces. The opposing FWL
-      has won a decivise victory.
-    
-      Ward's Wolves failed to inflict significant losses on the Marik Meks. With the atomic weapons supply
-      depot bombarded, Nage decided to withdraw.
-    image: loweringboom_splash.png
-    trigger:
-      type: fledunits
-      modify: atend
-      units: [ 101, 102, 103, 104, 105, 106 ]
-      atleast: 5
 
 end:
   - trigger:

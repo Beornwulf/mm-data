@@ -1,4 +1,13 @@
-#Saved from version 0.50.04-SNAPSHOT on 2025-02-23
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -7,9 +16,9 @@ SupportTank
 Apocalypse World Rover
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 3705
@@ -36,8 +45,9 @@ Wheeled
 </motion_type>
 
 <transporters>
-standardseats:7.0:0:-1::-1:0
-cargobay:0.501:1:2::-1:0
+standardseats:7.0:0
+cargobay:0.501:1:1
+BattleArmorHandles - troopers:-1
 </transporters>
 
 <cruiseMP>
@@ -47,18 +57,6 @@ cargobay:0.501:1:2::-1:0
 <engine_type>
 1
 </engine_type>
-
-<armor_type>
-48
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
-
-<armor_tech_level>
-1
-</armor_tech_level>
 
 <armor>
 3
@@ -72,13 +70,14 @@ ISOffRoadChassis
 </Body Equipment>
 
 <Front Equipment>
-PintleTurret
 </Front Equipment>
 
 <Right Equipment>
+PintleTurret
 </Right Equipment>
 
 <Left Equipment>
+PintleTurret
 </Left Equipment>
 
 <Rear Equipment>
@@ -92,10 +91,6 @@ PintleTurret
 3
 </structural_tech_rating>
 
-<engine_tech_rating>
-3
-</engine_tech_rating>
-
 <source>
 Handbook: House Davion
 </source>
@@ -104,10 +99,6 @@ Handbook: House Davion
 2.0
 </tonnage>
 
-<baseChassisSponsonPintleWeight>
-0.08
-</baseChassisSponsonPintleWeight>
-
 <fuel>
 0.024
 </fuel>
@@ -115,4 +106,3 @@ Handbook: House Davion
 <fuelType>
 PETROCHEMICALS
 </fuelType>
-

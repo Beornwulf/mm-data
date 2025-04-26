@@ -1,4 +1,13 @@
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-27
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -7,9 +16,9 @@ SupportTank
 Sherpa Armored Truck
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 5050
@@ -19,12 +28,8 @@ Sherpa Armored Truck
 2430
 </year>
 
-<originalBuildYear>
-2430
-</originalBuildYear>
-
 <type>
-IS Level 3
+IS Level 2
 </type>
 
 <role>
@@ -35,10 +40,6 @@ None
 Tracked
 </motion_type>
 
-<transporters>
-cargobay:7.0:1:1::-1:0
-</transporters>
-
 <cruiseMP>
 4
 </cruiseMP>
@@ -47,13 +48,9 @@ cargobay:7.0:1:1::-1:0
 1
 </engine_type>
 
-<armor_type>
-51
-</armor_type>
-
-<armor_tech_rating>
-3
-</armor_tech_rating>
+<fuel>
+1.5
+</fuel>
 
 <armor>
 7
@@ -62,6 +59,14 @@ cargobay:7.0:1:1::-1:0
 6
 6
 </armor>
+
+<barrating>
+10
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
 
 <Body Equipment>
 Basic Fire Control
@@ -85,17 +90,9 @@ Armored Chassis
 Machine Gun
 </Turret Equipment>
 
-<barrating>
-10
-</barrating>
-
-<structural_tech_rating>
-3
-</structural_tech_rating>
-
-<engine_tech_rating>
-3
-</engine_tech_rating>
+<transporters>
+cargobay:7:1
+</transporters>
 
 <source>
 TRO: Vehicle Annex (Revised)
@@ -104,12 +101,3 @@ TRO: Vehicle Annex (Revised)
 <tonnage>
 35.0
 </tonnage>
-
-<fuel>
-1.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-

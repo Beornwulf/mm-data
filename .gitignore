@@ -2,3 +2,4 @@
 Thumbs.db
 /data/images/temp/*
 !/data/images/temp/.gitkeep
+.idea

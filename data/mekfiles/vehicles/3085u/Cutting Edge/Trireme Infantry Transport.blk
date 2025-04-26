@@ -1,4 +1,13 @@
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-27
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+# Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -7,9 +16,9 @@ SupportVTOL
 Trireme Infantry Transport
 </Name>
 
-<Model>
+<model>
 
-</Model>
+</model>
 
 <mul id:>
 3309
@@ -18,10 +27,6 @@ Trireme Infantry Transport
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -36,7 +41,7 @@ VTOL
 </motion_type>
 
 <transporters>
-battlearmorbay:4.5:1:1::-1:0
+battlearmorbay:4.5:1
 </transporters>
 
 <cruiseMP>
@@ -47,14 +52,6 @@ battlearmorbay:4.5:1:1::-1:0
 0
 </engine_type>
 
-<armor_type>
-44
-</armor_type>
-
-<armor_tech_rating>
-4
-</armor_tech_rating>
-
 <armor>
 15
 15
@@ -62,6 +59,18 @@ battlearmorbay:4.5:1:1::-1:0
 11
 2
 </armor>
+
+<structural_tech_rating>
+4
+</structural_tech_rating>
+
+<armor_type>
+0
+</armor_type>
+
+<armor_tech>
+3
+</armor_tech>
 
 <Body Equipment>
 </Body Equipment>
@@ -85,14 +94,6 @@ battlearmorbay:4.5:1:1::-1:0
 3
 </barrating>
 
-<structural_tech_rating>
-4
-</structural_tech_rating>
-
-<engine_tech_rating>
-4
-</engine_tech_rating>
-
 <source>
 TRO: 3085
 </source>
@@ -100,8 +101,3 @@ TRO: 3085
 <tonnage>
 60.0
 </tonnage>
-
-<fuel>
-0.0
-</fuel>
-

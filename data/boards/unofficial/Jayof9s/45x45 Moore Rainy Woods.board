@@ -1,11 +1,10 @@
 size 45 45
 tag "Rough (Auto)"
-tag "Cliffs (Auto)"
 tag "GrassTheme (Auto)"
-tag "Swamp (Auto)"
+tag "Cliffs (Auto)"
 tag "Roads (Auto)"
+tag "Swamp (Auto)"
 tag "HighHills (Auto)"
-tag "HardenedBuilding (Auto)"
 tag "Woods (Auto)"
 tag "DenseForest (Auto)"
 hex 0101 0 "woods:1;foliage_elev:2" "grass"
