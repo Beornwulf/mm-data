@@ -4,7 +4,7 @@ This is the MegaMek Data Repository. It holds all data used by the suite of Mega
 
 ## Contact Information
 
-This will officially release with the 0.50.06 Version of the MegaMek Suite. Upon release, if you have concerns about your assets within this package, please email <megamekteam@gmail.com>
+This will officially release with the 0.50.07 Version of the MegaMek Suite. Upon release, if you have concerns about your assets within this package, please email <megamekteam@gmail.com>
 
 ## License
 
