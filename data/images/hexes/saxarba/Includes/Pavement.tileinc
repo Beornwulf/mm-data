@@ -61,7 +61,7 @@ base 8 "pavement:1" "" "saxarba/base/base_pavement_8.png"
 base 9 "pavement:1" "" "saxarba/base/base_pavement_9.png"
 base 10 "pavement:1" "" "saxarba/base/base_pavement_10.png"
 
-# Urban garden variation 
+# Urban garden variation
 base -1 "pavement:2" "" "saxarba/base/base_pavement_urban_-1.png"
 base -2 "pavement:2" "" "saxarba/base/base_pavement_urban_-2.png"
 base -3 "pavement:2" "" "saxarba/base/base_pavement_urban_-3.png"

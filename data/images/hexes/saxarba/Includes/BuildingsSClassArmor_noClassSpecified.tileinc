@@ -300,4 +300,3 @@ super * "building:4:74;bldg_elev:*;bldg_cf:*;bldg_armor:*" "" "saxarba/dropship/
 super * "building:4:75;bldg_elev:*;bldg_cf:*;bldg_armor:*" "" "saxarba/dropship/dropship_07.png"
 
 #In case the tile has a bldg_class:0 specified
-
