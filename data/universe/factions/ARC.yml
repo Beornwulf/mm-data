@@ -4,7 +4,7 @@ nameChanges:
   3022: Arano Restoration
   3026: Aurigan Coalition
 capital: Coromodir
-capitalChanges: 
+capitalChanges:
   3022: New Abilene
   3026: Coromodir
 tags:
@@ -28,3 +28,4 @@ eraMods:
   - 0
   - 3
   - 3
+rankSystem: ACM
