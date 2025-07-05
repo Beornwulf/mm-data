@@ -1,7 +1,7 @@
 key: FRR
 name: Free Rasalhague Republic
 capital: Rasalhague
-capitalChanges: 
+capitalChanges:
   3052: Orestes
 yearsActive:
   - start: 3034
@@ -39,3 +39,4 @@ ratingLevels:
   - A
 fallBackFactions:
   - IS
+rankSystem: KA

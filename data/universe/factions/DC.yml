@@ -1,7 +1,7 @@
 key: DC
 name: Draconis Combine
 capital: New Samarkand
-capitalChanges: 
+capitalChanges:
   2619: Luthien
 yearsActive:
   - start: 2319
@@ -39,3 +39,4 @@ ratingLevels:
   - A
 fallBackFactions:
   - IS
+rankSystem: DCMS
