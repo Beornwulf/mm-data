@@ -1,7 +1,7 @@
 key: CS
 name: ComStar
 capital: Terra
-capitalChanges:
+capitalChanges: 
   3059: Tukayyid
 yearsActive:
   - start: 2788
