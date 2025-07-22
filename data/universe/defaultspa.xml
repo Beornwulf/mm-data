@@ -1318,7 +1318,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>compulsion_faction_loyalty</lookupName>
     <displayName>Significant Compulsion - Excessive Faction Loyalty (ATOW)</displayName>
-    <desc><![CDATA[Improve Loyalty by 2 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 3.
+    <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 4.
 
 This SPA reflects the various 'loyalty to x faction' ATOW compulsions.
 
@@ -1352,9 +1352,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>compulsion_addiction</lookupName>
     <displayName>Significant Compulsion - Addiction (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character receiving the 'Drug Withdrawal' injury.
+    <desc><![CDATA[Once per week a Willpower check is made (with a -2 penalty). If failed, the character suffers the Discontinuation Syndrome Injury and gains two Fatigue (if Fatigue is enabled).
 
-If Advanced Medical is disabled, there is a weekly chance the character suffers a single Hit, instead.
+If Advanced Medical is disabled, the character suffers a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-200</xpCost>
@@ -1364,9 +1364,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>madness_flashbacks</lookupName>
     <displayName>Minor Psychosis - Flashbacks (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character receiving the 'Flashbacks' injury.
+    <desc><![CDATA[Each week the character is required to make a Willpower check (with a -4 penalty) or suffer the 'Crippling Flashbacks' Injury (-1 Piloting, -1 Gunnery).
 
-If Advanced Medical is disabled, there is a weekly chance the character suffers two Hits, instead.
+If Advanced Medical is disabled, the character suffers a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-300</xpCost>
@@ -1376,9 +1376,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>madness_confusion</lookupName>
     <displayName>Minor Psychosis - Confusion (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character receiving the 'Confusion' injury.
+    <desc><![CDATA[Each week the character must pass a Willpower check (with a -4 penalty) or suffer one random Injury.
 
-If Advanced Medical is disabled, there is a weekly chance the character hurts themselves in their confusion. Suffering two Hits, instead.
+If Advanced Medical is disabled, the character suffers a single Hit instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-300</xpCost>
@@ -1388,7 +1388,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>madness_clinical_paranoia</lookupName>
     <displayName>Minor Psychosis - Clinical Paranoia (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character temporarily loses all levels in the Connections Trait, and suffering a -2 penalty on all Charisma-based checks for the week.
+    <desc><![CDATA[Inflicts a -2 penalty to all Charisma-based skill checks.
+
+Each week the character must pass a Willpower check (with a -4 penalty) or temporarily lose all ranks in the Connections trait for the duration of the week.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-300</xpCost>
@@ -1399,7 +1401,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <lookupName>madness_split_personality</lookupName>
     <displayName>Minor Psychosis - Split Personality (ATOW)</displayName>
     <desc><![CDATA[The character gains a number of random personalities. Each week they have a chance to switch to one of their personalities.
-        
+
 While the character's personality has switched, they temporarily lose all levels in the Connections Trait.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
@@ -1409,22 +1411,22 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
     <lookupName>madness_catatonia</lookupName>
-    <displayName>Major Psychosis - Catatonia (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character receiving the 'Catatonia' injury.
+    <displayName>Clinical Insanity- Catatonia (ATOW)</displayName>
+    <desc><![CDATA[Each week the character must pass a Willpower check (with a -10 penalty) or gain the Catatonia Injury (-20 Piloting, -20 Gunnery).
 
-If Advanced Medical is disabled, there is a weekly chance the character suffers three Hits, instead.
+If Advanced Medical is disabled the character gains a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-400</xpCost>
+    <xpCost>-500</xpCost>
     <weight>1</weight>
     <skillPrereq />
     </ability>
     <ability>
     <lookupName>madness_regression</lookupName>
     <displayName>Major Psychosis - Regression (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character temporarily loses all Edge for the week.
+    <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or gain the Childlike Regression Injury (-4 Gunnery, -4 Piloting).
 
-If Advanced Medical is disabled, there is a weekly chance the character suffers three Hits, instead.
+If Advanced Medical is disabled the character suffers 1 Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-400</xpCost>
@@ -1434,11 +1436,11 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>madness_hysteria</lookupName>
     <displayName>Major Psychosis - Hysteria (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character temporarily being affected by the Berserker, Confusion, or Clinical Paranoia effects.
-        
-- Berserker: The character gets into a fight with another character. Both characters suffer 1d6 Hits and may be killed.
-- Confusion: The character receives the 'Confusion' injury, or 2 Hits if Advanced Medical is disabled.
-- Clinical Paranoia: The character temporarily loses all levels in the Connections Trait, and suffers a -2 penalty on all Charisma-based checks for the week.
+    <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or become temporarily affected by the Berserker, Confusion, or Clinical Paranoia effects.
+
+- Berserker: The character flies into a berserker frenzy inflicting 1-2 random Injuries to themselves and up to 6 bystanders. If Advanced Medical is disabled, 1-2 Hits are inflicted, instead of Injuries.
+- Confusion: The character suffers one random Injury. If Advanced Medical is disabled, the character suffers a single Hit instead of the Injury.
+- Clinical Paranoia: The character temporarily loses all ranks in the Connections trait for one week.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-400</xpCost>
@@ -1448,7 +1450,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
     <lookupName>madness_berserker</lookupName>
     <displayName>Clinical Insanity - Berserker (ATOW)</displayName>
-    <desc><![CDATA[Incurs a weekly chance of the character getting into a fight with another character. Both characters suffer 1d6 Hits and may be killed.
+    <desc><![CDATA[Once per week the character must pass a Willpower check (with a -10 penalty) or fly into a berserker frenzy inflicting 1-2 random Injuries to themselves and up to 6 bystanders.
+
+If Advanced Medical is disabled 1-2 Hits are inflicted, instead of Injuries.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <xpCost>-500</xpCost>
