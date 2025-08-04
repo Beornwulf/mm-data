@@ -1,4 +1,4 @@
-# JAKE'S BIG MAP SET
+# JAKE'S BIG MAP SET!
 
 Nov 17th, 2005 ver.
 
@@ -100,11 +100,11 @@ Feel free to do whatever the hell you like with these. They're for playing!
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License. To view a copy of
 this license, visit
 
-<http://creativecommons.org/licenses/by-nc-sa/2.5/>
+http://creativecommons.org/licenses/by-nc-sa/2.5/
 
 or send a letter to
 
-```Text
+```
 Creative Commons
 543 Howard Street, 5th Floor
 San Francisco, CA, 94105, USA.

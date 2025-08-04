@@ -20,13 +20,13 @@ ultimatums:
     name: FED_COM_CIVIL_WAR
     affectedFactionCode: FC
     challenger:
-      name: Archon-Prince Katrina Steiner
+      name: Archon Katrina Steiner
       role: NOBLE
-      factionCode: LA
+      factionCode: ARD
     incumbent:
       name: Archon-Prince Victor Steiner-Davion
       role: NOBLE
-      factionCode: FC
+      factionCode: FS
     isViolentTransition: false
   - date: 3052-09-21
     # Represents the date commemorating the schism within ComStar. Primus Myndo Waterly was killed June 6th 3025, a 

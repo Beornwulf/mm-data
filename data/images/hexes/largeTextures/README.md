@@ -14,7 +14,7 @@ the available options.
 If you also want to use the updated roof textures you have to separately copy/replace existing ones in their folders;
 I don't know why I can't load them from my own largeTextures tileset file, maybe someone can look into that.
 
-```text
+```
 iLarge_Textures_hardened/"files" -> ..data/images/hexes/hardened/
 iLarge_Textures_light/"files" -> ..data/images/hexes/light/
 iLarge_Textures_heavy/"files" -> ..data/images/hexes/heavy/

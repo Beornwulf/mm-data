@@ -6,7 +6,7 @@ nameChanges:
 capital: New Avalon
 yearsActive:
   - start: 3028
-    end: 3067
+    end: 3057
 successor: FS
 tags:
   - PLAYABLE
@@ -40,10 +40,3 @@ fallBackFactions:
   - LA
   - FS
 rankSystem: AFFC
-factionLeaders:
-  - title: "Archon-Prince"
-    firstName: "Victor"
-    surname: "Steiner-Davion"
-    gender: "MALE"
-    startYear: 3055
-    endYear: 3067

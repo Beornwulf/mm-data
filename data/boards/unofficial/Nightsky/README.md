@@ -1,6 +1,6 @@
 # FM Map Pack
 
-designed and shared by Frank Mendel (Nightsky) <frank.mendel@gmail.com>
+designed and shared by Frank Mendel (Nightsky) frank.mendel@gmail.com
 
 Here I share 18 maps I made for MegaMek:
 
