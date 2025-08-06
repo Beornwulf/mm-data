@@ -19,14 +19,14 @@ Walk MP:3
 Jump MP:0
 
 Armor:Commercial(Inner Sphere)
-LA Armor:3
-RA Armor:3
+FLL Armor:3
+FRL Armor:3
 LT Armor:7
 RT Armor:7
 CT Armor:8
 HD Armor:8
-LL Armor:3
-RL Armor:3
+RLL Armor:3
+RRL Armor:3
 RTL Armor:2
 RTR Armor:2
 RTC Armor:2
