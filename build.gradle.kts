@@ -23,6 +23,22 @@ tasks.register<Zip>("ratZip") {
     archiveFileName.set("rat_default.zip")
 }
 
+tasks.register<Zip>("canonSystemZip") {
+    description = "Creates a zip archive of canon planetary systems."
+    group = "build"
+    from("data/universe/planetary_systems/canon_systems/")
+    destinationDirectory.set(File(stagingFolder, "universe/planetary_systems"))
+    archiveFileName.set("canon_systems.zip")
+}
+
+tasks.register<Zip>("connectorSystemZip") {
+    description = "Creates a zip archive of connector systems planetary systems."
+    group = "build"
+    from("data/universe/planetary_systems/connector_systems/")
+    destinationDirectory.set(File(stagingFolder, "universe/planetary_systems"))
+    archiveFileName.set("connector_systems.zip")
+}
+
 tasks.register<Copy>("stageMMFiles") {
     description = "Stages files for MM"
     group = "build"
@@ -45,7 +61,7 @@ tasks.register<Copy>("stageMMFiles") {
         include("universe/**/*.*")
     }
 
-    into(stagingFolder)
+    into("${stagingFolder}/mm")
 }
 
 tasks.register<Copy>("stageMMLFiles") {
@@ -58,11 +74,16 @@ tasks.register<Copy>("stageMMLFiles") {
     from("data") {
         include("fonts/**/*.*")
         include("forcegenerator/**/*.*")
-        include("images/**/*.*")
+        include("images/fluff/**/*.*")
+        include("images/misc/**/*.*")
+        include("images/recordsheets/**/*.*")
+        include("images/units/**/*.*")
+        include("images/universe/**/*.*")
+        include("images/widgets/**/*.*")
         include("universe/**/*.*")
     }
 
-    into(stagingFolder)
+    into("${stagingFolder}/mml")
 }
 
 tasks.register<Copy>("stageFiles") {
@@ -72,14 +93,18 @@ tasks.register<Copy>("stageFiles") {
     dependsOn("clean")
     dependsOn("ratZip")
     dependsOn("unitFilesZip")
+    dependsOn("canonSystemZip")
+    dependsOn("connectorSystemZip")
 
     from("data") {
         exclude("mekfiles")
         exclude("rat")
+        exclude("universe/planetary_systems/canon_systems")
+        exclude("data/universe/planetary_systems/connector_systems")
         include("**/*.*")
     }
 
-    into(stagingFolder)
+    into("${stagingFolder}/all")
 
 }
 
