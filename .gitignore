@@ -4,3 +4,9 @@ Thumbs.db
 !/data/images/temp/.gitkeep
 .idea
 units.cache
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+/build
