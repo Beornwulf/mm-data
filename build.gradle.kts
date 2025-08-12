@@ -4,3 +4,85 @@
  * This is a general purpose Gradle build.
  * Learn more about Gradle by exploring our Samples at https://docs.gradle.org/9.0.0/samples
  */
+
+var stagingFolder = File(project.layout.buildDirectory.get().toString(), "staging")
+
+tasks.register<Zip>("unitFilesZip") {
+    description = "Creates zip archives of all the unit file folders."
+    group = "build"
+    destinationDirectory.set(File(stagingFolder, "mekfiles"))
+    archiveFileName.set("unit_files.zip")
+    from("data/mekfiles")
+}
+
+tasks.register<Zip>("ratZip") {
+    description = "Creates a zip archive of all the random assignment tables."
+    group = "build"
+    from("data/rat")
+    destinationDirectory.set(File(stagingFolder, "rat"))
+    archiveFileName.set("rat_default.zip")
+}
+
+tasks.register<Copy>("stageMMFiles") {
+    description = "Stages files for MM"
+    group = "build"
+
+    dependsOn("clean")
+    dependsOn("ratZip")
+    dependsOn("unitFilesZip")
+
+    from("data") {
+        include("boards/**/*.*")
+        include("css/**/*.*")
+        include("fonts/**/*.*")
+        include("forcegenerator/**/*.*")
+        include("images/**/*.*")
+        include("mapgen/**/*.*")
+        include("mapsetup/**/*.*")
+        include("names/**/*.*")
+        include("scenarios/**/*.*")
+        include("sounds/**/*.*")
+        include("universe/**/*.*")
+    }
+
+    into(stagingFolder)
+}
+
+tasks.register<Copy>("stageMMLFiles") {
+    description = "Stages files for MML"
+    group = "build"
+
+    dependsOn("clean")
+    dependsOn("unitFilesZip")
+
+    from("data") {
+        include("fonts/**/*.*")
+        include("forcegenerator/**/*.*")
+        include("images/**/*.*")
+        include("universe/**/*.*")
+    }
+
+    into(stagingFolder)
+}
+
+tasks.register<Copy>("stageFiles") {
+    description = "Stages files for All / MekHQ"
+    group = "build"
+
+    dependsOn("clean")
+    dependsOn("ratZip")
+    dependsOn("unitFilesZip")
+
+    from("data") {
+        exclude("mekfiles")
+        exclude("rat")
+        include("**/*.*")
+    }
+
+    into(stagingFolder)
+
+}
+
+tasks.register<Delete>("clean") {
+    delete(stagingFolder)
+}
