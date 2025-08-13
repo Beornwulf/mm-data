@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -124,7 +141,7 @@ Developed in 3078 by Dante Harima, this Experimental Tech version of the Void us
 </deployment>
 
 <history>
- The DCMS decided to push its battle armor development program to continue producing new designs following the surge of the 3050s. Though the Combine-Ghost Bear War set the timetable back, the Void debuted in 3067 to a lukewarm reception. It was only after the High Command and Procurement Department realized that part of the design process involved making the suit specifically adjustable to accommodate Elementals, and fully understood the possibilities for trade and partnership with Clan Nova Cat, that a battlesuit that so closely resembles the Kage it was based upon was approved for production. 
+ The DCMS decided to push its battle armor development program to continue producing new designs following the surge of the 3050s. Though the Combine-Ghost Bear War set the timetable back, the Void debuted in 3067 to a lukewarm reception. It was only after the High Command and Procurement Department realized that part of the design process involved making the suit specifically adjustable to accommodate Elementals, and fully understood the possibilities for trade and partnership with Clan Nova Cat, that a battlesuit that so closely resembles the Kage it was based upon was approved for production.
 </history>
 
 <manufacturer>

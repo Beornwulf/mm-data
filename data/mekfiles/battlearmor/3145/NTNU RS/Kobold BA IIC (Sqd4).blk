@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -99,7 +116,7 @@ biped
 </weightclass>
 
 <overview>
-The Kobold is a battle armor design that was collaborated on by the Free Rasalhague Republic, ComStar, and the second Star League. 
+The Kobold is a battle armor design that was collaborated on by the Free Rasalhague Republic, ComStar, and the second Star League.
 </overview>
 
 <capabilities>
@@ -107,7 +124,7 @@ The Kobold can only jump up to ninety meters at a time, but it does boast enough
 </capabilities>
 
 <deployment>
-This version of the Kobold is protected by Improved Stealth armor and carries an ECM Suite, Light TAG, and Light Machine Gun. It is also equipped with a VTOL movement system to increase its utility as a spotter. 
+This version of the Kobold is protected by Improved Stealth armor and carries an ECM Suite, Light TAG, and Light Machine Gun. It is also equipped with a VTOL movement system to increase its utility as a spotter.
 </deployment>
 
 <history>
@@ -119,7 +136,7 @@ Grumium Creations
 </manufacturer>
 
 <primaryFactory>
-Grumium	
+Grumium
 </primaryFactory>
 
 <systemManufacturers>

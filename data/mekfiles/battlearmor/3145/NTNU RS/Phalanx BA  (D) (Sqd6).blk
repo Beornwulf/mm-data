@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -90,7 +107,7 @@ biped
 </weightclass>
 
 <overview>
-The Phalanx is a battle armor design created and produced by Irian Technologies in the Free Worlds League. This design is the FWLM's answer to larger, harder-hitting battle armor such as the Kanazuchi and Gnome. 
+The Phalanx is a battle armor design created and produced by Irian Technologies in the Free Worlds League. This design is the FWLM's answer to larger, harder-hitting battle armor such as the Kanazuchi and Gnome.
 </overview>
 
 <capabilities>
@@ -102,7 +119,7 @@ This version of the Phalanx carries a single battle claw and a Medium Variable S
 </deployment>
 
 <history>
-Since the Word helped the FWLM create the Phalanx, they have created their own variant. Though they use the original as well, the Blakist Phalanx carries a 'Mech Taser Rifle instead of the "King David" rifle. The one-shot weapon enables Phalanx troopers to disable a vehicle or 'Mech, though it also suffers feedback and, potentially, an explosion. This version of the Phalanx uses Advanced Technology. 
+Since the Word helped the FWLM create the Phalanx, they have created their own variant. Though they use the original as well, the Blakist Phalanx carries a 'Mech Taser Rifle instead of the "King David" rifle. The one-shot weapon enables Phalanx troopers to disable a vehicle or 'Mech, though it also suffers feedback and, potentially, an explosion. This version of the Phalanx uses Advanced Technology.
 </history>
 
 <manufacturer>

@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -93,7 +110,7 @@ biped
 </weightclass>
 
 <overview>
-The Kanazuchi (Japanese: "hammer") is a Draconis Combine battle armor design, one of the heaviest to come from that realm. It also saw the most trouble getting approved. 
+The Kanazuchi (Japanese: "hammer") is a Draconis Combine battle armor design, one of the heaviest to come from that realm. It also saw the most trouble getting approved.
 </overview>
 
 <capabilities>
@@ -101,7 +118,7 @@ The 750kg of armoring it carries makes the Kanazuchi one of the best-protected s
 </capabilities>
 
 <deployment>
-This experimental version introduced in 3076 keeps the anti-personnel weapon mounts under the chin, but removes the rest of the weaponry. In its place, a Detachable Weapon Mount was placed over the right shoulder. This carries an experimental Clan-made ER Medium Pulse Laser. A second Heavy Battle Claw allows the user to attack light tanks. 
+This experimental version introduced in 3076 keeps the anti-personnel weapon mounts under the chin, but removes the rest of the weaponry. In its place, a Detachable Weapon Mount was placed over the right shoulder. This carries an experimental Clan-made ER Medium Pulse Laser. A second Heavy Battle Claw allows the user to attack light tanks.
 </deployment>
 
 <history>

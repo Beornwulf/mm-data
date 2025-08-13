@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -93,7 +110,7 @@ biped
 </weightclass>
 
 <overview>
-The Raiden is a battle armor design that hails from the Draconis Combine. It is essentially the Combine's take on the Inner Sphere Standard which, though debuting first and also produced by the Kuritans themselves, represents an improvement on the design. 
+The Raiden is a battle armor design that hails from the Draconis Combine. It is essentially the Combine's take on the Inner Sphere Standard which, though debuting first and also produced by the Kuritans themselves, represents an improvement on the design.
 </overview>
 
 <capabilities>
@@ -101,7 +118,7 @@ It lacks the missile launcher and anti-personnel weapon mount of the Elemental b
 </capabilities>
 
 <deployment>
-The Raiden II series was based on a standard Raiden whose armor was replaced with Reflective Armor. This version carried a Flamer. 
+The Raiden II series was based on a standard Raiden whose armor was replaced with Reflective Armor. This version carried a Flamer.
 </deployment>
 
 <history>

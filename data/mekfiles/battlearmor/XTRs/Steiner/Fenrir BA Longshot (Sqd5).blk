@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -104,7 +121,7 @@ Named for the demonic wolf of Germanic myth, the Fenrir was less a traditional b
 </capabilities>
 
 <deployment>
-The Fenrir features a dorsal Modular Turret Mount, similar to the configurable mounts found on humanoid battle armor designs, with a 300° field of fire. Developed in 3076, this version uses an experimental Battle Armor C3 System to coordinate targeting information. The main armament has been replaced with a pair of Clan-spec LRM-5 launchers equipped with enough ammo to fire two salvos each. It also adds an extra 100kg of armor. 
+The Fenrir features a dorsal Modular Turret Mount, similar to the configurable mounts found on humanoid battle armor designs, with a 300° field of fire. Developed in 3076, this version uses an experimental Battle Armor C3 System to coordinate targeting information. The main armament has been replaced with a pair of Clan-spec LRM-5 launchers equipped with enough ammo to fire two salvos each. It also adds an extra 100kg of armor.
 </deployment>
 
 <history>
