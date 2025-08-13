@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -103,11 +120,11 @@ biped
 </weightclass>
 
 <overview>
-The Nighthawk is a Power Armor (Light) [PA(L)] design and the progenitor of modern Battle Armor. The original Nighthawk was based upon exoskeletons originally used for commercial purposes during the Star League. 
+The Nighthawk is a Power Armor (Light) [PA(L)] design and the progenitor of modern Battle Armor. The original Nighthawk was based upon exoskeletons originally used for commercial purposes during the Star League.
 </overview>
 
 <capabilities>
-The Nighthawk itself is little more than a heavily-armored Sneak Suit with an integral ECM Suite. While it only has 120kg of armor, enough to stop a couple bursts from a Support Machine Gun, its protection against small arms was considered excellent. The armor plating has stealth capabilities similar to an IR/ECM sneak suit, enabling Nighthawks to move undetected and making them more difficult to target if they are fired upon. The suit is also quite mobile, with integral jump jets allowing it to leap up to ninety meters at a time, and it comes equipped with an Extended Life Support system. 
+The Nighthawk itself is little more than a heavily-armored Sneak Suit with an integral ECM Suite. While it only has 120kg of armor, enough to stop a couple bursts from a Support Machine Gun, its protection against small arms was considered excellent. The armor plating has stealth capabilities similar to an IR/ECM sneak suit, enabling Nighthawks to move undetected and making them more difficult to target if they are fired upon. The suit is also quite mobile, with integral jump jets allowing it to leap up to ninety meters at a time, and it comes equipped with an Extended Life Support system.
 </capabilities>
 
 <deployment>

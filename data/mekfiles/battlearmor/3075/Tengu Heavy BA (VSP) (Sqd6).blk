@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -102,7 +119,7 @@ A third version introduced after the first two configurations, this one carries 
 </deployment>
 
 <history>
-Named after Japanese demons, the Tengu is unique for boasting both an enhanced ground speed and jump jets allowing it to leap sixty meters at a time in what some observers call "an overworked motive system arrangement." This runs counter to the conventional wisdom of battle armor design, which seeks to save as much weight as possible by emphasizing only one mode of travel above another. Another unique feature of the Tengu compared to other Demon designs is its modular layout whereas the others employed fixed systems. The prevailing theory is that the Tengu was a testbed design made by Dr. Devon Cortland to see if he could build a battle suit with the same flexibility as the Celestial series of OmniMechs. While Dr. Cortland switched to using hard-wired systems in other suits, the Tengu nevertheless went on to become a fixture in the Shadow Divisions of the Manei Domini, serving in a variety of roles. 
+Named after Japanese demons, the Tengu is unique for boasting both an enhanced ground speed and jump jets allowing it to leap sixty meters at a time in what some observers call "an overworked motive system arrangement." This runs counter to the conventional wisdom of battle armor design, which seeks to save as much weight as possible by emphasizing only one mode of travel above another. Another unique feature of the Tengu compared to other Demon designs is its modular layout whereas the others employed fixed systems. The prevailing theory is that the Tengu was a testbed design made by Dr. Devon Cortland to see if he could build a battle suit with the same flexibility as the Celestial series of OmniMechs. While Dr. Cortland switched to using hard-wired systems in other suits, the Tengu nevertheless went on to become a fixture in the Shadow Divisions of the Manei Domini, serving in a variety of roles.
 </history>
 
 <manufacturer>

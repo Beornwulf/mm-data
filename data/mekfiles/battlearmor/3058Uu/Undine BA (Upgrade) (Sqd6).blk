@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -99,7 +116,7 @@ The Undine battle armor is a combat upgrade to the original "water elementals," 
 </overview>
 
 <capabilities>
-With its unique weaponry and revolutionary underwater motor system, the Undine is the perfect unit for amphibious warfare, though it comes with some drawbacks. Undines cannot perform typical anti-'Mech swarming attacks and can only make leg attacks against partially-submerged 'Mechs. The suit also only carries 200kg of armor, 20% less than the Elemental. Although the Goliath Scorpions won a number of defensive underwater Trials thanks largely to the Undine, its specialized nature and the rarity of underwater offensive operations meant most Clans simply were not interested in acquiring the suit for many years. 
+With its unique weaponry and revolutionary underwater motor system, the Undine is the perfect unit for amphibious warfare, though it comes with some drawbacks. Undines cannot perform typical anti-'Mech swarming attacks and can only make leg attacks against partially-submerged 'Mechs. The suit also only carries 200kg of armor, 20% less than the Elemental. Although the Goliath Scorpions won a number of defensive underwater Trials thanks largely to the Undine, its specialized nature and the rarity of underwater offensive operations meant most Clans simply were not interested in acquiring the suit for many years.
 </capabilities>
 
 <deployment>

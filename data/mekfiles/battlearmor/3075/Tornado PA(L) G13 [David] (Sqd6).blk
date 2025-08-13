@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -82,7 +99,7 @@ TRO: 3075
 </armor_tech>
 
 <overview>
-The Tornado is a Power Armor (Light) suit, created by ComStar in the late twenty-ninth century to equip their special forces units with added protection. The Tornado is based on the Star League Defense Force Nighthawk suit which, though they had acquired several, ComStar at the time was unable to produce. 
+The Tornado is a Power Armor (Light) suit, created by ComStar in the late twenty-ninth century to equip their special forces units with added protection. The Tornado is based on the Star League Defense Force Nighthawk suit which, though they had acquired several, ComStar at the time was unable to produce.
 </overview>
 
 <capabilities>
@@ -90,7 +107,7 @@ Incorporating stealth armor and an adaptive Camo System which mimics the effects
 </capabilities>
 
 <deployment>
-As newly built Nighthawk suits supplanted the Tornado as the PA(L) of choice for Blakist black ops, most G12s became hand-me-downs to regular infantry and marines. To better suit this more direct combat role, the Word of Blake began producing the G13 variant, based on the Achileus. Though retaining the stealth armor it removed the camo system in favor of a modular weapon mount in the right arm. This Tornado uses a "David" Light Gauss Rifle in the modular weapon mount. 
+As newly built Nighthawk suits supplanted the Tornado as the PA(L) of choice for Blakist black ops, most G12s became hand-me-downs to regular infantry and marines. To better suit this more direct combat role, the Word of Blake began producing the G13 variant, based on the Achileus. Though retaining the stealth armor it removed the camo system in favor of a modular weapon mount in the right arm. This Tornado uses a "David" Light Gauss Rifle in the modular weapon mount.
 </deployment>
 
 <history>
