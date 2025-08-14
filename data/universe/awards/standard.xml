@@ -1,4 +1,22 @@
 <?xml version="1.0"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
 <awards>
     <award>
         <name>Education Awards</name>
@@ -123,7 +141,8 @@
     <award>
         <name>Medal of Honor</name>
         <description>Distinguished oneself conspicuously by gallantry and intrepidity at the risk of
-            life above and beyond the call of duty.</description>
+            life above and beyond the call of duty.
+        </description>
         <group>Personal Awards</group>
         <medal>MedalOfHonorM.png</medal>
         <ribbon>1-01-1-MedalOfHonor.png</ribbon>
@@ -491,7 +510,8 @@
         <item>Theatre of War</item>
         <size>3028, 3030</size>
         <range>Lyran Commonwealth(1),Federated Suns(1),Draconis Combine(2),Free Worlds
-            League(2),Capellan Confederation(2)</range>
+            League(2),Capellan Confederation(2)
+        </range>
     </award>
     <award>
         <name>Andurien Wars Campaign</name>
@@ -503,7 +523,8 @@
         <item>Theatre Of War</item>
         <size>3030, 3040</size>
         <range>Duchy of Andurien(1),Magistracy of Canopus(1),Capellan Confederation(2),Free Worlds
-            League(2)</range>
+            League(2)
+        </range>
     </award>
     <award>
         <name>Ronin Wars Campaign</name>
