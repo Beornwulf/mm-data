@@ -13,7 +13,7 @@ your assets within this package, please email <megamekteam@gmail.com>
 When adding files to this repository, ensure the following header is at the top with respect to the file format.
 Encapsulate appropriately within XML and other such markup files.
 
-```
+```yaml
 # MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
@@ -31,6 +31,11 @@ Encapsulate appropriately within XML and other such markup files.
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 ```
+
+## Utilities
+
+This folder holds various utilities that are/have been used to handle various tasks through out the process of the data repo.
+They are stored in the `/utilities` folder for backups and for use as needed.
 
 ## License
 
