@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -98,7 +115,7 @@ The centerpiece of the Sylph suit's design is its advanced propulsion system, ad
 </capabilities>
 
 <deployment>
-This is the production version of the Sylph-XR first introduced by the Snow Ravens. While it maintains the battle armor myomer booster, the light machine guns and searchlight were replaced with a single ER Micro Laser in the right arm, an Anti-Personnel Weapon Mount in the left and, perhaps most significantly, the use of Basic Manipulators to allow the Enhanced Sylph to perform anti-'Mech attacks and ride on OmniMechs. While additional cooling systems were installed to address the XR's other major drawback, it still remains the least comfortable battle suit to pilot and requires extra physical conditioning to withstand the waste heat. The Enhanced Sylph's first major engagement was against a band of pirates led by former Clan Smoke Jaguar warriors. The faster Sylphs were able to outmaneuver the slower Elementals and force the pirate infantry to withdraw, leaving their 'Mechs exposed. Although twenty percent of the Enhanced Sylph force was lost, the Snow Ravens believed this would have been greater had they used slower suits instead and possibly resulted in a stalemate. 
+This is the production version of the Sylph-XR first introduced by the Snow Ravens. While it maintains the battle armor myomer booster, the light machine guns and searchlight were replaced with a single ER Micro Laser in the right arm, an Anti-Personnel Weapon Mount in the left and, perhaps most significantly, the use of Basic Manipulators to allow the Enhanced Sylph to perform anti-'Mech attacks and ride on OmniMechs. While additional cooling systems were installed to address the XR's other major drawback, it still remains the least comfortable battle suit to pilot and requires extra physical conditioning to withstand the waste heat. The Enhanced Sylph's first major engagement was against a band of pirates led by former Clan Smoke Jaguar warriors. The faster Sylphs were able to outmaneuver the slower Elementals and force the pirate infantry to withdraw, leaving their 'Mechs exposed. Although twenty percent of the Enhanced Sylph force was lost, the Snow Ravens believed this would have been greater had they used slower suits instead and possibly resulted in a stalemate.
 </deployment>
 
 <history>

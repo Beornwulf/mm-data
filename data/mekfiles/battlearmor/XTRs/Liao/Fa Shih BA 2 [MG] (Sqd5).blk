@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -105,7 +122,7 @@ biped
 </weightclass>
 
 <overview>
-The Fa Shih ("Master of Methods") was the result of the Siann Confederation biting off more than it could chew. 
+The Fa Shih ("Master of Methods") was the result of the Siann Confederation biting off more than it could chew.
 </overview>
 
 <capabilities>
@@ -113,7 +130,7 @@ The Fa Shih duplicates many of the features of the Inner Sphere Standard battle 
 </capabilities>
 
 <deployment>
-This experimental variant was a custom refit of the Fa Shih by Ceres Metals in 3078. Under the supervision of Ogden Isray, four Fa Shih suits were fitted with Clan-technology myomer boosters. This not only increased their ground speed to 32.4 km/h but improved their strength as well, allowing the armored soldiers to tear through more 'Mech armor with their manipulators. This came at a cost though as the anti-personnel mount and 150 kg of armor had to be removed, meaning the suit can only withstand two bursts from a Machine Gun. Only four of these suits were built due to the limited number of myomer boosters the Capellans were able to acquire. To lay the "Mines" you need to use the "Lay Mine" then "Jump" to deploy the minefield. 
+This experimental variant was a custom refit of the Fa Shih by Ceres Metals in 3078. Under the supervision of Ogden Isray, four Fa Shih suits were fitted with Clan-technology myomer boosters. This not only increased their ground speed to 32.4 km/h but improved their strength as well, allowing the armored soldiers to tear through more 'Mech armor with their manipulators. This came at a cost though as the anti-personnel mount and 150 kg of armor had to be removed, meaning the suit can only withstand two bursts from a Machine Gun. Only four of these suits were built due to the limited number of myomer boosters the Capellans were able to acquire. To lay the "Mines" you need to use the "Lay Mine" then "Jump" to deploy the minefield.
 </deployment>
 
 <history>
@@ -138,7 +155,7 @@ TARGETING:Unknown
 </systemManufacturers>
 
 <notes>
-To lay the "Mines" you need to use the "Lay Mine" then "Jump" to deploy the minefield. 
+To lay the "Mines" you need to use the "Lay Mine" then "Jump" to deploy the minefield.
 </notes>
 
 

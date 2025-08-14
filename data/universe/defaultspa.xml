@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
 <abilities>
     <!-- PILOTING SPA -->
     <ability>
@@ -558,16 +576,16 @@ While this SPA does exist in ATOW (and that's where you'll find its description)
         <skillPrereq />
     </ability>
     <ability>
-    <lookupName>atow_citizenship</lookupName>
-    <displayName>Citizenship/Trueborn (ATOW)</displayName>
-    <desc><![CDATA[Unlocks additional options during character creation.
+        <lookupName>atow_citizenship</lookupName>
+        <displayName>Citizenship/Trueborn (ATOW)</displayName>
+        <desc><![CDATA[Unlocks additional options during character creation.
 
 Increases Connections by 1.
 
 While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. We use that to abstract the kinds of bonuses this SPA would incur in a tabletop game.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>flaw_animal_antipathy</lookupName>
@@ -575,7 +593,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Increases the Target Number for all Animal Handling checks by 2.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_animal_empathy</removeAbilities>
     </ability>
     <ability>
@@ -584,7 +602,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Decreases the Target Number for all Animal Handling checks by 2.]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_animal_antipathy</removeAbilities>
     </ability>
     <ability>
@@ -593,7 +611,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Removes the penalties from a single missing arm or hand (Advanced Medical only).]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>flaw_unattractive</lookupName>
@@ -601,7 +619,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Increases the target number of all Charisma-based skills by 2.]]></desc>
         <xpCost>-200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_attractive</removeAbilities>
     </ability>
     <ability>
@@ -610,7 +628,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Decreases the target number of all Charisma-based skills by 2.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_unattractive</removeAbilities>
     </ability>
     <ability>
@@ -619,7 +637,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Doubles all Fatigue gain.]]></desc>
         <xpCost>-200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_fit</removeAbilities>
     </ability>
     <ability>
@@ -628,7 +646,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[Half all Fatigue gained (rounding down).]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_unfit</removeAbilities>
     </ability>
     <ability>
@@ -637,7 +655,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Perception checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_good_hearing</removeAbilities>
     </ability>
     <ability>
@@ -646,7 +664,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Perception checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_poor_hearing</removeAbilities>
     </ability>
     <ability>
@@ -655,7 +673,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Perception checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_good_vision</removeAbilities>
     </ability>
     <ability>
@@ -664,7 +682,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Perception checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_poor_vision</removeAbilities>
     </ability>
     <ability>
@@ -673,7 +691,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Acting and Negotiation checks are increased by 1.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_gregarious</removeAbilities>
     </ability>
     <ability>
@@ -682,7 +700,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of all Acting and Negotiation checks are decreased by 1.]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_introvert</removeAbilities>
     </ability>
     <ability>
@@ -691,7 +709,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of Art/Any, Cryptography, Demolitions, Investigation, Protocols, Security Systems/Any, Strategy, Tactics and Training checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_patient</removeAbilities>
     </ability>
     <ability>
@@ -700,7 +718,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <desc><![CDATA[The Target Number of Art/Any, Cryptography, Demolitions, Investigation, Protocols, Security Systems/Any, Strategy, Tactics and Training checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_impatient</removeAbilities>
     </ability>
     <ability>
@@ -713,7 +731,7 @@ They increase the Target Number of Piloting and Gunnery checks by 1 for 48 hours
 They also gain Fatigue based on the campaign options fatigue rate (default 1).]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>mutation_freakish_strength</lookupName>
@@ -723,7 +741,7 @@ They also gain Fatigue based on the campaign options fatigue rate (default 1).]]
 Increases the target number of all Charisma-based skills by 2 due to inhumanly shaped bulk.]]></desc>
         <xpCost>300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <invalidAbilities>flaw_unattractive</invalidAbilities>
     </ability>
     <ability>
@@ -732,7 +750,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <desc><![CDATA[Recover from injuries at twice the normal rate (Advanced Medical only).]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>mutation_exotic_appearance</lookupName>
@@ -740,7 +758,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <desc><![CDATA[Increases Charisma Attribute by 1 (may not take it above 10).]]></desc>
         <xpCost>100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>mutation_facial_hair</lookupName>
@@ -748,7 +766,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <desc><![CDATA[Decreases Charisma Attribute by 1 (may not take it below 1).]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>mutation_serious_disfigurement</lookupName>
@@ -756,7 +774,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <desc><![CDATA[Decreases Charisma Attribute by 3 (may not take it below 1).]]></desc>
         <xpCost>-400</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>mutation_cat_girl</lookupName>
@@ -766,7 +784,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
 The Target Number of all Perception checks decreased by 1 due to improved hearing.]]></desc>
         <xpCost>-300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <invalidAbilities>mutation_cat_girl_unofficial</invalidAbilities>
     </ability>
     <ability>
@@ -777,7 +795,7 @@ The Target Number of all Perception checks decreased by 1 due to improved hearin
 The Target Number of all Perception checks decreased by 1 due to improved hearing.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <invalidAbilities>mutation_cat_girl</invalidAbilities>
     </ability>
     <ability>
@@ -788,7 +806,7 @@ The Target Number of all Perception checks decreased by 1 due to improved hearin
 Furthermore, the Target Number of checks made with such skills is increased by 1.]]></desc>
         <xpCost>-300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_tech_empathy</removeAbilities>
     </ability>
     <ability>
@@ -799,7 +817,7 @@ Furthermore, the Target Number of checks made with such skills is increased by 1
 Furthermore, the Target Number of checks made with such skills is decreased by 1.]]></desc>
         <xpCost>300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_gremlins</removeAbilities>
     </ability>
     <ability>
@@ -810,7 +828,7 @@ Furthermore, the Target Number of checks made with such skills is decreased by 1
 Mechanically, this offers few benefits; however, the character will be completely immune to the Fatigue gain from the 'Poisoning' Prisoner Event.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>atow_sixth_sense</lookupName>
@@ -818,7 +836,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <desc><![CDATA[The Target Number of all Perception checks are decreased by 3.]]></desc>
         <xpCost>400</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>flaw_glass_jaw</lookupName>
@@ -826,7 +844,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <desc><![CDATA[All injuries suffered and fatigue gained is doubled. Fatigue gain from sustaining injuries is not doubled.]]></desc>
         <xpCost>-300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_toughness</removeAbilities>
     </ability>
     <ability>
@@ -835,7 +853,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <desc><![CDATA[All injuries suffered are reduced by 25% and Fatigue gain is halved. Fatigue gain from sustaining injuries is not halved.]]></desc>
         <xpCost>300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_glass_jaw</removeAbilities>
     </ability>
     <ability>
@@ -846,7 +864,7 @@ Mechanically, this offers few benefits; however, the character will be completel
 If XP adjustments from a high or low Reasoning are enabled, those adjustments are additive. So a 20% increase from this SPA and a 5% decrease from Reasoning would equal a 15% increase.]]></desc>
         <xpCost>-300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_fast_learner</removeAbilities>
     </ability>
     <ability>
@@ -857,7 +875,7 @@ If XP adjustments from a high or low Reasoning are enabled, those adjustments ar
 If XP adjustments from a high or low Reasoning are enabled, those adjustments are additive. So a 20% decrease from this SPA and a 5% increase from Reasoning would equal a 15% decrease.]]></desc>
         <xpCost>300</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>flaw_slow_learner</removeAbilities>
     </ability>
     <ability>
@@ -868,7 +886,7 @@ If XP adjustments from a high or low Reasoning are enabled, those adjustments ar
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_body</lookupName>
@@ -878,7 +896,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_reflexes</lookupName>
@@ -888,7 +906,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_dexterity</lookupName>
@@ -898,7 +916,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_intelligence</lookupName>
@@ -908,7 +926,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_willpower</lookupName>
@@ -918,7 +936,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>exceptional_attribute_charisma</lookupName>
@@ -928,7 +946,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
         <weight>1</weight>
-        <skillPrereq/>
+        <skillPrereq />
     </ability>
     <ability>
         <lookupName>eagle_eyes</lookupName>
@@ -1005,7 +1023,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 A pilot who has Combat Paralysis rolls three dice per initiative check, keeping the only the lowest two rolls.
 
 If individual initiative is enabled, this penalty applies only to the pilot's unit. Otherwise, the penalty is applied only if the pilot's unit is the force commander.]]></desc>
-        <skillPrereq/>
+        <skillPrereq />
         <removeAbilities>atow_combat_sense</removeAbilities>
     </ability>
     <ability>
@@ -1226,323 +1244,323 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         </skillPrereq>
     </ability>
     <ability>
-    <lookupName>compulsion_unpleasant_personality</lookupName>
-    <displayName>Trivial Compulsion - Unpleasant Personality (ATOW)</displayName>
-    <desc><![CDATA[-1 to all Charisma-based Skill Checks.
+        <lookupName>compulsion_unpleasant_personality</lookupName>
+        <displayName>Trivial Compulsion - Unpleasant Personality (ATOW)</displayName>
+        <desc><![CDATA[-1 to all Charisma-based Skill Checks.
 
 This SPA represents ATOW compulsions such as arrogance and pride.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_mild_paranoia</lookupName>
-    <displayName>Trivial Compulsion - Mild Paranoia (ATOW)</displayName>
-    <desc><![CDATA[-1 Connections.
+        <lookupName>compulsion_mild_paranoia</lookupName>
+        <displayName>Trivial Compulsion - Mild Paranoia (ATOW)</displayName>
+        <desc><![CDATA[-1 Connections.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_racism</lookupName>
-    <displayName>Trivial Compulsion - Racism (ATOW)</displayName>
-    <desc><![CDATA[-1 Reputation.
+        <lookupName>compulsion_racism</lookupName>
+        <displayName>Trivial Compulsion - Racism (ATOW)</displayName>
+        <desc><![CDATA[-1 Reputation.
 
 This SPA represents the various 'Distrusts x Faction' compulsions in ATOW.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_religious_fanaticism</lookupName>
-    <displayName>Trivial Compulsion - Religious Fanaticism (ATOW)</displayName>
-    <desc><![CDATA[+2 to Interest/Theology checks, -1 to all Charisma-based skill checks.
+        <lookupName>compulsion_religious_fanaticism</lookupName>
+        <displayName>Trivial Compulsion - Religious Fanaticism (ATOW)</displayName>
+        <desc><![CDATA[+2 to Interest/Theology checks, -1 to all Charisma-based skill checks.
 
 This SPA reflects the ATOW compulsion 'Religious' and has been renamed so as not to negatively reflect on religious persons.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_traumatic_past</lookupName>
-    <displayName>Trivial Compulsion - Traumatic Past (ATOW)</displayName>
-    <desc><![CDATA[-1 Edge.
+        <lookupName>compulsion_traumatic_past</lookupName>
+        <displayName>Trivial Compulsion - Traumatic Past (ATOW)</displayName>
+        <desc><![CDATA[-1 Edge.
 
 This SPA reflects the ATOW compulsion 'Trauma'.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_faction_pride</lookupName>
-    <displayName>Trivial Compulsion - Excessive Faction Pride (ATOW)</displayName>
-    <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 2.
+        <lookupName>compulsion_faction_pride</lookupName>
+        <displayName>Trivial Compulsion - Excessive Faction Pride (ATOW)</displayName>
+        <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 2.
 
 This SPA reflects the various 'faction x pride' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_gambling</lookupName>
-    <displayName>Trivial Compulsion - Gambling (ATOW)</displayName>
-    <desc><![CDATA[Each month the character's Wealth Trait will randomly improve or decrease.
+        <lookupName>compulsion_gambling</lookupName>
+        <displayName>Trivial Compulsion - Gambling (ATOW)</displayName>
+        <desc><![CDATA[Each month the character's Wealth Trait will randomly improve or decrease.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_hatred_authority</lookupName>
-    <displayName>Trivial Compulsion - Hatred of Authority (ATOW)</displayName>
-    <desc><![CDATA[Decreases Loyalty by 2, unless this character is the campaign commander.
+        <lookupName>compulsion_hatred_authority</lookupName>
+        <displayName>Trivial Compulsion - Hatred of Authority (ATOW)</displayName>
+        <desc><![CDATA[Decreases Loyalty by 2, unless this character is the campaign commander.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_faction_loyalty</lookupName>
-    <displayName>Significant Compulsion - Excessive Faction Loyalty (ATOW)</displayName>
-    <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 4.
+        <lookupName>compulsion_faction_loyalty</lookupName>
+        <displayName>Significant Compulsion - Excessive Faction Loyalty (ATOW)</displayName>
+        <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 4.
 
 This SPA reflects the various 'loyalty to x faction' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-200</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_pathologic_racism</lookupName>
-    <displayName>Significant Compulsion - Pathologic Racism (ATOW)</displayName>
-    <desc><![CDATA[-2 Reputation.
+        <lookupName>compulsion_pathologic_racism</lookupName>
+        <displayName>Significant Compulsion - Pathologic Racism (ATOW)</displayName>
+        <desc><![CDATA[-2 Reputation.
 
 This SPA reflects the various 'hatred of x faction' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-200</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_xenophobia</lookupName>
-    <displayName>Significant Compulsion - Xenophobia (ATOW)</displayName>
-    <desc><![CDATA[-1 Reputation, -1 Connections.
+        <lookupName>compulsion_xenophobia</lookupName>
+        <displayName>Significant Compulsion - Xenophobia (ATOW)</displayName>
+        <desc><![CDATA[-1 Reputation, -1 Connections.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-200</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>compulsion_addiction</lookupName>
-    <displayName>Significant Compulsion - Addiction (ATOW)</displayName>
-    <desc><![CDATA[Once per week a Willpower check is made (with a -2 penalty). If failed, the character suffers the Discontinuation Syndrome Injury and gains two Fatigue (if Fatigue is enabled).
+        <lookupName>compulsion_addiction</lookupName>
+        <displayName>Significant Compulsion - Addiction (ATOW)</displayName>
+        <desc><![CDATA[Once per week a Willpower check is made (with a -2 penalty). If failed, the character suffers the Discontinuation Syndrome Injury and gains two Fatigue (if Fatigue is enabled).
 
 If Advanced Medical is disabled, the character suffers a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-200</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_flashbacks</lookupName>
-    <displayName>Minor Psychosis - Flashbacks (ATOW)</displayName>
-    <desc><![CDATA[Each week the character is required to make a Willpower check (with a -4 penalty) or suffer the 'Crippling Flashbacks' Injury (-1 Piloting, -1 Gunnery).
+        <lookupName>madness_flashbacks</lookupName>
+        <displayName>Minor Psychosis - Flashbacks (ATOW)</displayName>
+        <desc><![CDATA[Each week the character is required to make a Willpower check (with a -4 penalty) or suffer the 'Crippling Flashbacks' Injury (-1 Piloting, -1 Gunnery).
 
 If Advanced Medical is disabled, the character suffers a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-300</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_confusion</lookupName>
-    <displayName>Minor Psychosis - Confusion (ATOW)</displayName>
-    <desc><![CDATA[Each week the character must pass a Willpower check (with a -4 penalty) or suffer one random Injury.
+        <lookupName>madness_confusion</lookupName>
+        <displayName>Minor Psychosis - Confusion (ATOW)</displayName>
+        <desc><![CDATA[Each week the character must pass a Willpower check (with a -4 penalty) or suffer one random Injury.
 
 If Advanced Medical is disabled, the character suffers a single Hit instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-300</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_clinical_paranoia</lookupName>
-    <displayName>Minor Psychosis - Clinical Paranoia (ATOW)</displayName>
-    <desc><![CDATA[Inflicts a -2 penalty to all Charisma-based skill checks.
+        <lookupName>madness_clinical_paranoia</lookupName>
+        <displayName>Minor Psychosis - Clinical Paranoia (ATOW)</displayName>
+        <desc><![CDATA[Inflicts a -2 penalty to all Charisma-based skill checks.
 
 Each week the character must pass a Willpower check (with a -4 penalty) or temporarily lose all ranks in the Connections trait for the duration of the week.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-300</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_split_personality</lookupName>
-    <displayName>Minor Psychosis - Split Personality (ATOW)</displayName>
-    <desc><![CDATA[The character gains a number of random personalities. Each week they have a chance to switch to one of their personalities.
+        <lookupName>madness_split_personality</lookupName>
+        <displayName>Minor Psychosis - Split Personality (ATOW)</displayName>
+        <desc><![CDATA[The character gains a number of random personalities. Each week they have a chance to switch to one of their personalities.
 
 While the character's personality has switched, they temporarily lose all levels in the Connections Trait.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-300</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_catatonia</lookupName>
-    <displayName>Clinical Insanity- Catatonia (ATOW)</displayName>
-    <desc><![CDATA[Each week the character must pass a Willpower check (with a -10 penalty) or gain the Catatonia Injury (-20 Piloting, -20 Gunnery).
+        <lookupName>madness_catatonia</lookupName>
+        <displayName>Clinical Insanity- Catatonia (ATOW)</displayName>
+        <desc><![CDATA[Each week the character must pass a Willpower check (with a -10 penalty) or gain the Catatonia Injury (-20 Piloting, -20 Gunnery).
 
 If Advanced Medical is disabled the character gains a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-500</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-500</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_regression</lookupName>
-    <displayName>Major Psychosis - Regression (ATOW)</displayName>
-    <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or gain the Childlike Regression Injury (-4 Gunnery, -4 Piloting).
+        <lookupName>madness_regression</lookupName>
+        <displayName>Major Psychosis - Regression (ATOW)</displayName>
+        <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or gain the Childlike Regression Injury (-4 Gunnery, -4 Piloting).
 
 If Advanced Medical is disabled the character suffers 1 Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-400</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-400</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_hysteria</lookupName>
-    <displayName>Major Psychosis - Hysteria (ATOW)</displayName>
-    <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or become temporarily affected by the Berserker, Confusion, or Clinical Paranoia effects.
+        <lookupName>madness_hysteria</lookupName>
+        <displayName>Major Psychosis - Hysteria (ATOW)</displayName>
+        <desc><![CDATA[Each week the character is required to pass a Willpower check (with a -7 penalty) or become temporarily affected by the Berserker, Confusion, or Clinical Paranoia effects.
 
 - Berserker: The character flies into a berserker frenzy inflicting 1-2 random Injuries to themselves and up to 6 bystanders. If Advanced Medical is disabled, 1-2 Hits are inflicted, instead of Injuries.
 - Confusion: The character suffers one random Injury. If Advanced Medical is disabled, the character suffers a single Hit instead of the Injury.
 - Clinical Paranoia: The character temporarily loses all ranks in the Connections trait for one week.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-400</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-400</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>madness_berserker</lookupName>
-    <displayName>Clinical Insanity - Berserker (ATOW)</displayName>
-    <desc><![CDATA[Once per week the character must pass a Willpower check (with a -10 penalty) or fly into a berserker frenzy inflicting 1-2 random Injuries to themselves and up to 6 bystanders.
+        <lookupName>madness_berserker</lookupName>
+        <displayName>Clinical Insanity - Berserker (ATOW)</displayName>
+        <desc><![CDATA[Once per week the character must pass a Willpower check (with a -10 penalty) or fly into a berserker frenzy inflicting 1-2 random Injuries to themselves and up to 6 bystanders.
 
 If Advanced Medical is disabled 1-2 Hits are inflicted, instead of Injuries.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
-    <xpCost>-500</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-500</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>dark_secret_trivial</lookupName>
-    <displayName>Dark Secret - Trivial (ATOW)</displayName>
-    <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
+        <lookupName>dark_secret_trivial</lookupName>
+        <displayName>Dark Secret - Trivial (ATOW)</displayName>
+        <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
 Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 1 and Connections by 1.
 
 A trivial Dark Secret represents a personal lapse or dishonorable act that could harm the character's reputation if revealed.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <invalidAbilities>dark_secret_significant::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <invalidAbilities>dark_secret_significant::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>dark_secret_significant</lookupName>
-    <displayName>Dark Secret - Significant (ATOW)</displayName>
-    <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
+        <lookupName>dark_secret_significant</lookupName>
+        <displayName>Dark Secret - Significant (ATOW)</displayName>
+        <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
 Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 2 and Connections by 1.
 
 A significant Dark Secret represents a concealed wrongdoing that would damage key relationships or the character's career.]]></desc>
-    <xpCost>-200</xpCost>
-    <weight>1</weight>
-    <invalidAbilities>dark_secret_trivial::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
-    <skillPrereq />
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <invalidAbilities>dark_secret_trivial::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>dark_secret_major</lookupName>
-    <displayName>Dark Secret - Major (ATOW)</displayName>
-    <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
+        <lookupName>dark_secret_major</lookupName>
+        <displayName>Dark Secret - Major (ATOW)</displayName>
+        <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
 Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 3 and Connections by 2.
 
 A major Dark Secret represents a serious violation of law, duty, or trust that could lead to legal or social consequences.]]></desc>
-    <xpCost>-300</xpCost>
-    <weight>1</weight>
-    <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_severe::dark_secret_extreme</invalidAbilities>
-    <skillPrereq />
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+        <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_severe::dark_secret_extreme</invalidAbilities>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>dark_secret_severe</lookupName>
-    <displayName>Dark Secret - Severe (ATOW)</displayName>
-    <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
+        <lookupName>dark_secret_severe</lookupName>
+        <displayName>Dark Secret - Severe (ATOW)</displayName>
+        <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
 Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 4 and Connections by 2.
 
 A severe Dark Secret represents a morally or ethically damning secret that would provoke outrage or condemnation.]]></desc>
-    <xpCost>-400</xpCost>
-    <weight>1</weight>
-    <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_extreme</invalidAbilities>
-    <skillPrereq />
+        <xpCost>-400</xpCost>
+        <weight>1</weight>
+        <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_extreme</invalidAbilities>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>dark_secret_extreme</lookupName>
-    <displayName>Dark Secret - Extreme (ATOW)</displayName>
-    <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
+        <lookupName>dark_secret_extreme</lookupName>
+        <displayName>Dark Secret - Extreme (ATOW)</displayName>
+        <desc><![CDATA[Once every three months 2d6 is rolled, on a roll of 10+ the character's Dark Secret is revealed.
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
 Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 5 and Connections by 3.
 
 An extreme Dark Secret represents a grave betrayal or atrocity that should lead to exile, imprisonment, or execution if exposed (not modeled in MekHQ).]]></desc>
-    <xpCost>-500</xpCost>
-    <weight>1</weight>
-    <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_severe</invalidAbilities>
-    <skillPrereq />
+        <xpCost>-500</xpCost>
+        <weight>1</weight>
+        <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_severe</invalidAbilities>
+        <skillPrereq />
     </ability>
     <ability>
-    <lookupName>flaw_illiterate</lookupName>
-    <displayName>Illiterate (ATOW)</displayName>
-    <desc><![CDATA[The character suffers a -4 (untrained) penalty to all Intelligence-based skill checks.
+        <lookupName>flaw_illiterate</lookupName>
+        <displayName>Illiterate (ATOW)</displayName>
+        <desc><![CDATA[The character suffers a -4 (untrained) penalty to all Intelligence-based skill checks.
 
 This penalty is removed once the character acquires level 4 in the Language/Any skill. Literacy status is updated daily, so may lag behind actual skill changes.]]></desc>
-    <xpCost>-100</xpCost>
-    <weight>1</weight>
-    <skillPrereq />
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
     </ability>
 
     <!-- OTHER SPA -->

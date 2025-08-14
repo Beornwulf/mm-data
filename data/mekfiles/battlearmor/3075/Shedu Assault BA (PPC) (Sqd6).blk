@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -88,7 +105,7 @@ The TRO: 3075 entry lists a 4-slot configurable turret with a weight of 70 kg. T
 </history>
 
 <overview>
-The Shedu is a battle armor design in the Word of Blake's Demon Series that is used exclusively by Manei Domini, one of the last of the Demons to be created by Precentor Vapula. 
+The Shedu is a battle armor design in the Word of Blake's Demon Series that is used exclusively by Manei Domini, one of the last of the Demons to be created by Precentor Vapula.
 </overview>
 
 <capabilities>
@@ -96,11 +113,11 @@ The major advantage of the quad chassis is its speed, and Vapula used that to gi
 </capabilities>
 
 <deployment>
-The "PPC" is the first of the new variants that utilize the Word's Detachable Weapon Pack (DWP). Though the pack's bulk slows the battle suit down to 10.8 km/h unless it is dropped, it allows the Shedu to carry a Heavy Machine Gun. This is in addition to the pair of turret-mounted Support PPCs that give the variant its name. 
+The "PPC" is the first of the new variants that utilize the Word's Detachable Weapon Pack (DWP). Though the pack's bulk slows the battle suit down to 10.8 km/h unless it is dropped, it allows the Shedu to carry a Heavy Machine Gun. This is in addition to the pair of turret-mounted Support PPCs that give the variant its name.
 </deployment>
 
 <history>
-Named for the half-bull, half-human demons of myth, the Shedu is an assault-class, quadrupedal battle suit, a radical departure from the rest of the Demon line. 
+Named for the half-bull, half-human demons of myth, the Shedu is an assault-class, quadrupedal battle suit, a radical departure from the rest of the Demon line.
 </history>
 
 <manufacturer>

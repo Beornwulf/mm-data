@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -108,11 +125,11 @@ biped
 </weightclass>
 
 <overview>
-The Grenadier is a battle armor design created by the Hahm-Heinz Design Bureau. 
+The Grenadier is a battle armor design created by the Hahm-Heinz Design Bureau.
 </overview>
 
 <capabilities>
-The team still wanted mobility, however, so the Grenadier can muster up a respectable 21 km/h on the ground. The armor is where the Grenadier is lacking, having only enough to stop an Inner Sphere Large Pulse Laser, the same amount as the venerable Inner Sphere Standard. This armor, however, is standard stealth armor, so the Grenadier is a bit more difficult to target. 
+The team still wanted mobility, however, so the Grenadier can muster up a respectable 21 km/h on the ground. The armor is where the Grenadier is lacking, having only enough to stop an Inner Sphere Large Pulse Laser, the same amount as the venerable Inner Sphere Standard. This armor, however, is standard stealth armor, so the Grenadier is a bit more difficult to target.
 </capabilities>
 
 <deployment>

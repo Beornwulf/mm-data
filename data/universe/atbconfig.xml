@@ -1,4 +1,22 @@
 <!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<!--
 atbconfig.xml
 written by Neoancient
 
@@ -129,18 +147,18 @@ of 4. An entry of the form <entry>option</entry> has a weight of 1.
         </botLance>
     </scenarioGeneration>
 
-	<!-- Values used for searching for an available ship to purchase. -->
-	<shipSearch>
-		<!-- The total cost of the search process -->
-		<shipSearchCost>100000</shipSearchCost>
+    <!-- Values used for searching for an available ship to purchase. -->
+    <shipSearch>
+        <!-- The total cost of the search process -->
+        <shipSearchCost>100000</shipSearchCost>
 
-		<!-- The number of weeks required to complete the ship search. -->
-		<shipSearchLengthWeeks>4</shipSearchLengthWeeks>
+        <!-- The number of weeks required to complete the ship search. -->
+        <shipSearchLengthWeeks>4</shipSearchLengthWeeks>
 
-		<!-- The target number to for the dice roll to determine whether the ship search
-		was successful. Acceptable values for unitType are Dropship, Jumpship, and Warship.
-		If the target number is missing or commented out, that type of ship is not available
-		in a search. -->
+        <!-- The target number to for the dice roll to determine whether the ship search
+        was successful. Acceptable values for unitType are Dropship, Jumpship, and Warship.
+        If the target number is missing or commented out, that type of ship is not available
+        in a search. -->
         <target unitType="Dropship">10</target>
         <target unitType="Jumpship">12</target>
         <!-- <target unitType="Warship">14</target> -->

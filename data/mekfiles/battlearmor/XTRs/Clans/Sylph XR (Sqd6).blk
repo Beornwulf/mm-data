@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -87,7 +104,7 @@ The centerpiece of the Sylph suit's design is its advanced propulsion system, ad
 </capabilities>
 
 <deployment>
-Created by Clan Snow Raven in 3077 during the Jihad, this unique variant trades the original's flight capability for increased ground speed. A Battle Armor Myomer Booster system in place of the flight pack allows it to reach speeds of 58 km/h, faster than most any other suit, while the bomb rack and laser were traded in for a pair of arm-mounted Light Machine Guns and a body-mounted Searchlight. The result of these changes was an excellent anti-infantry and counterinsurgency unit, able to outrun most infantry units and inflict massive amounts of damage on them. Several Points of these suits were first put to use in trial runs on Ramora to flush out Blakist terror groups. While successful, a common complaint was a lack of heavy weaponry for fighting tougher opponents and extreme user discomfort caused by insufficient thermal insulation around the booster. A few Sylph-XR pilots were killed when they opened their visors for a breath of fresh air, only to be targeted by eagle-eyed snipers. 
+Created by Clan Snow Raven in 3077 during the Jihad, this unique variant trades the original's flight capability for increased ground speed. A Battle Armor Myomer Booster system in place of the flight pack allows it to reach speeds of 58 km/h, faster than most any other suit, while the bomb rack and laser were traded in for a pair of arm-mounted Light Machine Guns and a body-mounted Searchlight. The result of these changes was an excellent anti-infantry and counterinsurgency unit, able to outrun most infantry units and inflict massive amounts of damage on them. Several Points of these suits were first put to use in trial runs on Ramora to flush out Blakist terror groups. While successful, a common complaint was a lack of heavy weaponry for fighting tougher opponents and extreme user discomfort caused by insufficient thermal insulation around the booster. A few Sylph-XR pilots were killed when they opened their visors for a breath of fresh air, only to be targeted by eagle-eyed snipers.
 </deployment>
 
 <history>

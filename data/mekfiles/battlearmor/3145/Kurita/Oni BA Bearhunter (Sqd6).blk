@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -106,7 +123,7 @@ The primary weapon system the Oni possesses is the Modular Weapon Mount fitted o
 </deployment>
 
 <history>
-generally issued to either garrison units or units suffering the disfavor of the Procurement Department. While warriors of the Combine generally prefer honor and prestige over performance, the Ogre has been generally unimpressive at both performance and looks - with "Oni" translating from Japanese as "Ogre". Perhaps what has been hampering the Oni is its lack of a specialism; where other suits fill specific capability roles, the Oni has no role other than standard battlefield performance. Outmatched in large battles or conflicts and no faster than most armor units of the same period, the Oni also suffers from supply issues. While the Oni has been manufactured on both Luthien and Savinsville by Luthien Armor Works with the intent - at least theoretically - of using the Modular Weapon Mount to enable the Oni to be fitted with weapons that suit the predicted mission profile or the style of the demanding unit, the Procurement Department has a history of simply shipping the weapons it believes a unit needs or deserves to it, rather than responding to demands. That has resulted in a substantial gray market for weapons as unit quartermasters work through their contacts to trade weapons back and forth. 
+generally issued to either garrison units or units suffering the disfavor of the Procurement Department. While warriors of the Combine generally prefer honor and prestige over performance, the Ogre has been generally unimpressive at both performance and looks - with "Oni" translating from Japanese as "Ogre". Perhaps what has been hampering the Oni is its lack of a specialism; where other suits fill specific capability roles, the Oni has no role other than standard battlefield performance. Outmatched in large battles or conflicts and no faster than most armor units of the same period, the Oni also suffers from supply issues. While the Oni has been manufactured on both Luthien and Savinsville by Luthien Armor Works with the intent - at least theoretically - of using the Modular Weapon Mount to enable the Oni to be fitted with weapons that suit the predicted mission profile or the style of the demanding unit, the Procurement Department has a history of simply shipping the weapons it believes a unit needs or deserves to it, rather than responding to demands. That has resulted in a substantial gray market for weapons as unit quartermasters work through their contacts to trade weapons back and forth.
 </history>
 
 <manufacturer>

@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -180,7 +197,7 @@ Although known as DroST IIa ships, the term "DroST" is actually a designation, r
 </overview>
 
 <deployment>
-Similar to the DroST-IIa of later years, this model was protected by Primitive Armor instead of the standard armor used by units produced after 2470. This version of the DroST was introduced before 2470. It was protected by fifty-three and a half tons of Primitive Armor. It carried nine Prototype AC/10s in triple mounts in the nose and forward wing locations. The nose also held four LRM-20s, four Large Lasers, and six medium lasers. The forward wing weapon bays also held two large lasers and four medium lasers. The wings also carried two large lasers and four medium lasers that covered the rear, and the aft mounts also carried two large and four medium lasers. These extensive weapons and armor were needed because the DroST IIb was designed to carry six additional Small Craft Bays in the belly. This allowed it to carry eight small craft into a fight with enemy DropShips. 
+Similar to the DroST-IIa of later years, this model was protected by Primitive Armor instead of the standard armor used by units produced after 2470. This version of the DroST was introduced before 2470. It was protected by fifty-three and a half tons of Primitive Armor. It carried nine Prototype AC/10s in triple mounts in the nose and forward wing locations. The nose also held four LRM-20s, four Large Lasers, and six medium lasers. The forward wing weapon bays also held two large lasers and four medium lasers. The wings also carried two large lasers and four medium lasers that covered the rear, and the aft mounts also carried two large and four medium lasers. These extensive weapons and armor were needed because the DroST IIb was designed to carry six additional Small Craft Bays in the belly. This allowed it to carry eight small craft into a fight with enemy DropShips.
 </deployment>
 
 <history>

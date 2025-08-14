@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -104,7 +121,7 @@ Compared to the Clan Elemental the Asura is not as well armored, although its 28
 </capabilities>
 
 <deployment>
-As ambush variant that specializes in anti-armor weaponry, the SRM features a One-Shot SRM-6. Its main gun is a Heavy Machine Gun in the right arm that is especially effective at point-blank range; like the standard model it has a battle claw in the left arm. Though effective when it gets the drop on vehicles and light 'Mechs, its lack of a camo system like the anti-infantry model makes victory less certain when confronted by an equivalent foe before it can get in the first strike. 
+As ambush variant that specializes in anti-armor weaponry, the SRM features a One-Shot SRM-6. Its main gun is a Heavy Machine Gun in the right arm that is especially effective at point-blank range; like the standard model it has a battle claw in the left arm. Though effective when it gets the drop on vehicles and light 'Mechs, its lack of a camo system like the anti-infantry model makes victory less certain when confronted by an equivalent foe before it can get in the first strike.
 </deployment>
 
 <manufacturer>

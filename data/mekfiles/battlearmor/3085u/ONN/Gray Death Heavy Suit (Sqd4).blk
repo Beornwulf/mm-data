@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 
 <mul id:>
 1273
@@ -87,7 +104,7 @@ A heavy trooper design, the Gray Death Heavy is a decent suit, with a formidable
 </overview>
 
 <capabilities>
-With a pair of one-shot SRM-4s, the Gray Death Heavy has a serious alpha strike, allowing a four-suit squad to inflict an average of twenty points of damage per launcher. With an Anti-Personnel Weapon Mount the natural choice for the right arm, continuing the Grey Death use of the mount on all but their Scout Suit design, plus a Basic Manipulator to match the small size of the manipulator on the right hand, that quickly filled in some of the blanks. Rounding out the armament, a Support PPC is perhaps the best of the light-to-mid-sized energy weapons available to the Inner Sphere. Following the pattern set by the Gray Death Standard, the GD Heavy isn't jump-capable, and although it moves at the maximum ground speed possible for Heavy suits without the use of advanced technology. 
+With a pair of one-shot SRM-4s, the Gray Death Heavy has a serious alpha strike, allowing a four-suit squad to inflict an average of twenty points of damage per launcher. With an Anti-Personnel Weapon Mount the natural choice for the right arm, continuing the Grey Death use of the mount on all but their Scout Suit design, plus a Basic Manipulator to match the small size of the manipulator on the right hand, that quickly filled in some of the blanks. Rounding out the armament, a Support PPC is perhaps the best of the light-to-mid-sized energy weapons available to the Inner Sphere. Following the pattern set by the Gray Death Standard, the GD Heavy isn't jump-capable, and although it moves at the maximum ground speed possible for Heavy suits without the use of advanced technology.
 </capabilities>
 
 <deployment>

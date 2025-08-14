@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
 <campaignPreset version="0.50.07">
     <title>3 - Campaign Operations Preset</title>
     <description><![CDATA[This preset follows the rules from the official Campaign Operations manual, designed for human GMs managing CamOps campaigns in MekHQ.
@@ -10,10 +28,10 @@
     <contractCount>2</contractCount>
     <gm>true</gm>
     <gameOptions>
-    <gameOption>
-    <name>allow_illegal_units</name>
-    <value>true</value>
-    </gameOption>
+        <gameOption>
+            <name>allow_illegal_units</name>
+            <value>true</value>
+        </gameOption>
     </gameOptions>
     <campaignOptions>
         <manualUnitRatingModifier>0</manualUnitRatingModifier>
@@ -114,28 +132,28 @@
                 <dailyTimeMin>0</dailyTimeMin>
             </mrmsOption>
             <mrmsOption>
-            <type>HEAT_SINK</type>
-            <active>0</active>
-            <skillMin>0</skillMin>
-            <skillMax>6</skillMax>
-            <targetNumberPreferred>4</targetNumberPreferred>
-            <targetNumberMax>6</targetNumberMax>
-            <dailyTimeMin>0</dailyTimeMin>
-            </mrmsOption>
-            <mrmsOption>
-            <type>MEK_LOCATION</type>
-            <active>0</active>
+                <type>HEAT_SINK</type>
+                <active>0</active>
                 <skillMin>0</skillMin>
-            <skillMax>6</skillMax>
-            <targetNumberPreferred>4</targetNumberPreferred>
-            <targetNumberMax>6</targetNumberMax>
-            <dailyTimeMin>0</dailyTimeMin>
+                <skillMax>6</skillMax>
+                <targetNumberPreferred>4</targetNumberPreferred>
+                <targetNumberMax>6</targetNumberMax>
+                <dailyTimeMin>0</dailyTimeMin>
             </mrmsOption>
             <mrmsOption>
-            <type>PHYSICAL_WEAPON</type>
-            <active>0</active>
-            <skillMin>0</skillMin>
-            <skillMax>6</skillMax>
+                <type>MEK_LOCATION</type>
+                <active>0</active>
+                <skillMin>0</skillMin>
+                <skillMax>6</skillMax>
+                <targetNumberPreferred>4</targetNumberPreferred>
+                <targetNumberMax>6</targetNumberMax>
+                <dailyTimeMin>0</dailyTimeMin>
+            </mrmsOption>
+            <mrmsOption>
+                <type>PHYSICAL_WEAPON</type>
+                <active>0</active>
+                <skillMin>0</skillMin>
+                <skillMax>6</skillMax>
                 <targetNumberPreferred>4</targetNumberPreferred>
                 <targetNumberMax>6</targetNumberMax>
                 <dailyTimeMin>0</dailyTimeMin>
@@ -150,10 +168,10 @@
                 <dailyTimeMin>0</dailyTimeMin>
             </mrmsOption>
             <mrmsOption>
-            <type>UNKNOWN_LOCATION</type>
-            <active>0</active>
-            <skillMin>0</skillMin>
-            <skillMax>6</skillMax>
+                <type>UNKNOWN_LOCATION</type>
+                <active>0</active>
+                <skillMin>0</skillMin>
+                <skillMax>6</skillMax>
                 <targetNumberPreferred>4</targetNumberPreferred>
                 <targetNumberMax>6</targetNumberMax>
                 <dailyTimeMin>0</dailyTimeMin>
@@ -393,19 +411,19 @@
         <noInterestInMarriageDiceSize>10</noInterestInMarriageDiceSize>
         <logMarriageNameChanges>true</logMarriageNameChanges>
         <marriageSurnameWeights>
-        <MALE>500</MALE>
-        <NO_CHANGE>100</NO_CHANGE>
-        <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
-        <SPOUSE>55</SPOUSE>
+            <MALE>500</MALE>
+            <NO_CHANGE>100</NO_CHANGE>
+            <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
+            <SPOUSE>55</SPOUSE>
             <BOTH_HYPHEN_YOURS>20</BOTH_HYPHEN_YOURS>
-        <SPACE_SPOUSE>10</SPACE_SPOUSE>
-        <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
+            <SPACE_SPOUSE>10</SPACE_SPOUSE>
+            <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
             <HYPHEN_YOURS>30</HYPHEN_YOURS>
             <BOTH_SPACE_SPOUSE>5</BOTH_SPACE_SPOUSE>
-        <BOTH_SPACE_YOURS>5</BOTH_SPACE_YOURS>
+            <BOTH_SPACE_YOURS>5</BOTH_SPACE_YOURS>
             <YOURS>55</YOURS>
             <SPACE_YOURS>10</SPACE_YOURS>
-        <FEMALE>160</FEMALE>
+            <FEMALE>160</FEMALE>
         </marriageSurnameWeights>
         <randomMarriageMethod>NONE</randomMarriageMethod>
         <useRandomClanPersonnelMarriages>false</useRandomClanPersonnelMarriages>
@@ -464,12 +482,12 @@
         <allAges>false</allAges>
         <militaryAcademyAccidents>10000</militaryAcademyAccidents>
         <enabledRandomDeathAgeGroups>
-        <ADULT>true</ADULT>
-        <PRETEEN>false</PRETEEN>
+            <ADULT>true</ADULT>
+            <PRETEEN>false</PRETEEN>
             <ELDER>true</ELDER>
             <CHILD>false</CHILD>
-        <TEENAGER>false</TEENAGER>
-        <TODDLER>false</TODDLER>
+            <TEENAGER>false</TEENAGER>
+            <TODDLER>false</TODDLER>
             <BABY>false</BABY>
         </enabledRandomDeathAgeGroups>
         <useRandomDeathSuicideCause>false</useRandomDeathSuicideCause>
@@ -609,33 +627,33 @@
     <randomSkillPreferences>
         <overallRecruitBonus>0</overallRecruitBonus>
         <recruitmentBonuses>
-        <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
-        <ASTECH>0</ASTECH>
-        <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
-        <MEKWARRIOR>0</MEKWARRIOR>
-        <VTOL_PILOT>0</VTOL_PILOT>
-        <MEDIC>0</MEDIC>
-        <VESSEL_PILOT>0</VESSEL_PILOT>
-        <VESSEL_GUNNER>0</VESSEL_GUNNER>
-        <MEK_TECH>0</MEK_TECH>
-        <BATTLE_ARMOUR>0</BATTLE_ARMOUR>
-        <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
-        <ADMINISTRATOR_TRANSPORT>0</ADMINISTRATOR_TRANSPORT>
+            <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
+            <ASTECH>0</ASTECH>
+            <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
+            <MEKWARRIOR>0</MEKWARRIOR>
+            <VTOL_PILOT>0</VTOL_PILOT>
+            <MEDIC>0</MEDIC>
+            <VESSEL_PILOT>0</VESSEL_PILOT>
+            <VESSEL_GUNNER>0</VESSEL_GUNNER>
+            <MEK_TECH>0</MEK_TECH>
+            <BATTLE_ARMOUR>0</BATTLE_ARMOUR>
+            <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
+            <ADMINISTRATOR_TRANSPORT>0</ADMINISTRATOR_TRANSPORT>
             <SOLDIER>0</SOLDIER>
             <DOCTOR>0</DOCTOR>
             <VEHICLE_CREW>0</VEHICLE_CREW>
             <ADMINISTRATOR_LOGISTICS>0</ADMINISTRATOR_LOGISTICS>
-        <ADMINISTRATOR_COMMAND>0</ADMINISTRATOR_COMMAND>
+            <ADMINISTRATOR_COMMAND>0</ADMINISTRATOR_COMMAND>
             <LAM_PILOT>0</LAM_PILOT>
-        <VEHICLE_GUNNER>0</VEHICLE_GUNNER>
+            <VEHICLE_GUNNER>0</VEHICLE_GUNNER>
             <ADMINISTRATOR_HR>0</ADMINISTRATOR_HR>
-        <AEROSPACE_PILOT>0</AEROSPACE_PILOT>
-        <VESSEL_CREW>0</VESSEL_CREW>
-        <NAVAL_VEHICLE_DRIVER>0</NAVAL_VEHICLE_DRIVER>
-        <GROUND_VEHICLE_DRIVER>0</GROUND_VEHICLE_DRIVER>
-        <AERO_TEK>0</AERO_TEK>
-        <MECHANIC>0</MECHANIC>
-        <BA_TECH>0</BA_TECH>
+            <AEROSPACE_PILOT>0</AEROSPACE_PILOT>
+            <VESSEL_CREW>0</VESSEL_CREW>
+            <NAVAL_VEHICLE_DRIVER>0</NAVAL_VEHICLE_DRIVER>
+            <GROUND_VEHICLE_DRIVER>0</GROUND_VEHICLE_DRIVER>
+            <AERO_TEK>0</AERO_TEK>
+            <MECHANIC>0</MECHANIC>
+            <BA_TECH>0</BA_TECH>
         </recruitmentBonuses>
         <specialAbilityBonus>-10,-10,-2,0,1,1,1</specialAbilityBonus>
         <commandSkillsModifier>-12,-11,-10,-9,-8,-7,-7</commandSkillsModifier>
