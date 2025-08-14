@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -173,7 +190,7 @@ Medium Laser
 </structural_integrity>
 
 <capabilities>
-There are two known build standards of the Colossus; the original variant and the upgraded version introduced in 2760. The original Colossus 2660 was largely identical to the Colossus 2760, except that it mounted standard PPCs rather than the ER PPCs of the later variant. The Colossus carries a dizzying array of weaponry, both to protect itself and provide fire support for its RCT. Located in the nose of the ship are two Arrow IV artillery systems, which can only be used when the ship is grounded. Joining them are two Gauss rifles, two ER PPCs and an ER Large Laser with four medium lasers. Covering its fore left and right firing arcs are two LRM-20s, an ER PPC and an ER Large Laser with four medium lasers, with the same setup covering the rear firing arcs. Protecting the aft of the ship are two ER Large Lasers with four medium lasers. All four LRM-20s are fitted with Artemis IV fire control systems, and the ship's ammunition complement includes 30 Arrow IV missiles, 96 LRM-20 missiles, and 96 Gauss Rifle rounds. 
+There are two known build standards of the Colossus; the original variant and the upgraded version introduced in 2760. The original Colossus 2660 was largely identical to the Colossus 2760, except that it mounted standard PPCs rather than the ER PPCs of the later variant. The Colossus carries a dizzying array of weaponry, both to protect itself and provide fire support for its RCT. Located in the nose of the ship are two Arrow IV artillery systems, which can only be used when the ship is grounded. Joining them are two Gauss rifles, two ER PPCs and an ER Large Laser with four medium lasers. Covering its fore left and right firing arcs are two LRM-20s, an ER PPC and an ER Large Laser with four medium lasers, with the same setup covering the rear firing arcs. Protecting the aft of the ship are two ER Large Lasers with four medium lasers. All four LRM-20s are fitted with Artemis IV fire control systems, and the ship's ammunition complement includes 30 Arrow IV missiles, 96 LRM-20 missiles, and 96 Gauss Rifle rounds.
 </capabilities>
 
 <overview>

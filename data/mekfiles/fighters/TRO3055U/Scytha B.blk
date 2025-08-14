@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 #building block data file
 <BlockVersion>
 1
@@ -132,7 +149,7 @@ Developed when Clan Jade Falcon warriors demanded their own super-heavy OmniFigh
 </overview>
 
 <deployment>
-Mounting five Large Pulse Lasers, two in each wing and one in the nose, the Scytha B is an effective space superiority and ground attack combatant. Defensively the B configuration mounts an Anti-Missile System in its nose with two Medium Pulse Lasers aft. With all lasers slaved to an advanced Targeting Computer, the B variant excels at strafing runs, though the large volume of energy weapons proves an especially concerning danger to the single ton of anti-missile gun reloads. 
+Mounting five Large Pulse Lasers, two in each wing and one in the nose, the Scytha B is an effective space superiority and ground attack combatant. Defensively the B configuration mounts an Anti-Missile System in its nose with two Medium Pulse Lasers aft. With all lasers slaved to an advanced Targeting Computer, the B variant excels at strafing runs, though the large volume of energy weapons proves an especially concerning danger to the single ton of anti-missile gun reloads.
 </deployment>
 
 <manufacturer>
