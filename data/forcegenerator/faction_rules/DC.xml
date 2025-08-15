@@ -22,7 +22,7 @@
     <defaults>
         <unitType ifDateBetween=",2540">Tank</unitType>
         <unitType>Mek</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_DC%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -34,20 +34,20 @@
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifFaction="DC.SL" ifUnitType="Mek">%REGIMENT%+,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%^,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <co>%COLONEL%</co>
         <xo position="2" ifFaction="DC.SL|DC.AL">%MAJOR%</xo>
         <xo position="1">%MAJOR%</xo>
@@ -114,7 +114,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
         <name>{ordinal} Battalion</name>
         <co>%LT_COLONEL%</co>
 
@@ -150,7 +150,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -193,7 +193,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
         <name ifRole="command">Command Lance</name>
         <name>{formation} Lance</name>
         <co>%LT%</co>
@@ -322,7 +322,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank|VTOL">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank|VTOL">
         <name>{ordinal} Battalion</name>
         <co>%LT_COLONEL%</co>
 
@@ -331,7 +331,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
         <co>%COLONEL%</co>
         <xo position="1">%MAJOR%</xo>
 
@@ -377,7 +377,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
         <name>{ordinal} Battalion</name>
         <co>%LT_COLONEL%</co>
 
@@ -397,7 +397,7 @@
                 <option weight="32" />
                 <!-- 20% are assigned by entire battalion; the other 80%
                     are left undefined and may still include JI, MI,
-                    or motorized at a lower eschelon -->
+                    or motorized at a lower echelon -->
             </motive>
         </ruleGroup>
 
@@ -418,7 +418,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
         <name>{alpha} Engineer Company</name>
         <co>%CAPTAIN%</co>
 
@@ -430,7 +430,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -450,11 +450,11 @@
         </subforces>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Platoon" ifUnitType="Infantry">
+    <force echelon="%PLATOON%" eschName="Platoon" ifUnitType="Infantry">
         <co>%LT%</co>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
+    <force echelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
         <co>%LT%</co>
 
         <subforces generate="group">
@@ -462,11 +462,11 @@
         </subforces>
     </force>
 
-    <force eschelon="%SQUAD%" eschName="Squad" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%SQUAD%" eschName="Squad" ifUnitType="Infantry|BattleArmor">
         <co>%SGT%</co>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%LT_COLONEL%</co>
 
         <weightClass>
@@ -525,7 +525,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Company" ifAugmented="1"
+    <force echelon="%SQUADRON%" eschName="Company" ifAugmented="1"
            ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{phonetic} Company</name>
         <co>%MAJOR%</co>
@@ -573,7 +573,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Flight" ifAugmented="0"
+    <force echelon="%SQUADRON%" eschName="Flight" ifAugmented="0"
            ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{formation} Squadron</name>
         <co>%CAPTAIN%</co>
@@ -626,7 +626,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%LT%</co>
 
         <weightClass>

@@ -23,7 +23,7 @@ division where most factions organize around a regiment. -->
 <ruleset faction="SL" parent="IS" ratingSystem="SL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%DIVISION%</eschelon>
+        <echelon>%DIVISION%</echelon>
         <rankSystem>%RANK_SL%</rankSystem>
         <rating>B</rating>
     </defaults>
@@ -33,14 +33,14 @@ division where most factions organize around a regiment. -->
             <option>null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%ARMY%,%CORPS%</option>
             <option ifUnitType="Warship">%CORPS%,%DIVISION%,%BRIGADE%,%REGIMENT%</option>
             <option ifUnitType="Mek">%DIVISION%,%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%DIVISION%,%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%AIR_REGIMENT%,%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -52,7 +52,7 @@ division where most factions organize around a regiment. -->
         </flags>
     </toc>
 
-    <force eschelon="%CORPS%" eschName="Fleet" ifUnitType="Warship">
+    <force echelon="%CORPS%" eschName="Fleet" ifUnitType="Warship">
         <co>%GENERAL%</co>
 
         <subforces>
@@ -64,7 +64,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%DIVISION%" eschName="Naval Squadron" ifUnitType="Warship">
+    <force echelon="%DIVISION%" eschName="Naval Squadron" ifUnitType="Warship">
         <co>%MAJ_GENERAL%</co>
 
         <subforces>
@@ -72,7 +72,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Naval Division" ifUnitType="Warship">
+    <force echelon="%BRIGADE%" eschName="Naval Division" ifUnitType="Warship">
         <co>%LT_GENERAL%</co>
 
         <subforces>
@@ -80,7 +80,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Flotilla" ifUnitType="Warship">
+    <force echelon="%REGIMENT%" eschName="Flotilla" ifUnitType="Warship">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -88,11 +88,11 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%ELEMENT%" ifUnitType="Warship">
+    <force echelon="%ELEMENT%" ifUnitType="Warship">
         <co>%MAJOR%</co>
     </force>
 
-    <force eschelon="%ARMY%" eschName="Army">
+    <force echelon="%ARMY%" eschName="Army">
         <co position="0">%GENERAL%</co>
 
         <subforces>
@@ -104,7 +104,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%CORPS%" eschName="Corps">
+    <force echelon="%CORPS%" eschName="Corps">
         <co position="0">%GENERAL%</co>
 
         <subforces>
@@ -145,7 +145,7 @@ division where most factions organize around a regiment. -->
     divisions have two brigades of either mechanized, foot, or jump infantry and one
     brigade of Meks. -->
 
-    <force eschelon="%DIVISION%" eschName="Division" ifUnitType="Mek|Infantry">
+    <force echelon="%DIVISION%" eschName="Division" ifUnitType="Mek|Infantry">
         <name ifFaction="SL.R" ifUnitType="Mek">Royal BattleMek Division</name>
         <name ifFaction="SL.R" ifFlags="footInf">Royal Infantry Division</name>
         <name ifFaction="SL.R" ifFlags="mechInf">Royal Mechanized Infantry Division</name>
@@ -201,7 +201,7 @@ division where most factions organize around a regiment. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Mek|Infantry">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Mek|Infantry">
         <name ifFaction="SL.R" ifUnitType="Mek">Royal BattleMek Brigade</name>
         <name ifFaction="SL.R" ifFlags="footInf">Royal Infantry Brigade</name>
         <name ifFaction="SL.R" ifFlags="mechInf">Royal Mechanized Infantry Brigade</name>
@@ -232,7 +232,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Independent Regiment" ifUnitType="Mek" ifFlags="independent">
+    <force echelon="%REGIMENT%" eschName="Independent Regiment" ifUnitType="Mek" ifFlags="independent">
         <name ifWeightClass="H|A">Dragoon Regiment</name>
         <name ifWeightClass="M">Hussar Regiment</name>
         <name ifWeightClass="L">Light Horse Regiment</name>
@@ -265,7 +265,7 @@ division where most factions organize around a regiment. -->
     <!-- Mek line regiments contain only Meks, and rely on other units in the division for
     support roles. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <name ifWeightClass="H|A">Heavy Assault Regiment</name>
         <name ifWeightClass="M">Battle Regiment</name>
         <name ifWeightClass="L">Striker Regiment</name>
@@ -293,7 +293,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -371,7 +371,7 @@ division where most factions organize around a regiment. -->
     <!-- Per standard SLDF doctrine, companies are built out of a single model. Independent
     regiments, which do not have the support of brigade or division, are an exception. -->
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek" ifFlags="independent">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek" ifFlags="independent">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -455,7 +455,7 @@ division where most factions organize around a regiment. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -473,7 +473,7 @@ division where most factions organize around a regiment. -->
 
     <!-- Independent regiments sometimes mix Mek types in lances. -->
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek" ifFlags="independent">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek" ifFlags="independent">
         <co>%LT%</co>
 
         <weightClass>
@@ -586,7 +586,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek|Tank">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek|Tank">
         <co>%LT%</co>
 
         <weightClass>
@@ -609,7 +609,7 @@ division where most factions organize around a regiment. -->
     at the regiment level check again at the battalion level. All companies are
     uniform. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank">
         <name ifWeightClass="H|A">Heavy Assault Regiment</name>
         <name ifWeightClass="M">Battle Regiment</name>
         <name ifWeightClass="L">Striker Regiment</name>
@@ -658,7 +658,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -703,7 +703,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -720,7 +720,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
         <co>%COLONEL%</co>
 
         <flags ifRole="!artillery" ifFlags="!mechInf|footInf|jumpInf">
@@ -747,7 +747,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
         <co>%MAJOR%</co>
 
         <flags ifRole="!artillery" ifFlags="!mechInf|footInf|jumpInf">
@@ -774,7 +774,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry">
         <co>%LT%</co>
 
         <flags ifRole="!artillery" ifFlags="!mechInf|footInf|jumpInf">
@@ -801,7 +801,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%AIR_REGIMENT%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%AIR_REGIMENT%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name ifUnitType="AeroSpaceFighter">Ground Aero Wing</name>
         <co>%COLONEL%</co>
 
@@ -839,7 +839,7 @@ division where most factions organize around a regiment. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%WING%" eschName="Group" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Group" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>
@@ -869,7 +869,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%CAPTAIN%</co>
 
         <weightClass>
@@ -892,7 +892,7 @@ division where most factions organize around a regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%LT%</co>
 
         <weightClass>

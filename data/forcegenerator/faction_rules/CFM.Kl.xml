@@ -20,7 +20,7 @@
 <ruleset faction="CFM.Kl" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,11 +32,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -52,7 +52,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -83,7 +83,7 @@
     ASFs, three trinaries of BA, and a solahma trinary of conventional
     infantry-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="BattleArmor">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="BattleArmor">
         <name ifWeightClass="H|A">Vanguard Assault Cluster</name>
         <name ifWeightClass="M">Vanguard Battle Cluster</name>
         <name ifWeightClass="L">Vanguard Striker Cluster</name>
@@ -174,7 +174,7 @@
     1 Solahma infantry binary or trinary. Striker=1 Mek/BA binary + 2 Mek
     trinaries + 1 ASF binary + 1 BA binary.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="SL">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="SL">
         <name ifWeightClass="H|A">Vanguard Assault Cluster</name>
         <name ifWeightClass="M">Vanguard Battle Cluster</name>
         <name ifWeightClass="L">Vanguard Striker Cluster</name>

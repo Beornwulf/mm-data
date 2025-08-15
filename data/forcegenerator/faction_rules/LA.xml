@@ -28,8 +28,8 @@ each Mek regiment. -->
     <defaults>
         <unitType ifDateBetween=",2509">Tank</unitType>
         <unitType>Mek</unitType>
-        <eschelon ifDateBetween=",3039">%REGIMENT%</eschelon>
-        <eschelon ifDateBetween="3040,">%DIVISION%</eschelon>
+        <echelon ifDateBetween=",3039">%REGIMENT%</echelon>
+        <echelon ifDateBetween="3040,">%DIVISION%</echelon>
         <rankSystem>%RANK_LA%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -42,7 +42,7 @@ each Mek regiment. -->
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifDateBetween="3040," ifUnitType="">%DIVISION%</option>
             <option ifDateBetween="3040," ifUnitType="Tank">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifDateBetween="3040," ifUnitType="Infantry">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
@@ -51,14 +51,14 @@ each Mek regiment. -->
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter">%GROUP%,%WING%,%SQUADRON%,%FLIGHT%</option>
             <option ifUnitType="Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%DIVISION%" eschName="RCT">
+    <force echelon="%DIVISION%" eschName="RCT">
         <name ifFlags="militia">Militia</name>
         <name>Regimental Combat Team</name>
         <co position="0">%LT_GENERAL%</co>
@@ -79,7 +79,7 @@ each Mek regiment. -->
     <!-- FM:LA shows only about 1 in 25 regiments as reinforced, none of them
     among the regional militias. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -173,7 +173,7 @@ each Mek regiment. -->
     not connected to a regiment, such as those attached to Mek regiments that are
     not part of a RCT. -->
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek|Tank">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek|Tank">
         <name ifFlags="reinforced">{ordinal} Battalion (Reinforced)</name>
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
@@ -286,7 +286,7 @@ each Mek regiment. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -303,7 +303,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 
@@ -376,7 +376,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
         <name>Armor Brigade</name>
         <co position="0">%COLONEL%</co>
         <xo position="0">%LT_COLONEL%</xo>
@@ -403,7 +403,7 @@ each Mek regiment. -->
 
     <!-- Companies contain 2-3 platoons -->
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -456,7 +456,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Platoon" ifUnitType="Tank">
+    <force echelon="%LANCE%" eschName="Platoon" ifUnitType="Tank">
         <name>{formation} Platoon</name>
         <co>%LT%</co>
 
@@ -540,7 +540,7 @@ each Mek regiment. -->
     in the regiment rule. While FS expanded use of BA after the invasion, the LAAF
     cut BA spending to increase Mek production. -->
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
         <name>Infantry Brigade</name>
         <co position="0">%COLONEL%</co>
         <xo position="0">%LT_COLONEL%</xo>
@@ -556,7 +556,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
         <name ifMotive="Jump">JI Regiment</name>
         <name ifMotive="Leg">LI Regiment</name>
         <name ifFlags="mechanized">MI Regiment</name>
@@ -629,7 +629,7 @@ each Mek regiment. -->
 
     <!-- LAAF makes more use of field guns in heavy infantry units. -->
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -665,7 +665,7 @@ each Mek regiment. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="BattleArmor">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="BattleArmor">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -681,7 +681,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -751,7 +751,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
+    <force echelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
         <co>%LT%</co>
 
         <subforces generate="group">
@@ -759,7 +759,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%GROUP%" eschName="Regiment" ifUnitType="AeroSpaceFighter">
+    <force echelon="%GROUP%" eschName="Regiment" ifUnitType="AeroSpaceFighter">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -788,7 +788,7 @@ each Mek regiment. -->
         </subforces>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>

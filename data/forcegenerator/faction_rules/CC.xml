@@ -30,7 +30,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
     <defaults>
         <unitType ifDateBetween=",2540">Tank</unitType>
         <unitType>Mek</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_CC%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -42,7 +42,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifDateBetween="3060,"
                     ifUnitType="Mek">%REGIMENT%,%BATTALION%^,%BATTALION%,%COMPANY%^,%COMPANY%,%LANCE%^,%LANCE%
             </option>
@@ -53,7 +53,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%REGIMENT%,%WING%+,%WING%,%SQUADRON%^,%SQUADRON%,%FLIGHT%^,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -65,7 +65,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </flags>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co ifUnitType="Tank">%LT_COLONEL%</co>
         <co>%COLONEL%</co>
 
@@ -221,7 +221,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifAugmented="0" ifUnitType="Mek|Tank">
+    <force echelon="%BATTALION%" eschName="Battalion" ifAugmented="0" ifUnitType="Mek|Tank">
         <name>{ordinal} Battalion</name>
         <co ifUnitType="Mek">%LT_COLONEL%</co>
         <co>%MAJOR%</co>
@@ -276,7 +276,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Augmented Battalion" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%BATTALION%" eschName="Augmented Battalion" ifAugmented="1" ifUnitType="Mek">
         <name>{ordinal} Battalion (Augmented)</name>
         <co>%LT_COLONEL%</co>
 
@@ -367,7 +367,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Company" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%MAJOR%</co>
@@ -432,7 +432,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Augmented Company" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Augmented Company" ifAugmented="1" ifUnitType="Mek">
         <name ifRole="command">Command Company (Augmented)</name>
         <name>{alpha} Company (Augmented)</name>
         <co>%MAJOR%</co>
@@ -482,7 +482,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Augmented Lance" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Augmented Lance" ifAugmented="1" ifUnitType="Mek">
         <name>{formation} Lance (Augmented)</name>
         <co>%CAPTAIN%</co>
 
@@ -621,7 +621,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifAugmented="0" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Company" ifAugmented="0" ifUnitType="Tank">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -663,7 +663,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Augmented Company" ifAugmented="1" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Augmented Company" ifAugmented="1" ifUnitType="Tank">
         <name ifRole="command">Command Company (Augmented)</name>
         <name>{alpha} Company (Augmented)</name>
         <co>%CAPTAIN%</co>
@@ -704,7 +704,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Augmented Lance" ifAugmented="1" ifUnitType="Tank">
+    <force echelon="%LANCE%" eschName="Augmented Lance" ifAugmented="1" ifUnitType="Tank">
         <name>{formation} Lance (Augmented)</name>
         <co>%LT%</co>
 
@@ -835,7 +835,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
         <co>%LT_COLONEL%</co>
 
         <weightClass>
@@ -918,7 +918,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -948,7 +948,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
                 <option weight="32" />
                 <!-- 20% are assigned by entire battalion; the other 80%
                     are left undefined and may still include JI, MI,
-                    or motorized at a lower eschelon -->
+                    or motorized at a lower echelon -->
             </motive>
         </ruleGroup>
 
@@ -990,7 +990,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Fleet Regiment" ifUnitType="AeroSpaceFighter">
+    <force echelon="%REGIMENT%" eschName="Fleet Regiment" ifUnitType="AeroSpaceFighter">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -1021,7 +1021,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%LT_COLONEL%</co>
 
         <weightClass>
@@ -1053,7 +1053,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Flight" ifAugmented="1" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Flight" ifAugmented="1" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>
@@ -1091,7 +1091,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Squadron" ifAugmented="0" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Squadron" ifAugmented="0" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{formation} Squadron</name>
         <co>%CAPTAIN%</co>
 
@@ -1155,7 +1155,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Triple" ifAugmented="1" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Triple" ifAugmented="1" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name ifRole="command">Command Element</name>
         <name>Element {cardinal}</name>
         <co>%LT%</co>
@@ -1171,7 +1171,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Element" ifAugmented="0" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Element" ifAugmented="0" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>Element {cardinal}</name>
         <co>%LT%</co>
 

@@ -100,7 +100,7 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="eschelon">
+                <xs:element name="echelon">
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:string">
@@ -138,7 +138,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element minOccurs="0" maxOccurs="1" name="unitType" type="tocType" />
-                <xs:element minOccurs="0" maxOccurs="1" name="eschelon" type="tocType" />
+                <xs:element minOccurs="0" maxOccurs="1" name="echelon" type="tocType" />
                 <xs:element minOccurs="0" maxOccurs="1" name="rating" type="tocType" />
                 <xs:element minOccurs="0" maxOccurs="1" name="flags" type="tocType" />
             </xs:sequence>
@@ -189,7 +189,7 @@
                             minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>
 
-            <xs:attribute name="eschelon" type="xs:string" use="required" />
+            <xs:attribute name="echelon" type="xs:string" use="required" />
             <xs:attribute name="eschName" type="xs:string" />
             <xs:attributeGroup ref="predicateAttributeGroup" />
         </xs:complexType>

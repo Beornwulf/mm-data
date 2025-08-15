@@ -25,7 +25,7 @@ are often combined down to the company level. -->
 <ruleset faction="FS.CH" parent="FS" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%DIVISION%</eschelon>
+        <echelon>%DIVISION%</echelon>
         <rankSystem>%RANK_FS%</rankSystem>
         <rating>D</rating>
     </defaults>
@@ -35,20 +35,20 @@ are often combined down to the company level. -->
             <option>null,Mek,Tank,VTOL,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%DIVISION%,%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="Mek|Tank|VTOL">%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%DIVISION%" eschName="RCT">
+    <force echelon="%DIVISION%" eschName="RCT">
         <name>Ceti Hussars RCT</name>
         <co position="0">%O11%</co>
         <xo position="0">%LT_GENERAL%</xo>
@@ -64,7 +64,7 @@ are often combined down to the company level. -->
         </subforces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Combat Command">
+    <force echelon="%BRIGADE%" eschName="Combat Command">
         <name>Combat Command {greek}</name>
         <co position="0">%LT_GENERAL%</co>
 
@@ -79,7 +79,7 @@ are often combined down to the company level. -->
     a second. The remainder will be divided between Meks and armor at the battalion and
     company levels.  -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment">
+    <force echelon="%REGIMENT%" eschName="Regiment">
         <co position="0">%COLONEL%</co>
 
         <weightClass>
@@ -98,7 +98,7 @@ are often combined down to the company level. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -135,7 +135,7 @@ are often combined down to the company level. -->
 
     <!-- We'll make about half the companies pure Mek or Armor formations. -->
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -177,7 +177,7 @@ are often combined down to the company level. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="">
         <co>%LT%</co>
 
         <changeEschelon>

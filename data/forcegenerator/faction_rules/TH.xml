@@ -22,7 +22,7 @@
     <defaults>
         <unitType ifDateBetween="2480,">Mek</unitType>
         <unitType>Tank</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_SL%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -33,19 +33,19 @@
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co>%COLONEL%</co>
 
         <weightClass>

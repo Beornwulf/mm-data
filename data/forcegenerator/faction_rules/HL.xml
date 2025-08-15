@@ -27,7 +27,7 @@ would have none so I've attached a wing to each RDF. -->
 <ruleset faction="HL" parent="Periphery" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%BRIGADE%</eschelon>
+        <echelon>%BRIGADE%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -45,20 +45,20 @@ would have none so I've attached a wing to each RDF. -->
             <option>null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%BRIGADE%,%REGIMENT%,%BATTALION%</option>
             <option ifUnitType="Mek">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Tank|VTOL">%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%COMPANY%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%BRIGADE%" eschName="Regional Defense Force">
+    <force echelon="%BRIGADE%" eschName="Regional Defense Force">
         <name>Regional Defense Force</name>
         <co>%COLONEL%</co>
 
@@ -75,7 +75,7 @@ would have none so I've attached a wing to each RDF. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -114,7 +114,7 @@ would have none so I've attached a wing to each RDF. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -122,7 +122,7 @@ would have none so I've attached a wing to each RDF. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -131,7 +131,7 @@ would have none so I've attached a wing to each RDF. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="">
         <co>%CAPTAIN%</co>
 
         <unitType>
@@ -184,7 +184,7 @@ would have none so I've attached a wing to each RDF. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Tank|VTOL">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Tank|VTOL">
         <co>%LT%</co>
 
         <weightClass>

@@ -30,7 +30,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
     <defaults>
         <unitType ifDateBetween="2600,">Mek</unitType>
         <unitType ifDateBetween=",2599">Tank</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem ifDateBetween="2580,">%RANK_SL%</rankSystem>
         <rankSystem ifDateBetween=",2579">%RANK_CUSTOM%</rankSystem>
         <rating>B</rating>
@@ -54,7 +54,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
             <option ifDateBetween="2474,2599">null,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifDateBetween="2760," ifUnitType="">%DIVISION%</option>
             <option ifDateBetween="2760," ifUnitType="Mek">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifDateBetween="2760," ifUnitType="Infantry">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
@@ -63,7 +63,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -79,7 +79,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
     battalions and 1 either Mek or Tank. After that there is one of each and one that could
     be either.-->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank" ifDateBetween="2474,2599">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank" ifDateBetween="2474,2599">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -187,7 +187,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
     divisions. Imperial Divisions have three Mek brigades and one armor brigade. Others
     have one Mek brigade and two infantry. -->
 
-    <force eschelon="%DIVISION%" eschName="Division" ifFlags="imperial">
+    <force echelon="%DIVISION%" eschName="Division" ifFlags="imperial">
         <co position="0">%MAJ_GENERAL%</co>
 
         <subforces>
@@ -196,7 +196,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
         </subforces>
     </force>
 
-    <force eschelon="%DIVISION%" eschName="Division">
+    <force echelon="%DIVISION%" eschName="Division">
         <co position="0">%MAJ_GENERAL%</co>
 
         <subforces>
@@ -205,7 +205,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
         </subforces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade">
+    <force echelon="%BRIGADE%" eschName="Brigade">
         <co position="0">%LT_GENERAL%</co>
 
         <subforces>
@@ -216,7 +216,7 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <co>%COLONEL%</co>
 
         <weightClass>

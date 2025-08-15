@@ -27,7 +27,7 @@ that all infantry units are BattleArmor. -->
 <ruleset faction="LA.AlJ" parent="LA" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_LA%</rankSystem>
         <rating>B</rating>
     </defaults>
@@ -37,12 +37,12 @@ that all infantry units are BattleArmor. -->
             <option>null,Mek,Tank,VTOL,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%REGIMENT%,%BATTALION%</option>
             <option ifUnitType="Mek|Tank|VTOL">%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -53,7 +53,7 @@ that all infantry units are BattleArmor. -->
     another Mek battalion, or mixed Mek/armor, or Mek/armor/infantry. The third
     can be Mek/armor/infantry or armor/infantry -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment">
+    <force echelon="%REGIMENT%" eschName="Regiment">
         <name>{ordinal} Alliance Jaegers</name>
         <co>%COLONEL%</co>
 
@@ -78,7 +78,7 @@ that all infantry units are BattleArmor. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 

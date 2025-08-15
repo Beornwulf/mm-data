@@ -25,7 +25,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
     <defaults>
         <unitType ifDateBetween=",2510">Tank</unitType>
         <unitType>Mek</unitType>
-        <eschelon>%DIVISION%</eschelon>
+        <echelon>%DIVISION%</echelon>
         <rankSystem>%RANK_FS%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -38,7 +38,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%DIVISION%</option>
             <option ifUnitType="Tank" ifDateBetween="2881,">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry" ifDateBetween="2881,">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
@@ -49,7 +49,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter">%GROUP%,%WING%,%SQUADRON%,%FLIGHT%</option>
             <option ifUnitType="Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -60,7 +60,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </flags>
     </toc>
 
-    <force eschelon="%DIVISION%" eschName="RCT">
+    <force echelon="%DIVISION%" eschName="RCT">
         <name ifFlags="militia">March Militia</name>
         <name ifFlags="lct">Light Combat Team</name>
         <name>Regimental Combat Team</name>
@@ -83,7 +83,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
     <!-- LCTs include 2-3 H/A battalions and 2-3 cavalry battalions, which I've organized as
     two regiments. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank" ifFlags="lct">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank" ifFlags="lct">
         <name ifRole="cavalry">Support Cavalry</name>
         <co>%COLONEL%</co>
 
@@ -113,7 +113,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
     company and perhaps a fourth battalion. The same is possible in an armor
     regiment, though FM:FS doesn't indicate how common it is.-->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <name ifFlags="reinforced">Reinforced Regiment</name>
         <co>%COLONEL%</co>
 
@@ -227,7 +227,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
     not connected to a regiment, such as those attached to Mek regiments that are
     not part of a RCT. -->
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek|Tank">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek|Tank">
         <name ifFlags="reinforced">{ordinal} Battalion (Reinforced)</name>
         <name>{ordinal} Battalion</name>
         <name>Battalion</name>
@@ -362,7 +362,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek|Tank">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek|Tank">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -386,7 +386,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 
@@ -469,7 +469,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Tank">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Tank">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 
@@ -550,7 +550,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="VTOL">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="VTOL">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%LT%</co>
@@ -565,7 +565,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
         <name>Armor Brigade</name>
         <co position="0">%LT_GENERAL%</co>
 
@@ -609,7 +609,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
     in the regiment rule. After the Clan invasion many RCTs had one regiment replaced
     with a battalion of BA, as well as having BA companies spread through the other regiments. -->
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
         <name>Infantry Brigade</name>
         <co position="0">%LT_GENERAL%</co>
 
@@ -640,7 +640,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry|BattleArmor">
         <name ifMotive="Jump">JI Regiment</name>
         <name ifMotive="Leg">LI Regiment</name>
         <name ifFlags="mechanized">MI Regiment</name>
@@ -711,7 +711,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -747,7 +747,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="BattleArmor">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="BattleArmor">
         <co>%MAJOR%</co>
 
         <weightClass>
@@ -762,7 +762,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -832,7 +832,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%GROUP%" eschName="Aero Regiment" ifUnitType="AeroSpaceFighter">
+    <force echelon="%GROUP%" eschName="Aero Regiment" ifUnitType="AeroSpaceFighter">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -861,7 +861,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </subforces>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>

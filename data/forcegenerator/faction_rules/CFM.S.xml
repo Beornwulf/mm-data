@@ -20,7 +20,7 @@
 <ruleset faction="CFM.S" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,11 +32,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -51,7 +51,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -71,7 +71,7 @@
 
     <!-- Standard cluster includes one trinary each of Mek, AeroSpaceFighter, BA
     and an additional cluster of mixed Mek/BA-->
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="FL" ifWeightClass="A|H">Assault Cluster</name>
         <name ifRating="FL" ifWeightClass="M">Battle Cluster</name>
         <name ifRating="FL" ifWeightClass="L">Striker Cluster</name>
@@ -215,7 +215,7 @@
     <!-- Kindraa command trinary includes one nova. This rule does not
     meet the description in FMCC that all Meks in the command star
     have MASC, but selects faster units by adding the cavalry role.-->
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek"
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek"
            ifDateBetween="2870," ifRating="Keshik">
         <name>Trinary Kindraa [Command]</name>
         <co>%GALAXY_CMDR%</co>

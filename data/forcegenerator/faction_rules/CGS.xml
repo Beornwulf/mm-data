@@ -27,7 +27,7 @@
     Garrison and solahma units are also likely to have conventional infantry. -->
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -39,11 +39,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship|Dropship|Jumpship">%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Provisional Garrison,Sol:Solahma</option>
@@ -60,7 +60,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co position="0">%KHAN%</co>
         <xo position="0">%SAKHAN%</xo>
 
@@ -106,7 +106,7 @@
 
     <!-- Chi Galaxy is made up entirely of seeker clusters. -->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy" ifName="Chi Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy" ifName="Chi Galaxy">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -119,7 +119,7 @@
     the Imperio fields two FL galaxies of three clusters each: two cuirassiers and one
     hussar or cateran.-->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -192,7 +192,7 @@
     but it is characterized as a militarized police force, making a 1:2 ratio of
     Meks to infantry that guard trinaries provide seem reasonable. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="PG">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="PG">
         <name>{ordinal} Imperio Guards</name>
         <co>%STAR_COL%</co>
 
@@ -203,7 +203,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="hussar">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="hussar">
         <name>Scorpion Hussars</name>
         <co>%STAR_COL%</co>
 
@@ -214,7 +214,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="uhlan">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="uhlan">
         <name>Scorpion Uhlans</name>
         <co>%STAR_COL%</co>
 
@@ -225,7 +225,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="dragoon">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="dragoon">
         <name>Scorpion Dragoons</name>
         <co>%STAR_COL%</co>
 
@@ -237,7 +237,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="cuirassier">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="cuirassier">
         <name>Scorpion Cuirassiers</name>
         <co>%STAR_COL%</co>
 
@@ -248,7 +248,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="grenadier">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="grenadier">
         <name>Scorpion Grenadiers</name>
         <co>%STAR_COL%</co>
 
@@ -259,7 +259,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="cateran">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="cateran">
         <name>Scorpion Caterans</name>
         <co>%STAR_COL%</co>
 
@@ -276,7 +276,7 @@
     aerospace-heavy. Using a mix of battle and striker trinaries with a high chance for
     Mek stars to be replaced with PMs seems to me to fit the description well. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="seeker">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="seeker">
         <name>Scorpion Seekers</name>
         <co>%STAR_COL%</co>
 
@@ -293,7 +293,7 @@
 
     <!-- If cluster is top-level, assign cluster type. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name>Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -315,7 +315,7 @@
         </changeEschelon>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifRole="command">
+    <force echelon="%TRINARY%" eschName="Trinary" ifRole="command">
         <name>[Command] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -390,7 +390,7 @@
 
     <!-- Two stars of heavy to assault Meks and one star of BA -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="assault">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="assault">
         <name>{phonetic:distinct} [Assault] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -470,7 +470,7 @@
 
     <!-- One star each of Meks (L-H), BA, Aero -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="battle">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="battle">
         <name>{phonetic:distinct} [Battle] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -601,7 +601,7 @@
 
     <!-- Two stars of BA with a supporting Mek Star -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="guard">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="guard">
         <name>{phonetic:distinct} [Guard] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -683,7 +683,7 @@
 
     <!-- Two stars of BA with a Star of Kirghiz-C ASF transports -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="specialist">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="specialist">
         <name>{phonetic:distinct} [Specialist] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -725,7 +725,7 @@
 
     <!-- Two stars of Meks (L-H) and one star of ASF (superiority or recon) -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="striker">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="striker">
         <name>{phonetic:distinct} [Striker] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -780,7 +780,7 @@
 
     <!-- If Trinary is top-level, assign trinary type. -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary">
+    <force echelon="%TRINARY%" eschName="Trinary">
         <co>%STAR_CAPTAIN%</co>
 
         <changeEschelon ifRating="FL|Keshik">
@@ -809,7 +809,7 @@
 
     <!-- Part of command star: 2 Meks, 2 BA points, 1 ASF point -->
 
-    <force eschelon="%STAR%" eschName="Star" ifFlags="stinger">
+    <force echelon="%STAR%" eschName="Star" ifFlags="stinger">
         <name>Stinger Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -885,7 +885,7 @@
     Each Mek star in a garrison or solahma unit has a chance of being replaced
     with a vehicle star, with the chance being higher in guard units. -->
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
         <name>{ordinal} {phonetic:parent} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -957,7 +957,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
         <name>{ordinal} {phonetic:parent} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -985,7 +985,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank">
         <name>{ordinal} {phonetic:parent} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1028,7 +1028,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="ProtoMek">
         <name>{ordinal} {phonetic:parent} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1085,7 +1085,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
         <name>{ordinal} {phonetic:parent} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1108,7 +1108,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Battlegroup" ifUnitType="Warship" ifFlags="navalFluff">
+    <force echelon="%STAR%" eschName="Battlegroup" ifUnitType="Warship" ifFlags="navalFluff">
         <co>%GALAXY_CMDR%</co>
 
         <subforces ifName="Einheriar Battlegroup">

@@ -21,7 +21,7 @@
 
     <defaults>
         <unitType>Mek</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_SL%</rankSystem>
         <rating>HS</rating>
     </defaults>
@@ -35,19 +35,19 @@
             <option>Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%REGIMENT%,%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>SB:Stone&apos;s Brigade,HS:Hastati Sentinels,PG:Principes Guards,TP:Triarii Protectors</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co ifUnitType="Tank">%LT_COLONEL%</co>
         <co>%COLONEL%</co>
 
@@ -98,7 +98,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank" ifRating="TP">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank" ifRating="TP">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -110,7 +110,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Tank">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -122,7 +122,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
+    <force echelon="%BRIGADE%" eschName="Brigade" ifUnitType="Infantry">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -130,7 +130,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek" ifRating="TP">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek" ifRating="TP">
         <name>{ordinal} Battalion</name>
         <co>%COLONEL%</co>
 
