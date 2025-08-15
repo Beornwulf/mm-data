@@ -43,7 +43,6 @@ tasks.register<Copy>("stageMMFiles") {
     description = "Stages files for MM"
     group = "build"
 
-    dependsOn("clean")
     dependsOn("ratZip")
     dependsOn("unitFilesZip")
 
@@ -52,13 +51,28 @@ tasks.register<Copy>("stageMMFiles") {
         include("css/**/*.*")
         include("fonts/**/*.*")
         include("forcegenerator/**/*.*")
-        include("images/**/*.*")
+        include("images/camo/**/*.*")
+        include("images/fluff/**/*.*")
+        include("images/hexes/**/*.*")
+        include("images/misc/**/*.*")
+        include("images/portraits/**/*.*")
+        include("images/temp/**/*.*")
+        include("images/units/**/*.*")
+        include("images/universe/**/*.*")
+        include("images/widgets/**/*.*")
         include("mapgen/**/*.*")
         include("mapsetup/**/*.*")
+        include("mekfiles/*.txt")
+        include("mekfiles/*.xml")
         include("names/**/*.*")
         include("scenarios/**/*.*")
         include("sounds/**/*.*")
-        include("universe/**/*.*")
+        include("universe/eras.xml")
+    }
+
+    from(stagingFolder) {
+        include("mekfiles/**/*.*")
+        include("rat/**/*.*")
     }
 
     into("${stagingFolder}/mm")
@@ -68,7 +82,6 @@ tasks.register<Copy>("stageMMLFiles") {
     description = "Stages files for MML"
     group = "build"
 
-    dependsOn("clean")
     dependsOn("unitFilesZip")
 
     from("data") {
@@ -80,7 +93,11 @@ tasks.register<Copy>("stageMMLFiles") {
         include("images/units/**/*.*")
         include("images/universe/**/*.*")
         include("images/widgets/**/*.*")
-        include("universe/**/*.*")
+        include("universe/eras.xml")
+    }
+
+    from(stagingFolder) {
+        include("mekfiles/**/*.*")
     }
 
     into("${stagingFolder}/mml")
@@ -90,7 +107,10 @@ tasks.register<Copy>("stageFiles") {
     description = "Stages files for All / MekHQ"
     group = "build"
 
-    dependsOn("clean")
+    mustRunAfter("ratZip")
+    mustRunAfter("unitFilesZip")
+    mustRunAfter("canonSystemZip")
+    mustRunAfter("connectorSystemZip")
     dependsOn("ratZip")
     dependsOn("unitFilesZip")
     dependsOn("canonSystemZip")
@@ -100,8 +120,14 @@ tasks.register<Copy>("stageFiles") {
         exclude("mekfiles")
         exclude("rat")
         exclude("universe/planetary_systems/canon_systems")
-        exclude("data/universe/planetary_systems/connector_systems")
+        exclude("universe/planetary_systems/connector_systems")
         include("**/*.*")
+    }
+
+    from(stagingFolder) {
+        include("mekfiles/**/*.*")
+        include("rat/**/*.*")
+        include("universe/**/*.*")
     }
 
     into("${stagingFolder}/all")
