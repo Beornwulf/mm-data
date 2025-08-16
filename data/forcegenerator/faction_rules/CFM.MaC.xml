@@ -20,7 +20,7 @@
 <ruleset faction="CFM.MaC" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,11 +32,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -54,7 +54,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -83,7 +83,7 @@
     <!--Standard cluster is a command binary of Meks+BA, 2 Mek binaries,
     1 ASF binary, 1 BA binary, and 1 binary of either Meks+ASF or
     Meks+BA.-->
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="FL">Firestorm Cluster</name>
         <name ifRating="SL">Firebrand Cluster</name>
         <co>%STAR_COL%</co>
@@ -309,7 +309,7 @@
 
     <!--Supernova binary with one Mek/BA nova and one Mek/ASF nova-->
 
-    <force eschelon="%BINARY%" eschName="Binary" ifFlags="kindraa_command">
+    <force echelon="%BINARY%" eschName="Binary" ifFlags="kindraa_command">
         <name ifRole="command">Binary Kindraa [Command]</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -412,7 +412,7 @@
     another binary of either Meks+BA or Meks+ASF (pre-2870, Mek+ASF
     only).-->
 
-    <force eschelon="%BINARY%" eschName="Binary" ifFlags="mixed">
+    <force echelon="%BINARY%" eschName="Binary" ifFlags="mixed">
         <name ifRole="command">Binary [Command]</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Binary Mixed [Assault]

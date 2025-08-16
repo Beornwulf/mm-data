@@ -1,29 +1,28 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
-#  Copyright (c) 2024 - The MegaMek Team. All Rights Reserved.
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
 #
-#  This file is part of MegaMek.
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
 #
-#  MegaMek is free software: you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation, either version 3 of the License, or
-#  (at your option) any later version.
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
 #
-#  MegaMek is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-#  GNU General Public License for more details.
-#
-#  You should have received a copy of the GNU General Public License
-#  along with MegaMek. If not, see <http://www.gnu.org/licenses/>.
-#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 # Based on Battlecorps Scenario 3011, Lowering the Boom, originally published in FASA's "Kell Hounds" sourcebook
 MMSVersion: 2
 name: Lowering the Boom [Flee]
 planet: Castor
-description: | 
-  Lyran intelligence has found illegal atomic weapons on the Marik world of Castor. Katrina Steiner 
+description: |
+  Lyran intelligence has found illegal atomic weapons on the Marik world of Castor. Katrina Steiner
   has authorized an attack to remove the weapons and provide the Kell Hounds with action.
-  
+
   *Goal: Playing as the Marik force, escape the Kell Hounds.*
 
 map:
@@ -55,7 +54,7 @@ factions:
     - trigger:
         type: fledunits
         units: [ 101, 102, 103, 104, 105, 106 ]
-        atleast: 4
+        atLeast: 4
       modify: onlyatend
 
   fleefrom:
@@ -140,7 +139,7 @@ messages:
       as many Meks as possible.
 
       Be careful! Some of your Meks have already sustained damage.
-      
+
       *This game uses basic game rules.*
     image: loweringboom_map.png
     trigger:
@@ -152,7 +151,7 @@ messages:
       type: fledunits
       modify: once
       units: [ 101, 102, 103, 104, 105, 106 ]
-      atleast: 3
+      atLeast: 3
 
   - header: Decisive Defeat
     text: |
@@ -199,7 +198,7 @@ messages:
       type: fledunits
       modify: atend
       units: [ 101, 102, 103, 104, 105, 106 ]
-      atleast: 5
+      atLeast: 5
 
   - header: A Draw!
     text: Three Marik Meks managed to evade the Kell Hounds forces. This result is considered

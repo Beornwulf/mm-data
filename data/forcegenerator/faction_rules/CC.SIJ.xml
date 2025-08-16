@@ -24,7 +24,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
 <ruleset faction="CC.SIJ" parent="CC" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_CC%</rankSystem>
         <rating>B</rating>
     </defaults>
@@ -34,19 +34,19 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
             <option>null,Mek,Tank,VTOL,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Mek|Tank|VTOL">%COMPANY%,%LANCE%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade">
+    <force echelon="%BRIGADE%" eschName="Brigade">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -59,7 +59,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Combat Command">
+    <force echelon="%REGIMENT%" eschName="Combat Command">
         <name>Combat Command {greek}</name>
         <co>%LT_COLONEL%</co>
 
@@ -105,7 +105,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -142,7 +142,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
 
     <!-- We'll make 1/3 of the companies pure. -->
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -187,7 +187,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
 
     <!-- We'll make 2/3 of the lances pure, with the remainder being 2 Meks and 2 tanks. -->
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 

@@ -20,7 +20,7 @@
 <ruleset faction="CSA" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,13 +32,13 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship">%CLUSTER%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Provisional Garrison,Sol:Solahma</option>
@@ -54,7 +54,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo>%SAKHAN%</xo>
 
@@ -117,7 +117,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -161,7 +161,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
+    <force echelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
         <name>Naval Reserve</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -261,7 +261,7 @@
     TO&E, so are attached to SL galaxies. 2-3 Tank binaries/trinaries+
     1-2 conventional infantry binaries/trinaries+1 ASF binary.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="Tank">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="Tank">
         <name>Gatekeeper Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -354,7 +354,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifFlags="cavalry">Armored Cavalry Squadron</name>
         <name ifFlags="assault">Assault Cluster</name>
         <name ifFlags="cavalier">Adder Cavaliers</name>
@@ -753,7 +753,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">Trinary [Command]</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Trinary [Assault]
@@ -832,7 +832,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
         <name ifRole="command">Supernova Command</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Supernova Assault
@@ -904,7 +904,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%BINARY%" eschName="Binary" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">Binary [Command]</name>
         <name ifWeightClass="H|A">{ordinal:distinct} Binary [Assault]</name>
         <name ifWeightClass="M">{ordinal:distinct} Binary [Battle]</name>
@@ -944,7 +944,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Supernova Binary" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%BINARY%" eschName="Supernova Binary" ifAugmented="1" ifUnitType="Mek">
         <name ifRole="command">Supernova [Command]</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Supernova [Assault]
@@ -1018,7 +1018,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name>{phonetic} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1149,7 +1149,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
         <name ifRole="command"
         >{phonetic} Command Nova
         </name>

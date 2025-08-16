@@ -20,7 +20,7 @@
 <ruleset faction="CFM.FT" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,11 +32,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -52,7 +52,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -80,7 +80,7 @@
     otherwise is assumed to follow the typical Mandrill structure
     of 2xMek (one of which is the command supernova), 1xASF,
     1xBA/Infantry.-->
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="FL" ifWeightClass="A|H">Assault Cluster</name>
         <name ifRating="FL" ifWeightClass="M">Battle Cluster</name>
         <name ifRating="FL" ifWeightClass="L">Striker Cluster</name>
@@ -240,7 +240,7 @@
 
     <!-- The command trinary includes two novas of Meks+BA and
     one of Meks+ASFs.-->
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary"
+    <force echelon="%TRINARY%" eschName="Supernova Trinary"
            ifFlags="kindraa_command">
         <name>Trinary Kindraa [Command]</name>
         <co>%STAR_CAPTAIN%</co>

@@ -36,7 +36,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
 <ruleset faction="OA" parent="Periphery" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem ifDateBetween="2840,">%RANK_OA%</rankSystem>
         <rankSystem>%RANK_SL%</rankSystem>
         <rating>C</rating>
@@ -53,7 +53,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
             <option ifDateBetween=",2599">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifDateBetween=",2599" ifUnitType="">%DIVISION%</option>
             <option ifDateBetween="2840," ifUnitType="">%REGIMENT%</option>
             <option ifUnitType="Mek|Tank|VTOL"
@@ -63,14 +63,14 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%GROUP%,%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%GROUP%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="2840,">
+    <force echelon="%GROUP%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="2840,">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -106,7 +106,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%WING%" eschName="Regiment" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="2840,">
+    <force echelon="%WING%" eschName="Regiment" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="2840,">
         <name>{ordinal} Regiment</name>
         <co>%MAJOR%</co>
 
@@ -146,7 +146,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{phonetic} Squadron</name>
         <co>%CAPTAIN%</co>
 
@@ -198,7 +198,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>Flight {cardinal}</name>
         <co>%LT%</co>
 
@@ -215,10 +215,10 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
 
     <!-- The AMC ground arm uses mixed regiments, usually including one
     Mek battalion and always at least one infantry battalion, with the
-    third being either armor or infantry. Lower eschelon ground units
+    third being either armor or infantry. Lower echelon ground units
     follow standard patterns. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifDateBetween="2840,">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifDateBetween="2840,">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -236,7 +236,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion">
+    <force echelon="%BATTALION%" eschName="Battalion">
         <name ifRole="command">Command Battalion</name>
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
@@ -269,7 +269,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
     indicates one Mek brigade and two infantry brigades, with armor substituted for
     the Meks. -->
 
-    <force eschelon="%DIVISION%" eschName="Division">
+    <force echelon="%DIVISION%" eschName="Division">
         <co position="0">%MAJ_GENERAL%</co>
 
         <subforces>
@@ -282,7 +282,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BRIGADE%" eschName="Brigade">
+    <force echelon="%BRIGADE%" eschName="Brigade">
         <co position="0">%LT_GENERAL%</co>
 
         <subforces>
@@ -296,7 +296,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
     attached Mek forces, starting at 50% chance of a company in 2575 and
     going to a battalion each by 2600. -->
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank" ifDateBetween=",2599">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank" ifDateBetween=",2599">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -319,7 +319,7 @@ units attached to Mek regiments. 2840+ follows AMC organization. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry" ifDateBetween=",2599">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry" ifDateBetween=",2599">
         <co>%COLONEL%</co>
 
         <weightClass>

@@ -20,7 +20,7 @@
 <ruleset faction="CBS" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,13 +32,13 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship">%GALAXY%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="AeroSpaceFighter">%CLUSTER%,%TRINARY%,%BINARY%,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">Keshik,FL:Front Line,SL:Second Line,Sol:Solahma,PG:Provisional Garrison</option>
@@ -49,7 +49,7 @@
         </rating>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo title="Aide" position="0">%SAKHAN%</xo>
 
@@ -101,7 +101,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Galaxy" ifUnitType="Warship">
+    <force echelon="%GALAXY%" eschName="Galaxy" ifUnitType="Warship">
         <name>Blood Galaxy</name>
         <co position="1">%GALAXY_CMDR%</co>
 
@@ -155,7 +155,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co position="0">%GALAXY_CMDR%</co>
 
@@ -178,7 +178,7 @@
     one BA/infantry, and one vehicle. ASFs are attached to the naval
     reserve.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
         <name>Aerospace Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -191,7 +191,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifFlags="protomek" ifDateBetween="3074">Blood Cavalry</name>
         <name ifRating="FL" ifWeightClass="A|H">Assault Cluster</name>
         <name ifRating="FL" ifWeightClass="M">Battle Cluster</name>
@@ -338,7 +338,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek">
         <name ifRole="command">Trinary [Command]</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Trinary [Assault]
@@ -401,7 +401,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
         <name>{phonetic} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 

@@ -20,7 +20,7 @@
 <ruleset faction="CFM.BG" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,11 +32,11 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Mek|AeroSpaceFighter" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -51,7 +51,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -84,7 +84,7 @@
 
     <!--One cluster has three binaries of ASF, one Mek, and one BA.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
         <name>Mandrill Airborne</name>
         <co>%STAR_COL%</co>
 
@@ -159,7 +159,7 @@
     <!--Using the command binary for air support allows the front line
     cluster to include an additional trinary of meks.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="FL">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="FL">
         <name ifWeightClass="A|H">Assault Cluster</name>
         <name ifWeightClass="M">Battle Cluster</name>
         <name ifWeightClass="L">Striker Cluster</name>
@@ -261,7 +261,7 @@
     of binaries following the standard Mandrill structure plus a
     command binary of ASF+ASF/BA nova.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="SL|PG|Sol" ifFlags="binary">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="SL|PG|Sol" ifFlags="binary">
         <name>Auxiliary Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -374,7 +374,7 @@
     <!--The other example of a garrison cluster has two Mek trinaries,
     one mixed Mek/BA trinary, and one ASF binary.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="SL|PG|Sol">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="SL|PG|Sol">
         <name>Auxiliary Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -479,7 +479,7 @@
 
     <!--SL command binary is one star of ASF and one nova of ASF+BA.-->
 
-    <force eschelon="%BINARY%" eschName="Binary" ifRating="SL|PG" ifRole="command"
+    <force echelon="%BINARY%" eschName="Binary" ifRating="SL|PG" ifRole="command"
            ifUnitType="AeroSpaceFighter">
         <name>Binary [Command]</name>
         <co>%STAR_COL%</co>

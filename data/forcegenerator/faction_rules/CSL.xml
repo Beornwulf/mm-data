@@ -21,7 +21,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -38,14 +38,14 @@
             <option>null,Mek,ProtoMek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option ifUnitType="Tank">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option ifUnitType="BattleArmor|Infantry">%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Infantry" ifDateBetween="2900,">PG:Garrison,Sol:Solahma</option>
@@ -54,7 +54,7 @@
         </rating>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo>%SAKHAN%</xo>
 
@@ -65,7 +65,7 @@
     </force>
 
     <!-- Each galaxy contains two FL clusters and 1-2 SL -->
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -84,7 +84,7 @@
     indication of the start of a specialized unit formed out of the fruits of
     the harvest trials. The remaining battle clusters are assumed to be ad-hoc.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="FL">Iron Guards</name>
         <name ifFlags="assault">Mechanized Assault</name>
         <name ifFlags="strike">Mechanized Strike</name>
@@ -267,7 +267,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
            ifRating="FL">
         <name ifRole="command">Command Trinary</name>
         <name>Trinary {greek}</name>
@@ -597,7 +597,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
            ifRating="SL|PG">
         <name ifRole="command">Command Trinary</name>
         <name>Trinary {greek}</name>
@@ -920,7 +920,7 @@
     <!--Solahma trinaries have no novas and use conventional infantry
     instead of BA.-->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifAugmented="0"
            ifRating="Sol">
         <name ifRole="command">Command Trinary</name>
         <name>Trinary {greek}</name>
@@ -1159,7 +1159,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifUnitType="Mek" ifAugmented="1"
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifUnitType="Mek" ifAugmented="1"
            ifRating="FL">
         <name ifRole="command">Command Trinary</name>
         <name>Trinary {greek}</name>
@@ -1177,7 +1177,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifUnitType="Tank" ifAugmented="1">
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifUnitType="Tank" ifAugmented="1">
         <name ifFlags="assault|cavalry|strike">Trinary Epsilon</name>
         <name>Trinary {greek}</name>
         <co>%NOVA_CAPTAIN%</co>
@@ -1202,7 +1202,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank" ifAugmented="0">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank" ifAugmented="0">
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -1226,7 +1226,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
         <name ifFlags="assault|cavalry|strike">Trinary Delta</name>
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1254,7 +1254,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Supernova Binary" ifUnitType="Mek" ifAugmented="1"
+    <force echelon="%BINARY%" eschName="Supernova Binary" ifUnitType="Mek" ifAugmented="1"
            ifRating="FL">
         <name ifRole="command">Command Binary</name>
         <name>Binary {greek}</name>
@@ -1279,7 +1279,7 @@
     a third of the time, and Solahma binaries include only Mek+BA. Strike
     clusters are less likely to have an independent BA star.-->
 
-    <force eschelon="%TRINARY%" eschName="Binary" ifUnitType="Mek" ifAugmented="0"
+    <force echelon="%TRINARY%" eschName="Binary" ifUnitType="Mek" ifAugmented="0"
            ifRating="FL">
         <name ifRole="command">Command Binary</name>
         <name>Binary {greek}</name>
@@ -1456,7 +1456,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Supernova Binary" ifUnitType="Tank" ifAugmented="1">
+    <force echelon="%BINARY%" eschName="Supernova Binary" ifUnitType="Tank" ifAugmented="1">
         <name ifFlags="assault|cavalry|strike">Binary Epsilon</name>
         <name>Binary {greek}</name>
         <co>%NOVA_CAPTAIN%</co>
@@ -1473,7 +1473,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="Tank" ifAugmented="0">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="Tank" ifAugmented="0">
         <name>Binary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -1489,7 +1489,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter">
         <name ifFlags="assault|cavalry|strike">Binary Delta</name>
         <name>Binary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1507,7 +1507,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifFlags="mekTankStar">
+    <force echelon="%STAR%" eschName="Star" ifFlags="mekTankStar">
         <name>{phonetic} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1522,7 +1522,7 @@
 
     <!-- Vehicles are deployed in tank/infantry novas.-->
 
-    <force eschelon="%STAR%" eschName="Nova" ifUnitType="Tank" ifAugmented="1">
+    <force echelon="%STAR%" eschName="Nova" ifUnitType="Tank" ifAugmented="1">
         <name>{phonetic} Star</name>
         <co>%NOVA_CMDR%</co>
         <xo unitType="other">%STAR_CMDR%</xo>
@@ -1633,7 +1633,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name>{phonetic} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1751,7 +1751,7 @@
     <!--Vehicles in cavalry clusters are mostly hover and VTOL infantry
     transports.-->
 
-    <force eschelon="%POINT%" eschName="Point" ifUnitType="Tank|VTOL" ifFlags="cavalry">
+    <force echelon="%POINT%" eschName="Point" ifUnitType="Tank|VTOL" ifFlags="cavalry">
         <name>Point {cardinal}</name>
         <co>%POINT_CMDR%</co>
 

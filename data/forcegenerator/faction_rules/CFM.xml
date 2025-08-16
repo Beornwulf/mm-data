@@ -20,7 +20,7 @@
 <ruleset faction="CFM" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -37,12 +37,12 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek|AeroSpaceFighter" ifDateBetween="2870,">%TRINARY%,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Provisional Garrison,Sol:Solahma</option>
@@ -59,7 +59,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co position="0">%KHAN%</co>
         <xo position="0">%SAKHAN%</xo>
 
@@ -103,7 +103,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -126,7 +126,7 @@
     the BattleArmor is often replaced by a binary of solahma conventional
     infantry, often with a star of support vehicles.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="FL|Keshik"
               ifWeightClass="A|H">Assault Cluster
         </name>
@@ -226,7 +226,7 @@
     <!--A solohma infantry unit is either a conventional infantry binary
     or a trinary consisting of two stars of infantry and a star of
     vehicles.-->
-    <force eschelon="%TRINARY%" eschName="Trinary" ifRating="Sol" ifUnitType="Infantry">
+    <force echelon="%TRINARY%" eschName="Trinary" ifRating="Sol" ifUnitType="Infantry">
         <name>Solahma Infantry Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -290,7 +290,7 @@
     fighters and a star of battlearmor. There is no indication in the FM of how they
     work together, but the Nova formation rules in Campaign Operations say the ASFs must
     be omni, which suggests that they ride the fighters into battle and make a hot drop. -->
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="AeroSpaceFighter">
         <name>{phonetic} Aero Nova</name>
         <co>%STAR_CMDR%</co>
 
@@ -384,7 +384,7 @@
     command unit. This stretches the normal concept of a nova and is implemented here as two stars
     under a single command so that they can each have a formation. -->
 
-    <force eschelon="%STAR%" eschName="Nova" ifFlags="mekAeroNova">
+    <force echelon="%STAR%" eschName="Nova" ifFlags="mekAeroNova">
         <name>{ordinal} Air Nova</name>
         <co>%STAR_CMDR%</co>
 
@@ -406,7 +406,7 @@
 
     <!--Replace some Mek stars with ProtoMek stars in appropriate eras.-->
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name>{phonetic} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 

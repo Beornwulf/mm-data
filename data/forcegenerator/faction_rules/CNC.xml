@@ -32,7 +32,7 @@
     Cat touman. -->
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -44,12 +44,12 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship|Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifDateBetween="3061," ifUnitType="Tank|VTOL">FL:Front Line,SL:Second Line,PG:Provisional Garrison,Sol:Solahma</option>
@@ -67,7 +67,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co position="1">%KHAN%</co>
         <xo position="2">%SAKHAN%</xo>
 
@@ -140,7 +140,7 @@
 
     <!-- Galaxy that combines two CNC clusters with a DC regiment + attached armor, asf, infantry. -->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy" ifFlags="lambda">
+    <force echelon="%GALAXY%" eschName="Galaxy" ifFlags="lambda">
         <name>Lambda Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -157,7 +157,7 @@
     another that could be either. SL have 3-4 clusters, usually all garrison, but sometimes
     one garrison cluster and the rest regulars. -->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name ifRating="SL">{greek} Provisional Galaxy</name>
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
@@ -192,7 +192,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Keshik" ifRating="Keshik">
+    <force echelon="%CLUSTER%" eschName="Keshik" ifRating="Keshik">
         <name>Nova Cat Keshik</name>
         <co>%KHAN%</co>
 
@@ -217,7 +217,7 @@
     ASF support in a mixed Mek/ASF command trinary. Cavaliers are a mix of heavy and light.
     regular and garrison clusters follow the generic Clan pattern for SL and PG respectively. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="PG">Garrison Cluster</name>
         <name ifRating="SL">Nova Cat Regulars</name>
         <name ifFlags="cavalier">Nova Cat Cavaliers</name>
@@ -490,7 +490,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifRole="command" ifFlags="lancer">
+    <force echelon="%TRINARY%" eschName="Trinary" ifRole="command" ifFlags="lancer">
         <name>Cluster Command Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -559,7 +559,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name ifRole="command">Cluster [Command] Trinary</name>
         <name ifWeightClass="H|A"
         >{ordinal} [Assault] Trinary
@@ -586,7 +586,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
         <name ifRating="Keshik">Galaxy Command Supernova</name>
         <name ifWeightClass="H|A"
         >{ordinal} Supernova [Assault]
@@ -620,7 +620,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
         <name ifWeightClass="H|A"
         >{ordinal} [Assault] Trinary
         </name>
@@ -651,7 +651,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%BINARY%" eschName="Binary" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">Binary [Command]</name>
         <name ifWeightClass="H|A">Binary [Assault]</name>
         <name ifWeightClass="M">Binary [Battle]</name>
@@ -672,7 +672,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name ifRating="Keshik">{ordinal} {phonetic:parent} Command</name>
         <name>{phonetic} {name:parent}</name>
         <co>%STAR_CMDR%</co>
@@ -744,7 +744,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
         <name ifRating="Keshik">{ordinal} {phonetic:parent} Command Nova</name>
         <name ifRole="command">{phonetic} Command Nova</name>
         <name>{phonetic} Nova</name>
@@ -813,7 +813,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank">
         <name>{phonetic} {name:parent}</name>
         <co>%STAR_CMDR%</co>
 
@@ -856,7 +856,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
         <name ifRating="Keshik">{ordinal} Fighter {phonetic:parent} Command</name>
         <name>{phonetic} Fighter Star</name>
         <co>%STAR_CMDR%</co>
@@ -883,7 +883,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
         <name ifRating="Keshik" ifUnitType="BattleArmor">{ordinal} BattleArmor {phonetic:parent} Command</name>
         <name ifRating="Keshik" ifUnitType="BattleArmor">{ordinal} Infantry {phonetic:parent} Command</name>
         <name>{phonetic} {name:parent} Star</name>
@@ -905,7 +905,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Naval Star" ifUnitType="Warship" ifFlags="navalFluff">
+    <force echelon="%STAR%" eschName="Naval Star" ifUnitType="Warship" ifFlags="navalFluff">
         <name>Naval Star</name>
         <co>%GALAXY_CMDR%</co>
 

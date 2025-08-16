@@ -21,7 +21,7 @@
 
     <defaults>
         <unitType>Mek</unitType>
-        <eschelon>%DIVISION%</eschelon>
+        <echelon>%DIVISION%</echelon>
         <rankSystem>%RANK_FC%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -32,7 +32,7 @@
             <option>Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%DIVISION%</option>
             <option ifUnitType="Mek|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Tank">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
@@ -40,7 +40,7 @@
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter">%GROUP%,%WING%,%SQUADRON%,%FLIGHT%</option>
             <option ifUnitType="Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>

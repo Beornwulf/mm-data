@@ -27,7 +27,7 @@ Infantry are poorly trained and equipped. -->
     <defaults>
         <unitType ifDateBetween=",2575">Tank</unitType>
         <unitType>Mek</unitType>
-        <eschelon>%BATTALION%</eschelon>
+        <echelon>%BATTALION%</echelon>
         <rankSystem>%RANK_SL%</rankSystem>
         <rating>D</rating>
     </defaults>
@@ -39,19 +39,19 @@ Infantry are poorly trained and equipped. -->
             <option>Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -106,7 +106,7 @@ Infantry are poorly trained and equipped. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Mek">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -153,7 +153,7 @@ Infantry are poorly trained and equipped. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -189,7 +189,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 
@@ -282,7 +282,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Tank">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -319,7 +319,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Tank">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -387,7 +387,7 @@ Infantry are poorly trained and equipped. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Tank">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -431,7 +431,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Platoon" ifUnitType="Tank">
+    <force echelon="%LANCE%" eschName="Platoon" ifUnitType="Tank">
         <name>{formation} Platoon</name>
         <co>%LT%</co>
 
@@ -533,7 +533,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="VTOL">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="VTOL">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -541,7 +541,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="VTOL">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="VTOL">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
         <xo>%CAPTAIN%</xo>
@@ -551,7 +551,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="VTOL">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="VTOL">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
@@ -562,7 +562,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="VTOL">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="VTOL">
         <co>%LT%</co>
 
         <formation>
@@ -578,7 +578,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -616,7 +616,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -663,7 +663,7 @@ Infantry are poorly trained and equipped. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
         <name>{alpha} Engineer Company</name>
         <co>%CAPTAIN%</co>
 
@@ -675,7 +675,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="field_gun">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="field_gun">
         <name>{alpha} Field Gun Company</name>
         <co>%CAPTAIN%</co>
 
@@ -684,7 +684,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
            ifRole="artillery|missile_artillery">
         <name>{ordinal} Field Artillery Company</name>
         <co>%CAPTAIN%</co>
@@ -694,7 +694,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{ordinal} Company</name>
         <co>%CAPTAIN%</co>
         <!--
@@ -748,11 +748,11 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Platoon" ifUnitType="Infantry">
+    <force echelon="%PLATOON%" eschName="Platoon" ifUnitType="Infantry">
         <co>%LT%</co>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
+    <force echelon="%PLATOON%" eschName="Platoon" ifUnitType="BattleArmor">
         <co>%LT%</co>
 
         <subforces generate="group">
@@ -760,11 +760,11 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%SQUAD%" eschName="Squad" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%SQUAD%" eschName="Squad" ifUnitType="Infantry|BattleArmor">
         <co>%SGT%</co>
     </force>
 
-    <force eschelon="%GROUP%" eschName="Regiment" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%GROUP%" eschName="Regiment" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -793,7 +793,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>
@@ -832,7 +832,7 @@ Infantry are poorly trained and equipped. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{phonetic} Squadron</name>
         <co>%CAPTAIN%</co>
 
@@ -884,7 +884,7 @@ Infantry are poorly trained and equipped. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Flight" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>Flight {cardinal}</name>
         <co>%LT%</co>
 

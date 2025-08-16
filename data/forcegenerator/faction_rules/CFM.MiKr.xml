@@ -20,7 +20,7 @@
 <ruleset faction="CFM.MiKr" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,12 +32,12 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="BattleArmor">%CLUSTER%,%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option ifUnitType="Mek|AeroSpaceFighter" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
@@ -53,7 +53,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%GALAXY%" eschName="Kindraa">
+    <force echelon="%GALAXY%" eschName="Kindraa">
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
@@ -92,7 +92,7 @@
     <!--BA cluster includes a command ASF/BA binary supernova, two
     binaries of BA, and a Mek/BA binary supernova.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="BattleArmor">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="BattleArmor">
         <name ifWeightClass="H|A">Elemental Assault Force</name>
         <name ifWeightClass="M">Elemental Battle Force</name>
         <name ifWeightClass="L">Elemental Striker Force</name>
@@ -202,7 +202,7 @@
 
     <!--Aerospace cluster includes two ASF trinaries and one Mek/BA
      trinary.-->
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
         <name ifWeightClass="H|A">Air Assault Cluster</name>
         <name ifWeightClass="M">Air Battle Cluster</name>
         <name ifWeightClass="L">Air Striker Cluster</name>
@@ -306,7 +306,7 @@
     <!--FL cluster includes two Mek binaries, one Mek/BA binary
     (Mek  or missing prior to 2870), and two ASF binaries.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="FL">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="FL">
         <name ifWeightClass="H|A">Assault Force</name>
         <name ifWeightClass="M">Battle Force</name>
         <name ifWeightClass="L">Striker Force</name>
@@ -464,7 +464,7 @@
     <!--SL cluster includes a Mek/ASF command trinary and three
     Mek/BA trinaries (two Mek trinaries pre-2872).-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRating="SL">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRating="SL">
         <name ifWeightClass="H|A">Vanguard Assault Cluster</name>
         <name ifWeightClass="M">Vanguard Battle Cluster</name>
         <name ifWeightClass="L">Vanguard Striker Cluster</name>
@@ -640,7 +640,7 @@
     <!--Command trinary used for SL clusters, consisting of two
     Mek stars and one ASF star.-->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifFlags="mixedMekAeroSpaceFighter">
+    <force echelon="%TRINARY%" eschName="Trinary" ifFlags="mixedMekAeroSpaceFighter">
         <name>Trinary Command</name>
         <co>%STAR_COL%</co>
 

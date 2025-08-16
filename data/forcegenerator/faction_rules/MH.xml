@@ -26,7 +26,7 @@ support wing (cohort). -->
 <ruleset faction="MH" parent="Periphery" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_MH%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -37,13 +37,13 @@ support wing (cohort). -->
             <option>null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%REGIMENT%,%BATTALION%</option>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -54,7 +54,7 @@ support wing (cohort). -->
         </flags>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Legion" ifFlags="auxiliary">
+    <force echelon="%REGIMENT%" eschName="Legion" ifFlags="auxiliary">
         <name>{latin} Auxilia</name>
         <co>%COLONEL%</co>
 
@@ -73,7 +73,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Legion">
+    <force echelon="%REGIMENT%" eschName="Legion">
         <name>{roman} Legio</name>
         <co position="0">%COLONEL%</co>
 
@@ -97,7 +97,7 @@ support wing (cohort). -->
         </attachedForces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Cohort" ifUnitType="Mek">
+    <force echelon="%BATTALION%" eschName="Cohort" ifUnitType="Mek">
         <name>{latin} Cohors</name>
         <co>%MAJOR%</co>
 
@@ -132,7 +132,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Cohort" ifUnitType="Tank">
+    <force echelon="%BATTALION%" eschName="Cohort" ifUnitType="Tank">
         <name>{latin} Cohors</name>
         <co>%MAJOR%</co>
 
@@ -181,7 +181,7 @@ support wing (cohort). -->
         </attachedForces>
     </force>
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{latin:distinct} Ala</name>
         <co>%MAJOR%</co>
 
@@ -226,7 +226,7 @@ support wing (cohort). -->
     appropriate rule, while combined arms cohorts do not set a unit type for their
     maniples. -->
 
-    <force eschelon="%BATTALION%" eschName="Cohort">
+    <force echelon="%BATTALION%" eschName="Cohort">
         <name>{latin} Cohors</name>
         <co>%MAJOR%</co>
 
@@ -272,7 +272,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Maniple" ifUnitType="Mek">
+    <force echelon="%COMPANY%" eschName="Maniple" ifUnitType="Mek">
         <name>{latin} Manipulus</name>
         <co>%CAPTAIN%</co>
 
@@ -304,7 +304,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Maniple" ifUnitType="Tank">
+    <force echelon="%COMPANY%" eschName="Maniple" ifUnitType="Tank">
         <name>{latin} Manipulus</name>
         <co>%CAPTAIN%</co>
 
@@ -345,7 +345,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Maniple" ifUnitType="VTOL">
+    <force echelon="%COMPANY%" eschName="Maniple" ifUnitType="VTOL">
         <co>%CAPTAIN%</co>
         <xo>%LT%</xo>
 
@@ -354,7 +354,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{latin} Manipulus</name>
         <co>%CAPTAIN%</co>
 
@@ -407,7 +407,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Maniple" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%SQUADRON%" eschName="Maniple" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{latin} Manipulus</name>
         <co>%CAPTAIN%</co>
 
@@ -448,7 +448,7 @@ support wing (cohort). -->
 
     <!-- In a combined arms cohort all the maniples will be pure formations. -->
 
-    <force eschelon="%COMPANY%" eschName="Maniple">
+    <force echelon="%COMPANY%" eschName="Maniple">
         <name>{latin} Manipulus</name>
         <co>%CAPTAIN%</co>
 
@@ -486,7 +486,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Century" ifUnitType="Mek">
+    <force echelon="%LANCE%" eschName="Century" ifUnitType="Mek">
         <name>{latin:parent} Centuria {roman}</name>
         <co>%LT%</co>
 
@@ -566,7 +566,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Century" ifUnitType="Tank">
+    <force echelon="%LANCE%" eschName="Century" ifUnitType="Tank">
         <name>{latin:parent} Centuria {roman}</name>
         <co>%LT%</co>
 
@@ -651,7 +651,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%LANCE%" eschName="Century" ifUnitType="VTOL">
+    <force echelon="%LANCE%" eschName="Century" ifUnitType="VTOL">
         <co>%LT%</co>
 
         <formation>
@@ -667,7 +667,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Century" ifUnitType="Infantry" ifRole="engineer">
+    <force echelon="%COMPANY%" eschName="Century" ifUnitType="Infantry" ifRole="engineer">
         <name>{latin} Manipulus Mechanicus</name>
         <co>%CAPTAIN%</co>
 
@@ -679,7 +679,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Century" ifUnitType="Infantry" ifRole="field_gun">
+    <force echelon="%COMPANY%" eschName="Century" ifUnitType="Infantry" ifRole="field_gun">
         <co>%CAPTAIN%</co>
 
         <subforces generate="group">
@@ -687,7 +687,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Century" ifUnitType="Infantry"
+    <force echelon="%COMPANY%" eschName="Century" ifUnitType="Infantry"
            ifRole="artillery|missile_artillery">
         <co>%CAPTAIN%</co>
 
@@ -696,12 +696,12 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Century" ifUnitType="Infantry">
+    <force echelon="%PLATOON%" eschName="Century" ifUnitType="Infantry">
         <name>{latin:parent} Centuria {roman}</name>
         <co>%LT%</co>
     </force>
 
-    <force eschelon="%PLATOON%" eschName="Century" ifUnitType="BattleArmor">
+    <force echelon="%PLATOON%" eschName="Century" ifUnitType="BattleArmor">
         <name>{latin:parent} Centuria {roman}</name>
         <co>%LT%</co>
 
@@ -710,7 +710,7 @@ support wing (cohort). -->
         </subforces>
     </force>
 
-    <force eschelon="%SQUAD%" eschName="Contubernium" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%SQUAD%" eschName="Contubernium" ifUnitType="Infantry|BattleArmor">
         <co>%SGT%</co>
     </force>
 
@@ -719,7 +719,7 @@ support wing (cohort). -->
     still fit the requirements of the capital fighter squadron rule in StratOps,
     allowing the maniple to be split 5/5. -->
 
-    <force eschelon="%FLIGHT%" eschName="Century" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Century" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{latin:parent} Centuria {roman}</name>
         <co>%LT%</co>
 

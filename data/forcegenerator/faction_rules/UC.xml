@@ -25,7 +25,7 @@ but a wing per corps seemed reasonable. -->
 <ruleset faction="UC" parent="Periphery" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%BRIGADE%</eschelon>
+        <echelon>%BRIGADE%</echelon>
         <rankSystem>%RANK_CUSTOM%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -43,19 +43,19 @@ but a wing per corps seemed reasonable. -->
             <option>null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="Mek|Tank|VTOL">%LANCE%</option>
             <option ifUnitType="Infantry">%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%BRIGADE%" eschName="Corps">
+    <force echelon="%BRIGADE%" eschName="Corps">
         <co>%COLONEL%</co>
 
         <subforces>
@@ -70,7 +70,7 @@ but a wing per corps seemed reasonable. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="">
         <co>%COLONEL%</co>
 
         <weightClass>
@@ -109,7 +109,7 @@ but a wing per corps seemed reasonable. -->
         </subforces>
     </force>
 
-    <force eschelon="%BATTALION%" eschName="Battalion" ifUnitType="">
+    <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="">
         <name>{ordinal} Battalion</name>
         <co>%MAJOR%</co>
 
@@ -148,7 +148,7 @@ but a wing per corps seemed reasonable. -->
     1-2 battalions total. The first lance will be either Mek or armor, the second either
     armor or infantry, and the third will always be infantry. -->
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="">
         <name ifRole="command">Command Company</name>
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>

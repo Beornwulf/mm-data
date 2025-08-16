@@ -31,7 +31,7 @@ expanding to a full wing per regiment by the Dark Age. -->
     <defaults>
         <unitType ifFaction="MOC.RC" ifDateBetween=",3062">Infantry</unitType>
         <unitType>Mek</unitType>
-        <eschelon>%REGIMENT%</eschelon>
+        <echelon>%REGIMENT%</echelon>
         <rankSystem>%RANK_MOC%</rankSystem>
         <rating>C</rating>
     </defaults>
@@ -42,19 +42,19 @@ expanding to a full wing per regiment by the Dark Age. -->
             <option>Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek">
         <name ifFaction="MOC.MRG">{ordinal} Canopian Cuirassiers</name>
         <name ifFaction="MOC.CC">{ordinal} Canopian Light Horse</name>
         <name ifFaction="MOC.CF">{ordinal} Canopian Fusiliers</name>
@@ -153,7 +153,7 @@ expanding to a full wing per regiment by the Dark Age. -->
         </attachedForces>
     </force>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Infantry">
         <name ifDateBetween=",3062" ifFaction="MOC.RC">{ordinal} Raventhir Footmen</name>
         <co>%COLONEL%</co>
 
@@ -169,7 +169,7 @@ expanding to a full wing per regiment by the Dark Age. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
            ifRole="artillery|missile_artillery">
         <name>{ordinal} Field Artillery Company</name>
         <co>%CAPTAIN%</co>
@@ -179,7 +179,7 @@ expanding to a full wing per regiment by the Dark Age. -->
         </subforces>
     </force>
 
-    <force eschelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
+    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name>{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
@@ -231,7 +231,7 @@ expanding to a full wing per regiment by the Dark Age. -->
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Air Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <force echelon="%FLIGHT%" eschName="Air Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%LT%</co>
 
         <weightClass>

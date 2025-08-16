@@ -30,7 +30,7 @@ but with more independence.-->
 <ruleset faction="CDS" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem ifDateBetween="3100,">%RANK_CUSTOM%</rankSystem>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
@@ -48,12 +48,12 @@ but with more independence.-->
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship|Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">SL:Spina,PG:Garrison,Sol:Solahma</option>
@@ -70,7 +70,7 @@ but with more independence.-->
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo ifDateBetween=",3099">%SAKHAN%</xo>
 
@@ -139,7 +139,7 @@ but with more independence.-->
         </subforces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Khanate" ifDateBetween="3100,">
+    <force echelon="%GALAXY%" eschName="Khanate" ifDateBetween="3100,">
         <name>{greek} Khanate</name>
         <co>%SAKHAN%</co>
 
@@ -168,7 +168,7 @@ but with more independence.-->
         </subforces>
     </force>
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -197,7 +197,7 @@ but with more independence.-->
     comprised of three trinaries of ASFs and either one BA trinary or
     one supernova trinary.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="airAssault">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="airAssault">
         <name>Air Assault Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -261,7 +261,7 @@ but with more independence.-->
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifDateBetween="3100,">{greek} Aimag</name>
         <name ifRole="command" ifFlags="alpha">The Diamond Skate</name>
         <name ifRole="command" ifFlags="beta">The Pearl Skate</name>
@@ -781,7 +781,7 @@ but with more independence.-->
     simpler. Given the Sea Fox/Diamond Shark affinity for aerospace, it
     does not seem unreasonable to me to allow it from the beginning. -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifRole="command">
+    <force echelon="%TRINARY%" eschName="Trinary" ifRole="command">
         <name>Command Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -1013,7 +1013,7 @@ but with more independence.-->
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifFlags="commandStar" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Star" ifFlags="commandStar" ifUnitType="Mek">
         <name>Command Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -1110,7 +1110,7 @@ but with more independence.-->
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Naval Star" ifUnitType="Warship"
+    <force echelon="%STAR%" eschName="Naval Star" ifUnitType="Warship"
            ifDateBetween="2986,3099" ifFlags="navalFluff">
         <name>Warship Star {phonetic}</name>
         <co>%GALAXY_CMDR%</co>
@@ -1178,7 +1178,7 @@ but with more independence.-->
 
     <!--Same as previous entry, but with fluff names
     reflecting the original name of the Clan-->
-    <force eschelon="%STAR%" eschName="Naval Star" ifUnitType="Warship"
+    <force echelon="%STAR%" eschName="Naval Star" ifUnitType="Warship"
            ifDateBetween=",2985" ifFlags="navalFluff">
         <name>Warship Star {phonetic}</name>
         <co>%GALAXY_CMDR%</co>

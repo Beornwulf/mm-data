@@ -21,8 +21,8 @@
 
     <defaults>
         <unitType>Mek</unitType>
-        <eschelon ifDateBetween=",3075">%REGIMENT%</eschelon>
-        <eschelon ifDateBetween="3076,">%CLUSTER%</eschelon>
+        <echelon ifDateBetween=",3075">%REGIMENT%</echelon>
+        <echelon ifDateBetween="3076,">%CLUSTER%</echelon>
         <rankSystem ifDateBetween=",3075">%RANK_FRR%</rankSystem>
         <rankSystem ifDateBetween="3076,">%RANK_CLAN%</rankSystem>
         <rating>C</rating>
@@ -38,7 +38,7 @@
             <option>Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifDateBetween="3076," ifUnitType="">%GALAXY%,%CLUSTER%</option>
             <option ifDateBetween="3076," ifUnitType="VTOL">%STAR%</option>
             <option ifDateBetween="3076,">%TRINARY%,%BINARY%,%STAR%</option>
@@ -47,14 +47,14 @@
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
             <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%^,%SQUADRON%,%FLIGHT%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
 
-    <force eschelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek" ifDateBetween=",3075">
+    <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek" ifDateBetween=",3075">
         <name ifWeightClass="A" ifDateBetween="3034,3051">Eagles</name>
         <name ifWeightClass="A">{ordinal} Tyr</name>
         <name ifWeightClass="H">{ordinal} Drakøns</name>
@@ -94,7 +94,7 @@
     </force>
 
     <!-- Higher chance of close combat/berserker lance  -->
-    <force eschelon="%LANCE%" eschName="Lance" ifUnitType="Mek" ifDateBetween=",3075">
+    <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek" ifDateBetween=",3075">
         <name>{formation} Lance</name>
         <co>%LT%</co>
 
@@ -175,7 +175,7 @@
     chosen to follow DC organization. This gives a FRR wing 36 fighters, which puts it
     between DC (54) and standard IS (18). -->
 
-    <force eschelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween=",3075">
+    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween=",3075">
         <co>%LT_COLONEL%</co>
 
         <weightClass>
@@ -234,7 +234,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Company" ifAugmented="1"
+    <force echelon="%SQUADRON%" eschName="Company" ifAugmented="1"
            ifDateBetween=",3075" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
@@ -281,7 +281,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%SQUADRON%" eschName="Flight" ifAugmented="0"
+    <force echelon="%SQUADRON%" eschName="Flight" ifAugmented="0"
            ifDateBetween=",3075" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <name>{formation} Flight</name>
         <co>%CAPTAIN%</co>
@@ -322,7 +322,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%FLIGHT%" eschName="Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween=",3075">
+    <force echelon="%FLIGHT%" eschName="Lance" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween=",3075">
         <name>Lance {cardinal}</name>
         <co>%LT%</co>
 
@@ -342,7 +342,7 @@
     I used the same date for all three. Being garrison units, they would probably be organized
     along the lines of Ghost Bear phalanx clusters. -->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy" ifDateBetween="3076,">
+    <force echelon="%GALAXY%" eschName="Galaxy" ifDateBetween="3076,">
         <name ifWeightClass="H|A">Tundra Galaxy</name>
         <name ifWeightClass="M">Taiga Galaxy</name>
         <name ifWeightClass="L">Polar Galaxy</name>
@@ -372,7 +372,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifDateBetween="3076,">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifDateBetween="3076,">
         <name ifRole="cavalry">{ordinal} Kavalleri Cluster</name>
         <name ifWeightClass="H|A">{ordinal} Drakøn Cluster</name>
         <name ifWeightClass="M">{ordinal} Freemen Cluster</name>
@@ -482,7 +482,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek|Tank" ifDateBetween="3076,">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek|Tank" ifDateBetween="3076,">
         <name ifRole="command">Trinary [Command]</name>
         <name ifWeightClass="H|A"
         >{ordinal:distinct} Trinary [Assault]
@@ -530,7 +530,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
         <name>Fighter Binary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -545,7 +545,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
         <name>Fighter Binary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -560,7 +560,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
         <name>Infantry Binary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -576,7 +576,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
         <name>Infantry Binary</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -592,7 +592,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Mek" ifDateBetween="3076,">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Mek" ifDateBetween="3076,">
         <name>{phonetic} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -689,7 +689,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank|VTOL" ifDateBetween="3076,">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank|VTOL" ifDateBetween="3076,">
         <name>{phonetic} {name:parent} Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -774,7 +774,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
         <name ifUnitType="BattleArmor">{phonetic} Elemental Star</name>
         <name>{phonetic} Infantry Star</name>
         <co>%STAR_CMDR%</co>
@@ -796,7 +796,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter|Conventional Fighter" ifDateBetween="3076,">
         <name>{phonetic} Fighter Star</name>
         <co>%STAR_CMDR%</co>
 
@@ -822,7 +822,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%POINT%" eschName="Point" ifDateBetween="3076,">
+    <force echelon="%POINT%" eschName="Point" ifDateBetween="3076,">
         <name>Point {cardinal}</name>
         <co>%POINT_CMDR%</co>
 
@@ -852,7 +852,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%ELEMENT%" eschName="Point" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
+    <force echelon="%ELEMENT%" eschName="Point" ifUnitType="BattleArmor|Infantry" ifDateBetween="3076,">
         <co>%POINT_CMDR%</co>
     </force>
 </ruleset>

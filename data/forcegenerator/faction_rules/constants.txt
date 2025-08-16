@@ -20,7 +20,7 @@
 #These values can be used in the faction rule files when a numeric value is required.
 #Unlike xml entities, they can be used in attributes.
 
-#General eschelon constants for IS/Periphery
+#General echelon constants for IS/Periphery
 ELEMENT:1
 SQUAD:2
 LANCE:3
@@ -42,7 +42,7 @@ AIR_REGIMENT:7
 #Eschelon alias for infantry
 PLATOON:3
 
-#Clan eschelon levels
+#Clan echelon levels
 POINT:2
 STAR:3
 BINARY:4
@@ -51,7 +51,7 @@ CLUSTER:6
 GALAXY:7
 TOUMAN:8
 
-#ComStar/WoB eschelon constants
+#ComStar/WoB echelon constants
 LEVEL_I:2
 LEVEL_II:3
 CHOIR:4

@@ -20,7 +20,7 @@
 <ruleset faction="CSR" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -32,13 +32,13 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%</option>
             <option ifUnitType="Warship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option ifUnitType="AeroSpaceFighter">%CLUSTER%,%TRINARY%,%BINARY%,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="" ifEschelon="%TRINARY%">SL:Second Line,PG:Provisional Garrison,Sol:Solahma</option>
@@ -56,7 +56,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co position="1">%KHAN%</co>
         <xo position="2">%SAKHAN%</xo>
 
@@ -110,7 +110,7 @@
     </force>
 
     <!-- The short-lived Zeta Galaxy has a high proportion of Protos. -->
-    <force eschelon="%GALAXY%" eschName="Galaxy" ifFlags="proto">
+    <force echelon="%GALAXY%" eschName="Galaxy" ifFlags="proto">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -123,7 +123,7 @@
     (battle or striker), one of which is a wing cluster, and the fourth can be either of these
     or a phalanx or stoop cluster. SL have two auxiliary/guard and 1-3 garrison, and possibly a phalanx.
     Most galaxies also have a solahma cluster. -->
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name ifRating="SL|PG|Sol">{greek} Garrison Galaxy</name>
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
@@ -166,7 +166,7 @@
 
     <!-- Wing clusters have four ASF trinaries. -->
 
-    <force eschelon="%CLUSTER%" eschName="Wing Cluster" ifUnitType="AeroSpaceFighter">
+    <force echelon="%CLUSTER%" eschName="Wing Cluster" ifUnitType="AeroSpaceFighter">
         <name>Raven Wing</name>
         <co>%STAR_COL%</co>
 
@@ -180,7 +180,7 @@
     2 BA, 1 Mek, 1 ASF, and 1 Mek|BA. Phalanx Mek trinaries have a higher chance of being a SN.
      -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifFlags="phalanx">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifFlags="phalanx">
         <name>Raven Phalanx</name>
         <co>%STAR_COL%</co>
 
@@ -345,7 +345,7 @@
     auxiliary clusters, but having them correspond to battle and striker seems reasonable.
     FL and Keshiks use standard Clan formations. SL, PG, and Solahma use combined arms triads. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifFlags="phalanx">Raven Phalanx</name>
         <name ifFlags="proto">Raven Chasseurs</name>
         <name ifRating="PG">Raven Garrison</name>
@@ -381,7 +381,7 @@
     is done at the Star level. The Corvus Keshik is also a mixed Mek/BA/ASF trinary,
     but does not match the replacement rule. -->
 
-    <force eschelon="%TRINARY%" eschName="Triad" ifUnitType="">
+    <force echelon="%TRINARY%" eschName="Triad" ifUnitType="">
         <name>Triad {phonetic:distinct}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -512,7 +512,7 @@
     <!-- TO&Es indicate standard use of trinaries. The testTrinary flag is used to check
     for a supernova. -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
         <name ifWeightClass="H|A">Trinary [Battle] {phonetic:distinct}</name>
         <name ifWeightClass="M|L">Trinary [Striker] {phonetic:distinct}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -554,7 +554,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
         <name ifWeightClass="H|A"
         >Supernova [Battle] {phonetic:distinct}
         </name>
@@ -579,7 +579,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
         <name>Trinary {phonetic:distinct}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -602,7 +602,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
         <name>Trinary [Fighter] {phonetic:distinct}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -621,7 +621,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry|ProtoMek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry|ProtoMek">
         <name ifUnitType="BattleArmor">Trinary [Elemental] {phonetic:distinct}</name>
         <name ifUnitType="Infantry">Trinary [Infantry] {phonetic:distinct}</name>
         <name ifUnitType="ProtoMek">Trinary [ProtoMek] {phonetic:distinct}</name>
@@ -648,7 +648,7 @@
     <!-- This rule catches Mek and BA stars from triads (not including the Corvus Keshik)
     and redirects some to tank or infantry.-->
 
-    <force eschelon="%STAR%" ifFlags="triad" ifUnitType="Mek|BattleArmor" ifRating="SL|PG|Sol">
+    <force echelon="%STAR%" ifFlags="triad" ifUnitType="Mek|BattleArmor" ifRating="SL|PG|Sol">
         <co>%STAR_CMDR%</co>
 
         <changeEschelon ifUnitType="Mek">
@@ -666,7 +666,7 @@
         </changeEschelon>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Mek|ProtoMek">
         <name>{ordinal} {name:parent}</name>
         <co>%STAR_CMDR%</co>
 
@@ -730,7 +730,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
         <name>{ordinal} {name:parent}</name>
         <co>%STAR_CMDR%</co>
         <xo unitType="other">%STAR_CMDR%</xo>
@@ -797,7 +797,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank">
         <name>{ordinal} {name:parent}</name>
         <co>%STAR_CMDR%</co>
 
@@ -840,7 +840,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
         <name>{ordinal} {name:parent}</name>
         <co>%STAR_CMDR%</co>
 
@@ -866,7 +866,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
         <name>{ordinal} {name:parent}</name>
         <co>%STAR_CMDR%</co>
 
@@ -886,7 +886,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Warship" ifFlags="navalFluff" ifDateBetween=",3070">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Warship" ifFlags="navalFluff" ifDateBetween=",3070">
         <name ifRating="Keshik">Fleet Command Star</name>
         <name ifFlags="alpha">Swift Wing Naval Assault Star</name>
         <name ifFlags="beta">Storm Crow Naval Pursuit Star</name>
@@ -1038,7 +1038,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Warship" ifFlags="navalFluff" ifDateBetween="3071,">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Warship" ifFlags="navalFluff" ifDateBetween="3071,">
         <name>Naval Star</name>
         <co>%GALAXY_CMDR%</co>
 

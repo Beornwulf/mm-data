@@ -21,7 +21,7 @@
          xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%STAR%</eschelon>
+        <echelon>%STAR%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -31,13 +31,13 @@
             <option>Mek,ProtoMek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="Tank|VTOL">%STAR%,%POINT%</option>
             <option>%BINARY%,%STAR%,%POINT%</option>
-        </eschelon>
+        </echelon>
     </toc>
 
-    <force eschelon="%BINARY%" eschName="Sept">
+    <force echelon="%BINARY%" eschName="Sept">
         <co>%STAR_CAPTAIN%</co>
 
         <weightClass>
@@ -91,7 +91,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Trey">
+    <force echelon="%STAR%" eschName="Trey">
         <co>%STAR_CMDR%</co>
 
         <weightClass>
@@ -181,7 +181,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%POINT%" eschName="Un" ifUnitType="Tank|VTOL">
+    <force echelon="%POINT%" eschName="Un" ifUnitType="Tank|VTOL">
         <co>%STAR_CMDR%</co>
 
         <weightClass>
@@ -235,7 +235,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%POINT%" eschName="Un"
+    <force echelon="%POINT%" eschName="Un"
            ifUnitType="Infantry|ProtoMek|AeroSpaceFighter|Conventional Fighter">
         <co>%POINT_CMDR%</co>
 
@@ -284,5 +284,5 @@
     </force>
 
 
-    <force eschelon="%POINT%" eschName="Un" />
+    <force echelon="%POINT%" eschName="Un" />
 </ruleset>

@@ -20,7 +20,7 @@
 <ruleset faction="CS" ratingSystem="SL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%LEVEL_IV%</eschelon>
+        <echelon>%LEVEL_IV%</echelon>
         <rankSystem>%RANK_CS%</rankSystem>
         <rating>A</rating>
     </defaults>
@@ -52,9 +52,9 @@
             <option>null</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option>%LEVEL_IV%,%LEVEL_III%,%LEVEL_II%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
@@ -65,7 +65,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%LEVEL_IV%" eschName="Level IV">
+    <force echelon="%LEVEL_IV%" eschName="Level IV">
         <name ifFlags="alpha">IV-alpha</name>
         <name ifFlags="beta">IV-beta</name>
         <name ifFlags="gamma">IV-gamma</name>
@@ -174,7 +174,7 @@
 
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="alpha">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="alpha">
         <name>III-alpha</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -198,7 +198,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="gamma">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="gamma">
         <name>III-gamma</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -210,7 +210,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="delta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="delta">
         <name>III-delta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -235,7 +235,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="epsilon">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="epsilon">
         <name>III-epsilon</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -269,7 +269,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="zeta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="zeta">
         <name>III-zeta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -282,7 +282,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="eta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="eta">
         <name>III-eta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -316,7 +316,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="theta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="theta">
         <name>III-theta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -328,7 +328,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="iota">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="iota">
         <name>III-iota</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -341,7 +341,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="kappa">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="kappa">
         <name>III-kappa</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -368,7 +368,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="lambda">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="lambda">
         <name>III-lambda</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -380,7 +380,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="mu">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="mu">
         <name>III-mu</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -393,7 +393,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="nu">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="nu">
         <name>III-nu</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -407,7 +407,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="xi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="xi">
         <name>III-xi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -434,7 +434,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="omicron">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="omicron">
         <name>III-omicron</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -447,7 +447,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="pi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="pi">
         <name>III-pi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -460,7 +460,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="rho">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="rho">
         <name>III-rho</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -472,7 +472,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="sigma">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="sigma">
         <name>III-sigma</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -526,7 +526,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="tau">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="tau">
         <name>III-tau</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -539,7 +539,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="upsilon">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="upsilon">
         <name>III-upsilon</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -552,7 +552,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="phi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="phi">
         <name>III-phi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -595,7 +595,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="psi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifRole="command" ifFlags="psi">
         <name>III-psi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -607,7 +607,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="alpha">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="alpha">
         <name>III-alpha</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -631,7 +631,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="beta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="beta">
         <name>III-beta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -662,7 +662,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="gamma">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="gamma">
         <name>III-gamma</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -674,7 +674,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="delta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="delta">
         <name>III-delta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -698,7 +698,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="epsilon">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="epsilon">
         <name>III-epsilon</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -710,7 +710,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="zeta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="zeta">
         <name>III-zeta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -722,7 +722,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="eta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="eta">
         <name>III-eta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -735,7 +735,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="theta">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="theta">
         <name>III-theta</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -746,7 +746,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="iota">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="iota">
         <name>III-iota</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -759,7 +759,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="kappa">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="kappa">
         <name>III-kappa</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -793,7 +793,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="lambda">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="lambda">
         <name>III-lambda</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -836,7 +836,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="mu">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="mu">
         <name>III-mu</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -879,7 +879,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="nu">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="nu">
         <name>III-nu</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -892,7 +892,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="xi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="xi">
         <name>III-xi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -914,7 +914,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="omicron">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="omicron">
         <name>III-omicron</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -927,7 +927,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="pi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="pi">
         <name>III-pi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -941,7 +941,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="rho">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="rho">
         <name>III-rho</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -954,7 +954,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="sigma">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="sigma">
         <name>III-sigma</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -966,7 +966,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="tau">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="tau">
         <name>III-tau</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -978,7 +978,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="upsilon">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="upsilon">
         <name>III-upsilon</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -990,7 +990,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="phi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="phi">
         <name>III-phi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -1033,7 +1033,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="chi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="chi">
         <name>III-chi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -1046,7 +1046,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="psi">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="psi">
         <name>III-psi</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -1058,7 +1058,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III" ifFlags="omega">
+    <force echelon="%LEVEL_III%" eschName="Level III" ifFlags="omega">
         <name>III-omega</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -1092,7 +1092,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_III%" eschName="Level III">
+    <force echelon="%LEVEL_III%" eschName="Level III">
         <name>III</name>
         <co>%DEMIPRECENTOR%</co>
 
@@ -1124,7 +1124,7 @@
         </changeEschelon>
     </force>
 
-    <force eschelon="%LEVEL_II%" eschName="Level II">
+    <force echelon="%LEVEL_II%" eschName="Level II">
         <name>II {formation}</name>
         <co>%ADEPT%</co>
 
@@ -1861,7 +1861,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%LEVEL_I%" eschName="Level I" ifUnitType="Infantry">
+    <force echelon="%LEVEL_I%" eschName="Level I" ifUnitType="Infantry">
         <name>Level I</name>
         <co>%ADEPT%</co>
 

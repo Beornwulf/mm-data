@@ -20,7 +20,7 @@
 <ruleset faction="CJF" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -39,13 +39,13 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship">%CLUSTER%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">PG:Provisional Garrison,Sol:Solahma</option>
@@ -61,7 +61,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo>%SAKHAN%</xo>
 
@@ -137,7 +137,7 @@
         </attachedForces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
+    <force echelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
         <name>Naval Reserve</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -223,7 +223,7 @@
     with around 4-6 total. This method produces at most two of each type
     and can possibly result in as few as three total clusters.-->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -295,7 +295,7 @@
     with a more varied composition. Solahma clusters frequently have
     mixed binary/trinaries or even mixed stars.-->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="PG">Provisional Garrison Cluster</name>
         <name ifRating="Sol">Dark Wing Cluster</name>
         <name ifWeightClass="A|H">Talon Cluster</name>
@@ -809,7 +809,7 @@
     of the stars also mixed. Up to 2950 (and to a lesser extent 3000)
     vehicles replace Meks.-->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifRating="Sol">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek" ifRating="Sol">
         <name ifRole="command">Command Trinary</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1013,7 +1013,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">Trinary Command</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1060,7 +1060,7 @@
     in the Jade Falcon sourcebook, a Falcon supernova appears to be
     2xNovas+1xBA.-->
 
-    <force eschelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Supernova Trinary" ifAugmented="1" ifUnitType="Mek">
         <name ifRole="command">Trinary Command</name>
         <name>Trinary {greek}</name>
         <co>%NOVA_CAPTAIN%</co>
@@ -1120,7 +1120,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
         <name ifRole="command">Trinary Command</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1156,7 +1156,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
         <name ifRole="command">Trinary Command</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1180,7 +1180,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor|Infantry">
         <name ifRole="command">Trinary Command</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1344,7 +1344,7 @@
 
     <!--Solahma binary of mixed Meks and infantry-->
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="Mek" ifRating="Sol">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="Mek" ifRating="Sol">
         <name ifRole="command">Binary Command</name>
         <name>Binary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1436,7 +1436,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="Mek">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="Mek">
         <name ifRole="command">Binary Command</name>
         <name>Binary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1466,7 +1466,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="AeroSpaceFighter">
         <name ifRole="command">Binary Command</name>
         <name>Binary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1484,7 +1484,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%BINARY%" eschName="Binary" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%BINARY%" eschName="Binary" ifUnitType="BattleArmor|Infantry">
         <name ifRole="command">Command Binary</name>
         <name>Binary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -1613,7 +1613,7 @@
     units would be likely as well, with 1-2 meks/tanks and 2-3 BA/infantry.
     -->
 
-    <force eschelon="%STAR%" eschName="Star" ifFlags="mixed">
+    <force echelon="%STAR%" eschName="Star" ifFlags="mixed">
         <name>{phonetic:parent} Mix {cardinal:distinct}</name>
         <co>%STAR_CMDR%</co>
 
@@ -1783,7 +1783,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek|ProtoMek">
         <name ifRole="command">{phonetic:parent} Com</name>
         <name ifWeightClass="H|A">{phonetic:parent} Talon {cardinal:distinct}</name>
         <name ifWeightClass="M">{phonetic:parent} Beak {cardinal:distinct}</name>
@@ -1916,7 +1916,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
         <name>{phonetic:parent} Nova {cardinal:distinct}</name>
         <co>%NOVA_CMDR%</co>
         <xo unitType="other">%STAR_CMDR%</xo>
@@ -2034,7 +2034,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank">
         <name ifRole="recon">{phonetic:parent} Probe {cardinal:distinct}</name>
         <name ifRole="fire_support">{phonetic:parent} Hold {cardinal:distinct}</name>
         <name ifWeightClass="H|A">{phonetic:parent} Shield {cardinal:distinct}</name>
@@ -2141,7 +2141,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
         <name>{phonetic:parent} Wing {cardinal:distinct}</name>
         <co>%STAR_CMDR%</co>
 
@@ -2200,7 +2200,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="ProtoMek">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="ProtoMek">
         <name ifRole="command">{phonetic:parent} Com</name>
         <name ifWeightClass="H|A">{phonetic:parent} Talon {cardinal:distinct}</name>
         <name ifWeightClass="M">{phonetic:parent} Beak {cardinal:distinct}</name>
@@ -2258,7 +2258,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
         <name>{phonetic:parent} Strider {cardinal:distinct}</name>
         <co>%STAR_CMDR%</co>
 

@@ -20,7 +20,7 @@
 <ruleset faction="CSV" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
 
     <defaults>
-        <eschelon>%CLUSTER%</eschelon>
+        <echelon>%CLUSTER%</echelon>
         <rankSystem>%RANK_CLAN%</rankSystem>
         <rating>FL</rating>
     </defaults>
@@ -31,13 +31,13 @@
             <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter,Warship,Dropship,Jumpship</option>
         </unitType>
 
-        <eschelon>
+        <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
             <option ifUnitType="Warship">%CLUSTER%</option>
             <option ifUnitType="Jumpship|Dropship">%STAR%</option>
             <option ifUnitType="Mek">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
-        </eschelon>
+        </echelon>
 
         <rating>
             <option ifUnitType="Tank|VTOL">PG:Garrison,Sol:Solahma</option>
@@ -53,7 +53,7 @@
         </flags>
     </toc>
 
-    <force eschelon="%TOUMAN%" eschName="Touman">
+    <force echelon="%TOUMAN%" eschName="Touman">
         <co position="1">%KHAN%</co>
         <xo position="1">%SAKHAN%</xo>
 
@@ -98,7 +98,7 @@
     <!-- FL galaxies contain five clusters, one of which may be solahma. There is also
     a chance of a newt (training) cluster. -->
 
-    <force eschelon="%GALAXY%" eschName="Galaxy">
+    <force echelon="%GALAXY%" eschName="Galaxy">
         <name>{greek} Galaxy</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -137,7 +137,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
+    <force echelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
         <name>Naval Reserve</name>
         <co>%GALAXY_CMDR%</co>
 
@@ -190,7 +190,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%CLUSTER%" eschName="Cluster" ifRole="training">
+    <force echelon="%CLUSTER%" eschName="Cluster" ifRole="training">
         <name>Newt Cluster</name>
         <co>%STAR_COL%</co>
 
@@ -243,7 +243,7 @@
     organization. Vees are uncommon, but are used in some SL units. Solahma units
     are assumed here to use SL organization. -->
 
-    <force eschelon="%CLUSTER%" eschName="Cluster">
+    <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="Sol">Solahma Cluster</name>
         <name ifFlags="phalanx">Phalanx</name>
         <name ifFlags="fang">Fang</name>
@@ -504,7 +504,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Mek">
         <name ifRole="training">Newt Trinary</name>
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
@@ -559,7 +559,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Tank">
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -577,7 +577,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="AeroSpaceFighter">
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -594,7 +594,7 @@
 
     <!-- BA trinaries contain one rattler (nova) star and two cobra (BA) stars. -->
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="BattleArmor">
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -660,7 +660,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%TRINARY%" eschName="Trinary" ifUnitType="Infantry">
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="Infantry">
         <name>Trinary {phonetic}</name>
         <co>%STAR_CAPTAIN%</co>
 
@@ -676,7 +676,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Star" ifAugmented="0" ifUnitType="Mek">
         <name ifRole="command">{ordinal:distinct} {phonetic:parent} Head</name>
         <name ifWeightClass="H|A">{ordinal:distinct} {phonetic:parent} Krait</name>
         <name ifWeightClass="M">{ordinal:distinct} {phonetic:parent} Boa</name>
@@ -796,7 +796,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
+    <force echelon="%STAR%" eschName="Nova" ifAugmented="1" ifUnitType="Mek">
         <name>{ordinal:distinct} {phonetic:parent} Rattler</name>
         <co>%STAR_CMDR%</co>
         <xo unitType="other">%STAR_CMDR%</xo>
@@ -914,7 +914,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="Tank">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="Tank">
         <name>{ordinal:distinct} {phonetic:parent} Asp</name>
         <co>%STAR_CMDR%</co>
 
@@ -957,7 +957,7 @@
         </subforces>
     </force>
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="BattleArmor|Infantry">
         <name ifUnitType="BattleArmor">{ordinal:distinct} {phonetic:parent} Cobra</name>
         <name ifUnitType="Infantry">{ordinal:distinct} {phonetic:parent} Viper</name>
         <co>%STAR_CMDR%</co>
@@ -980,7 +980,7 @@
     distinctive. Four of the five ASFs in the star are paired as is standard in
     ASF deployment, with one generated alone. -->
 
-    <force eschelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
+    <force echelon="%STAR%" eschName="Star" ifUnitType="AeroSpaceFighter">
         <name>{ordinal:distinct} {phonetic:parent} Adder</name>
         <co>%STAR_CMDR%</co>
 
