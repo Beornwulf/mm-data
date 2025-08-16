@@ -1,21 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
-#  Copyright (c) 2024 - The MegaMek Team. All Rights Reserved.
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
 #
-#  This file is part of MegaMek.
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
 #
-#  MegaMek is free software: you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation, either version 3 of the License, or
-#  (at your option) any later version.
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
 #
-#  MegaMek is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-#  GNU General Public License for more details.
-#
-#  You should have received a copy of the GNU General Public License
-#  along with MegaMek. If not, see <http://www.gnu.org/licenses/>.
-#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 # Based on Battlecorps Scenario 3013, To Save a Prince, originally published in FASA's "Kell Hounds" sourcebook
 MMSVersion: 2
 name: To Save a Prince
@@ -24,7 +23,7 @@ description: |
   Prince Ian Davion commands the Fourth Davion Guards in an attempt to repel the Combine invasion on
   Mallory's World. After Kurita successes against the planetary defenders, the prince summoned a Kell
   Hounds Regiment.
-  
+
   *Goal: Playing as Zakahashi's Zombies, break through the Kell Hounds forces.*
 
 map:
@@ -52,7 +51,7 @@ factions:
     - trigger:
         type: fledunits
         units: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ]
-        atleast: 6
+        atLeast: 6
 
   units:
   - fullname: BattleMaster BLR-1G
@@ -342,7 +341,7 @@ messages:
       type: fledunits
       modify: once
       units: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ]
-      atleast: 1
+      atLeast: 1
       atmost: 2
 
   - header: Another Unit Safe
@@ -383,7 +382,7 @@ messages:
       type: fledunits
       modify: [ atend, once ]
       units: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ]
-      atleast: 6
+      atLeast: 6
 
 end:
   - trigger:
@@ -393,7 +392,7 @@ end:
       type: killedunits
       units: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ]
       # can't get through with half the force anymore when 7 are killed
-      atleast: 7
+      atLeast: 7
 
   - trigger:
       type: roundend
