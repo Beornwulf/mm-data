@@ -68,6 +68,8 @@ tasks.register<Copy>("stageMMFiles") {
         include("scenarios/**/*.*")
         include("sounds/**/*.*")
         include("universe/eras.xml")
+        include("universe/commands/**/*.*")
+        include("universe/factions/**/*.*")
     }
 
     from(stagingFolder) {
