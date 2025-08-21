@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-wsize 11 11
+size 11 11
 tag "GrassTheme (Auto)"
 tag "Impassable (Auto)"
 tag "HardenedBuilding (Auto)"
