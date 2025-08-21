@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="4.8186667"
-     inkscape:cx="287.83896"
-     inkscape:cy="187.70752"
-     inkscape:window-width="1920"
-     inkscape:window-height="1121"
-     inkscape:window-x="-7"
-     inkscape:window-y="-7"
+     inkscape:zoom="6.81"
+     inkscape:cx="446"
+     inkscape:cy="282"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g264" />
+     inkscape:current-layer="armor_diagram_superheavy_vee_turret" />
   <g
      style="mml-color-elements:btLogo,cglLogo"
      id="rs_template">
@@ -1670,6 +1670,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="sensor_hit_4" />
         <text
            x="128.320"
@@ -1904,13 +1905,6 @@
         <g
            id="armor_diagram_superheavy_vee_turret"
            transform="translate(-400.802,-35.489748)">
-          <rect
-             fill="#ffffff"
-             x="523.401"
-             width="50"
-             id="logo_spacer"
-             y="338.289"
-             height="30" />
           <polyline
              style="fill:#c7c8ca"
              id="polyline4675"
@@ -2026,18 +2020,70 @@
                  id="path286" />
             </g>
           </g>
-          <polyline
-             style="fill:#ffffff"
+          <path
              id="polyline4679"
-             points="547.693,77.32 537.967,70.511 528.241,78.356 444.288,78.356 434.563,70.511 424.836,77.32    415.11,211.778 415.11,308.951 424.836,332.549 436.033,332.549 436.033,330.683 476.068,330.683 476.068,332.549 496.96,332.549    496.96,330.683 536.995,330.683 536.995,332.549 547.693,332.549 557.419,308.951 557.419,211.778 547.693,77.32  " />
+             style="fill:#ffffff"
+             d="M 415 211 L 436 211 L 448 137 L 454 111 L 425 77.7 L 415 211 z " />
+          <path
+             id="path228"
+             style="fill:#ffffff"
+             d="M 449 284 L 447 278 L 436 211 L 415 211 L 415 212 L 415 309 L 415 310 L 449 284 z " />
+          <path
+             id="path227"
+             style="fill:#ffffff"
+             d="M 523 284 L 523 284 L 449 284 L 449 284 L 457 311 L 515 311 L 523 284 z " />
+          <path
+             id="path226"
+             style="fill:#ffffff"
+             d="M 523 284 L 515 311 L 457 311 L 449 284 L 415 310 L 425 333 L 436 333 L 436 331 L 476 331 L 476 333 L 497 333 L 497 331 L 537 331 L 537 333 L 548 333 L 557 309 L 523 284 z " />
+          <path
+             id="path225"
+             style="fill:#ffffff"
+             d="M 537 211 L 436 211 L 447 278 L 449 284 L 449 284 L 523 284 L 523 284 L 525 278 L 537 211 z " />
+          <path
+             id="path218"
+             style="fill:#ffffff"
+             d="M 537 211 L 525 278 L 523 284 L 557 309 L 557 309 L 557 212 L 557 211 L 537 211 z " />
+          <path
+             id="path217"
+             style="fill:#ffffff"
+             d="M 518 111 L 454 111 L 448 137 L 436 211 L 537 211 L 525 139 L 518 111 z " />
+          <path
+             id="path216"
+             style="fill:#ffffff"
+             d="M 548 77.9 L 548 77.3 L 538 70.5 L 528 78.4 L 444 78.4 L 435 70.5 L 425 77.3 L 425 77.7 L 454 111 L 518 111 L 548 77.9 z " />
+          <path
+             id="path215"
+             style="fill:#ffffff"
+             d="M 548 77.9 L 518 111 L 525 139 L 537 211 L 557 211 L 548 77.9 z " />
           <polygon
              style="fill:none;stroke:#000000;stroke-width:1.45899999"
              id="polygon4681"
              points="528.241,78.356 444.288,78.356 434.563,70.511 424.836,77.32 415.11,211.778 415.11,308.951 424.836,332.548 436.034,332.548 436.034,330.682 476.068,330.682 476.068,332.548 496.961,332.548 496.961,330.682 536.996,330.682 536.996,332.548 547.693,332.548 557.419,308.951 557.419,211.778 547.693,77.32 537.967,70.511 " />
-          <polyline
-             style="fill:#c7c8ca"
+          <path
              id="polyline4683"
-             points="454.201,110.795 448.164,136.728 435.521,211.218 447.192,277.889 457.422,310.791    515.15,310.791 525.336,277.889 537.007,211.218 525.336,138.674 518.328,110.795 454.201,110.795  " />
+             style="fill:#c7c8ca"
+             d="M 436 211 L 487 211 L 487 137 L 448 137 L 436 211 z " />
+          <path
+             id="path232"
+             style="fill:#c7c8ca"
+             d="M 523 285 L 523 285 L 449 285 L 457 311 L 515 311 L 523 285 z " />
+          <path
+             id="path231"
+             style="fill:#c7c8ca"
+             d="M 487 211 L 487 211 L 436 211 L 447 278 L 449 285 L 487 285 L 487 211 z " />
+          <path
+             id="path238"
+             style="fill:#c7c8ca"
+             d="M 487 211 L 487 285 L 523 285 L 525 278 L 537 211 L 487 211 z " />
+          <path
+             id="path230"
+             style="fill:#c7c8ca"
+             d="M 525 137 L 487 137 L 487 211 L 537 211 L 525 139 L 525 137 z " />
+          <path
+             id="path229"
+             style="fill:#c7c8ca"
+             d="M 454 111 L 448 137 L 448 137 L 525 137 L 518 111 L 454 111 z " />
           <line
              y2="211.056"
              id="line4687"
@@ -2088,7 +2134,9 @@
             <polyline
                style="fill:#ffffff"
                id="polyline4697"
-               points="522.104,204.5 520.727,207.257 451.801,207.257 450.424,204.5 461.451,139.711 462.832,138.333    472.479,138.333 472.479,131.441 484.884,125.926 484.884,124.548 486.264,124.548 487.643,120.413 489.021,119.034    487.643,117.655 489.021,113.521 494.535,113.521 495.914,117.655 494.535,119.034 495.914,120.413 497.293,124.548    498.67,124.548 498.672,131.441 500.05,131.441 500.05,138.333 509.697,138.333 511.077,139.711 522.104,204.5  " />
+               points="522.104,204.5 520.727,207.257 451.801,207.257 450.424,204.5 461.451,139.711 462.832,138.333    472.479,138.333 472.479,131.441 484.884,125.926 484.884,124.548 486.264,124.548 487.643,120.413 489.021,119.034    487.643,117.655 489.021,113.521 494.535,113.521 495.914,117.655 494.535,119.034 495.914,120.413 497.293,124.548    498.67,124.548 498.672,131.441 500.05,131.441 500.05,138.333 509.697,138.333 511.077,139.711 522.104,204.5  "
+               loc="TU"
+               class="armor unitLocation" />
             <polygon
                style="fill:none;stroke:#000000;stroke-width:0.97299999"
                id="polygon4699"
@@ -2302,7 +2350,9 @@
             <polyline
                style="fill:#c7c8ca"
                id="polyline4761"
-               points="513.497,162.356 459.031,162.356 462.922,139.895 509.606,139.895 513.497,162.356  " />
+               points="513.497,162.356 459.031,162.356 462.922,139.895 509.606,139.895 513.497,162.356  "
+               class="structure unitLocation"
+               loc="TU" />
             <polygon
                style="fill:none;stroke:#000000;stroke-width:0.97299999"
                id="polygon4763"
