@@ -1670,6 +1670,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="sensor_hit_4" />
         <text
            x="128.320"
@@ -1904,13 +1905,6 @@
         <g
            id="armor_diagram_vee_turret"
            transform="matrix(1,0,0,-1,-402.67674,716.15846)">
-          <rect
-             fill="#ffffff"
-             x="520"
-             width="50"
-             id="logo_spacer"
-             y="417.26"
-             height="30" />
           <g
              transform="translate(557.6664,472.0991)"
              id="g268">

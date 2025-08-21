@@ -1393,13 +1393,6 @@
         <g
            id="armor_diagram_jumpship"
            transform="matrix(1,0,0,-1,-247.13184,720.37232)">
-          <rect
-             fill="#ffffff"
-             x="250.13184"
-             width="90"
-             id="aeroCompass_spacer"
-             y="255.37199"
-             height="50" />
           <g
              id="g2800"
              transform="translate(462.16159,548.95632)">
@@ -4213,6 +4206,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="cic_hit_3" />
         <text
            x="92.459999"
@@ -4358,6 +4352,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="thruster_left_hit_4" />
         <text
            x="95.459999"
@@ -4435,6 +4430,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="thruster_right_hit_4" />
         <text
            x="95.459999"
@@ -4544,6 +4540,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="engine_hit_6" />
         <text
            x="137.46001"

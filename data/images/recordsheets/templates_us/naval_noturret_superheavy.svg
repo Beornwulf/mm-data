@@ -3427,7 +3427,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
-           id="turret_locker_r" />
+           id="turret_locked_r" />
         <text
            x="73.080002"
            y="6"
@@ -3524,6 +3524,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="sensor_hit_4" />
         <text
            x="128.32001"
