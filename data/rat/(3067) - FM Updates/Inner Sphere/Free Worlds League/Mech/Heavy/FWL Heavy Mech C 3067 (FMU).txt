@@ -21,7 +21,7 @@ Quickdraw QKD-4G,2
 Archer ARC-4M,3
 Archer ARC-8M,4
 Thunderbolt TDR-5S,5
-Orion ON-1M,6
+Orion ON1-M,6
 Marauder MAD-5M,5
 Warhammer WHM-6R,4
 Tempest TMP-3M,3

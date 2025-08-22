@@ -16,14 +16,14 @@
 # affiliated with Microsoft.
 
 FWL Assault Vehicles 3067 (FMU)
-Schiltron,1
-Behemoth,2
-Schrek,3
-Partisan,4
-Demolisher,5
-Ontos,6
-Schrek,5
-Ontos,4
+Schiltron Mobile Fire-Support Platform Prime,1
+Behemoth Heavy Tank,2
+Schrek PPC Carrier,3
+Partisan Heavy Tank,4
+Demolisher Heavy Tank (Mk. I),5
+Ontos Heavy Tank,6
+Schrek PPC Carrier,5
+Ontos Heavy Tank,4
 Partisan Air Defense Tank (XL),3
-Behemoth,2
-SturmFeur,1
+Behemoth Heavy Tank,2
+SturmFeur Heavy Tank,1
