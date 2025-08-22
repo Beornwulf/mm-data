@@ -16,14 +16,14 @@
 # affiliated with Microsoft.
 
 FWL Light Vehicles 3067 (FMU)
-Yellow Jacket,1
-Striker,2
-Mantis,3
-Plainsman (Streak),4
-Main Gauche,5
+Yellow Jacket Gunship,1
+Striker Light Tank,2
+Mantis Light Attack VTOL,3
+Plainsman Medium Hovertank (Streak),4
+Main Gauche Light Support Tank,5
 Saracen Medium Hover Tank (MRM),6
 Hawk Moth Gunship,5
 Pegasus Scout Hover Tank (3058 Upgrade),4
-Galleon,3
+Galleon Light Tank GAL-100,3
 Saladin Assault Hover Tank (LB-X),2
 Warrior Attack Helicopter H-8,1

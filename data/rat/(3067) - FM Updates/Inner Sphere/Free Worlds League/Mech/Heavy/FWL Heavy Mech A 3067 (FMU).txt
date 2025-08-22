@@ -26,4 +26,4 @@ Archer ARC-8M,5
 Orion ON2-M,4
 Yeoman YMN-6Y,3
 Tempest TMP-3M,2
-P1 Perseus,1
+Perseus P1,1

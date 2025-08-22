@@ -18,7 +18,7 @@
 FWL Assault Mech C 3067 (FMU)
 Awesome AWS-8Q,1
 Awesome AWS-9M,2
-Cyclops CP-11A,3
+Cyclops CP-11-A,3
 Stalker STK-5M,4
 Stalker STK-3F,5
 BattleMaster BLR-1G,6

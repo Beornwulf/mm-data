@@ -17,7 +17,7 @@
 
 FWL Light Mech B 3067 (FMU)
 Raven RVN-3L,1
-Tarantula ZPH-1A,2
+Tarantula ZPH-1,2
 Wasp WSP-3M,3
 Stinger STG-5M,4
 Stinger STG-5M,5

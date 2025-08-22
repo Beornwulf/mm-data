@@ -16,14 +16,14 @@
 # affiliated with Microsoft.
 
 FWL Medium Vehicles 3067 (FMU)
-Regulator,1
-Goblin,2
-Hetzer,3
-Drillson,4
-Maxim,5
-Vedette,6
-Hetzer,5
+Regulator Hovertank,1
+Goblin Medium Tank,2
+Hetzer Wheeled Assault Gun,3
+Drillson Heavy Hover Tank,4
+Maxim Heavy Hover Transport,5
+Vedette Medium Tank,6
+Hetzer Wheeled Assault Gun,5
 Condor Heavy Hover Tank,4
-Regulator,3
-Stygian,2
+Regulator Hovertank,3
+Stygian Strike Tank,2
 Condor Heavy Hover Tank,1

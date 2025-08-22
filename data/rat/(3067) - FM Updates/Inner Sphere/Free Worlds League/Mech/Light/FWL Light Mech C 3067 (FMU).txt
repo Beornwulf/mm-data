@@ -16,8 +16,8 @@
 # affiliated with Microsoft.
 
 FWL Light Mech C 3067 (FMU)
-Tarantula ZPH-1A,1
-OstScout OTT-7J,2
+Tarantula ZPH-1,1
+Ostscout OTT-7J,2
 Stinger STG-5M,3
 Javelin JVN-10P,4
 Stinger STG-3R,5
