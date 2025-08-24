@@ -12,8 +12,12 @@
     "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
     "age": 0,
     "xpDiscount": 0,
-    "lifeStages": [],
-    "categories": [],
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
     "requirementsFactions": {
         "0": [
             "DC"

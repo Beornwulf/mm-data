@@ -12,8 +12,12 @@
     "flavorText": "I was raised in the quiet pride of the Pesht Military District—conditioned by restraint and honor, even in the absence of glory.",
     "age": 0,
     "xpDiscount": 0,
-    "lifeStages": [],
-    "categories": [],
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
     "requirementsFactions": {
         "0": [
             "DC"

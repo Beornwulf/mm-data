@@ -12,8 +12,12 @@
     "flavorText": "I was raised in the traditions of the Benjamin Military District—unyielding discipline and a solemn readiness define me, no matter where I am deployed.",
     "age": 0,
     "xpDiscount": 0,
-    "lifeStages": [],
-    "categories": [],
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
     "requirementsFactions": {
         "0": [
             "DC"

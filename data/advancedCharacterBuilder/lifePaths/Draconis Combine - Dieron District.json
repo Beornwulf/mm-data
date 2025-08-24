@@ -12,8 +12,12 @@
     "flavorText": "I was raised in the doctrines of the Dieron Military District—unyielding vigilance and fierce resilience guide me, no matter where I stand in the galaxy.",
     "age": 0,
     "xpDiscount": 0,
-    "lifeStages": [],
-    "categories": [],
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
     "requirementsFactions": {
         "0": [
             "DC"
