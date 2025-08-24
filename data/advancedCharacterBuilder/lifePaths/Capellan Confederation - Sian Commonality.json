@@ -12,6 +12,8 @@
     "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

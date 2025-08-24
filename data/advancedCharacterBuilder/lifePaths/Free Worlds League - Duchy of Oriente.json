@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Duchy of Oriente—shaped by industry, guided by strategic loyalty, and borne of a legacy that honors honor, no matter where I stand.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

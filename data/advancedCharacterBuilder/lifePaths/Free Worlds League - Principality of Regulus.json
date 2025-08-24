@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Regulan Fiefs—hardened by loyalty, driven by a legacy of resistance, and bound to Regulus’s fierce honor wherever I stand.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the traditions of the Azami Brotherhood—our faith, our history, and our iron resolve shape who I am, no matter where I walk among the stars.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

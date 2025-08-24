@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Federated Suns—taught to uphold liberty with honor, armed by innovation, and bound by chivalric duty no matter where I stand.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

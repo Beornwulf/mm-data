@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Capellan March—shaped by House Hasek’s creed, ever vigilant against the Confederation, and bound to loyalty no matter where I stand.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

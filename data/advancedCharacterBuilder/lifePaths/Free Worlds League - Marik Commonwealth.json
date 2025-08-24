@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Marik Commonwealth—enlightened by its prosperity, proud of its cosmopolitan ideals, and shaped by the honor of House Marik wherever I go.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

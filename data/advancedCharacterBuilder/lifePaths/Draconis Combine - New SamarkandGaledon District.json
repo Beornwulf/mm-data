@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

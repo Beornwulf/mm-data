@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the spirit of the Victoria Commonality—resilient and industrious, molded by frontier grit rather than borders.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

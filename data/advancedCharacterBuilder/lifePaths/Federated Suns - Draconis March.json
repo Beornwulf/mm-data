@@ -1,5 +1,5 @@
 {
-    "id": "54161655-d1c2-45f4-96e5-3d37c60d1385",
+    "id": "2afa2dc1-78b1-44c6-bd49-35d762b3bcba",
     "version": {
         "major": 0,
         "minor": 50,
@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Draconis March—steeped in vigilance against the Dragon, loyal to House Sandoval, and defined by a heritage of border conflict wherever I serve.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

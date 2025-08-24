@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Capellan Confederation, where duty to the State is the highest honor a citizen can claim.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

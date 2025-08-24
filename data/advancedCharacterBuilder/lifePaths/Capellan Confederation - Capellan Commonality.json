@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the ways of the Capella Commonality, where duty and unity outweigh the self.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

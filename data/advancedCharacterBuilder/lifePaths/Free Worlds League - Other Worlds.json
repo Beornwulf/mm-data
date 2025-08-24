@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Free Worlds League’s lesser worlds—fractured in loyalty, diverse in heritage, and bound together only by the banner of survival.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Crucis March—loyal to House Davion, steady at the core, and grounded in the traditions of New Avalon’s heart no matter where I go.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

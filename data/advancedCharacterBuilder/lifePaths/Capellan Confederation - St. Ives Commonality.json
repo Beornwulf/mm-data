@@ -12,6 +12,8 @@
     "flavorText": "I was raised on the principles of the St. Ives Commonality—resilience and loyalty forged not by geography, but by purpose.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],

@@ -12,6 +12,8 @@
     "flavorText": "I was raised in the culture of the Free Worlds League—steeped in diversity, driven by enterprise, and carrying a quiet skepticism of bionic overreach, no matter where I'm bound.",
     "age": 0,
     "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],
