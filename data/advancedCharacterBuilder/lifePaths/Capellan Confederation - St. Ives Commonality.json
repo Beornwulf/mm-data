@@ -1,0 +1,157 @@
+{
+    "id": "ba480a09-62a6-4351-b283-2d32e22f0931",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "ATOW",
+    "name": "Capellan Confederation - St. Ives Commonality",
+    "flavorText": "I was raised on the principles of the St. Ives Commonality—resilience and loyalty forged not by geography, but by purpose.",
+    "age": 0,
+    "xpDiscount": 0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 50,
+            "REPUTATION": -100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 15,
+            "Protocols/Any (RP Only)": 5,
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 5
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 5
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 5
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 5
+        },
+        "4": {
+            "Art/Painting (RP Only)": 5
+        },
+        "5": {
+            "Art/Poetry (RP Only)": 5
+        },
+        "6": {
+            "Art/Sculpture (RP Only)": 5
+        },
+        "7": {
+            "Art/Singing (RP Only)": 5
+        },
+        "8": {
+            "Art/Writing (RP Only)": 5
+        },
+        "9": {
+            "Art/Other (RP Only)": 5
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPPickCount": 1
+}
