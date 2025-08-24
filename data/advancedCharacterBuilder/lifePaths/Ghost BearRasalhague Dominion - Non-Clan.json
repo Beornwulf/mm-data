@@ -1,0 +1,239 @@
+{
+    "id": "bde3e2e3-7554-4b05-ab37-edde56b74320",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 75,
+    "source": "ATOW",
+    "name": "Ghost Bear/Rasalhague Dominion - Non-Clan",
+    "flavorText": "I was raised in the culture of the Rasalhague Dominion—born of Scandinavian resolve and Clan honor, tempered by democratic duty, and balanced by a quiet pragmatism that endures wherever I roam.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3060,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "RD",
+            "CGB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 25,
+            "Martial Arts (RP Only)": 15,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 20,
+            "Melee Weapons (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_introvert": -25
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Interest/Antiques (RP Only)": 20
+        },
+        "1": {
+            "Interest/Archeology (RP Only)": 20
+        },
+        "2": {
+            "Interest/Astrology (RP Only)": 20
+        },
+        "3": {
+            "Interest/Cartography (RP Only)": 20
+        },
+        "4": {
+            "Interest/Economics (RP Only)": 20
+        },
+        "5": {
+            "Interest/Exotic Animals (RP Only)": 20
+        },
+        "6": {
+            "Interest/Fashion (RP Only)": 20
+        },
+        "7": {
+            "Interest/Fishing (RP Only)": 20
+        },
+        "8": {
+            "Interest/Gambling (RP Only)": 20
+        },
+        "9": {
+            "Interest/History (RP Only)": 20
+        },
+        "10": {
+            "Interest/Holo-Cinema (RP Only)": 20
+        },
+        "11": {
+            "Interest/Holo-Games (RP Only)": 20
+        },
+        "12": {
+            "Interest/Law (RP Only)": 20
+        },
+        "13": {
+            "Interest/Literature (RP Only)": 20
+        },
+        "14": {
+            "Interest/Military (RP Only)": 20
+        },
+        "15": {
+            "Interest/Music (RP Only)": 20
+        },
+        "16": {
+            "Interest/Mythology (RP Only)": 20
+        },
+        "17": {
+            "Interest/Other (RP Only)": 20
+        },
+        "18": {
+            "Interest/Philosophy (RP Only)": 20
+        },
+        "19": {
+            "Interest/Politics (RP Only)": 20
+        },
+        "20": {
+            "Interest/Pop-Culture (RP Only)": 20
+        },
+        "21": {
+            "Interest/Sports (RP Only)": 20
+        },
+        "22": {
+            "Interest/Theology (RP Only)": 20
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPPickCount": 1
+}
