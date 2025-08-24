@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 100,
+    "xpCost": 55,
     "source": "ATOW",
     "name": "Capellan Confederation - Sian Commonality",
     "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
@@ -155,5 +155,5 @@
         "8": {},
         "9": {}
     },
-    "flexibleXPPickCount": 0
+    "flexibleXPPickCount": 1
 }

@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 100,
+    "xpCost": 10,
     "source": "ATOW",
     "name": "Capellan Confederation - Capellan Commonality",
     "flavorText": "I was raised in the ways of the Capella Commonality, where duty and unity outweigh the self.",
@@ -152,5 +152,5 @@
         "8": {},
         "9": {}
     },
-    "flexibleXPPickCount": 0
+    "flexibleXPPickCount": 1
 }

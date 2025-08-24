@@ -1,5 +1,5 @@
 {
-    "id": "15203f1d-1263-4b3f-a19e-fd59284b97a5",
+    "id": "dced69a1-be5a-44ec-ae81-7670ad6b7270",
     "version": {
         "major": 0,
         "minor": 50,
@@ -103,5 +103,5 @@
             "atow_combat_sense": 100
         }
     },
-    "flexibleXPPickCount": 0
+    "flexibleXPPickCount": 1
 }
