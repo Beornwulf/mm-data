@@ -1,0 +1,156 @@
+{
+    "id": "86ad4ad0-55ed-4b01-ad9a-97d279093f77",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 50,
+    "source": "ATOW",
+    "name": "Free Worlds League - Marik Commonwealth",
+    "flavorText": "I was raised in the culture of the Marik Commonwealth—enlightened by its prosperity, proud of its cosmopolitan ideals, and shaped by the honor of House Marik wherever I go.",
+    "age": 0,
+    "xpDiscount": 0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "FWL",
+            "FWLR",
+            "MCM"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 100,
+            "REPUTATION": -100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10,
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 5
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 10
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 10
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 10
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 10
+        },
+        "4": {
+            "Art/Painting (RP Only)": 10
+        },
+        "5": {
+            "Art/Poetry (RP Only)": 10
+        },
+        "6": {
+            "Art/Sculpture (RP Only)": 10
+        },
+        "7": {
+            "Art/Singing (RP Only)": 10
+        },
+        "8": {
+            "Art/Writing (RP Only)": 10
+        },
+        "9": {
+            "Art/Other (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPPickCount": 1
+}

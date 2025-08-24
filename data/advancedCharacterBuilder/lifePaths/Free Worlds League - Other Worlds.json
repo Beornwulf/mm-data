@@ -1,0 +1,151 @@
+{
+    "id": "dd9ea4aa-1299-4024-ba5f-bb74e6a15b37",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 70,
+    "source": "ATOW",
+    "name": "Free Worlds League - Other Worlds",
+    "flavorText": "I was raised in the culture of the Free Worlds League’s lesser worlds—fractured in loyalty, diverse in heritage, and bound together only by the banner of survival.",
+    "age": 0,
+    "xpDiscount": 0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "FWL",
+            "FWLR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 35,
+            "Appraisal (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 10
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 10
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 10
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 10
+        },
+        "4": {
+            "Art/Painting (RP Only)": 10
+        },
+        "5": {
+            "Art/Poetry (RP Only)": 10
+        },
+        "6": {
+            "Art/Sculpture (RP Only)": 10
+        },
+        "7": {
+            "Art/Singing (RP Only)": 10
+        },
+        "8": {
+            "Art/Writing (RP Only)": 10
+        },
+        "9": {
+            "Art/Other (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPPickCount": 1
+}
