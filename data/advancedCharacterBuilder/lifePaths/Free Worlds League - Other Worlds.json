@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 70,
+    "xpCost": 55,
     "source": "ATOW",
     "name": "Free Worlds League - Other Worlds",
     "flavorText": "I was raised in the culture of the Free Worlds League’s lesser worlds—fractured in loyalty, diverse in heritage, and bound together only by the banner of survival.",
@@ -74,7 +74,7 @@
     "fixedXPSkills": {
         "0": {
             "Protocols/Any (RP Only)": 10,
-            "Language/Any (RP Only)": 35,
+            "Language/Any (RP Only)": 20,
             "Appraisal (RP Only)": 15
         }
     },

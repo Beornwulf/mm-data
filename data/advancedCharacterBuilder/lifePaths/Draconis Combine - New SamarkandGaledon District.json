@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 190,
+    "xpCost": 180,
     "source": "ATOW",
     "name": "Draconis Combine - New Samarkand/Galedon District",
     "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
@@ -83,7 +83,7 @@
             "Art/Poetry (RP Only)": 15,
             "Martial Arts (RP Only)": 10,
             "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 25,
+            "Protocols/Any (RP Only)": 15,
             "Melee Weapons (RP Only)": 15
         }
     },

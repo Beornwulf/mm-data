@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 30,
     "source": "ATOW",
     "name": "Capellan Confederation - Liao Commonality",
     "flavorText": "I was raised in the discipline and unity of the Liao Commonality’s culture—loyal in spirit, no matter where I stand.",
@@ -78,8 +78,8 @@
     "fixedXPSkills": {
         "0": {
             "Martial Arts (RP Only)": 20,
-            "Protocols/Any (RP Only)": 20,
-            "Language/Any (RP Only)": 25
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {

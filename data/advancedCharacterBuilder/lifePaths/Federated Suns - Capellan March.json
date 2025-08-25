@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 40,
     "source": "ATOW",
     "name": "Federated Suns - Capellan March",
     "flavorText": "I was raised in the culture of the Capellan March—shaped by House Hasek’s creed, ever vigilant against the Confederation, and bound to loyalty no matter where I stand.",
@@ -77,7 +77,7 @@
     "fixedXPSkills": {
         "0": {
             "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 20,
+            "Protocols/Any (RP Only)": 10,
             "Language/Any (RP Only)": 5
         }
     },

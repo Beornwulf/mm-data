@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 10,
+    "xpCost": 0,
     "source": "ATOW",
     "name": "Capellan Confederation - Capellan Commonality",
     "flavorText": "I was raised in the ways of the Capella Commonality, where duty and unity outweigh the self.",
@@ -77,8 +77,8 @@
     "fixedXPSkills": {
         "0": {
             "Martial Arts (RP Only)": 5,
-            "Protocols/Any (RP Only)": 15,
-            "Language/Any (RP Only)": 15
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {

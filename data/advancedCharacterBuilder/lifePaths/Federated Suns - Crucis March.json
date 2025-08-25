@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 100,
+    "xpCost": 90,
     "source": "ATOW",
     "name": "Federated Suns - Crucis March",
     "flavorText": "I was raised in the culture of the Crucis March—loyal to House Davion, steady at the core, and grounded in the traditions of New Avalon’s heart no matter where I go.",
@@ -75,7 +75,7 @@
     "fixedXPSkills": {
         "0": {
             "Interest/History (RP Only)": 15,
-            "Protocols/Any (RP Only)": 25
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {

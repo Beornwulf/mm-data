@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 40,
     "source": "ATOW",
     "name": "Capellan Confederation - Victoria Commonality",
     "flavorText": "I was raised in the spirit of the Victoria Commonality—resilient and industrious, molded by frontier grit rather than borders.",
@@ -80,7 +80,7 @@
             "Martial Arts (RP Only)": 20,
             "Negotiation": 10,
             "Protocols/Any (RP Only)": 10,
-            "Language/Any (RP Only)": 25
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {

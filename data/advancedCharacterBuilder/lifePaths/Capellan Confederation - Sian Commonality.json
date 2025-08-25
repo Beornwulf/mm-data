@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 55,
+    "xpCost": 35,
     "source": "ATOW",
     "name": "Capellan Confederation - Sian Commonality",
     "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
@@ -78,8 +78,8 @@
         "0": {
             "Martial Arts (RP Only)": 5,
             "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 25,
-            "Language/Any (RP Only)": 20
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {

@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 190,
+    "xpCost": 175,
     "source": "ATOW",
     "name": "Draconis Combine - Benjamin District",
     "flavorText": "I was raised in the traditions of the Benjamin Military District—unyielding discipline and a solemn readiness define me, no matter where I am deployed.",
@@ -80,7 +80,7 @@
             "Martial Arts (RP Only)": 20,
             "Streetwise/Any (RP Only)": 10,
             "Art/Poetry (RP Only)": 20,
-            "Protocols/Any (RP Only)": 30
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {

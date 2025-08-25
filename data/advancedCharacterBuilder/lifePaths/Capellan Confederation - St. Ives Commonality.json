@@ -78,8 +78,7 @@
     "fixedXPSkills": {
         "0": {
             "Martial Arts (RP Only)": 15,
-            "Protocols/Any (RP Only)": 5,
-            "Language/Any (RP Only)": 25
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {

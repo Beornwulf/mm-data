@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 215,
+    "xpCost": 200,
     "source": "ATOW",
     "name": "Draconis Combine - Pesht District",
     "flavorText": "I was raised in the quiet pride of the Pesht Military District—conditioned by restraint and honor, even in the absence of glory.",
@@ -79,7 +79,7 @@
             "Martial Arts (RP Only)": 20,
             "Streetwise/Any (RP Only)": 10,
             "Art/Poetry (RP Only)": 15,
-            "Protocols/Any (RP Only)": 35,
+            "Protocols/Any (RP Only)": 20,
             "Melee Weapons (RP Only)": 15
         }
     },
