@@ -285,7 +285,7 @@ include "saxarba/SMV_Seaport/SeaPort.tileinc"
 #TROPICAL THEME TREES
 super * "woods:1;foliage_elev:*;fluff:12" "tropical" "saxarba/theme_tropical/orchard_tropical.png"
 super * "woods:1;foliage_elev:1" "tropical" "saxarba/theme_tropical/trop_lvl1fol01.png;saxarba/theme_tropical/trop_lvl1fol02.png;saxarba/theme_tropical/trop_lvl1fol03.png;saxarba/theme_tropical/trop_lvl1fol04.png;saxarba/theme_tropical/trop_lvl1fol05.png;saxarba/theme_tropical/trop_lvl1fol06.png"
-super * "woods:2;foliage_elev:1" "tropical" "saxarba/theme_tropical/trop_lvl1hfol01.png;saxarba/theme_tropical/trop_lvl1hfol02.png;saxarba/theme_tropical/trop_lvl1hfol03.png;saxarba/theme_tropical/trop_lvl1hfol04.png;saxarba/theme_tropical/trop_lvl1hfol05.png;saxarba/theme_tropical/trop_lvl1hfol0
+super * "woods:2;foliage_elev:1" "tropical" "saxarba/theme_tropical/trop_lvl1hfol01.png;saxarba/theme_tropical/trop_lvl1hfol02.png;saxarba/theme_tropical/trop_lvl1hfol03.png;saxarba/theme_tropical/trop_lvl1hfol04.png;saxarba/theme_tropical/trop_lvl1hfol05.png;saxarba/theme_tropical/trop_lvl1hfol06.png"
 super * "woods:1;foliage_elev:*" "tropical" "saxarba/theme_tropical/woods_light_tropical_a.png;saxarba/theme_tropical/woods_light_tropical_b.png;saxarba/theme_tropical/woods_light_tropical_c.png;saxarba/theme_tropical/woods_light_tropical_d.png;saxarba/theme_tropical/woods_light_tropical_e.png;saxarba/theme_tropical/woods_light_tropical_f.png"
 super * "woods:2;foliage_elev:*" "tropical" "saxarba/theme_tropical/woods_heavy_tropical_a.png;saxarba/theme_tropical/woods_heavy_tropical_b.png;saxarba/theme_tropical/woods_heavy_tropical_c.png;saxarba/theme_tropical/woods_heavy_tropical_d.png"
 
