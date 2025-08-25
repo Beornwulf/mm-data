@@ -1,0 +1,96 @@
+{
+    "id": "6943c6b2-a9a0-4491-bf71-ab137dc6a1dd",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 5,
+    "source": "ATOW",
+    "name": "Capellan Confederation - Capellan Commonality (3025)",
+    "flavorText": "I was raised in the ways of the Capella Commonality, where duty and unity outweigh the self.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 15
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 5,
+            "Perception (RP Only)": 15,
+            "Negotiation": 10,
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -150
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

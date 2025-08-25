@@ -1,0 +1,95 @@
+{
+    "id": "1be0cbd0-d541-480f-bd08-043d5cece54e",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 125,
+    "source": "ATOW",
+    "name": "Warrior Caste - Elemental (Clan Steel Viper)",
+    "flavorText": "I was bred to the Warrior Caste, raised from birth to believe strength and honor are the only currencies that matter.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "CLAN_CASTE"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CSV"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {
+            "GENERAL_CLAN": 1
+        }
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {
+            "atow_citizenship": 0
+        }
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "DEXTERITY": -75,
+            "STRENGTH": 125,
+            "CHARISMA": -75,
+            "BODY": 125
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

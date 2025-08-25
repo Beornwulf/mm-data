@@ -1,0 +1,98 @@
+{
+    "id": "fa4c77bd-ac17-4441-a0d8-ed0cbf500307",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 55,
+    "source": "ATOW",
+    "name": "Capellan Confederation - Sian Commonality (3025)",
+    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 175
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 30
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 5,
+            "Perception (RP Only)": 30,
+            "Interest/History (RP Only)": 30,
+            "Protocols/Any (RP Only)": 30,
+            "Language/Any (RP Only)": 30
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -175,
+            "compulsion_mild_paranoia": -150,
+            "atow_citizenship": 50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
