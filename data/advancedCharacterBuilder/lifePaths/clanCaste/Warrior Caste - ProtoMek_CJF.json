@@ -1,35 +1,37 @@
 {
-    "id": "f64b233a-2681-42e5-ac6c-1cc482efcd28",
+    "id": "7edd3097-9d58-44e4-a5c7-0f33ed46ef92",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 150,
     "source": "ATOW",
-    "name": "Invading Clan",
-    "flavorText": "I was raised in the culture of the Invading Clans—shaped by the Trials of combat, bound by honor to the ilKhan’s call, and tempered by the fire of conquest.",
+    "name": "Warrior Caste - ProtoMek",
+    "flavorText": "I was bred to the Warrior Caste, raised from birth to believe strength and honor are the only currencies that matter.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
+    "minimumYear": 3062,
+    "maximumYear": 3068,
     "lifeStages": [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories": [
         "GENERAL_CLAN"
     ],
     "requirementsFactions": {
         "0": [
-            "CLAN"
+            "CJF"
         ]
     },
     "requirementsLifePath": {
         "0": []
     },
     "requirementsCategories": {
-        "0": {}
+        "0": {
+            "GENERAL_CLAN": 1
+        }
     },
     "requirementsAttributes": {
         "0": {}
@@ -44,16 +46,7 @@
         "0": {}
     },
     "exclusionsFactions": {
-        "0": [
-            "CBS",
-            "CCC",
-            "CCO",
-            "CFM",
-            "CGS",
-            "CIH",
-            "CSA",
-            "CSV"
-        ]
+        "0": []
     },
     "exclusionsLifePath": {
         "0": []
@@ -74,21 +67,24 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {}
+        "0": {
+            "REFLEXES": 150,
+            "DEXTERITY": 150,
+            "STRENGTH": -50,
+            "CHARISMA": -25,
+            "BODY": -50
+        }
     },
     "fixedXPTraits": {
         "0": {}
     },
     "fixedXPSkills": {
-        "0": {
-            "Interest/History (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
-        }
+        "0": {}
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_racism": -100,
-            "compulsion_unpleasant_personality": -50
+            "flaw_impatient": -50,
+            "atow_fit": 25
         }
     },
     "flexibleXPAttributes": {},
