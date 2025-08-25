@@ -9,10 +9,10 @@
     "xpCost": 30,
     "source": "ATOW",
     "name": "Capellan Confederation - Liao Commonality",
-    "flavorText": "I was raised in the discipline and unity of the Liao Commonality’s culture—loyal in spirit, no matter where I stand.",
+    "flavorText": "I was raised in the discipline and unity of the Liao Commonality’s culture—loyal in spirit.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
+    "minimumYear": 3061,
     "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
