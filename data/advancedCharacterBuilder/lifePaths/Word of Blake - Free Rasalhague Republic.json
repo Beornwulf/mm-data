@@ -1,0 +1,1067 @@
+{
+    "id": "549832be-faaf-4e13-a643-cefacadc6795",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 100,
+    "source": "ATOW",
+    "name": "Word of Blake - Free Rasalhague Republic",
+    "flavorText": "I was raised in the culture of the Word of Blake—taught that belief alone sanctifies power, that sacrifice cleanses the weak, and that destiny belongs to those whose faith burns fiercest.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3034,
+    "maximumYear": 3060,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "WOB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -50,
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -50,
+            "CONNECTIONS": 75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 35,
+            "Interest/Theology (RP Only)": 25,
+            "Communications/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {},
+        "60": {},
+        "61": {},
+        "62": {},
+        "63": {},
+        "64": {},
+        "65": {},
+        "66": {},
+        "67": {},
+        "68": {},
+        "69": {},
+        "70": {},
+        "71": {},
+        "72": {},
+        "73": {},
+        "74": {},
+        "75": {},
+        "76": {},
+        "77": {},
+        "78": {},
+        "79": {},
+        "80": {},
+        "81": {},
+        "82": {},
+        "83": {},
+        "84": {},
+        "85": {},
+        "86": {},
+        "87": {},
+        "88": {},
+        "89": {},
+        "90": {},
+        "91": {},
+        "92": {},
+        "93": {},
+        "94": {},
+        "95": {},
+        "96": {},
+        "97": {},
+        "98": {},
+        "99": {},
+        "100": {},
+        "101": {},
+        "102": {},
+        "103": {},
+        "104": {},
+        "105": {},
+        "106": {},
+        "107": {},
+        "108": {},
+        "109": {},
+        "110": {},
+        "111": {},
+        "112": {},
+        "113": {},
+        "114": {},
+        "115": {},
+        "116": {},
+        "117": {},
+        "118": {},
+        "119": {},
+        "120": {},
+        "121": {},
+        "122": {},
+        "123": {},
+        "124": {},
+        "125": {},
+        "126": {},
+        "127": {},
+        "128": {},
+        "129": {},
+        "130": {},
+        "131": {},
+        "132": {},
+        "133": {},
+        "134": {},
+        "135": {},
+        "136": {},
+        "137": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {},
+        "60": {},
+        "61": {},
+        "62": {},
+        "63": {},
+        "64": {},
+        "65": {},
+        "66": {},
+        "67": {},
+        "68": {},
+        "69": {},
+        "70": {},
+        "71": {},
+        "72": {},
+        "73": {},
+        "74": {},
+        "75": {},
+        "76": {},
+        "77": {},
+        "78": {},
+        "79": {},
+        "80": {},
+        "81": {},
+        "82": {},
+        "83": {},
+        "84": {},
+        "85": {},
+        "86": {},
+        "87": {},
+        "88": {},
+        "89": {},
+        "90": {},
+        "91": {},
+        "92": {},
+        "93": {},
+        "94": {},
+        "95": {},
+        "96": {},
+        "97": {},
+        "98": {},
+        "99": {},
+        "100": {},
+        "101": {},
+        "102": {},
+        "103": {},
+        "104": {},
+        "105": {},
+        "106": {},
+        "107": {},
+        "108": {},
+        "109": {},
+        "110": {},
+        "111": {},
+        "112": {},
+        "113": {},
+        "114": {},
+        "115": {},
+        "116": {},
+        "117": {},
+        "118": {},
+        "119": {},
+        "120": {},
+        "121": {},
+        "122": {},
+        "123": {},
+        "124": {},
+        "125": {},
+        "126": {},
+        "127": {},
+        "128": {},
+        "129": {},
+        "130": {},
+        "131": {},
+        "132": {},
+        "133": {},
+        "134": {},
+        "135": {},
+        "136": {},
+        "137": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Tech/Aero": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "1": {
+            "Tech/Aero": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "2": {
+            "Tech/Aero": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "3": {
+            "Tech/Aero": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "4": {
+            "Tech/Aero": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "5": {
+            "Tech/Aero": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "6": {
+            "Tech/Aero": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "7": {
+            "Tech/Aero": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "8": {
+            "Tech/Aero": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "9": {
+            "Tech/Aero": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "10": {
+            "Tech/Aero": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "11": {
+            "Tech/Aero": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "12": {
+            "Tech/Aero": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "13": {
+            "Tech/Aero": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "14": {
+            "Tech/Aero": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "15": {
+            "Tech/Aero": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "16": {
+            "Tech/Aero": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "17": {
+            "Tech/Aero": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "18": {
+            "Tech/Aero": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "19": {
+            "Tech/Aero": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "20": {
+            "Tech/Aero": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "21": {
+            "Tech/Aero": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "22": {
+            "Tech/Aero": 10,
+            "Interest/Theology (RP Only)": 10
+        },
+        "23": {
+            "Tech/BattleArmor": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "24": {
+            "Tech/BattleArmor": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "25": {
+            "Tech/BattleArmor": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "26": {
+            "Tech/BattleArmor": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "27": {
+            "Tech/BattleArmor": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "28": {
+            "Tech/BattleArmor": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "29": {
+            "Tech/BattleArmor": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "30": {
+            "Tech/BattleArmor": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "31": {
+            "Tech/BattleArmor": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "32": {
+            "Tech/BattleArmor": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "33": {
+            "Tech/BattleArmor": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "34": {
+            "Tech/BattleArmor": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "35": {
+            "Tech/BattleArmor": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "36": {
+            "Tech/BattleArmor": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "37": {
+            "Tech/BattleArmor": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "38": {
+            "Tech/BattleArmor": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "39": {
+            "Tech/BattleArmor": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "40": {
+            "Tech/BattleArmor": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "41": {
+            "Tech/BattleArmor": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "42": {
+            "Tech/BattleArmor": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "43": {
+            "Tech/BattleArmor": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "44": {
+            "Tech/BattleArmor": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "45": {
+            "Tech/BattleArmor": 10,
+            "Interest/Theology (RP Only)": 10
+        },
+        "46": {
+            "Tech/Mechanic": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "47": {
+            "Tech/Mechanic": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "48": {
+            "Tech/Mechanic": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "49": {
+            "Tech/Mechanic": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "50": {
+            "Tech/Mechanic": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "51": {
+            "Tech/Mechanic": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "52": {
+            "Tech/Mechanic": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "53": {
+            "Tech/Mechanic": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "54": {
+            "Tech/Mechanic": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "55": {
+            "Tech/Mechanic": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "56": {
+            "Tech/Mechanic": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "57": {
+            "Tech/Mechanic": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "58": {
+            "Tech/Mechanic": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "59": {
+            "Tech/Mechanic": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "60": {
+            "Tech/Mechanic": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "61": {
+            "Tech/Mechanic": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "62": {
+            "Tech/Mechanic": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "63": {
+            "Tech/Mechanic": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "64": {
+            "Tech/Mechanic": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "65": {
+            "Tech/Mechanic": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "66": {
+            "Tech/Mechanic": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "67": {
+            "Tech/Mechanic": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "68": {
+            "Tech/Mechanic": 10,
+            "Interest/Theology (RP Only)": 10
+        },
+        "69": {
+            "Tech/Mek": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "70": {
+            "Tech/Mek": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "71": {
+            "Tech/Mek": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "72": {
+            "Tech/Mek": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "73": {
+            "Tech/Mek": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "74": {
+            "Tech/Mek": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "75": {
+            "Tech/Mek": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "76": {
+            "Tech/Mek": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "77": {
+            "Tech/Mek": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "78": {
+            "Tech/Mek": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "79": {
+            "Tech/Mek": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "80": {
+            "Tech/Mek": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "81": {
+            "Tech/Mek": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "82": {
+            "Tech/Mek": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "83": {
+            "Tech/Mek": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "84": {
+            "Tech/Mek": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "85": {
+            "Tech/Mek": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "86": {
+            "Tech/Mek": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "87": {
+            "Tech/Mek": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "88": {
+            "Tech/Mek": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "89": {
+            "Tech/Mek": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "90": {
+            "Tech/Mek": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "91": {
+            "Tech/Mek": 10,
+            "Interest/Theology (RP Only)": 10
+        },
+        "92": {
+            "Tech/Vessel": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "93": {
+            "Tech/Vessel": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "94": {
+            "Tech/Vessel": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "95": {
+            "Tech/Vessel": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "96": {
+            "Tech/Vessel": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "97": {
+            "Tech/Vessel": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "98": {
+            "Tech/Vessel": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "99": {
+            "Tech/Vessel": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "100": {
+            "Tech/Vessel": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "101": {
+            "Tech/Vessel": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "102": {
+            "Tech/Vessel": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "103": {
+            "Tech/Vessel": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "104": {
+            "Tech/Vessel": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "105": {
+            "Tech/Vessel": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "106": {
+            "Tech/Vessel": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "107": {
+            "Tech/Vessel": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "108": {
+            "Tech/Vessel": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "109": {
+            "Tech/Vessel": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "110": {
+            "Tech/Vessel": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "111": {
+            "Tech/Vessel": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "112": {
+            "Tech/Vessel": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "113": {
+            "Tech/Vessel": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "114": {
+            "Tech/Vessel": 10,
+            "Interest/Theology (RP Only)": 10
+        },
+        "115": {
+            "Astech": 10,
+            "Interest/Antiques (RP Only)": 10
+        },
+        "116": {
+            "Astech": 10,
+            "Interest/Archeology (RP Only)": 10
+        },
+        "117": {
+            "Astech": 10,
+            "Interest/Astrology (RP Only)": 10
+        },
+        "118": {
+            "Astech": 10,
+            "Interest/Cartography (RP Only)": 10
+        },
+        "119": {
+            "Astech": 10,
+            "Interest/Economics (RP Only)": 10
+        },
+        "120": {
+            "Astech": 10,
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "121": {
+            "Astech": 10,
+            "Interest/Fashion (RP Only)": 10
+        },
+        "122": {
+            "Astech": 10,
+            "Interest/Fishing (RP Only)": 10
+        },
+        "123": {
+            "Astech": 10,
+            "Interest/Gambling (RP Only)": 10
+        },
+        "124": {
+            "Astech": 10,
+            "Interest/History (RP Only)": 10
+        },
+        "125": {
+            "Astech": 10,
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "126": {
+            "Astech": 10,
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "127": {
+            "Astech": 10,
+            "Interest/Law (RP Only)": 10
+        },
+        "128": {
+            "Astech": 10,
+            "Interest/Literature (RP Only)": 10
+        },
+        "129": {
+            "Astech": 10,
+            "Interest/Military (RP Only)": 10
+        },
+        "130": {
+            "Astech": 10,
+            "Interest/Music (RP Only)": 10
+        },
+        "131": {
+            "Astech": 10,
+            "Interest/Mythology (RP Only)": 10
+        },
+        "132": {
+            "Astech": 10,
+            "Interest/Other (RP Only)": 10
+        },
+        "133": {
+            "Astech": 10,
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "134": {
+            "Astech": 10,
+            "Interest/Politics (RP Only)": 10
+        },
+        "135": {
+            "Astech": 10,
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "136": {
+            "Astech": 10,
+            "Interest/Sports (RP Only)": 10
+        },
+        "137": {
+            "Astech": 10,
+            "Interest/Theology (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {},
+        "60": {},
+        "61": {},
+        "62": {},
+        "63": {},
+        "64": {},
+        "65": {},
+        "66": {},
+        "67": {},
+        "68": {},
+        "69": {},
+        "70": {},
+        "71": {},
+        "72": {},
+        "73": {},
+        "74": {},
+        "75": {},
+        "76": {},
+        "77": {},
+        "78": {},
+        "79": {},
+        "80": {},
+        "81": {},
+        "82": {},
+        "83": {},
+        "84": {},
+        "85": {},
+        "86": {},
+        "87": {},
+        "88": {},
+        "89": {},
+        "90": {},
+        "91": {},
+        "92": {},
+        "93": {},
+        "94": {},
+        "95": {},
+        "96": {},
+        "97": {},
+        "98": {},
+        "99": {},
+        "100": {},
+        "101": {},
+        "102": {},
+        "103": {},
+        "104": {},
+        "105": {},
+        "106": {},
+        "107": {},
+        "108": {},
+        "109": {},
+        "110": {},
+        "111": {},
+        "112": {},
+        "113": {},
+        "114": {},
+        "115": {},
+        "116": {},
+        "117": {},
+        "118": {},
+        "119": {},
+        "120": {},
+        "121": {},
+        "122": {},
+        "123": {},
+        "124": {},
+        "125": {},
+        "126": {},
+        "127": {},
+        "128": {},
+        "129": {},
+        "130": {},
+        "131": {},
+        "132": {},
+        "133": {},
+        "134": {},
+        "135": {},
+        "136": {},
+        "137": {}
+    },
+    "flexibleXPPickCount": 1
+}

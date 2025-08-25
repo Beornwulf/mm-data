@@ -1,0 +1,139 @@
+{
+    "id": "4fcd70bc-753e-44ea-b53c-c6178c637d6f",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 15,
+    "source": "ATOW",
+    "name": "Word of Blake - Capellan Confederation",
+    "flavorText": "I was raised in the culture of the Word of Blake—taught that belief alone sanctifies power, that sacrifice cleanses the weak, and that destiny belongs to those whose faith burns fiercest.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "WOB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -50,
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -50,
+            "CONNECTIONS": 75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 20,
+            "Martial Arts (RP Only)": 5,
+            "Interest/Theology (RP Only)": 25,
+            "Communications/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -150
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Tech/Aero": 10
+        },
+        "1": {
+            "Tech/BattleArmor": 10
+        },
+        "2": {
+            "Tech/Mechanic": 10
+        },
+        "3": {
+            "Tech/Mek": 10
+        },
+        "4": {
+            "Tech/Vessel": 10
+        },
+        "5": {
+            "Astech": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 1
+}
