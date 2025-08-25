@@ -1,0 +1,139 @@
+{
+    "id": "2581d2c9-de5d-40e0-974f-f8b99c1fcd03",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 60,
+    "source": "ATOW",
+    "name": "ComStar - Capellan Confederation",
+    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "WILLPOWER": 35
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -30,
+            "CONNECTIONS": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10,
+            "Interest/Theology (RP Only)": 10,
+            "Language/Any (RP Only)": 10,
+            "Martial Arts (RP Only)": 5,
+            "Communications/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Tech/Aero": 10
+        },
+        "1": {
+            "Tech/BattleArmor": 10
+        },
+        "2": {
+            "Tech/Mechanic": 10
+        },
+        "3": {
+            "Tech/Mek": 10
+        },
+        "4": {
+            "Tech/Vessel": 10
+        },
+        "5": {
+            "Astech": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 1
+}

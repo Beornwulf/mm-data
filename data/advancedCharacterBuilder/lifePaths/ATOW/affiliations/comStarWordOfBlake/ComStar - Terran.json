@@ -1,19 +1,19 @@
 {
-    "id": "7ed33ab5-8fc1-4443-9869-024ab5dc9daa",
+    "id": "085f3907-4c4b-4ca2-ab98-56e3c8ffd0d4",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
+    "xpCost": 280,
     "source": "ATOW",
-    "name": "Word of Blake - Terran",
-    "flavorText": "I was raised in the culture of the Word of Blake—taught that belief alone sanctifies power, that sacrifice cleanses the weak, and that destiny belongs to those whose faith burns fiercest.",
+    "name": "ComStar - Terran",
+    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 9999,
+    "maximumYear": 3058,
     "lifeStages": [
         "AFFILIATION"
     ],
@@ -22,7 +22,7 @@
     ],
     "requirementsFactions": {
         "0": [
-            "WOB"
+            "CS"
         ]
     },
     "requirementsLifePath": {
@@ -66,30 +66,28 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50,
-            "CHARISMA": -50,
-            "INTELLIGENCE": 100
+            "INTELLIGENCE": 125,
+            "WILLPOWER": -15
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 50,
-            "CONNECTIONS": 75
+            "CONNECTIONS": 50,
+            "REPUTATION": 70
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 20,
-            "Interest/Theology (RP Only)": 25,
+            "Negotiation": 10,
+            "Interest/Theology (RP Only)": 10,
             "Communications/Any (RP Only)": 10,
-            "Protocols/Any (RP Only)": 10,
-            "Language/Any (RP Only)": 25
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_pride": -75,
-            "compulsion_mild_paranoia": -50
+            "compulsion_faction_pride": -75
         }
     },
     "flexibleXPAttributes": {

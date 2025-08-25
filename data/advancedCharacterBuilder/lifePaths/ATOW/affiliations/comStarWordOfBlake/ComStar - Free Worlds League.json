@@ -1,15 +1,15 @@
 {
-    "id": "6df379e0-ceea-4d6d-8228-466c1caa693d",
+    "id": "ddb04404-78aa-4d11-a36d-05a481ef84a0",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 100,
     "source": "ATOW",
-    "name": "Word of Blake - Federated Suns",
-    "flavorText": "I was raised in the culture of the Word of Blake—taught that belief alone sanctifies power, that sacrifice cleanses the weak, and that destiny belongs to those whose faith burns fiercest.",
+    "name": "ComStar - Free Worlds League",
+    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
@@ -22,7 +22,7 @@
     ],
     "requirementsFactions": {
         "0": [
-            "WOB"
+            "CS"
         ]
     },
     "requirementsLifePath": {
@@ -66,28 +66,27 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "CHARISMA": -50,
-            "WILLPOWER": 50
+            "WILLPOWER": -15,
+            "INTELLIGENCE": 25
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": -50,
-            "CONNECTIONS": 75
+            "REPUTATION": -30,
+            "CONNECTIONS": 50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 20,
-            "Interest/Theology (RP Only)": 25,
+            "Negotiation": 10,
+            "Interest/Theology (RP Only)": 10,
             "Communications/Any (RP Only)": 10,
-            "Protocols/Any (RP Only)": 10
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_mild_paranoia": -50
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {
         "0": {},
