@@ -1,0 +1,97 @@
+{
+    "id": "53ef8203-86a7-44e0-a060-0a9de698e386",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "ATOW",
+    "name": "Outworlds Alliance",
+    "flavorText": "I was raised in the culture of the Outworlds Alliance—bred from frontier pacifists turned pragmatists, tempered by survival, and bonded by independence even in chaos.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "OA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {},
+    "exclusionsLifePath": {},
+    "exclusionsCategories": {},
+    "exclusionsAttributes": {},
+    "exclusionsTraits": {},
+    "exclusionsSkills": {},
+    "exclusionsAbilities": {},
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Streetwise/Any (RP Only)": 10,
+            "Survival/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 15
+        },
+        "1": {
+            "MedTech/Any": 15
+        },
+        "2": {
+            "Small Arms": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {}
+    },
+    "flexibleXPPickCount": 1
+}
