@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 140,
     "source": "ATOW",
     "name": "Clan Wolf-in-Exile",
     "flavorText": "I was raised in the culture of Clan Wolf-in-Exile—rooted in Warden honor, tempered by exile’s endurance, and driven to protect the Inner Sphere wherever duty calls.",
@@ -83,8 +83,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_racism": -100,
-            "compulsion_unpleasant_personality": -100
+            "compulsion_unpleasant_personality": -50
         }
     },
     "flexibleXPAttributes": {

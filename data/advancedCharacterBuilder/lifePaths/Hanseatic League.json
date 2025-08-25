@@ -67,7 +67,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_racism": -20,
+            "compulsion_faction_pride": -20,
             "atow_citizenship": 30
         }
     },

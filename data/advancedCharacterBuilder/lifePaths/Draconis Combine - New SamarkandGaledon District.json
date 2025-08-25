@@ -1,5 +1,5 @@
 {
-    "id": "2fcbb6bf-bce8-475d-86bf-343806935803",
+    "id": "ac16e177-1901-4de5-8b1a-a8e716f49a80",
     "version": {
         "major": 0,
         "minor": 50,
@@ -90,7 +90,7 @@
     "fixedXPAbilities": {
         "0": {
             "compulsion_xenophobia": -50,
-            "compulsion_pathologic_racism": -50
+            "compulsion_faction_loyalty": -50
         }
     },
     "flexibleXPAttributes": {

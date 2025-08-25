@@ -85,7 +85,7 @@
     "fixedXPAbilities": {
         "0": {
             "compulsion_faction_pride": -50,
-            "compulsion_pathologic_racism": -100,
+            "compulsion_faction_loyalty": -100,
             "atow_combat_sense": 215
         }
     },
