@@ -1,0 +1,122 @@
+{
+    "id": "1ef88728-ed81-470a-b58c-0dd4fde52205",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Simplified version of ATOW's 'Dark Caste' option.",
+    "name": "Dark Caste",
+    "flavorText": "I was raised in the culture of the Dark Caste—shunned by Clan law, forged through survival and cunning, and bound by loyalty only to those like me.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "CLAN_CASTE"
+    ],
+    "categories": [
+        "GENERAL_CRIMINAL",
+        "GENERAL_DARK_CASTE"
+    ],
+    "requirementsFactions": {},
+    "requirementsLifePath": {},
+    "requirementsCategories": {},
+    "requirementsAttributes": {},
+    "requirementsTraits": {},
+    "requirementsSkills": {},
+    "requirementsAbilities": {},
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -30,
+            "WILLPOWER": 10,
+            "BODY": 20
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -250
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Language/Any (RP Only)": 10,
+            "Perception (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "pain_resistance": 10,
+            "atow_toughness": 10
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Acting (RP Only)": 15
+        },
+        "1": {
+            "Escape Artist (RP Only)": 15
+        },
+        "2": {
+            "Martial Arts (RP Only)": 15
+        },
+        "3": {
+            "Melee Weapons (RP Only)": 15
+        },
+        "4": {
+            "Small Arms": 15
+        },
+        "5": {
+            "Survival/Any (RP Only)": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 3
+}
