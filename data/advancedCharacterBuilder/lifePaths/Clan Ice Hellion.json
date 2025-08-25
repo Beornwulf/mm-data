@@ -1,0 +1,102 @@
+{
+    "id": "81096ba5-3850-4a7c-8501-2997e3d5b2c5",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 260,
+    "source": "ATOW",
+    "name": "Clan Ice Hellion",
+    "flavorText": "I was raised in the culture of Clan Ice Hellion—forged in speed, defined by decisive strikes, and bred to act before the enemy even draws breath.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CIH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -75,
+            "REFLEXES": 100,
+            "WILLPOWER": 50,
+            "DEXTERITY": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -95
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 10,
+            "Negotiation": 15,
+            "Swimming (RP Only)": 10,
+            "Interest/History (RP Only)": 40,
+            "Survival/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_impatient": 100,
+            "compulsion_unpleasant_personality": -50,
+            "atow_combat_sense": 50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
