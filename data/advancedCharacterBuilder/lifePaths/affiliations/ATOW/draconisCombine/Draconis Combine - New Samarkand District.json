@@ -1,5 +1,5 @@
 {
-    "id": "ac16e177-1901-4de5-8b1a-a8e716f49a80",
+    "id": "9fe928d1-891b-4731-9a96-d8f8bdbc0129",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,11 +8,11 @@
     },
     "xpCost": 180,
     "source": "ATOW",
-    "name": "Draconis Combine - New Samarkand / Galedon District",
+    "name": "Draconis Combine - New Samarkand District",
     "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
+    "minimumYear": 3070,
     "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"

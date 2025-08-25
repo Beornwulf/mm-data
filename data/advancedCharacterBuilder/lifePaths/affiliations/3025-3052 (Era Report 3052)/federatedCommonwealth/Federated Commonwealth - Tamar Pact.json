@@ -1,15 +1,15 @@
 {
-    "id": "1141e2e6-9c2d-4f64-b606-e63935d6a6af",
+    "id": "63550314-7661-4f53-9caf-c683e048d07e",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 55,
+    "xpCost": 60,
     "source": "Era Report 3052",
-    "name": "Capellan Confederation - Sian Commonality (3025)",
-    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
+    "name": "Federated Commonwealth - Tamar Pact",
+    "flavorText": "I was raised in the culture of the Tamar Pact—tempered by loss and reborn through defiance, guided by the scars of frontier wars and the unyielding loyalty to reclaim what was ours.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
@@ -22,7 +22,9 @@
     ],
     "requirementsFactions": {
         "0": [
-            "CC"
+            "NTamP",
+            "TamPact",
+            "TamP"
         ]
     },
     "requirementsLifePath": {
@@ -66,28 +68,25 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 175
+            "WILLPOWER": 75
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "CONNECTIONS": 30
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 5,
-            "Perception (RP Only)": 30,
-            "Interest/History (RP Only)": 30,
-            "Protocols/Any (RP Only)": 30,
-            "Language/Any (RP Only)": 30
+            "Stealth (RP Only)": 10,
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -175,
-            "compulsion_mild_paranoia": -150,
-            "atow_citizenship": 50
+            "compulsion_faction_loyalty": -50,
+            "compulsion_faction_pride": -25
         }
     },
     "flexibleXPAttributes": {},

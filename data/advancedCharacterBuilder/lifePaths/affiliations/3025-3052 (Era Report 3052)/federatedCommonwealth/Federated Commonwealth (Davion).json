@@ -1,19 +1,19 @@
 {
-    "id": "1141e2e6-9c2d-4f64-b606-e63935d6a6af",
+    "id": "64c04b3e-83bc-438c-9a30-db56323da599",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 55,
+    "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Capellan Confederation - Sian Commonality (3025)",
-    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
+    "name": "Federated Commonwealth (Davion)",
+    "flavorText": "I was raised in the culture of the Federated Suns—taught to uphold liberty with honor, armed by innovation, and bound by chivalric duty no matter where I stand.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3025,
-    "maximumYear": 3052,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
     ],
@@ -22,7 +22,7 @@
     ],
     "requirementsFactions": {
         "0": [
-            "CC"
+            "FC"
         ]
     },
     "requirementsLifePath": {
@@ -65,29 +65,20 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": 175
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "CONNECTIONS": 30
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 5,
-            "Perception (RP Only)": 30,
-            "Interest/History (RP Only)": 30,
-            "Protocols/Any (RP Only)": 30,
-            "Language/Any (RP Only)": 30
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -175,
-            "compulsion_mild_paranoia": -150,
-            "atow_citizenship": 50
+            "compulsion_faction_pride": -25
         }
     },
     "flexibleXPAttributes": {},
