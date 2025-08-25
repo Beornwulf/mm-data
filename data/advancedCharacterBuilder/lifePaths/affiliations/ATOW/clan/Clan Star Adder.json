@@ -86,9 +86,9 @@
     },
     "fixedXPAbilities": {
         "0": {
+            "clan_pilot_training": -50,
             "compulsion_unpleasant_personality": -50,
-            "atow_combat_sense": 50,
-            "clan_pilot_training": -50
+            "atow_combat_sense": 50
         }
     },
     "flexibleXPAttributes": {

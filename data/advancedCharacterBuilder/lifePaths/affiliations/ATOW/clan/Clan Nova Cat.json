@@ -81,9 +81,9 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_racism": -100,
-            "compulsion_unpleasant_personality": -50,
-            "atow_sixth_sense": 100
+            "atow_sixth_sense": 100,
+            "compulsion_faction_pride": -100,
+            "compulsion_unpleasant_personality": -50
         }
     },
     "flexibleXPAttributes": {},

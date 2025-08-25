@@ -85,8 +85,8 @@
     "fixedXPAbilities": {
         "0": {
             "compulsion_mild_paranoia": -100,
-            "compulsion_pathologic_racism": -135,
-            "atow_citizenship": 50
+            "atow_citizenship": 50,
+            "compulsion_faction_loyalty": -135
         }
     },
     "flexibleXPAttributes": {

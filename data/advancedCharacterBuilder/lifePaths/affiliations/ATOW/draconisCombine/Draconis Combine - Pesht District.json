@@ -85,8 +85,8 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_xenophobia": -50,
-            "compulsion_pathologic_racism": -100
+            "compulsion_faction_loyalty": -100,
+            "compulsion_xenophobia": -50
         }
     },
     "flexibleXPAttributes": {

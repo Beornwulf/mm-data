@@ -83,9 +83,9 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_pathologic_racism": -25,
-            "compulsion_racism": -100,
+            "compulsion_faction_pride": -100,
             "flaw_slow_learner": -50,
+            "compulsion_faction_loyalty": -25,
             "compulsion_unpleasant_personality": -50,
             "exceptional_attribute_strength": 50
         }
