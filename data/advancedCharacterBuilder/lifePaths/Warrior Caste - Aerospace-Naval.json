@@ -1,0 +1,100 @@
+{
+    "id": "be6e3906-7b7c-45c8-ac1d-b6a26cd6bfb0",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 225,
+    "source": "ATOW",
+    "name": "Warrior Caste - Aerospace-Naval",
+    "flavorText": "I was bred to the Warrior Caste, raised from birth to believe strength and honor are the only currencies that matter.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "CLAN_CASTE"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CSR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {
+            "GENERAL_CLAN": 1
+        }
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {
+            "atow_citizenship": 0
+        }
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "STRENGTH": -50,
+            "CHARISMA": -25,
+            "INTELLIGENCE": 50,
+            "REFLEXES": 125,
+            "DEXTERITY": 125,
+            "BODY": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -100,
+            "atow_patient": 75
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

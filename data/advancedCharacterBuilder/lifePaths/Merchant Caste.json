@@ -1,0 +1,97 @@
+{
+    "id": "faca8a99-617a-4855-9de5-5429fceb8a37",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 125,
+    "source": "ATOW",
+    "name": "Merchant Caste",
+    "flavorText": "I was raised in the Merchant Caste, taught that trade binds the Clans together and that every exchange carries the weight of duty.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "CLAN_CASTE"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": []
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {
+            "GENERAL_CLAN": 1
+        }
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": -50,
+            "INTELLIGENCE": 25,
+            "CHARISMA": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Streetwise/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 10,
+            "Appraisal (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "atow_gregarious": 100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

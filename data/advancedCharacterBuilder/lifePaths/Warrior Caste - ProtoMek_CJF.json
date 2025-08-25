@@ -1,0 +1,95 @@
+{
+    "id": "7edd3097-9d58-44e4-a5c7-0f33ed46ef92",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 150,
+    "source": "ATOW",
+    "name": "Warrior Caste - ProtoMek",
+    "flavorText": "I was bred to the Warrior Caste, raised from birth to believe strength and honor are the only currencies that matter.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3062,
+    "maximumYear": 3068,
+    "lifeStages": [
+        "CLAN_CASTE"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "CJF"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {
+            "GENERAL_CLAN": 1
+        }
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "REFLEXES": 150,
+            "DEXTERITY": 150,
+            "STRENGTH": -50,
+            "CHARISMA": -25,
+            "BODY": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_impatient": -50,
+            "atow_fit": 25
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
