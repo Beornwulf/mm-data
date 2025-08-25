@@ -1,0 +1,81 @@
+{
+    "id": "0a97d79d-0508-46e9-9b7b-f9111a56b18c",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 110,
+    "source": "ATOW",
+    "name": "Castilian Principalities",
+    "flavorText": "I was raised in the culture of Nueva Castile—bred to survive conflict, hardened by feudal honor, and disciplined by our own ingenuity.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "requirementsFactions": {
+        "0": [
+            "NC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {},
+    "exclusionsLifePath": {},
+    "exclusionsCategories": {},
+    "exclusionsAttributes": {},
+    "exclusionsTraits": {},
+    "exclusionsSkills": {},
+    "exclusionsAbilities": {},
+    "fixedXPAttributes": {
+        "0": {
+            "DEXTERITY": 25,
+            "WILLPOWER": 60
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10,
+            "Martial Arts (RP Only)": 15,
+            "Protocols/Any (RP Only)": 25,
+            "Melee Weapons (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_pathologic_racism": -20,
+            "compulsion_unpleasant_personality": -20
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
