@@ -12,8 +12,8 @@
     "flavorText": "I was raised in the culture of the Free Rasalhague Republic, but by exiles of the Clan Wars—carrying the weight of lost worlds, a restless pride, and the stubborn hope of return.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3034,
-    "maximumYear": 3103,
+    "minimumYear": 3050,
+    "maximumYear": 3075,
     "lifeStages": [
         "AFFILIATION"
     ],
