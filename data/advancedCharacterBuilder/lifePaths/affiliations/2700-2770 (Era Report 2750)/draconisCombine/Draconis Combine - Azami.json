@@ -1,0 +1,102 @@
+{
+    "id": "b3cabf14-6ad2-46f6-a028-fb86429f0ca7",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 130,
+    "source": "Era Report 2750",
+    "name": "Draconis Combine - Azami",
+    "flavorText": "I was raised in the traditions of the Azami Brotherhood—our faith, our history, and our iron resolve shape who I am.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "AB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 125
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -125
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Art/Poetry (RP Only)": 25,
+            "Animal Handling (RP Only)": 25,
+            "Survival/Any (RP Only)": 50,
+            "Language/Any (RP Only)": 25,
+            "Martial Arts (RP Only)": 50,
+            "Perception (RP Only)": 50,
+            "Protocols/Any (RP Only)": 5,
+            "Melee Weapons (RP Only)": 50
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -50,
+            "compulsion_xenophobia": -100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

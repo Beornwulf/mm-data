@@ -1,0 +1,97 @@
+{
+    "id": "ffb44391-0700-4583-a9b1-5fccc66a0d31",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Report 2750",
+    "name": "Draconis Combine",
+    "flavorText": "I was raised on the code of the Draconis Combine—unyielding in honor, disciplined by duty, and guided by the Dragon’s will.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "DC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Art/Poetry (RP Only)": 25,
+            "Martial Arts (RP Only)": 25,
+            "Protocols/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -50,
+            "compulsion_faction_loyalty": -50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

@@ -1,0 +1,115 @@
+{
+    "id": "a30666fe-68d5-4bea-bc11-d7bd414c0f01",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 150,
+    "source": "Era Report 2750",
+    "name": "Outworlds Alliance",
+    "flavorText": "I was raised in the culture of the Outworlds Alliance—bred from frontier pacifists turned pragmatists, tempered by survival, and bonded by independence even in chaos.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "OA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": -50,
+            "WILLPOWER": 50,
+            "DEXTERITY": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 15,
+            "Survival/Any (RP Only)": 20,
+            "Language/Any (RP Only)": 15,
+            "Navigation/Any": 15,
+            "Communications/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -100,
+            "exceptional_attribute_dexterity": 100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Piloting/Aerospace": 20
+        },
+        "1": {
+            "Piloting/Spacecraft": 20
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
+}

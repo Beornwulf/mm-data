@@ -1,0 +1,100 @@
+{
+    "id": "d5988c27-4c21-4192-ba31-93ef953b9253",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 85,
+    "source": "Era Report 2750",
+    "name": "Capellan Confederation - Chesterton Commonality",
+    "flavorText": "I was raised in the culture of the Chesterton Commonality—born where trade and conquest collide, loyal to a revived dynasty, and rooted in a crossroads of legacy and ambition.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -100,
+            "INTELLIGENCE": 45,
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 10,
+            "Perception (RP Only)": 35,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 35,
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_introvert": -25
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

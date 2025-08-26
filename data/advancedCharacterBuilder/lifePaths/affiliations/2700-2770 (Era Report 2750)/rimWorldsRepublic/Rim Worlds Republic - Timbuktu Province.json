@@ -1,0 +1,140 @@
+{
+    "id": "2a4b1a11-e96f-4310-b48d-bc90ee36cb9f",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 415,
+    "source": "Era Report 2750",
+    "name": "Rim Worlds Republic - Timbuktu Province",
+    "flavorText": "I was raised in the culture of Timbuktu Province—tempered by the quiet rhythm of lightly settled worlds, where peace fostered patience, and community thrived far from the storms that shake the Inner Sphere.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "RWR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 100,
+            "STRENGTH": 50,
+            "CHARISMA": -25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 10,
+            "MedTech/Any": 20,
+            "Perception (RP Only)": 10,
+            "Astech": 150
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -25,
+            "atow_patient": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 50
+        },
+        "1": {
+            "BODY": 50
+        },
+        "2": {
+            "DEXTERITY": 50
+        },
+        "3": {
+            "REFLEXES": 50
+        },
+        "4": {
+            "INTELLIGENCE": 50
+        },
+        "5": {
+            "CHARISMA": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 1
+}

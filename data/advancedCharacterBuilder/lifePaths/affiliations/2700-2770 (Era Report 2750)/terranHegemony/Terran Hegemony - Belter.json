@@ -1,0 +1,167 @@
+{
+    "id": "7cb4c979-012f-400b-84b1-f9abfe6d2e63",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 220,
+    "source": "Era Report 2750",
+    "name": "Terran Hegemony - Belter",
+    "flavorText": "I was raised in the culture of the Belters—hardened by arid rock wombs, healed by radical medicine, and shaped by community forged beyond gravity's embrace.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "TH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 100,
+            "STRENGTH": -25,
+            "BODY": -25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 50,
+            "WEALTH": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "MedTech/Any": 10,
+            "Astech": 10,
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -75,
+            "compulsion_xenophobia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 100,
+            "BODY": 50
+        },
+        "1": {
+            "BODY": 100,
+            "STRENGTH": 50
+        },
+        "2": {
+            "DEXTERITY": 100,
+            "REFLEXES": 50
+        },
+        "3": {
+            "DEXTERITY": 50,
+            "REFLEXES": 100
+        },
+        "4": {
+            "WILLPOWER": 50,
+            "INTELLIGENCE": 100
+        },
+        "5": {
+            "WILLPOWER": 100,
+            "CHARISMA": 50
+        },
+        "6": {
+            "CHARISMA": 100,
+            "WILLPOWER": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "exceptional_attribute_strength": 50
+        },
+        "1": {
+            "exceptional_attribute_body": 50
+        },
+        "2": {
+            "exceptional_attribute_dexterity": 50
+        },
+        "3": {
+            "exceptional_attribute_reflexes": 50
+        },
+        "4": {
+            "exceptional_attribute_intelligence": 50
+        },
+        "5": {
+            "exceptional_attribute_willpower": 50
+        },
+        "6": {
+            "exceptional_attribute_charisma": 50
+        }
+    },
+    "flexibleXPPickCount": 1
+}

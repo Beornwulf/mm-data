@@ -1,0 +1,240 @@
+{
+    "id": "c88da4ee-ed3f-4fd0-a4ad-4e0a77051684",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 150,
+    "source": "Era Report 2750",
+    "name": "Free Worlds League - Stewart Commonwealth",
+    "flavorText": "I was raised in the culture of the Stewart Commonality—born from rugged settlements, loyal to Marik, and tempered by the pride of being among the first to stand with the League.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "FWL",
+            "FWLR",
+            "SC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": 25,
+            "CHARISMA": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Survival/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 30,
+            "Language/Any (RP Only)": 10,
+            "Melee Weapons (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "atow_fit": 25
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Interest/Antiques (RP Only)": 5
+        },
+        "1": {
+            "Interest/Archeology (RP Only)": 5
+        },
+        "2": {
+            "Interest/Astrology (RP Only)": 5
+        },
+        "3": {
+            "Interest/Cartography (RP Only)": 5
+        },
+        "4": {
+            "Interest/Economics (RP Only)": 5
+        },
+        "5": {
+            "Interest/Exotic Animals (RP Only)": 5
+        },
+        "6": {
+            "Interest/Fashion (RP Only)": 5
+        },
+        "7": {
+            "Interest/Fishing (RP Only)": 5
+        },
+        "8": {
+            "Interest/Gambling (RP Only)": 5
+        },
+        "9": {
+            "Interest/History (RP Only)": 5
+        },
+        "10": {
+            "Interest/Holo-Cinema (RP Only)": 5
+        },
+        "11": {
+            "Interest/Holo-Games (RP Only)": 5
+        },
+        "12": {
+            "Interest/Law (RP Only)": 5
+        },
+        "13": {
+            "Interest/Literature (RP Only)": 5
+        },
+        "14": {
+            "Interest/Military (RP Only)": 5
+        },
+        "15": {
+            "Interest/Music (RP Only)": 5
+        },
+        "16": {
+            "Interest/Mythology (RP Only)": 5
+        },
+        "17": {
+            "Interest/Other (RP Only)": 5
+        },
+        "18": {
+            "Interest/Philosophy (RP Only)": 5
+        },
+        "19": {
+            "Interest/Politics (RP Only)": 5
+        },
+        "20": {
+            "Interest/Pop-Culture (RP Only)": 5
+        },
+        "21": {
+            "Interest/Sports (RP Only)": 5
+        },
+        "22": {
+            "Interest/Theology (RP Only)": 5
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPPickCount": 1
+}
