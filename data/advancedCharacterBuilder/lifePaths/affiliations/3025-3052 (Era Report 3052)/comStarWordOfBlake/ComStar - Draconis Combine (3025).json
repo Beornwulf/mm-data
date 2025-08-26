@@ -1,0 +1,206 @@
+{
+    "id": "33d6a126-501e-4c88-960a-5c5b69b70b30",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 110,
+    "source": "Era Report 3052",
+    "name": "ComStar - Draconis Combine (3025)",
+    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 100,
+            "CHARISMA": -100,
+            "INTELLIGENCE": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -50,
+            "CONNECTIONS": 100,
+            "REPUTATION": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10,
+            "Interest/Theology (RP Only)": 25,
+            "Art/Poetry (RP Only)": 15,
+            "Language/Any (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Communications/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_introvert": -50,
+            "compulsion_xenophobia": -100,
+            "compulsion_mild_paranoia": -75
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Tech/Aero": 5
+        },
+        "1": {
+            "Tech/BattleArmor": 5
+        },
+        "2": {
+            "Tech/Mechanic": 5
+        },
+        "3": {
+            "Tech/Mek": 5
+        },
+        "4": {
+            "Tech/Vessel": 5
+        },
+        "5": {
+            "Tech/Aero": 5
+        },
+        "6": {
+            "Tech/BattleArmor": 5
+        },
+        "7": {
+            "Tech/Mechanic": 5
+        },
+        "8": {
+            "Tech/Mek": 5
+        },
+        "9": {
+            "Tech/Vessel": 5
+        },
+        "10": {
+            "Astech": 5
+        },
+        "11": {
+            "Astech": 5
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "pain_resistance": 100
+        },
+        "2": {
+            "pain_resistance": 100
+        },
+        "3": {
+            "pain_resistance": 100
+        },
+        "4": {
+            "pain_resistance": 100
+        },
+        "5": {
+            "atow_combat_sense": 100
+        },
+        "6": {
+            "atow_combat_sense": 100
+        },
+        "7": {
+            "atow_combat_sense": 100
+        },
+        "8": {
+            "atow_combat_sense": 100
+        },
+        "9": {
+            "atow_combat_sense": 100
+        },
+        "10": {
+            "atow_combat_sense": 100
+        },
+        "11": {
+            "pain_resistance": 100
+        }
+    },
+    "flexibleXPPickCount": 1
+}
