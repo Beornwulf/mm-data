@@ -12,7 +12,7 @@
     "flavorText": "I was raised in the culture of Novo Franklin—taught to survive among rival fiefdoms, honoring martial ritual above government, and carrying my Franklinian pride wherever I journey.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3067,
+    "minimumYear": 0,
     "maximumYear": 9999,
     "lifeStages": [
         "AFFILIATION"
@@ -20,9 +20,10 @@
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": true,
     "requirementsFactions": {
         "0": [
-            "OA"
+            "Periphery"
         ]
     },
     "requirementsLifePath": {
