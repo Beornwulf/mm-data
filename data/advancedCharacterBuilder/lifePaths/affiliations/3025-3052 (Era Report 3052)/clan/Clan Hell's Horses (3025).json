@@ -1,0 +1,99 @@
+{
+    "id": "cfab6abe-f554-4cd2-b898-3d83c96c7869",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Report 3052",
+    "name": "Clan Hell's Horses (3025)",
+    "flavorText": "I was raised in the culture of Clan Hell’s Horses—bred to honor the warrior over the machine, bound by unity, and tempered by strength.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CHH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "STRENGTH": 25,
+            "BODY": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Navigation/Any": 15,
+            "Interest/History (RP Only)": 25,
+            "Survival/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 20,
+            "Melee Weapons (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_introvert": -30,
+            "compulsion_faction_loyalty": -100,
+            "compulsion_unpleasant_personality": -50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

@@ -1,0 +1,102 @@
+{
+    "id": "d3682c86-e584-4ae1-99fe-89f5794083e6",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 50,
+    "source": "Era Report 3052",
+    "name": "Clan Blood Spirit (3025)",
+    "flavorText": "I was raised in the culture of Clan Blood Spirit—welded by bonds of trust, hardened by isolation, and steeped in the resolve to stand apart.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CBS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -50,
+            "WILLPOWER": 100,
+            "BODY": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Martial Arts (RP Only)": 15,
+            "Small Arms": 15,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "exceptional_attribute_willpower": 100,
+            "compulsion_faction_loyalty": -50,
+            "flaw_introvert": -50,
+            "compulsion_unpleasant_personality": -50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
