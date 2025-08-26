@@ -21,7 +21,11 @@
         "GENERAL_CRIMINAL",
         "GENERAL_DARK_CASTE"
     ],
-    "requirementsFactions": {},
+    "requirementsFactions": {
+        "0": [
+            "CLAN"
+        ]
+    },
     "requirementsLifePath": {},
     "requirementsCategories": {},
     "requirementsAttributes": {},

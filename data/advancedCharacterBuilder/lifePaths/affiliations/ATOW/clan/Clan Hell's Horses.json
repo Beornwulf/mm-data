@@ -75,7 +75,7 @@
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 15,
+            "Navigation/Any": 15,
             "Interest/History (RP Only)": 25,
             "Survival/Any (RP Only)": 15,
             "Protocols/Any (RP Only)": 20,
