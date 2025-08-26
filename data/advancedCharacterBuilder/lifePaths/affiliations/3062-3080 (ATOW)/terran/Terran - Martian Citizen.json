@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 260,
+    "xpCost": 310,
     "source": "ATOW",
     "name": "Terran - Martian Citizen",
     "flavorText": "I was raised in the culture of Mars—tempered by red sands and sealed domes, proud to stand where survival forged strength and humanity first learned to thrive beyond Earth.",
@@ -139,5 +139,5 @@
         "4": {},
         "5": {}
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPPickCount": 2
 }

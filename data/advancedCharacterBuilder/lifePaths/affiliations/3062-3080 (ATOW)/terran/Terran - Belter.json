@@ -95,22 +95,28 @@
     },
     "flexibleXPAttributes": {
         "0": {
-            "STRENGTH": 150
+            "STRENGTH": 100,
+            "BODY": 50
         },
         "1": {
-            "BODY": 150
+            "BODY": 100,
+            "STRENGTH": 50
         },
         "2": {
-            "DEXTERITY": 150
+            "DEXTERITY": 100,
+            "REFLEXES": 50
         },
         "3": {
-            "REFLEXES": 150
+            "DEXTERITY": 50,
+            "REFLEXES": 100
         },
         "4": {
-            "INTELLIGENCE": 150
+            "WILLPOWER": 50,
+            "INTELLIGENCE": 100
         },
         "5": {
-            "WILLPOWER": 150
+            "WILLPOWER": 100,
+            "CHARISMA": 50
         },
         "6": {
             "CHARISMA": 100,

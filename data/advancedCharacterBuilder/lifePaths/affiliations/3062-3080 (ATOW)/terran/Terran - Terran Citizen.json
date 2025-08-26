@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 315,
+    "xpCost": 365,
     "source": "ATOW",
     "name": "Terran - Terran Citizen",
     "flavorText": "I was raised in the culture of Terra—shaped by humanity’s oldest cradle, scarred where ideals fell, and carrying the echoes of past glories.",
@@ -140,5 +140,5 @@
         "4": {},
         "5": {}
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPPickCount": 2
 }

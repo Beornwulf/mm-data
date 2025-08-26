@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 200,
+    "xpCost": 250,
     "source": "ATOW",
     "name": "Terran",
     "flavorText": "I was raised in the culture of Terra—shaped by civilization’s cradle, forged in the shadow of capitals, and guided by the legacy of worlds collapsing and rising again.",
@@ -130,5 +130,5 @@
         "4": {},
         "5": {}
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPPickCount": 2
 }

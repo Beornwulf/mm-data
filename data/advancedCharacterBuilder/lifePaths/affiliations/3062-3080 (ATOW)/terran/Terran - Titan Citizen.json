@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 235,
+    "xpCost": 267,
     "source": "ATOW",
     "name": "Terran - Titan Citizen",
     "flavorText": "I was raised in the culture of Titan—where orange skies and steel domes guard our survival, and pride is forged in the shipyards that bind humanity’s stars.",
@@ -95,73 +95,96 @@
     },
     "flexibleXPAttributes": {
         "0": {
-            "STRENGTH": 50
-        },
-        "1": {
+            "STRENGTH": 50,
             "BODY": 50
         },
+        "1": {
+            "BODY": 50,
+            "STRENGTH": 50
+        },
         "2": {
-            "DEXTERITY": 50
+            "DEXTERITY": 50,
+            "REFLEXES": 50
         },
         "3": {
+            "DEXTERITY": 50,
             "REFLEXES": 50
         },
         "4": {
-            "WILLPOWER": 50
-        },
-        "5": {
+            "WILLPOWER": 50,
             "CHARISMA": 50
         },
-        "6": {
-            "STRENGTH": 50
+        "5": {
+            "CHARISMA": 50,
+            "WILLPOWER": 50
         },
-        "7": {
+        "6": {
+            "STRENGTH": 50,
             "BODY": 50
         },
+        "7": {
+            "BODY": 50,
+            "STRENGTH": 50
+        },
         "8": {
-            "DEXTERITY": 50
+            "DEXTERITY": 50,
+            "REFLEXES": 50
         },
         "9": {
+            "DEXTERITY": 50,
             "REFLEXES": 50
         },
         "10": {
-            "WILLPOWER": 50
-        },
-        "11": {
+            "WILLPOWER": 50,
             "CHARISMA": 50
         },
-        "12": {
-            "STRENGTH": 50
+        "11": {
+            "CHARISMA": 50,
+            "WILLPOWER": 50
         },
-        "13": {
+        "12": {
+            "STRENGTH": 50,
             "BODY": 50
         },
+        "13": {
+            "BODY": 50,
+            "STRENGTH": 50
+        },
         "14": {
-            "DEXTERITY": 50
+            "DEXTERITY": 50,
+            "REFLEXES": 50
         },
         "15": {
+            "DEXTERITY": 50,
             "REFLEXES": 50
         },
         "16": {
-            "WILLPOWER": 50
-        },
-        "17": {
+            "WILLPOWER": 50,
             "CHARISMA": 50
         },
-        "18": {
-            "STRENGTH": 50
+        "17": {
+            "CHARISMA": 50,
+            "WILLPOWER": 50
         },
-        "19": {
+        "18": {
+            "STRENGTH": 50,
             "BODY": 50
         },
+        "19": {
+            "BODY": 50,
+            "STRENGTH": 50
+        },
         "20": {
-            "DEXTERITY": 50
+            "DEXTERITY": 50,
+            "REFLEXES": 50
         },
         "21": {
+            "DEXTERITY": 50,
             "REFLEXES": 50
         },
         "22": {
-            "WILLPOWER": 50
+            "WILLPOWER": 50,
+            "CHARISMA": 50
         },
         "23": {
             "CHARISMA": 50

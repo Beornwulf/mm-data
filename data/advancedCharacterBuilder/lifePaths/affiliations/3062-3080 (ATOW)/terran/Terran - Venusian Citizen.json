@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 300,
+    "xpCost": 350,
     "source": "ATOW",
     "name": "Terran - Venusian Citizen",
     "flavorText": "I was raised in the culture of Venus—where every breath is hard-won, every city is a triumph, and survival itself is proof that nothing is impossible.",
@@ -137,5 +137,5 @@
         "4": {},
         "5": {}
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPPickCount": 2
 }
