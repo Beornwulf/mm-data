@@ -1,5 +1,5 @@
 {
-    "id": "b3377171-2e54-4c58-9769-f38ccb89d9d1",
+    "id": "c826e23c-bf72-4378-a306-dbf4a28810a3",
     "version": {
         "major": 0,
         "minor": 50,
@@ -7,9 +7,9 @@
         "extra": ""
     },
     "xpCost": 50,
-    "source": "Unofficial",
-    "name": "Inner Sphere",
-    "flavorText": "I was raised in the culture of the Inner Sphere—shaped by the clash of great powers, where loyalty was measured by banners and borders, and every life was lived in the shadow of endless war and fragile peace.",
+    "source": "ATOW",
+    "name": "Independent",
+    "flavorText": "I was raised in the culture of an independent nation—shaped by isolation and self-rule, where survival rested on our own hands, and every lesson carried the weight of defending freedom without the shelter of a greater power.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
@@ -24,7 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "IS"
+            "IND"
         ]
     },
     "requirementsLifePath": {
@@ -67,21 +67,29 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {}
+        "0": {
+            "WILLPOWER": 20
+        }
     },
     "fixedXPTraits": {
-        "0": {}
+        "0": {
+            "WEALTH": -10,
+            "REPUTATION": -10
+        }
     },
     "fixedXPSkills": {
         "0": {
             "Negotiation": 10,
             "Streetwise/Any (RP Only)": 10,
-            "Protocols/Any (RP Only)": 10,
-            "Language/Any (RP Only)": 10
+            "Small Arms": 10,
+            "Language/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
-        "0": {}
+        "0": {
+            "flaw_introvert": -10
+        }
     },
     "flexibleXPAttributes": {
         "0": {},
