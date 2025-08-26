@@ -14,6 +14,7 @@
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 9999,
+    "randomWeight": 0.001,
     "lifeStages": [
         "AFFILIATION"
     ],

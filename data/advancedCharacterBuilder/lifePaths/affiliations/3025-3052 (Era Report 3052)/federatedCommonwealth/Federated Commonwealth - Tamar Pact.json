@@ -22,9 +22,10 @@
     ],
     "requirementsFactions": {
         "0": [
+            "FC",
+            "TamP",
             "NTamP",
-            "TamPact",
-            "TamP"
+            "TamPact"
         ]
     },
     "requirementsLifePath": {
