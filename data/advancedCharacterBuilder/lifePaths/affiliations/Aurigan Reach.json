@@ -1,0 +1,135 @@
+{
+    "id": "5ae6eec2-121b-4d00-8f28-b3728d2a6452",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 265,
+    "source": "House Arano",
+    "name": "Aurigan Reach",
+    "flavorText": "I was raised in the culture of the Aurigan Reach—born among worlds forged by isolation and agriculture, and bound by a fragile alliance.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "ARC",
+            "ARD"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 100,
+            "CONNECTIONS": 25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 20,
+            "Martial Arts (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Animal Handling (RP Only)": 5
+        },
+        "1": {
+            "Archery (RP Only)": 5
+        },
+        "2": {
+            "Melee Weapons (RP Only)": 5
+        },
+        "3": {
+            "Small Arms": 5
+        },
+        "4": {
+            "Streetwise/Any (RP Only)": 5
+        },
+        "5": {
+            "Survival/Any (RP Only)": 5
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
+}
