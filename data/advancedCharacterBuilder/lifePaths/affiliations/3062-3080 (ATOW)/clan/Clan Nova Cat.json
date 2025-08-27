@@ -12,14 +12,16 @@
     "flavorText": "I was raised in the culture of Clan Nova Cat—guided by inner visions, committed to rediscovering honor beyond conquest, and grounded in mysticism.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
+    "minimumYear": 3061,
     "maximumYear": 9999,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_CLAN"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "CNC"

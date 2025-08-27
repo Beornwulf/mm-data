@@ -1,5 +1,5 @@
 {
-    "id": "5c2a3cba-bfbf-44fb-b3d8-d6d2c93f30b7",
+    "id": "547be05e-cb61-4436-9690-5ca6af0f9826",
     "version": {
         "major": 0,
         "minor": 50,
@@ -14,7 +14,7 @@
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 9999,
-    "randomWeight": 1.0,
+    "randomWeight": 0.1,
     "lifeStages": [
         "AFFILIATION"
     ],

@@ -14,12 +14,14 @@
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 9999,
+    "randomWeight": 0.01,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "CS"

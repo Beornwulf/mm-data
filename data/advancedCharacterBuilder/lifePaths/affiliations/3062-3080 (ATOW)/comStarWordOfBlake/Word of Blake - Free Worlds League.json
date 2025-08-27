@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 70,
+    "xpCost": 125,
     "source": "ATOW",
     "name": "Word of Blake - Free Worlds League",
     "flavorText": "I was raised in the culture of the Word of Blake—taught that belief alone sanctifies power, that sacrifice cleanses the weak, and that destiny belongs to those whose faith burns fiercest.",
@@ -14,12 +14,14 @@
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 9999,
+    "randomWeight": 3.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "WOB"

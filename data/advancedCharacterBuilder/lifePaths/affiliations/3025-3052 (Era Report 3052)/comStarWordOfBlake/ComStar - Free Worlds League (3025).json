@@ -6,7 +6,7 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 115,
+    "xpCost": 110,
     "source": "Era Report 3052",
     "name": "ComStar - Free Worlds League (3025)",
     "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
@@ -220,243 +220,243 @@
     },
     "flexibleXPSkills": {
         "0": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Cooking (RP Only)": 10
         },
         "1": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Dancing (RP Only)": 10
         },
         "2": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Drawing (RP Only)": 10
         },
         "3": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Instrument (RP Only)": 10
         },
         "4": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Painting (RP Only)": 10
         },
         "5": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Poetry (RP Only)": 10
         },
         "6": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "7": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Singing (RP Only)": 10
         },
         "8": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Writing (RP Only)": 10
         },
         "9": {
-            "Tech/Aero": 10,
+            "Tech/Aero": 5,
             "Art/Other (RP Only)": 10
         },
         "10": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Cooking (RP Only)": 10
         },
         "11": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Dancing (RP Only)": 10
         },
         "12": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Drawing (RP Only)": 10
         },
         "13": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Instrument (RP Only)": 10
         },
         "14": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Painting (RP Only)": 10
         },
         "15": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Poetry (RP Only)": 10
         },
         "16": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "17": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Singing (RP Only)": 10
         },
         "18": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Writing (RP Only)": 10
         },
         "19": {
-            "Tech/BattleArmor": 10,
+            "Tech/BattleArmor": 5,
             "Art/Other (RP Only)": 10
         },
         "20": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Cooking (RP Only)": 10
         },
         "21": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Dancing (RP Only)": 10
         },
         "22": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Drawing (RP Only)": 10
         },
         "23": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Instrument (RP Only)": 10
         },
         "24": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Painting (RP Only)": 10
         },
         "25": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Poetry (RP Only)": 10
         },
         "26": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "27": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Singing (RP Only)": 10
         },
         "28": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Writing (RP Only)": 10
         },
         "29": {
-            "Tech/Mechanic": 10,
+            "Tech/Mechanic": 5,
             "Art/Other (RP Only)": 10
         },
         "30": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Cooking (RP Only)": 10
         },
         "31": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Dancing (RP Only)": 10
         },
         "32": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Drawing (RP Only)": 10
         },
         "33": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Instrument (RP Only)": 10
         },
         "34": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Painting (RP Only)": 10
         },
         "35": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Poetry (RP Only)": 10
         },
         "36": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "37": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Singing (RP Only)": 10
         },
         "38": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Writing (RP Only)": 10
         },
         "39": {
-            "Tech/Mek": 10,
+            "Tech/Mek": 5,
             "Art/Other (RP Only)": 10
         },
         "40": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Cooking (RP Only)": 10
         },
         "41": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Dancing (RP Only)": 10
         },
         "42": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Drawing (RP Only)": 10
         },
         "43": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Instrument (RP Only)": 10
         },
         "44": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Painting (RP Only)": 10
         },
         "45": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Poetry (RP Only)": 10
         },
         "46": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "47": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Singing (RP Only)": 10
         },
         "48": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Writing (RP Only)": 10
         },
         "49": {
-            "Tech/Vessel": 10,
+            "Tech/Vessel": 5,
             "Art/Other (RP Only)": 10
         },
         "50": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Cooking (RP Only)": 10
         },
         "51": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Dancing (RP Only)": 10
         },
         "52": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Drawing (RP Only)": 10
         },
         "53": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Instrument (RP Only)": 10
         },
         "54": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Painting (RP Only)": 10
         },
         "55": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Poetry (RP Only)": 10
         },
         "56": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Sculpture (RP Only)": 10
         },
         "57": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Singing (RP Only)": 10
         },
         "58": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Writing (RP Only)": 10
         },
         "59": {
-            "Astech": 10,
+            "Astech": 5,
             "Art/Other (RP Only)": 10
         }
     },
