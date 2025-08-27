@@ -1,5 +1,5 @@
 {
-    "id": "3b32296e-a342-4347-ae75-a5600bf2bde0",
+    "id": "c00c3c21-c0fa-4cd5-9571-7dfccf666b84",
     "version": {
         "major": 0,
         "minor": 50,
@@ -12,14 +12,16 @@
     "flavorText": "I was bred to the Warrior Caste, raised from birth to believe strength and honor are the only currencies that matter.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
+    "minimumYear": 2868,
     "maximumYear": 9999,
+    "randomWeight": 1.0,
     "lifeStages": [
         "CLAN_CASTE"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "NONE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": []
     },

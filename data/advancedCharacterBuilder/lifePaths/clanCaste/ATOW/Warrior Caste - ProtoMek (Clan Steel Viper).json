@@ -14,12 +14,14 @@
     "xpDiscount": 0,
     "minimumYear": 3062,
     "maximumYear": 9999,
+    "randomWeight": 1.0,
     "lifeStages": [
         "CLAN_CASTE"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "NONE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "CSV"
