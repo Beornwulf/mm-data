@@ -1,5 +1,5 @@
 {
-    "id": "3adac522-b60c-4b2c-9cf0-3694c51353b8",
+    "id": "bd02e46e-c152-4bc7-afb6-9ac6b04ad34c",
     "version": {
         "major": 0,
         "minor": 50,
@@ -7,9 +7,9 @@
         "extra": ""
     },
     "xpCost": 0,
-    "source": "N/A",
+    "source": "MegaMek Team",
     "name": "None",
-    "flavorText": "",
+    "flavorText": "I was an ordinary soul among countless others.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
@@ -24,19 +24,7 @@
     ],
     "isPlayerRestricted": false,
     "requirementsFactions": {
-        "0": [
-            "CC",
-            "CNC",
-            "CWIE",
-            "CS",
-            "DC",
-            "FS",
-            "FRR",
-            "FWL",
-            "LA",
-            "SIC",
-            "FC"
-        ]
+        "0": []
     },
     "requirementsLifePath": {
         "0": []
@@ -57,7 +45,9 @@
         "0": {}
     },
     "exclusionsFactions": {
-        "0": []
+        "0": [
+            "SL"
+        ]
     },
     "exclusionsLifePath": {
         "0": []
