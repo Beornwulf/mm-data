@@ -1,5 +1,5 @@
 {
-    "id": "e19d9666-c184-4944-9a7b-5470fafc0d70",
+    "id": "250183a1-0db9-4196-a04e-d6948671cc84",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,21 +8,24 @@
     },
     "xpCost": 25,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Alarion Province",
+    "name": "Federated Commonwealth Alliance (Steiner) - Alarion Province",
     "flavorText": "I was raised in the culture of Alarion Province—molded by frontier rebirth, defined by martial education, and tempered by resilience.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 3057,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "LA"
+            "LA",
+            "FC"
         ]
     },
     "requirementsLifePath": {

@@ -1,18 +1,18 @@
 {
-    "id": "57cada22-3f90-4108-afcf-b02ebff238a3",
+    "id": "0e10c9c9-94f3-4dc3-af4d-078930263bfd",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 35,
+    "xpCost": 40,
     "source": "Era Report 3052",
-    "name": "ComStar - Capellan Confederation (3025)",
-    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
+    "name": "Federated Commonwealth Alliance (Steiner) - Skye Province",
+    "flavorText": "I was raised in the culture of the Federation of Skye—defiant, resourceful, and proud of a heritage that dared to stand apart, even as we helped forge the Lyran Commonwealth.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3025,
+    "minimumYear": 3030,
     "maximumYear": 3052,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -24,7 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS"
+            "LA",
+            "FC"
         ]
     },
     "requirementsLifePath": {
@@ -68,76 +69,49 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 100,
-            "CHARISMA": -100,
-            "INTELLIGENCE": 25
+            "WILLPOWER": 50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 50,
-            "CONNECTIONS": 100
+            "WEALTH": 100,
+            "CONNECTIONS": 85,
+            "REPUTATION": -150
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 10,
-            "Martial Arts (RP Only)": 5,
-            "Interest/Theology (RP Only)": 25,
-            "Communications/Any (RP Only)": 10,
+            "Negotiation": 30,
+            "Streetwise/Any (RP Only)": 15,
             "Protocols/Any (RP Only)": 15,
-            "Language/Any (RP Only)": 15
+            "Appraisal (RP Only)": 10,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "flaw_introvert": -50,
-            "compulsion_mild_paranoia": -175
+            "compulsion_faction_pride": -25
         }
     },
     "flexibleXPAttributes": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPTraits": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPSkills": {
-        "0": {
-            "Tech/Aero": 5
-        },
-        "1": {
-            "Tech/BattleArmor": 5
-        },
-        "2": {
-            "Tech/Mechanic": 5
-        },
-        "3": {
-            "Tech/Mek": 5
-        },
-        "4": {
-            "Tech/Vessel": 5
-        },
-        "5": {
-            "Astech": 5
-        }
+        "0": {},
+        "1": {}
     },
     "flexibleXPAbilities": {
-        "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "0": {
+            "atow_combat_paralysis": -100
+        },
+        "1": {
+            "flaw_glass_jaw": -100
+        }
     },
     "flexibleXPPickCount": 1
 }

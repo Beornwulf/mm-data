@@ -1,5 +1,5 @@
 {
-    "id": "9c470fc5-b95c-47f5-a9b2-4585d3adf8e1",
+    "id": "4312792b-17d2-474b-ac54-285388ad0210",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,12 +8,13 @@
     },
     "xpCost": 30,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Sarna March",
+    "name": "Sarna March",
     "flavorText": "I was raised in the culture of the Sarna March—born in contested worlds, defined by shifting allegiances, and hardened in the ruin between empires.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 3057,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 0.001,
     "lifeStages": [
         "AFFILIATION"
     ],
@@ -23,7 +24,8 @@
     "isPlayerRestricted": true,
     "requirementsFactions": {
         "0": [
-            "FC"
+            "FC",
+            "LA"
         ]
     },
     "requirementsLifePath": {

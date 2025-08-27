@@ -1,27 +1,30 @@
 {
-    "id": "b97d8f7a-5b1c-41cc-85a1-f64f213dd690",
+    "id": "98c9080b-f7d7-4439-a761-25d6bf7632dc",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 40,
+    "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Skye Province",
-    "flavorText": "I was raised in the culture of the Federation of Skye—defiant, resourceful, and proud of a heritage that dared to stand apart, even as we helped forge the Lyran Commonwealth.",
+    "name": "Federated Commonwealth Alliance (Steiner)",
+    "flavorText": "I was raised in the culture of the Federated Commonwealth—bound by unity, bred for strength, and molded by a legacy of two nations that dare to stand as one.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 3057,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
+            "FC",
             "LA"
         ]
     },
@@ -66,21 +69,18 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": -50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": 100,
-            "CONNECTIONS": 85,
-            "REPUTATION": -150
+            "WEALTH": 100
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 30,
-            "Streetwise/Any (RP Only)": 15,
-            "Protocols/Any (RP Only)": 15,
+            "Negotiation": 15,
+            "Protocols/Any (RP Only)": 30,
             "Appraisal (RP Only)": 10,
             "Language/Any (RP Only)": 10
         }

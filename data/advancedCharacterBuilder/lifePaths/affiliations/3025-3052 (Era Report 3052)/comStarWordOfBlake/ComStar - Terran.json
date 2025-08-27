@@ -1,5 +1,5 @@
 {
-    "id": "ad7da3a7-fcc9-4c8f-bf98-f5a1cdf5437c",
+    "id": "cccba1b8-95ee-4ffa-a403-2a48649c822d",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,13 +8,13 @@
     },
     "xpCost": 360,
     "source": "Era Report 3052",
-    "name": "ComStar - Terran (3025)",
+    "name": "ComStar - Terran",
     "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
-    "randomWeight": 0.01,
+    "randomWeight": 0.001,
     "lifeStages": [
         "AFFILIATION"
     ],

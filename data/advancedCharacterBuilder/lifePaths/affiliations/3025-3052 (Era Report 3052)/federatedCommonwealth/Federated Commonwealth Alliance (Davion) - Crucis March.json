@@ -1,20 +1,20 @@
 {
-    "id": "bad57f39-a6a9-47e6-8cc8-77a2bb855a81",
+    "id": "7926ffe3-f61f-421e-b1d2-f5330de099cd",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 120,
+    "xpCost": 75,
     "source": "Era Report 3052",
-    "name": "ComStar - Periphery (3025)",
-    "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
+    "name": "Federated Commonwealth Alliance (Davion) - Crucis March",
+    "flavorText": "I was raised in the culture of the Crucis March—loyal to House Davion, steady at the core, and grounded in the traditions of New Avalon’s heart.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3025,
+    "minimumYear": 3030,
     "maximumYear": 3052,
-    "randomWeight": 0.1,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
@@ -24,7 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS"
+            "FS",
+            "FC"
         ]
     },
     "requirementsLifePath": {
@@ -68,32 +69,22 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50,
-            "CHARISMA": -100,
-            "INTELLIGENCE": 25
+            "WILLPOWER": 50
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "REPUTATION": 50,
-            "CONNECTIONS": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 10,
-            "Interest/Theology (RP Only)": 25,
-            "Survival/Any (RP Only)": 20,
-            "Language/Any (RP Only)": 15,
-            "Perception (RP Only)": 15,
-            "Communications/Any (RP Only)": 10,
-            "Protocols/Any (RP Only)": 20
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "flaw_introvert": -50,
-            "compulsion_mild_paranoia": -75
+            "compulsion_faction_pride": -25
         }
     },
     "flexibleXPAttributes": {
@@ -102,7 +93,11 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
     },
     "flexibleXPTraits": {
         "0": {},
@@ -110,26 +105,42 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
     },
     "flexibleXPSkills": {
         "0": {
-            "Tech/Aero": 5
+            "Art/Cooking (RP Only)": 10
         },
         "1": {
-            "Tech/BattleArmor": 5
+            "Art/Dancing (RP Only)": 10
         },
         "2": {
-            "Tech/Mechanic": 5
+            "Art/Drawing (RP Only)": 10
         },
         "3": {
-            "Tech/Mek": 5
+            "Art/Instrument (RP Only)": 10
         },
         "4": {
-            "Tech/Vessel": 5
+            "Art/Painting (RP Only)": 10
         },
         "5": {
-            "Astech": 5
+            "Art/Poetry (RP Only)": 10
+        },
+        "6": {
+            "Art/Sculpture (RP Only)": 10
+        },
+        "7": {
+            "Art/Singing (RP Only)": 10
+        },
+        "8": {
+            "Art/Writing (RP Only)": 10
+        },
+        "9": {
+            "Art/Other (RP Only)": 10
         }
     },
     "flexibleXPAbilities": {
@@ -138,7 +149,11 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
     },
     "flexibleXPPickCount": 1
 }

@@ -1,5 +1,5 @@
 {
-    "id": "997716d6-b943-4532-a5ce-45a463782d5c",
+    "id": "5c927150-296d-4fa3-a361-09e0e62de088",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,21 +8,24 @@
     },
     "xpCost": 30,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Coventry Province",
-    "flavorText": "I was raised in the culture of Coventry Province—forged amid industry and defense, educated in martial discipline, and bound by the duty to hold the line.",
+    "name": "Federated Commonwealth Alliance (Steiner) - Bolan Province",
+    "flavorText": "I was raised in the culture of Bolan Province—tempered by frontier renewal, forged in martial discipline, and ever vigilant in the face of border threats.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 3057,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "LA"
+            "LA",
+            "FC"
         ]
     },
     "requirementsLifePath": {
@@ -66,18 +69,20 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": -50
         }
     },
     "fixedXPTraits": {
         "0": {
+            "CONNECTIONS": 50,
             "WEALTH": 125
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 25,
-            "Administration": 10,
+            "Negotiation": 30,
+            "Administration": 5,
+            "Streetwise/Any (RP Only)": 5,
             "Protocols/Any (RP Only)": 20,
             "Appraisal (RP Only)": 10,
             "Language/Any (RP Only)": 10
@@ -85,7 +90,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -95,
+            "compulsion_faction_loyalty": -50,
             "compulsion_faction_pride": -25
         }
     },

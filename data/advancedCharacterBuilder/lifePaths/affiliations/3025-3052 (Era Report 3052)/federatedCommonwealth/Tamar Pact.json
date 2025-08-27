@@ -1,5 +1,5 @@
 {
-    "id": "63550314-7661-4f53-9caf-c683e048d07e",
+    "id": "d50022fb-3598-4c5d-b099-ff57c2815b62",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,18 +8,20 @@
     },
     "xpCost": 60,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Tamar Pact",
+    "name": "Tamar Pact",
     "flavorText": "I was raised in the culture of the Tamar Pact—tempered by loss and reborn through defiance, guided by the scars of frontier wars and the unyielding loyalty to reclaim what was ours.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
-    "maximumYear": 3052,
+    "maximumYear": 3057,
+    "randomWeight": 0.001,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "FC",

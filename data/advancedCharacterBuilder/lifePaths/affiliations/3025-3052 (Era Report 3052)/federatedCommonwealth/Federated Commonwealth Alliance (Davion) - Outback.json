@@ -1,5 +1,5 @@
 {
-    "id": "e20a3eb5-f1a7-4d6c-9144-2f8851d7d953",
+    "id": "d51a8717-2453-447e-81d2-d2fe1f50ddd0",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,21 +8,24 @@
     },
     "xpCost": 10,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Outback",
+    "name": "Federated Commonwealth Alliance (Davion) - Outback",
     "flavorText": "I was raised in the culture of the Outback—resilient in hardship, forged by neglect and frontier grit, carrying that resolve.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "FS"
+            "FS",
+            "FC"
         ]
     },
     "requirementsLifePath": {

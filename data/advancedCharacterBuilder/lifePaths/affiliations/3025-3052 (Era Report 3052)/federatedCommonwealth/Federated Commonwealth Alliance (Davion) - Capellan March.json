@@ -1,27 +1,30 @@
 {
-    "id": "64c04b3e-83bc-438c-9a30-db56323da599",
+    "id": "f533172d-9d01-4c53-b47a-aa1878d10e7a",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 25,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth (Davion)",
-    "flavorText": "I was raised in the culture of the Federated Commonwealth—bound by unity, bred for strength, and molded by a legacy of two nations that dare to stand as one.",
+    "name": "Federated Commonwealth Alliance (Davion) - Capellan March",
+    "flavorText": "I was raised in the culture of the Capellan March—shaped by House Hasek’s creed, ever vigilant against the Confederation, and bound to loyalty.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
+            "FS",
             "FC"
         ]
     },
@@ -65,19 +68,25 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {}
+        "0": {
+            "WILLPOWER": 40
+        }
     },
     "fixedXPTraits": {
-        "0": {}
+        "0": {
+            "CONNECTIONS": 25
+        }
     },
     "fixedXPSkills": {
         "0": {
+            "Interest/History (RP Only)": 10,
             "Protocols/Any (RP Only)": 15,
             "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
+            "compulsion_faction_loyalty": -50,
             "compulsion_faction_pride": -25
         }
     },

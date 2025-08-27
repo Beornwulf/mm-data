@@ -1,28 +1,31 @@
 {
-    "id": "4a728292-20b2-470b-ab60-ca8e8c1c23b1",
+    "id": "e15be178-fc6e-4860-991f-a255a38c4cdd",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 30,
+    "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Federated Commonwealth - Bolan Province",
-    "flavorText": "I was raised in the culture of Bolan Province—tempered by frontier renewal, forged in martial discipline, and ever vigilant in the face of border threats.",
+    "name": "Federated Commonwealth Alliance (Steiner) - Donegal Province",
+    "flavorText": "I was raised in the culture of Donegal Province—steeped in political cunning, nurtured by prosperity, and shaped by the resolve to stand firm when empires crumble.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 3057,
+    "minimumYear": 3030,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "LA"
+            "LA",
+            "FC"
         ]
     },
     "requirementsLifePath": {
@@ -65,29 +68,26 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": -50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
         "0": {
-            "CONNECTIONS": 50,
-            "WEALTH": 125
+            "WEALTH": 150,
+            "CONNECTIONS": 5,
+            "REPUTATION": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 30,
-            "Administration": 5,
-            "Streetwise/Any (RP Only)": 5,
-            "Protocols/Any (RP Only)": 20,
-            "Appraisal (RP Only)": 10,
+            "Negotiation": 25,
+            "Protocols/Any (RP Only)": 25,
+            "Appraisal (RP Only)": 20,
             "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
+            "compulsion_unpleasant_personality": -75,
             "compulsion_faction_pride": -25
         }
     },
