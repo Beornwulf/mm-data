@@ -1,5 +1,5 @@
 {
-    "id": "8dc02ab6-cdbf-4dfc-a224-5b0db41432ea",
+    "id": "8751c9c6-be85-4607-807f-0b18b61a4b66",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,12 +8,12 @@
     },
     "xpCost": 285,
     "source": "Era Report 3062",
-    "name": "Second Star League Participation",
-    "flavorText": "",
+    "name": "Second Star League Service",
+    "flavorText": "I served the Second Star League—sworn to a fragile unity, fighting not for one realm but for all, and bound by the hope that for once our strength together might outlast the war that demanded it.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3059,
-    "maximumYear": 9999,
+    "maximumYear": 3067,
     "randomWeight": 0.01,
     "lifeStages": [
         "SUPPLEMENTAL"
