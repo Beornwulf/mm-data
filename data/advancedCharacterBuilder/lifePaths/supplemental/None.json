@@ -46,7 +46,9 @@
     },
     "exclusionsFactions": {
         "0": [
-            "SL"
+            "SL",
+            "CS",
+            "WOB"
         ]
     },
     "exclusionsLifePath": {
