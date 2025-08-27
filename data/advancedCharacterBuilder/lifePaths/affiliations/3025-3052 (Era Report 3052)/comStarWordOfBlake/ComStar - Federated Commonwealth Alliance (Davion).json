@@ -1,5 +1,5 @@
 {
-    "id": "7a72ad97-e6df-487e-ac45-df00ce121917",
+    "id": "f8e7c392-8734-46ff-9e2f-7e3a6a8b8a6e",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,11 +8,11 @@
     },
     "xpCost": 80,
     "source": "Era Report 3052",
-    "name": "ComStar - Federated Suns (3025)",
+    "name": "ComStar - Federated Commonwealth Alliance (Davion)",
     "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3025,
+    "minimumYear": 3030,
     "maximumYear": 3052,
     "randomWeight": 1.0,
     "lifeStages": [

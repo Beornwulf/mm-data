@@ -1,18 +1,18 @@
 {
-    "id": "b4d55729-e60f-45b6-8f53-86526319d6e4",
+    "id": "2c39eebc-6e94-4aab-85f6-e3e4315faa31",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 80,
+    "xpCost": 155,
     "source": "Era Report 3052",
-    "name": "ComStar - Federated Commonwealth (Davion)",
+    "name": "Comstar - Federated Commonwealth Alliance (Steiner)",
     "flavorText": "I was raised in the culture of ComStar—taught that knowledge is power, silence is sacred, and to guard humanity is to hold its secrets.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3025,
+    "minimumYear": 3030,
     "maximumYear": 3052,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -68,30 +68,29 @@
     },
     "fixedXPAttributes": {
         "0": {
+            "INTELLIGENCE": 25,
             "WILLPOWER": 50,
-            "CHARISMA": -100,
-            "INTELLIGENCE": 25
+            "CHARISMA": -100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 50,
-            "CONNECTIONS": 100
+            "CONNECTIONS": 100,
+            "REPUTATION": 50
         }
     },
     "fixedXPSkills": {
         "0": {
             "Negotiation": 10,
-            "Interest/Theology (RP Only)": 25,
+            "Language/Any (RP Only)": 15,
             "Communications/Any (RP Only)": 10,
-            "Protocols/Any (RP Only)": 15,
-            "Language/Any (RP Only)": 15
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "flaw_introvert": -50,
-            "compulsion_mild_paranoia": -75
+            "flaw_introvert": -50
         }
     },
     "flexibleXPAttributes": {
@@ -100,7 +99,13 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {}
     },
     "flexibleXPTraits": {
         "0": {},
@@ -108,7 +113,13 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {}
     },
     "flexibleXPSkills": {
         "0": {
@@ -128,15 +139,63 @@
         },
         "5": {
             "Astech": 5
+        },
+        "6": {
+            "Tech/Aero": 5
+        },
+        "7": {
+            "Tech/BattleArmor": 5
+        },
+        "8": {
+            "Tech/Mechanic": 5
+        },
+        "9": {
+            "Tech/Mek": 5
+        },
+        "10": {
+            "Tech/Vessel": 5
+        },
+        "11": {
+            "Astech": 5
         }
     },
     "flexibleXPAbilities": {
-        "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "0": {
+            "atow_combat_paralysis": -100
+        },
+        "1": {
+            "atow_combat_paralysis": -100
+        },
+        "2": {
+            "atow_combat_paralysis": -100
+        },
+        "3": {
+            "atow_combat_paralysis": -100
+        },
+        "4": {
+            "atow_combat_paralysis": -100
+        },
+        "5": {
+            "atow_combat_paralysis": -100
+        },
+        "6": {
+            "flaw_glass_jaw": -100
+        },
+        "7": {
+            "flaw_glass_jaw": -100
+        },
+        "8": {
+            "flaw_glass_jaw": -100
+        },
+        "9": {
+            "flaw_glass_jaw": -100
+        },
+        "10": {
+            "flaw_glass_jaw": -100
+        },
+        "11": {
+            "flaw_glass_jaw": -100
+        }
     },
     "flexibleXPPickCount": 1
 }
