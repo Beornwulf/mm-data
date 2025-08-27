@@ -1,0 +1,99 @@
+{
+    "id": "3ca77feb-7c28-4d1e-a7fd-faea22079d68",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 50,
+    "source": "Era Report 3062",
+    "name": "Capellan Confederation - Sian Commonality",
+    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 160
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 40
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Perception (RP Only)": 25,
+            "Interest/History (RP Only)": 20,
+            "Protocols/Any (RP Only)": 30,
+            "Language/Any (RP Only)": 30
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -155,
+            "compulsion_mild_paranoia": -150,
+            "atow_citizenship": 50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

@@ -1,0 +1,113 @@
+{
+    "id": "40f858cc-537e-4ce2-8b1d-a7e8e400c0b0",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 40,
+    "source": "Era Report 3062",
+    "name": "Magistracy of Canopus",
+    "flavorText": "I was raised in the culture of the Magistracy of Canopus—nurtured by freedom, guided by matriarchal wisdom, and shaped by art’s embrace.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "MOC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 10,
+            "CHARISMA": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -145,
+            "WEALTH": 25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Streetwise/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_illiterate": -30,
+            "atow_gregarious": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Acting (RP Only)": 15
+        },
+        "1": {
+            "MedTech/Any": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
+}

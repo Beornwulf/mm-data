@@ -1,0 +1,101 @@
+{
+    "id": "abd5eaef-6438-4670-8f58-093682e1ef6a",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 45,
+    "source": "Era Report 3062",
+    "name": "Clan Star Adder",
+    "flavorText": "I was raised in the culture of Clan Star Adder—shaped by unity over spectacle, guided by strategy, and forged into leaders through cautious strength.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3053,
+    "maximumYear": 3062,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CSA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 75,
+            "INTELLIGENCE": 50,
+            "CHARISMA": -70
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Leadership": 10,
+            "Perception (RP Only)": 10,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -100,
+            "atow_combat_sense": 50,
+            "clan_pilot_training": -50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

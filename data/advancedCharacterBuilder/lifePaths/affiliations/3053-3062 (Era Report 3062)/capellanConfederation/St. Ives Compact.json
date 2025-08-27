@@ -1,0 +1,161 @@
+{
+    "id": "87d6ac2a-a081-48fa-8736-4c30b567929f",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 35,
+    "source": "Era Report 3062",
+    "name": "St. Ives Compact",
+    "flavorText": "I was raised in the culture of the St. Ives Compact—reared by a people caught between Capellan tradition and Federated Suns ideals, where ambition thrived in quiet resilience, and loyalty was bound by both heritage and the fragile hope of autonomy.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 3062,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "SIC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -100,
+            "WEALTH": 55
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Perception (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 5
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 5
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 5
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 5
+        },
+        "4": {
+            "Art/Other (RP Only)": 5
+        },
+        "5": {
+            "Art/Painting (RP Only)": 5
+        },
+        "6": {
+            "Art/Poetry (RP Only)": 5
+        },
+        "7": {
+            "Art/Sculpture (RP Only)": 5
+        },
+        "8": {
+            "Art/Singing (RP Only)": 5
+        },
+        "9": {
+            "Art/Writing (RP Only)": 5
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPPickCount": 1
+}

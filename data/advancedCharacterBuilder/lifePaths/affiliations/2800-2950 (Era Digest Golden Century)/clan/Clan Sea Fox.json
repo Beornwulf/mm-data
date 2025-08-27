@@ -1,0 +1,100 @@
+{
+    "id": "0ca0edcb-2be3-4c1c-acbf-ec0cd99137fe",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Digest Golden Century",
+    "name": "Clan Sea Fox",
+    "flavorText": "",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CDS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "CHARISMA": 25,
+            "WILLPOWER": 10
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 25,
+            "REPUTATION": -25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Perception (RP Only)": 10,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -200
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

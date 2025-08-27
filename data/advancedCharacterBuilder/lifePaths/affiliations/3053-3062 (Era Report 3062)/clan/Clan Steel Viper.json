@@ -1,0 +1,101 @@
+{
+    "id": "2fd50724-c0f0-4fbe-9c1e-a5f8e537ad49",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Report 3062",
+    "name": "Clan Steel Viper",
+    "flavorText": "I was raised in the culture of Clan Steel Viper—tempered by isolation, guided by a vision of Star League rebirth, and sharpened through calculated purpose.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3053,
+    "maximumYear": 3062,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CSV"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 100,
+            "INTELLIGENCE": 75,
+            "CHARISMA": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 80
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10,
+            "Interest/History (RP Only)": 25,
+            "Survival/Any (RP Only)": 20,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -150,
+            "compulsion_unpleasant_personality": -50,
+            "clan_pilot_training": -100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

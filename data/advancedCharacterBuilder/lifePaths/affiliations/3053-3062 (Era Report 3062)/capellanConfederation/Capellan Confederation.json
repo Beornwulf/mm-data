@@ -1,0 +1,94 @@
+{
+    "id": "e5023959-2546-4a82-94a9-c0fbdb866c07",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Report 3062",
+    "name": "Capellan Confederation",
+    "flavorText": "I was raised in the culture of the Capellan Confederation, where duty to the State is the highest honor a citizen can claim.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Language/Any (RP Only)": 20,
+            "Perception (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -150
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

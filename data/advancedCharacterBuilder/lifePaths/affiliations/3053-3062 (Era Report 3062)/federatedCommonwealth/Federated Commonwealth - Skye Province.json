@@ -1,0 +1,116 @@
+{
+    "id": "28de0983-9ae4-4d78-8cca-076560864221",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 15,
+    "source": "Era Report 3052",
+    "name": "Federated Commonwealth - Skye Province",
+    "flavorText": "I was raised in the culture of the Federation of Skye—defiant, resourceful, and proud of a heritage that dared to stand apart, even as we helped forge the Lyran Commonwealth.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 3057,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "LA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 100,
+            "CONNECTIONS": 85,
+            "REPUTATION": -150
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 30,
+            "Streetwise/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 10,
+            "Language/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "atow_combat_paralysis": -100
+        },
+        "1": {
+            "flaw_glass_jaw": -100
+        }
+    },
+    "flexibleXPPickCount": 1
+}
