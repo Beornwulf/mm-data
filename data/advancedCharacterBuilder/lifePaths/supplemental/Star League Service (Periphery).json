@@ -1,0 +1,97 @@
+{
+    "id": "3010f509-1317-4931-a17a-ce7741ddf6ef",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 135,
+    "source": "Unofficial",
+    "name": "Star League Service (Periphery)",
+    "flavorText": "I was born in the Periphery, where the Star League’s conquest stole our sovereignty, yet I chose to serve beneath its banner—carrying both the weight of submission and the hope that unity might bring more than chains.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 2597,
+    "maximumYear": 2765,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "SUPPLEMENTAL"
+    ],
+    "categories": [
+        "NONE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "FWL",
+            "OA",
+            "TC",
+            "MOC",
+            "RWR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 50,
+            "CONNECTIONS": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Language/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
