@@ -1,30 +1,28 @@
 {
-    "id": "e002a080-60a8-4be6-a06c-8774919d2564",
+    "id": "94a60adc-8823-485c-9000-12ffc5495c5a",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 30,
+    "xpCost": 55,
     "source": "Era Report 3052",
-    "name": "Clan Steel Viper (3025)",
-    "flavorText": "I was raised in the culture of Clan Steel Viper—tempered by isolation, guided by a vision of Star League rebirth, and sharpened through calculated purpose.",
+    "name": "Capellan Confederation - Victoria Commonality",
+    "flavorText": "I was raised in the spirit of the Victoria Commonality—resilient and industrious, molded by frontier grit rather than borders.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
-    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
-    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CSV"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -68,29 +66,27 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "CHARISMA": -50,
-            "INTELLIGENCE": 75,
-            "WILLPOWER": 100
+            "WILLPOWER": 110
         }
     },
     "fixedXPTraits": {
         "0": {
-            "CONNECTIONS": 80
+            "WEALTH": -50,
+            "CONNECTIONS": 50
         }
     },
     "fixedXPSkills": {
         "0": {
+            "Martial Arts (RP Only)": 20,
+            "Perception (RP Only)": 15,
             "Negotiation": 10,
-            "Interest/History (RP Only)": 25,
-            "Survival/Any (RP Only)": 20,
-            "Protocols/Any (RP Only)": 20
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 35
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "clan_pilot_training": -100,
-            "compulsion_faction_loyalty": -100,
-            "compulsion_unpleasant_personality": -50
+            "compulsion_mild_paranoia": -150
         }
     },
     "flexibleXPAttributes": {},

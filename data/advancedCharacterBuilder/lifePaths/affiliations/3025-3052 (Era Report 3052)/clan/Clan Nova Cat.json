@@ -1,15 +1,15 @@
 {
-    "id": "d3682c86-e584-4ae1-99fe-89f5794083e6",
+    "id": "a45410a5-4eea-443e-9f39-32486e4b0f13",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Clan Blood Spirit (3025)",
-    "flavorText": "I was raised in the culture of Clan Blood Spirit—welded by bonds of trust, hardened by isolation, and steeped in the resolve to stand apart.",
+    "name": "Clan Nova Cat",
+    "flavorText": "I was raised in the culture of Clan Nova Cat—guided by inner visions, committed to rediscovering honor beyond conquest, and grounded in mysticism.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
@@ -24,7 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CBS"
+            "CNC"
         ]
     },
     "requirementsLifePath": {
@@ -68,29 +68,23 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "CHARISMA": -50,
-            "WILLPOWER": 100,
-            "BODY": 25
+            "CHARISMA": -25
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "REPUTATION": -50
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 15,
-            "Small Arms": 15,
             "Interest/History (RP Only)": 25,
+            "Interest/Mythology (RP Only)": 10,
             "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "exceptional_attribute_willpower": 100,
-            "compulsion_faction_loyalty": -50,
-            "flaw_introvert": -50,
+            "atow_sixth_sense": 100,
+            "compulsion_faction_pride": -100,
             "compulsion_unpleasant_personality": -50
         }
     },

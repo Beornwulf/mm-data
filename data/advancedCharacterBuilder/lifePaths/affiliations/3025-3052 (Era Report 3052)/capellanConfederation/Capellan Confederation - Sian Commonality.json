@@ -1,30 +1,28 @@
 {
-    "id": "a45410a5-4eea-443e-9f39-32486e4b0f13",
+    "id": "1141e2e6-9c2d-4f64-b606-e63935d6a6af",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 55,
     "source": "Era Report 3052",
-    "name": "Clan Nova Cat (3025)",
-    "flavorText": "I was raised in the culture of Clan Nova Cat—guided by inner visions, committed to rediscovering honor beyond conquest, and grounded in mysticism.",
+    "name": "Capellan Confederation - Sian Commonality",
+    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
-    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
-    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CNC"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -68,24 +66,28 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "CHARISMA": -25
+            "WILLPOWER": 175
         }
     },
     "fixedXPTraits": {
-        "0": {}
+        "0": {
+            "CONNECTIONS": 30
+        }
     },
     "fixedXPSkills": {
         "0": {
-            "Interest/History (RP Only)": 25,
-            "Interest/Mythology (RP Only)": 10,
-            "Protocols/Any (RP Only)": 20
+            "Martial Arts (RP Only)": 5,
+            "Perception (RP Only)": 30,
+            "Interest/History (RP Only)": 30,
+            "Protocols/Any (RP Only)": 30,
+            "Language/Any (RP Only)": 30
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "atow_sixth_sense": 100,
-            "compulsion_faction_pride": -100,
-            "compulsion_unpleasant_personality": -50
+            "compulsion_faction_loyalty": -175,
+            "compulsion_mild_paranoia": -150,
+            "atow_citizenship": 50
         }
     },
     "flexibleXPAttributes": {},

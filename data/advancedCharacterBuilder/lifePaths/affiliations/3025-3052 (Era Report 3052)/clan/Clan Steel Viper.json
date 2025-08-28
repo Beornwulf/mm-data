@@ -1,28 +1,30 @@
 {
-    "id": "864f2c55-10b9-4b21-be42-d4e242abc558",
+    "id": "e002a080-60a8-4be6-a06c-8774919d2564",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 5,
+    "xpCost": 30,
     "source": "Era Report 3052",
-    "name": "Capellan Confederation - Liao Commonality (3025)",
-    "flavorText": "I was raised in the discipline and unity of the Liao Commonality’s culture—loyal in spirit.",
+    "name": "Clan Steel Viper",
+    "flavorText": "I was raised in the culture of Clan Steel Viper—tempered by isolation, guided by a vision of Star League rebirth, and sharpened through calculated purpose.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CC"
+            "CSV"
         ]
     },
     "requirementsLifePath": {
@@ -66,26 +68,29 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 75
+            "CHARISMA": -50,
+            "INTELLIGENCE": 75,
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": 15
+            "CONNECTIONS": 80
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 5,
-            "Perception (RP Only)": 15,
             "Negotiation": 10,
-            "Protocols/Any (RP Only)": 15,
-            "Language/Any (RP Only)": 20
+            "Interest/History (RP Only)": 25,
+            "Survival/Any (RP Only)": 20,
+            "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_mild_paranoia": -150
+            "clan_pilot_training": -100,
+            "compulsion_faction_loyalty": -100,
+            "compulsion_unpleasant_personality": -50
         }
     },
     "flexibleXPAttributes": {},

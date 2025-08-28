@@ -1,28 +1,30 @@
 {
-    "id": "1141e2e6-9c2d-4f64-b606-e63935d6a6af",
+    "id": "d3682c86-e584-4ae1-99fe-89f5794083e6",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 55,
+    "xpCost": 50,
     "source": "Era Report 3052",
-    "name": "Capellan Confederation - Sian Commonality (3025)",
-    "flavorText": "I was raised on the ideals of the Sian Commonality—industry, prestige, and unity guide my every ambition.",
+    "name": "Clan Blood Spirit",
+    "flavorText": "I was raised in the culture of Clan Blood Spirit—welded by bonds of trust, hardened by isolation, and steeped in the resolve to stand apart.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CC"
+            "CBS"
         ]
     },
     "requirementsLifePath": {
@@ -66,28 +68,30 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 175
+            "CHARISMA": -50,
+            "WILLPOWER": 100,
+            "BODY": 25
         }
     },
     "fixedXPTraits": {
         "0": {
-            "CONNECTIONS": 30
+            "REPUTATION": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 5,
-            "Perception (RP Only)": 30,
-            "Interest/History (RP Only)": 30,
-            "Protocols/Any (RP Only)": 30,
-            "Language/Any (RP Only)": 30
+            "Martial Arts (RP Only)": 15,
+            "Small Arms": 15,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -175,
-            "compulsion_mild_paranoia": -150,
-            "atow_citizenship": 50
+            "exceptional_attribute_willpower": 100,
+            "compulsion_faction_loyalty": -50,
+            "flaw_introvert": -50,
+            "compulsion_unpleasant_personality": -50
         }
     },
     "flexibleXPAttributes": {},

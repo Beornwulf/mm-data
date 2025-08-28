@@ -1,5 +1,5 @@
 {
-    "id": "cfab6abe-f554-4cd2-b898-3d83c96c7869",
+    "id": "4138bfeb-138b-435b-b037-140d857fddb2",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,8 +8,8 @@
     },
     "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Clan Hell's Horses (3025)",
-    "flavorText": "I was raised in the culture of Clan Hell’s Horses—bred to honor the warrior over the machine, bound by unity, and tempered by strength.",
+    "name": "Clan Snow Raven",
+    "flavorText": "I was raised in the culture of Clan Snow Raven—cautious in trust, sovereign at sea, and guided by pragmatic purpose in every battle.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
@@ -24,7 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CHH"
+            "CSR"
         ]
     },
     "requirementsLifePath": {
@@ -68,27 +68,28 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "STRENGTH": 25,
-            "BODY": 25
+            "CHARISMA": 25,
+            "INTELLIGENCE": 25
         }
     },
     "fixedXPTraits": {
-        "0": {}
+        "0": {
+            "CONNECTIONS": 50
+        }
     },
     "fixedXPSkills": {
         "0": {
-            "Navigation/Any": 15,
+            "Zero-G Operations (RP Only)": 15,
+            "Negotiation": 15,
             "Interest/History (RP Only)": 25,
-            "Survival/Any (RP Only)": 15,
-            "Protocols/Any (RP Only)": 20,
-            "Melee Weapons (RP Only)": 10
+            "Protocols/Any (RP Only)": 25
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "flaw_introvert": -30,
-            "compulsion_faction_loyalty": -100,
-            "compulsion_unpleasant_personality": -50
+            "compulsion_unpleasant_personality": -50,
+            "compulsion_faction_pride": -100,
+            "compulsion_mild_paranoia": -50
         }
     },
     "flexibleXPAttributes": {},

@@ -1,15 +1,15 @@
 {
-    "id": "39c79042-e64b-4197-b078-18edbd8dd94d",
+    "id": "864f2c55-10b9-4b21-be42-d4e242abc558",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 5,
     "source": "Era Report 3052",
-    "name": "Capellan Confederation (3025)",
-    "flavorText": "I was raised in the culture of the Capellan Confederation, where duty to the State is the highest honor a citizen can claim.",
+    "name": "Capellan Confederation - Liao Commonality",
+    "flavorText": "I was raised in the discipline and unity of the Liao Commonality’s culture—loyal in spirit.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
@@ -70,12 +70,15 @@
         }
     },
     "fixedXPTraits": {
-        "0": {}
+        "0": {
+            "WEALTH": 15
+        }
     },
     "fixedXPSkills": {
         "0": {
             "Martial Arts (RP Only)": 5,
             "Perception (RP Only)": 15,
+            "Negotiation": 10,
             "Protocols/Any (RP Only)": 15,
             "Language/Any (RP Only)": 20
         }

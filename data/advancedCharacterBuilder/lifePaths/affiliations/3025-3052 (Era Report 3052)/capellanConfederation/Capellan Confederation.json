@@ -1,5 +1,5 @@
 {
-    "id": "4138bfeb-138b-435b-b037-140d857fddb2",
+    "id": "39c79042-e64b-4197-b078-18edbd8dd94d",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,23 +8,21 @@
     },
     "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "Clan Snow Raven (3025)",
-    "flavorText": "I was raised in the culture of Clan Snow Raven—cautious in trust, sovereign at sea, and guided by pragmatic purpose in every battle.",
+    "name": "Capellan Confederation",
+    "flavorText": "I was raised in the culture of the Capellan Confederation, where duty to the State is the highest honor a citizen can claim.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3025,
     "maximumYear": 3052,
-    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
-    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CSR"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -68,28 +66,23 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "CHARISMA": 25,
-            "INTELLIGENCE": 25
+            "WILLPOWER": 75
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "CONNECTIONS": 50
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Zero-G Operations (RP Only)": 15,
-            "Negotiation": 15,
-            "Interest/History (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Martial Arts (RP Only)": 5,
+            "Perception (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Language/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_unpleasant_personality": -50,
-            "compulsion_faction_pride": -100,
-            "compulsion_mild_paranoia": -50
+            "compulsion_mild_paranoia": -150
         }
     },
     "flexibleXPAttributes": {},
