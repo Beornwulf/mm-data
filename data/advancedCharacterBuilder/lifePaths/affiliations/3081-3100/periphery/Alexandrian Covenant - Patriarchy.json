@@ -1,0 +1,136 @@
+{
+    "id": "cb77391f-e52d-4a16-a437-16136ca1332b",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 90,
+    "source": "Interstellar Expeditions",
+    "name": "Alexandrian Covenant - Patriarchy",
+    "flavorText": "I was raised in the culture of the Alexandrian Covenant's Patriarchy—taught that authority belonged to men alone, while women were bound in silence, and every lesson pressed the weight of order, obedience, and sanctioned tradition.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "IND"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "REFLEXES": 150,
+            "WILLPOWER": 25,
+            "BODY": 50,
+            "STRENGTH": 50,
+            "DEXTERITY": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Perception (RP Only)": 20,
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100,
+            "compulsion_faction_pride": -50,
+            "flaw_illiterate": -50,
+            "compulsion_unpleasant_personality": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Artillery": 10
+        },
+        "1": {
+            "Demolitions (RP Only)": 10
+        },
+        "2": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "3": {
+            "Stealth (RP Only)": 10
+        },
+        "4": {
+            "Survival/Any (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPPickCount": 1
+}

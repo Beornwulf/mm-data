@@ -1,0 +1,101 @@
+{
+    "id": "7e6113e7-03b6-4841-876e-cb2d8e650a12",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 170,
+    "source": "Interstellar Expeditions",
+    "name": "Chainelane Isles - Rondane Syndicate (Helenist Chosen)",
+    "flavorText": "I was raised in the culture of the Rondane Syndicate—chosen for the Helenist rite, where ten years of seclusion and family-building marked me as honored, and every step since has been shadowed by the expectation of power and duty.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CI"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {
+            "BODY": 5,
+            "INTELLIGENCE": 5
+        }
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 20,
+            "Streetwise/Any (RP Only)": 10,
+            "Leadership": 10,
+            "Small Arms": 10,
+            "Astech": 10,
+            "Protocols/Any (RP Only)": 10,
+            "Tactics/Any": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_introvert": -10
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

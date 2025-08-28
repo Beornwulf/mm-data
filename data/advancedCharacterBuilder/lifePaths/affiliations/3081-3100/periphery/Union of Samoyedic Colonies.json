@@ -1,0 +1,155 @@
+{
+    "id": "5c71bef6-ab58-4f31-a0c0-9f2819c819bf",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Interstellar Expeditions",
+    "name": "Union of Samoyedic Colonies",
+    "flavorText": "I was raised in the culture of the Union of Samoyedic Colonies—born into a migratory people who move from settlement to settlement across icy worlds, where survival hinges on the herd spirit of the Tih and every relocation is a sacred reaffirmation of our ancestral bond.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "IND"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": 100,
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Art/Dancing (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100,
+            "flaw_illiterate": -100,
+            "atow_fit": 75,
+            "flaw_gremlins": -50,
+            "compulsion_unpleasant_personality": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 10
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 10
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 10
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 10
+        },
+        "4": {
+            "Art/Other (RP Only)": 10
+        },
+        "5": {
+            "Art/Painting (RP Only)": 10
+        },
+        "6": {
+            "Art/Poetry (RP Only)": 10
+        },
+        "7": {
+            "Art/Sculpture (RP Only)": 10
+        },
+        "8": {
+            "Art/Singing (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {}
+    },
+    "flexibleXPPickCount": 1
+}

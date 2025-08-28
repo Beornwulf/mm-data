@@ -1,0 +1,201 @@
+{
+    "id": "8a0e943a-c7cc-42aa-92f8-316ea3842cee",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 125,
+    "source": "Interstellar Expeditions",
+    "name": "New Delphi Compact",
+    "flavorText": "I was raised in the culture of the New Delphi Compact—born into a society cloaked in fear of the Delphi Curse, where isolation was our shield, science our reluctant savior, and every breath carried the weight of quarantine and quiet resilience.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "NDC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": 100,
+            "INTELLIGENCE": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Small Arms": 5,
+            "Survival/Any (RP Only)": 10,
+            "Perception (RP Only)": 15,
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "atow_toughness": 15,
+            "atow_poison_resistance": 30,
+            "flaw_introvert": -75
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Appraisal (RP Only)": 10
+        },
+        "1": {
+            "Language/Any (RP Only)": 10
+        },
+        "2": {
+            "MedTech/Any": 10
+        },
+        "3": {
+            "Negotiation": 10
+        },
+        "4": {
+            "Science/Biology (RP Only)": 10
+        },
+        "5": {
+            "Tracking/Any (RP Only)": 10
+        },
+        "6": {
+            "Art/Cooking (RP Only)": 10
+        },
+        "7": {
+            "Art/Dancing (RP Only)": 10
+        },
+        "8": {
+            "Art/Drawing (RP Only)": 10
+        },
+        "9": {
+            "Art/Instrument (RP Only)": 10
+        },
+        "10": {
+            "Art/Other (RP Only)": 10
+        },
+        "11": {
+            "Art/Painting (RP Only)": 10
+        },
+        "12": {
+            "Art/Poetry (RP Only)": 10
+        },
+        "13": {
+            "Art/Sculpture (RP Only)": 10
+        },
+        "14": {
+            "Art/Singing (RP Only)": 10
+        },
+        "15": {
+            "Art/Writing (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {}
+    },
+    "flexibleXPPickCount": 2
+}
