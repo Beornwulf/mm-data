@@ -1,5 +1,5 @@
 {
-    "id": "e8e8d4d9-8a53-40ab-ad7b-15e027f5443f",
+    "id": "34a7dd69-48ae-42f6-b8e9-5325446cac57",
     "version": {
         "major": 0,
         "minor": 50,
@@ -14,12 +14,14 @@
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 3079,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "FS"

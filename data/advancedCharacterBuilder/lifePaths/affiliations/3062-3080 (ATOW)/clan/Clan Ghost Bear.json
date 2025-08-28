@@ -1,5 +1,5 @@
 {
-    "id": "895808d6-bdba-4313-b5af-46cb27f90fb4",
+    "id": "383c12b8-214a-44c5-9f97-d8107fd0e3f2",
     "version": {
         "major": 0,
         "minor": 50,
@@ -13,13 +13,15 @@
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 3080,
+    "maximumYear": 3060,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_CLAN"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "CGB",
