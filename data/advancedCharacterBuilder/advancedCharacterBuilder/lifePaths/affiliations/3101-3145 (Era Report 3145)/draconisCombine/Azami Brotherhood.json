@@ -1,0 +1,118 @@
+{
+    "id": "e2b83461-2080-45d2-a5b4-cb7eb89180af",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 190,
+    "source": "Era Report 3145",
+    "name": "Azami Brotherhood",
+    "flavorText": "",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3101,
+    "maximumYear": 3145,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "AB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 150,
+            "BODY": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Art/Poetry (RP Only)": 15,
+            "Animal Handling (RP Only)": 5,
+            "Survival/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 15,
+            "Martial Arts (RP Only)": 25,
+            "Protocols/Any (RP Only)": 15,
+            "Melee Weapons (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -50,
+            "compulsion_faction_pride": -60
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
+    },
+    "flexibleXPPickCount": 1
+}

@@ -1,0 +1,239 @@
+{
+    "id": "1c1bedc7-a53f-4506-9789-7d2ce3df2d49",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 235,
+    "source": "Era Report 3145",
+    "name": "Rim Commonality",
+    "flavorText": "",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3101,
+    "maximumYear": 3139,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "RCM"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "WILLPOWER": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 25,
+            "Martial Arts (RP Only)": 15,
+            "Streetwise/Any (RP Only)": 10,
+            "Survival/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 35
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "atow_toughness": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Interest/Antiques (RP Only)": 15
+        },
+        "1": {
+            "Interest/Archeology (RP Only)": 15
+        },
+        "2": {
+            "Interest/Astrology (RP Only)": 15
+        },
+        "3": {
+            "Interest/Cartography (RP Only)": 15
+        },
+        "4": {
+            "Interest/Economics (RP Only)": 15
+        },
+        "5": {
+            "Interest/Exotic Animals (RP Only)": 15
+        },
+        "6": {
+            "Interest/Fashion (RP Only)": 15
+        },
+        "7": {
+            "Interest/Fishing (RP Only)": 15
+        },
+        "8": {
+            "Interest/Gambling (RP Only)": 15
+        },
+        "9": {
+            "Interest/History (RP Only)": 15
+        },
+        "10": {
+            "Interest/Holo-Cinema (RP Only)": 15
+        },
+        "11": {
+            "Interest/Holo-Games (RP Only)": 15
+        },
+        "12": {
+            "Interest/Law (RP Only)": 15
+        },
+        "13": {
+            "Interest/Literature (RP Only)": 15
+        },
+        "14": {
+            "Interest/Military (RP Only)": 15
+        },
+        "15": {
+            "Interest/Music (RP Only)": 15
+        },
+        "16": {
+            "Interest/Mythology (RP Only)": 15
+        },
+        "17": {
+            "Interest/Other (RP Only)": 15
+        },
+        "18": {
+            "Interest/Philosophy (RP Only)": 15
+        },
+        "19": {
+            "Interest/Politics (RP Only)": 15
+        },
+        "20": {
+            "Interest/Pop-Culture (RP Only)": 15
+        },
+        "21": {
+            "Interest/Sports (RP Only)": 15
+        },
+        "22": {
+            "Interest/Theology (RP Only)": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPPickCount": 1
+}

@@ -1,0 +1,175 @@
+{
+    "id": "bc5cd91a-23cd-4de5-9cb8-be483c4ce124",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 270,
+    "source": "Era Report 3145",
+    "name": "Republic of the Sphere - Terran System Republican (Belter)",
+    "flavorText": "",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3101,
+    "maximumYear": 3145,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "ROS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": -25,
+            "INTELLIGENCE": 100,
+            "WILLPOWER": 50,
+            "STRENGTH": -25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 50,
+            "WEALTH": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 15,
+            "Survival/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 20,
+            "Navigation/Any": 15,
+            "MedTech/Any": 10,
+            "Astech": 10,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -100,
+            "compulsion_xenophobia": -100,
+            "atow_citizenship": 25,
+            "atow_fast_learner": 50,
+            "compulsion_unpleasant_personality": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 100,
+            "BODY": 50
+        },
+        "1": {
+            "BODY": 100,
+            "STRENGTH": 50
+        },
+        "2": {
+            "DEXTERITY": 100,
+            "REFLEXES": 50
+        },
+        "3": {
+            "DEXTERITY": 50,
+            "REFLEXES": 100
+        },
+        "4": {
+            "WILLPOWER": 50,
+            "INTELLIGENCE": 100
+        },
+        "5": {
+            "WILLPOWER": 100,
+            "CHARISMA": 50
+        },
+        "6": {
+            "CHARISMA": 100,
+            "WILLPOWER": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "exceptional_attribute_strength": 50
+        },
+        "1": {
+            "exceptional_attribute_body": 50
+        },
+        "2": {
+            "exceptional_attribute_dexterity": 50
+        },
+        "3": {
+            "exceptional_attribute_reflexes": 50
+        },
+        "4": {
+            "exceptional_attribute_intelligence": 50
+        },
+        "5": {
+            "exceptional_attribute_willpower": 50
+        },
+        "6": {
+            "exceptional_attribute_charisma": 50
+        }
+    },
+    "flexibleXPPickCount": 1
+}
