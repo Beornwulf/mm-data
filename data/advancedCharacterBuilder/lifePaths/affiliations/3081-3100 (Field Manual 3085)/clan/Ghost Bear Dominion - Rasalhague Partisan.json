@@ -1,0 +1,98 @@
+{
+    "id": "d9c67b17-2a4e-41b3-b6c0-5e9af076dc77",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 100,
+    "source": "Field Manual 3085",
+    "name": "Ghost Bear Dominion - Rasalhague Partisan",
+    "flavorText": "I was raised in the culture of the Rasalhague Dominion—taught to honor our Rasalhagian heritage and to resist the weight of Ghost Bear rule, where every lesson carried the fire of defiance and the belief that our people must stand free once more.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3081,
+    "maximumYear": 3100,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CGB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 200
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 100,
+            "REPUTATION": -100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Streetwise/Any (RP Only)": 10,
+            "Small Arms": 15,
+            "Martial Arts (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -150
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

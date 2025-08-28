@@ -1,0 +1,98 @@
+{
+    "id": "036e1437-7706-4ea7-a679-a33e06a18f88",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 10,
+    "source": "Field Manual 3085",
+    "name": "Raven Alliance - Snow Raven Clansman",
+    "flavorText": "I was raised in the culture of Clan Snow Raven—honed under a banner of cold precision, taught that teamwork and order towered above personal glory, and raised to uphold the Clan’s legacy of silent power and strategic patience.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3083,
+    "maximumYear": 3100,
+    "randomWeight": 0.003,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "RA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 15,
+            "Negotiation": 15,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 30
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -50,
+            "compulsion_unpleasant_personality": -100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
