@@ -1,0 +1,101 @@
+{
+    "id": "a8b80a0a-65f2-42af-a371-f11d1f605341",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 105,
+    "source": "Field Manual 3085",
+    "name": "Marian Hegemony",
+    "flavorText": "I was raised in the culture of the Marian Hegemony—unyielding as Rome’s heirs, bound by honor and stratified by birth, and forged for conquest.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3081,
+    "maximumYear": 3100,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "MH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 50,
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 30,
+            "REPUTATION": -150
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Streetwise/Any (RP Only)": 5,
+            "Language/Any (RP Only)": 15,
+            "Strategy": 5,
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -50,
+            "atow_toughness": 100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
