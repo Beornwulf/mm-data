@@ -1,0 +1,514 @@
+{
+    "id": "cf3eb468-9640-4d23-81b0-faf52b1b484e",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 65,
+    "source": "Field Manual 3085",
+    "name": "Oriente Protectorate",
+    "flavorText": "I was raised in the culture of the Oriente Protectorate—born into a land reborn from our League’s ashes, where martial order ruled our civics, pride bloomed from strategic resilience, and every lesson was shaped by the weight of heritage under a disciplined, watchful rule.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 3100,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "OP"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 30,
+            "Language/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 5
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Tech/Aero": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "1": {
+            "Tech/Aero": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "2": {
+            "Tech/Aero": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "3": {
+            "Tech/Aero": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "4": {
+            "Tech/Aero": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "5": {
+            "Tech/Aero": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "6": {
+            "Tech/Aero": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "7": {
+            "Tech/Aero": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "8": {
+            "Tech/Aero": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "9": {
+            "Tech/Aero": 5,
+            "Art/Other (RP Only)": 10
+        },
+        "10": {
+            "Tech/BattleArmor": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "11": {
+            "Tech/BattleArmor": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "12": {
+            "Tech/BattleArmor": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "13": {
+            "Tech/BattleArmor": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "14": {
+            "Tech/BattleArmor": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "15": {
+            "Tech/BattleArmor": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "16": {
+            "Tech/BattleArmor": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "17": {
+            "Tech/BattleArmor": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "18": {
+            "Tech/BattleArmor": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "19": {
+            "Tech/BattleArmor": 5,
+            "Art/Other (RP Only)": 10
+        },
+        "20": {
+            "Tech/Mechanic": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "21": {
+            "Tech/Mechanic": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "22": {
+            "Tech/Mechanic": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "23": {
+            "Tech/Mechanic": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "24": {
+            "Tech/Mechanic": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "25": {
+            "Tech/Mechanic": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "26": {
+            "Tech/Mechanic": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "27": {
+            "Tech/Mechanic": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "28": {
+            "Tech/Mechanic": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "29": {
+            "Tech/Mechanic": 5,
+            "Art/Other (RP Only)": 10
+        },
+        "30": {
+            "Tech/Mek": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "31": {
+            "Tech/Mek": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "32": {
+            "Tech/Mek": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "33": {
+            "Tech/Mek": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "34": {
+            "Tech/Mek": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "35": {
+            "Tech/Mek": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "36": {
+            "Tech/Mek": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "37": {
+            "Tech/Mek": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "38": {
+            "Tech/Mek": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "39": {
+            "Tech/Mek": 5,
+            "Art/Other (RP Only)": 10
+        },
+        "40": {
+            "Tech/Vessel": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "41": {
+            "Tech/Vessel": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "42": {
+            "Tech/Vessel": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "43": {
+            "Tech/Vessel": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "44": {
+            "Tech/Vessel": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "45": {
+            "Tech/Vessel": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "46": {
+            "Tech/Vessel": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "47": {
+            "Tech/Vessel": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "48": {
+            "Tech/Vessel": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "49": {
+            "Tech/Vessel": 5,
+            "Art/Other (RP Only)": 10
+        },
+        "50": {
+            "Astech": 5,
+            "Art/Cooking (RP Only)": 10
+        },
+        "51": {
+            "Astech": 5,
+            "Art/Dancing (RP Only)": 10
+        },
+        "52": {
+            "Astech": 5,
+            "Art/Drawing (RP Only)": 10
+        },
+        "53": {
+            "Astech": 5,
+            "Art/Instrument (RP Only)": 10
+        },
+        "54": {
+            "Astech": 5,
+            "Art/Painting (RP Only)": 10
+        },
+        "55": {
+            "Astech": 5,
+            "Art/Poetry (RP Only)": 10
+        },
+        "56": {
+            "Astech": 5,
+            "Art/Sculpture (RP Only)": 10
+        },
+        "57": {
+            "Astech": 5,
+            "Art/Singing (RP Only)": 10
+        },
+        "58": {
+            "Astech": 5,
+            "Art/Writing (RP Only)": 10
+        },
+        "59": {
+            "Astech": 5,
+            "Art/Other (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {},
+        "36": {},
+        "37": {},
+        "38": {},
+        "39": {},
+        "40": {},
+        "41": {},
+        "42": {},
+        "43": {},
+        "44": {},
+        "45": {},
+        "46": {},
+        "47": {},
+        "48": {},
+        "49": {},
+        "50": {},
+        "51": {},
+        "52": {},
+        "53": {},
+        "54": {},
+        "55": {},
+        "56": {},
+        "57": {},
+        "58": {},
+        "59": {}
+    },
+    "flexibleXPPickCount": 1
+}

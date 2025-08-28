@@ -1,0 +1,104 @@
+{
+    "id": "45dc124e-2637-4ab6-8f18-ab5279531ec2",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 60,
+    "source": "Field Manual 3085",
+    "name": "Lothian League",
+    "flavorText": "I was raised in the culture of the Lothian League—born among exiles who carved a home in ice, where survival hinged on mercenaries and steel, and each childhood lesson taught that endurance, loyalty, and quiet resistance were our truest legacy.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3081,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "LL"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 50,
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Streetwise/Any (RP Only)": 5,
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 35,
+            "Career/Any (RP Only)": 5,
+            "Perception (RP Only)": 15,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10,
+            "Melee Weapons (RP Only)": 5
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -50,
+            "flaw_introvert": -50
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

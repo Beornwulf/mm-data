@@ -1,0 +1,244 @@
+{
+    "id": "d2e0a737-ebb3-404f-a3d8-7e6c904622bf",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 105,
+    "source": "Field Manual 3085",
+    "name": "Filtvelt Coalition",
+    "flavorText": "I was raised in the culture of the Filtvelt Coalition—born from worlds long ignored by the Federated Suns, taught that independence is earned through grit, unity in adversity, and that a citizen-soldier’s resolve can carve a nation from neglect.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3081,
+    "maximumYear": 3100,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "FVC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": 100,
+            "STRENGTH": 50,
+            "INTELLIGENCE": -50,
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -100,
+            "WEALTH": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Streetwise/Any (RP Only)": 5,
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 20,
+            "Martial Arts (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_illiterate": -50,
+            "atow_toughness": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Interest/Antiques (RP Only)": 10
+        },
+        "1": {
+            "Interest/Archeology (RP Only)": 10
+        },
+        "2": {
+            "Interest/Astrology (RP Only)": 10
+        },
+        "3": {
+            "Interest/Cartography (RP Only)": 10
+        },
+        "4": {
+            "Interest/Economics (RP Only)": 10
+        },
+        "5": {
+            "Interest/Exotic Animals (RP Only)": 10
+        },
+        "6": {
+            "Interest/Fashion (RP Only)": 10
+        },
+        "7": {
+            "Interest/Fishing (RP Only)": 10
+        },
+        "8": {
+            "Interest/Gambling (RP Only)": 10
+        },
+        "9": {
+            "Interest/History (RP Only)": 10
+        },
+        "10": {
+            "Interest/Holo-Cinema (RP Only)": 10
+        },
+        "11": {
+            "Interest/Holo-Games (RP Only)": 10
+        },
+        "12": {
+            "Interest/Law (RP Only)": 10
+        },
+        "13": {
+            "Interest/Literature (RP Only)": 10
+        },
+        "14": {
+            "Interest/Military (RP Only)": 10
+        },
+        "15": {
+            "Interest/Music (RP Only)": 10
+        },
+        "16": {
+            "Interest/Mythology (RP Only)": 10
+        },
+        "17": {
+            "Interest/Other (RP Only)": 10
+        },
+        "18": {
+            "Interest/Philosophy (RP Only)": 10
+        },
+        "19": {
+            "Interest/Politics (RP Only)": 10
+        },
+        "20": {
+            "Interest/Pop-Culture (RP Only)": 10
+        },
+        "21": {
+            "Interest/Sports (RP Only)": 10
+        },
+        "22": {
+            "Interest/Theology (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {}
+    },
+    "flexibleXPPickCount": 1
+}
