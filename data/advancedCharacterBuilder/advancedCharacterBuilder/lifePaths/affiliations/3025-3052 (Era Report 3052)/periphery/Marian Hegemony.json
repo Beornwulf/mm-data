@@ -1,0 +1,85 @@
+{
+    "id": "b2327b75-0192-423b-8c30-34a4e1ae1d17",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 45,
+    "source": "Era Report 3052",
+    "name": "Marian Hegemony",
+    "flavorText": "I was raised in the culture of the Marian Hegemony—unyielding as Rome’s heirs, bound by honor and stratified by birth, and forged for conquest.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3052,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "MH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {},
+    "exclusionsLifePath": {},
+    "exclusionsCategories": {},
+    "exclusionsAttributes": {},
+    "exclusionsTraits": {},
+    "exclusionsSkills": {},
+    "exclusionsAbilities": {},
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -200
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Strategy": 5,
+            "Martial Arts (RP Only)": 20,
+            "Streetwise/Any (RP Only)": 20,
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_mild_paranoia": -50,
+            "atow_toughness": 125
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

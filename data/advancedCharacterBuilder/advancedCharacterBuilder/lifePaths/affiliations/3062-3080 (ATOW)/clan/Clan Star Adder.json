@@ -1,0 +1,117 @@
+{
+    "id": "cd238392-702d-41f6-9078-e672d286cc84",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 35,
+    "source": "ATOW",
+    "name": "Clan Star Adder",
+    "flavorText": "I was raised in the culture of Clan Star Adder—shaped by unity over spectacle, guided by strategy, and forged into leaders through cautious strength.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CSA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -70,
+            "INTELLIGENCE": 50,
+            "WILLPOWER": 75
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Leadership": 10,
+            "Perception (RP Only)": 10,
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "clan_pilot_training": -50,
+            "compulsion_unpleasant_personality": -50,
+            "atow_combat_sense": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -60
+        },
+        "1": {
+            "compulsion_faction_pride": -60
+        }
+    },
+    "flexibleXPPickCount": 1
+}

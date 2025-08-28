@@ -1,0 +1,160 @@
+{
+    "id": "93e89f45-b635-4f63-a525-ca24b1b920f7",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 105,
+    "source": "Era Report 3052",
+    "name": "Greater Valkyrate",
+    "flavorText": "I was raised in the culture of the Greater Valkyrate—born of rebellion, hardened by ice, and bound by matriarchal resolve in a realm where women ruled by creed and steel.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "GV"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "STRENGTH": 100,
+            "BODY": 100,
+            "CHARISMA": -125,
+            "WILLPOWER": 70
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -250
+        }
+    },
+    "fixedXPSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_illiterate": -100,
+            "atow_toughness": 250
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Acting (RP Only)": 15
+        },
+        "1": {
+            "Animal Handling (RP Only)": 15
+        },
+        "2": {
+            "Martial Arts (RP Only)": 15
+        },
+        "3": {
+            "Melee Weapons (RP Only)": 15
+        },
+        "4": {
+            "Sleight of Hand/Any (RP Only)": 15
+        },
+        "5": {
+            "Small Arms": 15
+        },
+        "6": {
+            "Stealth (RP Only)": 15
+        },
+        "7": {
+            "Streetwise/Any (RP Only)": 15
+        },
+        "8": {
+            "Survival/Any (RP Only)": 15
+        },
+        "9": {
+            "Tracking/Any (RP Only)": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPPickCount": 4
+}

@@ -1,0 +1,263 @@
+{
+    "id": "07185677-dba9-449e-a63b-bcd41fc8a88f",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 190,
+    "source": "ATOW",
+    "name": "Draconis Combine - Dieron District",
+    "flavorText": "I was raised in the doctrines of the Dieron Military District—unyielding vigilance and fierce resilience guide me.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 3081,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "DC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 60
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Art/Poetry (RP Only)": 15,
+            "Language/Any (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Interest/History (RP Only)": 5,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Art/Cooking (RP Only)": 15
+        },
+        "1": {
+            "Art/Dancing (RP Only)": 15
+        },
+        "2": {
+            "Art/Drawing (RP Only)": 15
+        },
+        "3": {
+            "Art/Instrument (RP Only)": 15
+        },
+        "4": {
+            "Art/Painting (RP Only)": 15
+        },
+        "5": {
+            "Art/Poetry (RP Only)": 15
+        },
+        "6": {
+            "Art/Sculpture (RP Only)": 15
+        },
+        "7": {
+            "Art/Singing (RP Only)": 15
+        },
+        "8": {
+            "Art/Writing (RP Only)": 15
+        },
+        "9": {
+            "Art/Other (RP Only)": 15
+        },
+        "10": {
+            "Art/Cooking (RP Only)": 15
+        },
+        "11": {
+            "Art/Dancing (RP Only)": 15
+        },
+        "12": {
+            "Art/Drawing (RP Only)": 15
+        },
+        "13": {
+            "Art/Instrument (RP Only)": 15
+        },
+        "14": {
+            "Art/Painting (RP Only)": 15
+        },
+        "15": {
+            "Art/Sculpture (RP Only)": 15
+        },
+        "16": {
+            "Art/Writing (RP Only)": 15
+        },
+        "17": {
+            "Art/Other (RP Only)": 15
+        },
+        "18": {
+            "Art/Poetry (RP Only)": 15
+        },
+        "19": {
+            "Art/Singing (RP Only)": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "atow_combat_sense": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        },
+        "2": {
+            "atow_combat_sense": 100
+        },
+        "3": {
+            "atow_combat_sense": 100
+        },
+        "4": {
+            "atow_combat_sense": 100
+        },
+        "5": {
+            "atow_combat_sense": 100
+        },
+        "6": {
+            "atow_combat_sense": 100
+        },
+        "7": {
+            "atow_combat_sense": 100
+        },
+        "8": {
+            "atow_combat_sense": 100
+        },
+        "9": {
+            "atow_combat_sense": 100
+        },
+        "10": {
+            "pain_resistance": 100
+        },
+        "11": {
+            "pain_resistance": 100
+        },
+        "12": {
+            "pain_resistance": 100
+        },
+        "13": {
+            "pain_resistance": 100
+        },
+        "14": {
+            "pain_resistance": 100
+        },
+        "15": {
+            "pain_resistance": 100
+        },
+        "16": {
+            "pain_resistance": 100
+        },
+        "17": {
+            "pain_resistance": 100
+        },
+        "18": {
+            "pain_resistance": 100
+        },
+        "19": {
+            "pain_resistance": 100
+        }
+    },
+    "flexibleXPPickCount": 1
+}

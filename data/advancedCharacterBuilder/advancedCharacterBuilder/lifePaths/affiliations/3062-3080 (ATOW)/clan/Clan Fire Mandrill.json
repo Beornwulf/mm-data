@@ -1,0 +1,212 @@
+{
+    "id": "bcccd4dd-ea80-4801-b25e-d54af8a2b5a4",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 18,
+    "source": "ATOW",
+    "name": "Clan Fire Mandrill",
+    "flavorText": "I was raised in the culture of Clan Fire Mandrill—fierce by heritage, fractured by rivalry, yet loyal to ambition.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CFM"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 25
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -100,
+            "compulsion_faction_loyalty": -100,
+            "compulsion_unpleasant_personality": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "CHARISMA": -25,
+            "REFLEXES": 75,
+            "WILLPOWER": 75
+        },
+        "1": {
+            "BODY": 75,
+            "DEXTERITY": -25
+        },
+        "2": {
+            "CHARISMA": 75,
+            "BODY": -25
+        },
+        "3": {
+            "BODY": -25,
+            "DEXTERITY": 75
+        },
+        "4": {
+            "INTELLIGENCE": 75,
+            "STRENGTH": -25
+        },
+        "5": {
+            "REFLEXES": 75,
+            "WILLPOWER": -25
+        },
+        "6": {
+            "INTELLIGENCE": -25,
+            "STRENGTH": 75
+        },
+        "7": {
+            "INTELLIGENCE": -25,
+            "WILLPOWER": 75
+        },
+        "8": {
+            "INTELLIGENCE": 75,
+            "BODY": -25
+        },
+        "9": {
+            "REFLEXES": -25,
+            "WILLPOWER": 75
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Perception (RP Only)": 10
+        },
+        "1": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "2": {
+            "Leadership": 10
+        },
+        "3": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "4": {
+            "Tactics/Any": 10
+        },
+        "5": {
+            "Perception (RP Only)": 10
+        },
+        "6": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "7": {
+            "Negotiation": 10
+        },
+        "8": {
+            "Tactics/Any": 10
+        },
+        "9": {
+            "Perception (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "atow_combat_sense": 150
+        },
+        "1": {
+            "exceptional_attribute_body": 150
+        },
+        "2": {
+            "exceptional_attribute_charisma": 150
+        },
+        "3": {
+            "exceptional_attribute_dexterity": 150
+        },
+        "4": {
+            "exceptional_attribute_intelligence": 150
+        },
+        "5": {
+            "exceptional_attribute_reflexes": 150
+        },
+        "6": {
+            "exceptional_attribute_strength": 150
+        },
+        "7": {
+            "exceptional_attribute_willpower": 150
+        },
+        "8": {
+            "atow_fast_learner": 150
+        },
+        "9": {
+            "atow_sixth_sense": 150
+        }
+    },
+    "flexibleXPPickCount": 1
+}

@@ -1,0 +1,129 @@
+{
+    "id": "9be42100-b1c0-4942-a84f-8f7f77d8ed27",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 105,
+    "source": "ATOW",
+    "name": "Circinus Federation",
+    "flavorText": "I was raised in the culture of the Circinus Federation—born of frontier blood, shaped by piracy and self-reliance, and carrying that hard edge of independence.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CIR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {},
+    "exclusionsLifePath": {},
+    "exclusionsCategories": {},
+    "exclusionsAttributes": {},
+    "exclusionsTraits": {},
+    "exclusionsSkills": {},
+    "exclusionsAbilities": {},
+    "fixedXPAttributes": {
+        "0": {
+            "STRENGTH": 100,
+            "INTELLIGENCE": -100,
+            "BODY": 75,
+            "WILLPOWER": 70
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -200,
+            "WEALTH": -125
+        }
+    },
+    "fixedXPSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "flaw_illiterate": -75,
+            "atow_toughness": 300
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Animal Handling (RP Only)": 20
+        },
+        "1": {
+            "Martial Arts (RP Only)": 20
+        },
+        "2": {
+            "MedTech/Any": 20
+        },
+        "3": {
+            "Small Arms": 20
+        },
+        "4": {
+            "Streetwise/Any (RP Only)": 20
+        },
+        "5": {
+            "Survival/Any (RP Only)": 20
+        },
+        "6": {
+            "Tracking/Any (RP Only)": 20
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPPickCount": 3
+}

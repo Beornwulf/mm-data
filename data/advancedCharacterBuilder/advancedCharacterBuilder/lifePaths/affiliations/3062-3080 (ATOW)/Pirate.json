@@ -1,0 +1,141 @@
+{
+    "id": "3d63ddd1-5234-4129-a13c-cf14c1c86eca",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 50,
+    "source": "ATOW",
+    "name": "Pirate",
+    "flavorText": "I was raised in the culture of pirates—where might makes right, survival is stolen, and loyalty lasts only as long as the spoils.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE",
+        "GENERAL_CRIMINAL"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "PIR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -30,
+            "BODY": 20,
+            "WILLPOWER": 30
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -10,
+            "REPUTATION": -40
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Language/Any (RP Only)": 10,
+            "Perception (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "pain_resistance": 10,
+            "atow_toughness": 10
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Acting (RP Only)": 10
+        },
+        "1": {
+            "Escape Artist (RP Only)": 10
+        },
+        "2": {
+            "Martial Arts (RP Only)": 10
+        },
+        "3": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "4": {
+            "Small Arms": 10
+        },
+        "5": {
+            "Survival/Any (RP Only)": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 3
+}

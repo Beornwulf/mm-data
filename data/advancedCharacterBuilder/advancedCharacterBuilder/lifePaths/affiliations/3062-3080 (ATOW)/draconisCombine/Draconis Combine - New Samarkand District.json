@@ -1,0 +1,119 @@
+{
+    "id": "9fe928d1-891b-4731-9a96-d8f8bdbc0129",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 180,
+    "source": "ATOW",
+    "name": "Draconis Combine - New Samarkand District",
+    "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3070,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "DC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "CHARISMA": -50,
+            "WILLPOWER": 150
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 50,
+            "WEALTH": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Streetwise/Any (RP Only)": 10,
+            "Art/Poetry (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15,
+            "Melee Weapons (RP Only)": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -50,
+            "compulsion_faction_loyalty": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
+    },
+    "flexibleXPPickCount": 1
+}
