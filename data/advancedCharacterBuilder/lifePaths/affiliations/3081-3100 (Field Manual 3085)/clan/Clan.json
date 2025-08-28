@@ -1,5 +1,5 @@
 {
-    "id": "58789f62-132f-4ae0-8f89-68e72ffad335",
+    "id": "2d888161-fae3-4105-bdfd-e3e0e89a855a",
     "version": {
         "major": 0,
         "minor": 50,
@@ -7,22 +7,24 @@
         "extra": ""
     },
     "xpCost": 0,
-    "source": "ATOW",
-    "name": "Lyran Commonwealth / Alliance",
-    "flavorText": "I was raised in the culture of the Lyran Commonwealth—nurtured by prosperity, refined by noble duty, and carrying the pride of innovation.",
+    "source": "Field Manual 3085",
+    "name": "Clan",
+    "flavorText": "I was raised in the Way of the Clans—bred for purpose, bound by honor, and taught that every Trial, every duty, is service to the greater whole.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
+    "minimumYear": 3081,
+    "maximumYear": 3100,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "LA"
+            "CLAN"
         ]
     },
     "requirementsLifePath": {
@@ -65,44 +67,25 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": -50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 15,
-            "Protocols/Any (RP Only)": 15,
-            "Appraisal (RP Only)": 10
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 25
         }
     },
     "fixedXPAbilities": {
-        "0": {}
-    },
-    "flexibleXPAttributes": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPTraits": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
         "0": {
-            "atow_combat_paralysis": -100
-        },
-        "1": {
-            "flaw_glass_jaw": -100
+            "compulsion_unpleasant_personality": -50
         }
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
 }

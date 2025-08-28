@@ -1,25 +1,27 @@
 {
-    "id": "5debddb2-bd92-4fda-a9fe-b29b99ea6229",
+    "id": "c6491ecc-a29a-406c-8f0f-5e9b5d9ba6dd",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
+    "xpCost": 75,
     "source": "ATOW",
-    "name": "Lyran Commonwealth / Alliance - Alarion Province",
-    "flavorText": "I was raised in the culture of Alarion Province—molded by frontier rebirth, defined by martial education, and tempered by resilience.",
+    "name": "Lyran Commonwealth - Buena Province",
+    "flavorText": "I was raised in the culture of Buena Province—tempered on a frontier of conflict, where every lesson carried both the weight of vigilance and the spark of ambition born from distant hope.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
+    "minimumYear": 3085,
+    "maximumYear": 3100,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "LA"
@@ -66,26 +68,29 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": -50,
+            "WILLPOWER": -25,
             "CHARISMA": -50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": 170
+            "WEALTH": 150
         }
     },
     "fixedXPSkills": {
         "0": {
             "Negotiation": 25,
             "Administration": 10,
+            "Leadership": 10,
             "Protocols/Any (RP Only)": 15,
             "Appraisal (RP Only)": 10,
             "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
-        "0": {}
+        "0": {
+            "compulsion_faction_pride": 20
+        }
     },
     "flexibleXPAttributes": {
         "0": {},

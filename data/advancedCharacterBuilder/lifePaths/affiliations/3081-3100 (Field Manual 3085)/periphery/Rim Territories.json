@@ -1,29 +1,30 @@
 {
-    "id": "bde3e2e3-7554-4b05-ab37-edde56b74320",
+    "id": "4c8dfa13-15c4-4dff-bbb6-005f9a2e1354",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 75,
-    "source": "ATOW",
-    "name": "Ghost Bear / Rasalhague Dominion",
-    "flavorText": "I was raised in the culture of the Rasalhague Dominion—born of Scandinavian resolve and Clan honor, tempered by democratic duty, and balanced by a quiet pragmatism that endures time.",
+    "xpCost": 50,
+    "source": "Field Manual 3085",
+    "name": "I was raised in the culture of the Rim Territories—born into a frontier shaped by pirate dominions, where law meant power, survival was bartered in blood and loyalty, and every lesson came in the harsh rhythm of fiefdoms striving for a fragile semblance of order.",
+    "flavorText": "",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3060,
+    "minimumYear": 0,
     "maximumYear": 9999,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "RD",
-            "CGB"
+            "RT"
         ]
     },
     "requirementsLifePath": {
@@ -67,26 +68,27 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 25
+            "WILLPOWER": 20
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": -25
+            "WEALTH": -10,
+            "REPUTATION": -10
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 25,
-            "Martial Arts (RP Only)": 15,
-            "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 20,
-            "Melee Weapons (RP Only)": 10
+            "Negotiation": 10,
+            "Streetwise/Any (RP Only)": 10,
+            "Small Arms": 10,
+            "Language/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "flaw_introvert": -25
+            "flaw_introvert": -10
         }
     },
     "flexibleXPAttributes": {
@@ -141,73 +143,73 @@
     },
     "flexibleXPSkills": {
         "0": {
-            "Interest/Antiques (RP Only)": 20
+            "Interest/Antiques (RP Only)": 10
         },
         "1": {
-            "Interest/Archeology (RP Only)": 20
+            "Interest/Archeology (RP Only)": 10
         },
         "2": {
-            "Interest/Astrology (RP Only)": 20
+            "Interest/Astrology (RP Only)": 10
         },
         "3": {
-            "Interest/Cartography (RP Only)": 20
+            "Interest/Cartography (RP Only)": 10
         },
         "4": {
-            "Interest/Economics (RP Only)": 20
+            "Interest/Economics (RP Only)": 10
         },
         "5": {
-            "Interest/Exotic Animals (RP Only)": 20
+            "Interest/Exotic Animals (RP Only)": 10
         },
         "6": {
-            "Interest/Fashion (RP Only)": 20
+            "Interest/Fashion (RP Only)": 10
         },
         "7": {
-            "Interest/Fishing (RP Only)": 20
+            "Interest/Fishing (RP Only)": 10
         },
         "8": {
-            "Interest/Gambling (RP Only)": 20
+            "Interest/Gambling (RP Only)": 10
         },
         "9": {
-            "Interest/History (RP Only)": 20
+            "Interest/History (RP Only)": 10
         },
         "10": {
-            "Interest/Holo-Cinema (RP Only)": 20
+            "Interest/Holo-Cinema (RP Only)": 10
         },
         "11": {
-            "Interest/Holo-Games (RP Only)": 20
+            "Interest/Holo-Games (RP Only)": 10
         },
         "12": {
-            "Interest/Law (RP Only)": 20
+            "Interest/Law (RP Only)": 10
         },
         "13": {
-            "Interest/Literature (RP Only)": 20
+            "Interest/Literature (RP Only)": 10
         },
         "14": {
-            "Interest/Military (RP Only)": 20
+            "Interest/Military (RP Only)": 10
         },
         "15": {
-            "Interest/Music (RP Only)": 20
+            "Interest/Music (RP Only)": 10
         },
         "16": {
-            "Interest/Mythology (RP Only)": 20
+            "Interest/Mythology (RP Only)": 10
         },
         "17": {
-            "Interest/Other (RP Only)": 20
+            "Interest/Other (RP Only)": 10
         },
         "18": {
-            "Interest/Philosophy (RP Only)": 20
+            "Interest/Philosophy (RP Only)": 10
         },
         "19": {
-            "Interest/Politics (RP Only)": 20
+            "Interest/Politics (RP Only)": 10
         },
         "20": {
-            "Interest/Pop-Culture (RP Only)": 20
+            "Interest/Pop-Culture (RP Only)": 10
         },
         "21": {
-            "Interest/Sports (RP Only)": 20
+            "Interest/Sports (RP Only)": 10
         },
         "22": {
-            "Interest/Theology (RP Only)": 20
+            "Interest/Theology (RP Only)": 10
         }
     },
     "flexibleXPAbilities": {

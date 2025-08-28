@@ -1,5 +1,5 @@
 {
-    "id": "5532581f-65f5-4889-b9c8-5d5fec86fcd8",
+    "id": "8fa99994-f56c-4122-acdf-8a55bf197eb6",
     "version": {
         "major": 0,
         "minor": 50,
@@ -8,7 +8,7 @@
     },
     "xpCost": 0,
     "source": "Era Report 3052",
-    "name": "ComStar Service",
+    "name": "ComStar Service (3053)",
     "flavorText": "I was served ComStar—the keepers of humanity’s lifeline, where faith and secrecy forged a solemn duty to guard lost knowledge and guide the flow of all whispers across the stars.",
     "age": 0,
     "xpDiscount": 0,
@@ -76,10 +76,11 @@
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 10,
+            "Interest/Theology (RP Only)": 5,
             "Communications/Any (RP Only)": 10,
-            "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 10
+            "Interest/History (RP Only)": 5,
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPAbilities": {

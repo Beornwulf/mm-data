@@ -1,5 +1,5 @@
 {
-    "id": "df4c7fe2-0505-4f04-94a1-8c7ccf2e39cc",
+    "id": "957d85e2-00de-4f09-89c0-c76af1cfa6ab",
     "version": {
         "major": 0,
         "minor": 50,
@@ -13,7 +13,7 @@
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 9999,
+    "maximumYear": 3075,
     "randomWeight": 1.0,
     "lifeStages": [
         "CLAN_CASTE"

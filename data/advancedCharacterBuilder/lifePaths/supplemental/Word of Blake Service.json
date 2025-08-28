@@ -1,5 +1,5 @@
 {
-    "id": "a1ed6908-aeb2-4f25-a1ea-3ea08641b45b",
+    "id": "fed1f9c7-45d0-4ef0-a123-bb2f508d964c",
     "version": {
         "major": 0,
         "minor": 50,
@@ -13,7 +13,7 @@
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 3062,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
         "SUPPLEMENTAL"
@@ -81,8 +81,8 @@
     "fixedXPSkills": {
         "0": {
             "Negotiation": 10,
+            "Interest/Theology (RP Only)": 25,
             "Communications/Any (RP Only)": 10,
-            "Interest/History (RP Only)": 25,
             "Protocols/Any (RP Only)": 15,
             "Language/Any (RP Only)": 10
         }

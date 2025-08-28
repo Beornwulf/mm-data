@@ -1,5 +1,5 @@
 {
-    "id": "188a1038-46c7-434a-aaaf-46b19d230ca3",
+    "id": "6e1631f8-abca-4232-9495-d64fefa197e1",
     "version": {
         "major": 0,
         "minor": 50,
@@ -13,13 +13,15 @@
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 9999,
+    "maximumYear": 3080,
+    "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
+    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
             "MOC"

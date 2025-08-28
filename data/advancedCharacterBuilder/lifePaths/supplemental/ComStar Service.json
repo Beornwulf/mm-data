@@ -1,19 +1,19 @@
 {
-    "id": "44c176d9-2a99-40e3-b083-29ff4b7e5454",
+    "id": "5a316786-51d2-46d5-8973-71f297470fcc",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 10,
+    "xpCost": 85,
     "source": "Era Report 3052",
     "name": "ComStar Service",
     "flavorText": "I was served ComStar—the keepers of humanity’s lifeline, where faith and secrecy forged a solemn duty to guard lost knowledge and guide the flow of all whispers across the stars.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3053,
-    "maximumYear": 3062,
+    "minimumYear": 0,
+    "maximumYear": 3053,
     "randomWeight": 1.0,
     "lifeStages": [
         "SUPPLEMENTAL"
@@ -68,28 +68,30 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "INTELLIGENCE": 30,
-            "WILLPOWER": -20
+            "CHARISMA": -100,
+            "INTELLIGENCE": 25,
+            "WILLPOWER": 50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": -50,
-            "CONNECTIONS": 75
+            "CONNECTIONS": 100,
+            "REPUTATION": 50
         }
     },
     "fixedXPSkills": {
         "0": {
+            "Negotiation": 10,
+            "Interest/Theology (RP Only)": 25,
+            "Language/Any (RP Only)": 15,
             "Communications/Any (RP Only)": 10,
-            "Interest/History (RP Only)": 10,
-            "Protocols/Any (RP Only)": 10,
-            "Language/Any (RP Only)": 10
+            "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPAbilities": {
         "0": {
             "flaw_introvert": -50,
-            "compulsion_mild_paranoia": -25
+            "compulsion_mild_paranoia": -75
         }
     },
     "flexibleXPAttributes": {
@@ -110,22 +112,22 @@
     },
     "flexibleXPSkills": {
         "0": {
-            "Tech/Aero": 10
+            "Tech/Aero": 5
         },
         "1": {
-            "Tech/BattleArmor": 10
+            "Tech/BattleArmor": 5
         },
         "2": {
-            "Tech/Mechanic": 10
+            "Tech/Mechanic": 5
         },
         "3": {
-            "Tech/Mek": 10
+            "Tech/Mek": 5
         },
         "4": {
-            "Tech/Vessel": 10
+            "Tech/Vessel": 5
         },
         "5": {
-            "Astech": 10
+            "Astech": 5
         }
     },
     "flexibleXPAbilities": {
