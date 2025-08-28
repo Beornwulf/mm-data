@@ -1,30 +1,28 @@
 {
-    "id": "b3cabf14-6ad2-46f6-a028-fb86429f0ca7",
+    "id": "9fe928d1-891b-4731-9a96-d8f8bdbc0129",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 130,
-    "source": "Era Report 2750",
-    "name": "Draconis Combine - Azami",
-    "flavorText": "I was raised in the traditions of the Azami Brotherhood—our faith, our history, and our iron resolve shape who I am.",
+    "xpCost": 180,
+    "source": "ATOW",
+    "name": "Draconis Combine - Galedon District",
+    "flavorText": "I was raised in the relentless discipline of the Draconis Combine's capital—unyielding, loyal, and forged in a legacy of survival and fortitude.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
-    "maximumYear": 9999,
-    "randomWeight": 1.0,
+    "maximumYear": 3070,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
     ],
-    "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "AB"
+            "DC"
         ]
     },
     "requirementsLifePath": {
@@ -68,35 +66,52 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 125
+            "CHARISMA": -50,
+            "WILLPOWER": 150
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -125
+            "CONNECTIONS": 50,
+            "WEALTH": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Art/Poetry (RP Only)": 25,
-            "Animal Handling (RP Only)": 25,
-            "Survival/Any (RP Only)": 50,
-            "Language/Any (RP Only)": 25,
-            "Martial Arts (RP Only)": 50,
-            "Perception (RP Only)": 50,
-            "Protocols/Any (RP Only)": 5,
-            "Melee Weapons (RP Only)": 50
+            "Negotiation": 5,
+            "Streetwise/Any (RP Only)": 10,
+            "Art/Poetry (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15,
+            "Melee Weapons (RP Only)": 15
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -100
+            "compulsion_xenophobia": -50,
+            "compulsion_faction_loyalty": -50
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
+    },
+    "flexibleXPPickCount": 1
 }
