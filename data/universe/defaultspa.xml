@@ -480,6 +480,13 @@
 
     <!-- Misc SPA -->
     <ability>
+        <lookupName>flaw_in_for_life</lookupName>
+        <displayName>In For Life (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-300</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
         <lookupName>admin_interstellar_negotiator</lookupName>
         <displayName>Interstellar Negotiator (Unofficial)</displayName>
         <desc><![CDATA[No matter who's in charge, this character always has a way of bringing down the price.
@@ -1270,8 +1277,6 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Trivial Compulsion - Racism (ATOW)</displayName>
         <desc><![CDATA[-1 Reputation.
 
-This SPA represents the various 'Distrusts x Faction' compulsions in ATOW.
-
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
         <weight>1</weight>
@@ -1303,10 +1308,8 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>compulsion_faction_pride</lookupName>
-        <displayName>Trivial Compulsion - Excessive Faction Pride (ATOW)</displayName>
+        <displayName>Trivial Compulsion - Overbearing Faction Pride (ATOW)</displayName>
         <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 2.
-
-This SPA reflects the various 'faction x pride' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
@@ -1335,10 +1338,8 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>compulsion_faction_loyalty</lookupName>
-        <displayName>Significant Compulsion - Excessive Faction Loyalty (ATOW)</displayName>
+        <displayName>Significant Compulsion - Pathologic Faction Loyalty (ATOW)</displayName>
         <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 4.
-
-This SPA reflects the various 'loyalty to x faction' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
@@ -1349,8 +1350,6 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <lookupName>compulsion_pathologic_racism</lookupName>
         <displayName>Significant Compulsion - Pathologic Racism (ATOW)</displayName>
         <desc><![CDATA[-2 Reputation.
-
-This SPA reflects the various 'hatred of x faction' ATOW compulsions.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
