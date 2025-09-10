@@ -95,6 +95,10 @@ tasks.register<Copy>("stageMMLFiles") {
         include("images/units/**/*.*")
         include("images/universe/**/*.*")
         include("images/widgets/**/*.*")
+        include("mekfiles/*.txt")
+        include("mekfiles/*.xml")
+        include("universe/commands/**/*.*")
+        include("universe/factions/**/*.*")
         include("universe/eras.xml")
     }
 
