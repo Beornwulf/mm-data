@@ -1,0 +1,104 @@
+{
+    "id": "89e58cf7-321d-44d1-ab71-b8b047fc7e76",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "A Time of War",
+    "name": "Major Periphery (2400)",
+    "flavorText": "I don’t serve the Inner Sphere—I serve my people. Out here on the edge, we don’t beg for respect. We earn it, one fight at a time.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 2699,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "MOC",
+            "OA",
+            "THW",
+            "MH",
+            "RWR",
+            "CIR",
+            "TC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {
+            "EQUIPPED": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {}
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

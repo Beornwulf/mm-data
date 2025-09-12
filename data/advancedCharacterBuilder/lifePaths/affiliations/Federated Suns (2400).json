@@ -1,0 +1,119 @@
+{
+    "id": "524cf9fd-b75f-4ae3-bee9-e9c7e28a6732",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 35,
+    "source": "A Time of War",
+    "name": "Federated Suns (2400)",
+    "flavorText": "I fight for the Federated Suns because I believe in something bigger than myself—liberty, unity, and the fire to defend both at any cost.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 2699,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "FS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {
+            "INTELLIGENCE": 4
+        }
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 25
+        },
+        "1": {
+            "Strategy": 25
+        }
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
+}

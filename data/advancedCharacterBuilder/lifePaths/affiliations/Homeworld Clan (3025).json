@@ -1,0 +1,105 @@
+{
+    "id": "41971ea6-9896-436e-9312-a829bd916475",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "A Time of War",
+    "name": "Homeworld Clan (3025)",
+    "flavorText": "I was born from discipline, bred for war, and bound by honor. The Clans are not a dream—they are the perfection the Inner Sphere could never achieve.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3025,
+    "maximumYear": 3047,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CLAN"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {
+            "EXTRA_INCOME": -10,
+            "PROPERTY": 0
+        }
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 25
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_loyalty": -100,
+            "compulsion_faction_pride": -100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

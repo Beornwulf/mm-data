@@ -1,0 +1,125 @@
+{
+    "id": "8b5b4266-f9de-4ed8-a857-ea8f84664c59",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 40,
+    "source": "A Time of War",
+    "name": "Draconis Combine (2400)",
+    "flavorText": "I was born with a sword in my soul and duty in my blood. I serve the Dragon not for glory, but because honor demands nothing less.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 2699,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "DC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Art/Poetry (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
+    },
+    "flexibleXPPickCount": 1
+}

@@ -1,0 +1,105 @@
+{
+    "id": "b24b4f30-cdf7-45f7-83a1-1893168e7d82",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 90,
+    "source": "Era Report: 3052",
+    "name": "Free Rasalhague Republic (3053)",
+    "flavorText": "I was raised in the dawn of our Republic, when hope felt fragile but real—and I’ll fight to see that hope grow stronger than the chains we broke.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3053,
+    "maximumYear": 3062,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "FRR",
+            "WOB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Small Arms": 15
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {
+            "ROLEPLAY_INTEREST": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

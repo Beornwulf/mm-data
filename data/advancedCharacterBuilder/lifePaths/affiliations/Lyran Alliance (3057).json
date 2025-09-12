@@ -1,0 +1,126 @@
+{
+    "id": "c0487a99-24b3-4bc8-87e3-57a32a92d6c7",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 140,
+    "source": "A Time of War",
+    "name": "Lyran Alliance (3057)",
+    "flavorText": "I stand with the Lyran Alliance—born of wealth, tempered by industry, and made unbreakable by the will to endure.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3057,
+    "maximumYear": 3084,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "LA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "WEALTH": 100,
+            "EXTRA_INCOME": 50,
+            "EQUIPPED": 100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "atow_combat_paralysis": -100
+        },
+        "1": {
+            "flaw_glass_jaw": -100
+        }
+    },
+    "flexibleXPPickCount": 1
+}

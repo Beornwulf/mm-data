@@ -1,0 +1,158 @@
+{
+    "id": "dab31737-5e15-4960-9941-90c0b97c0be9",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 35,
+    "source": "Interstellar Expeditions",
+    "name": "Alexandrian Covenant",
+    "flavorText": "I was raised in the Alexandrian Covenant, where faith and survival are one. Beyond the reach of empires, I carry the holy word as both shield and sword.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "IND"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "DEXTERITY": 50,
+            "WILLPOWER": 25,
+            "STRENGTH": 50,
+            "REFLEXES": 150
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "EQUIPPED": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Small Arms": 10,
+            "Survival/Any (RP Only)": 10,
+            "Perception (RP Only)": 20
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100,
+            "compulsion_mild_paranoia": -100,
+            "flaw_illiterate": -50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Artillery": 10
+        },
+        "1": {
+            "Demolitions (RP Only)": 10
+        },
+        "2": {
+            "Melee Weapons (RP Only)": 10
+        },
+        "3": {
+            "Stealth (RP Only)": 10
+        },
+        "4": {
+            "Survival/Any (RP Only)": 10
+        },
+        "5": {
+            "Support Weapons (RP Only)": 10
+        }
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
+}

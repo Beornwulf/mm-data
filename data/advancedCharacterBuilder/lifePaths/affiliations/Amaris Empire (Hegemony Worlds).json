@@ -1,0 +1,150 @@
+{
+    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 50,
+    "source": "Unofficial",
+    "name": "Amaris Empire (Hegemony Worlds)",
+    "flavorText": "I was raised in the shadow of broken promises and shattered thrones. The Star League is dying—all that remains is the Empire.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "AE"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -75,
+            "compulsion_mild_paranoia": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 50
+        },
+        "1": {
+            "BODY": 50
+        },
+        "2": {
+            "DEXTERITY": 50
+        },
+        "3": {
+            "REFLEXES": 50
+        },
+        "4": {
+            "WILLPOWER": 50
+        },
+        "5": {
+            "CHARISMA": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
+}

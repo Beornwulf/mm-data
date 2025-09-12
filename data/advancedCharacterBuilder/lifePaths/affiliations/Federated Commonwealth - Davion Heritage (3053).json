@@ -1,0 +1,124 @@
+{
+    "id": "25699178-d833-49f3-87eb-4133cffb7234",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 100,
+    "source": "Era Report: 3052",
+    "name": "Federated Commonwealth - Davion Heritage (3053)",
+    "flavorText": "I was raised on Davion ideals—duty, sacrifice, and the fire to defend the free. The Commonwealth may be a union, but my heart beats Suns-bright.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3053,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "WOB",
+            "FC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {
+            "INTELLIGENCE": 4
+        }
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 15
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": 50
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 25
+        },
+        "1": {
+            "Strategy": 25
+        }
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
+}

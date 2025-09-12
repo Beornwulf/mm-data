@@ -1,0 +1,136 @@
+{
+    "id": "6e766510-895e-4dcd-9744-061fe77286e2",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 45,
+    "source": "A Time of War",
+    "name": "Former Free Worlds League (3080)",
+    "flavorText": "I come from the ashes of the League—our banners scattered, our unity broken—yet I still carry its memory, and I will see its strength reborn in me.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3080,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "FWLR",
+            "FWL",
+            "WOB"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {}
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Language/Any (RP Only)": 15
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {
+            "ROLEPLAY_INTEREST": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Small Arms": 15
+        },
+        "1": {
+            "Negotiation": 15
+        },
+        "2": {
+            "Martial Arts (RP Only)": 15
+        },
+        "3": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {
+            "ROLEPLAY_ART": 15
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPPickCount": 1
+}

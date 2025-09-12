@@ -1,0 +1,152 @@
+{
+    "id": "abfad9e7-b022-4d87-bf08-d0c6653a29e4",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 250,
+    "source": "Field Manual 3085",
+    "name": "Terran (3079)",
+    "flavorText": "I am Terran in an age of ruins and ambition—our cradle is coveted by all, yet I endure, carrying the weight of every empire that claimed us.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 3079,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "IS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -75
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 50
+        },
+        "1": {
+            "BODY": 50
+        },
+        "2": {
+            "DEXTERITY": 50
+        },
+        "3": {
+            "REFLEXES": 50
+        },
+        "4": {
+            "WILLPOWER": 50
+        },
+        "5": {
+            "CHARISMA": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
+}

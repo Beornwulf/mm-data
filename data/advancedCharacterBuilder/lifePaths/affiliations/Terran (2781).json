@@ -1,0 +1,152 @@
+{
+    "id": "f8620b64-f6bc-4352-8112-79de1c3773de",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 250,
+    "source": "Era Digest: Age of War",
+    "name": "Terran (2781)",
+    "flavorText": "I am Terran—child of humanity’s cradle. Every step I take carries the weight of history, and every choice I make shapes the legacy of our homeworld.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 2781,
+    "maximumYear": 3078,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": true,
+    "requirementsFactions": {
+        "0": [
+            "CS",
+            "IS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 100
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 100
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Language/Any (RP Only)": 25
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_faction_pride": -75
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 50
+        },
+        "1": {
+            "BODY": 50
+        },
+        "2": {
+            "DEXTERITY": 50
+        },
+        "3": {
+            "REFLEXES": 50
+        },
+        "4": {
+            "WILLPOWER": 50
+        },
+        "5": {
+            "CHARISMA": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
+}
