@@ -1,0 +1,113 @@
+{
+    "id": "b5b1f5be-ab41-4f0e-ae6f-85bcd8586f09",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 290,
+    "source": "Unofficial",
+    "name": "Star League Service - Inner Sphere",
+    "flavorText": "I wear the Star League’s crest with pride, for we are the light that binds the stars—and I will give my life to keep humanity united beneath it.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 2571,
+    "maximumYear": 2780,
+    "randomWeight": 0.003,
+    "lifeStages": [
+        "SUPPLEMENTAL"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CC",
+            "TH",
+            "LA",
+            "SL",
+            "FWL",
+            "FS",
+            "DC"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "WILLPOWER": 50,
+            "CHARISMA": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": 100,
+            "EQUIPPED": 100,
+            "CONNECTIONS": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 5,
+            "Language/Any (RP Only)": 10,
+            "Protocols/Any (RP Only)": 25
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
