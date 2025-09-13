@@ -49,7 +49,9 @@
         "0": {}
     },
     "exclusionsFactions": {
-        "0": []
+        "0": [
+            "CI"
+        ]
     },
     "exclusionsLifePath": {
         "0": []
