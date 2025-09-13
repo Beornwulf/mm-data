@@ -9,11 +9,11 @@
     "xpCost": 0,
     "source": "A Time of War",
     "name": "Capellan Confederation (3053)",
-    "flavorText": "I serve the Chancellor, not because I must—but because only they have the will to build a future where we are more than pawns in someone else's game.",
+    "flavorText": "I am Capellan in 3053—scarred by war, yet alive when others wished us dead. The Confederation endures because the Chancellor’s will is iron, and through that will, so am I.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3053,
-    "maximumYear": 9999,
+    "maximumYear": 3100,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -26,6 +26,7 @@
         "0": [
             "CC",
             "CS",
+            "ROS",
             "WOB"
         ]
     },

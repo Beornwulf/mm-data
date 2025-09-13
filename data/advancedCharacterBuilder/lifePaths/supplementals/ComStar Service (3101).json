@@ -1,22 +1,22 @@
 {
-    "id": "adce3937-6123-4c1b-847f-9210aad98c18",
+    "id": "0df995fa-7236-4d5d-970b-c903e5209787",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 140,
-    "source": "A Time of War",
-    "name": "Lyran Commonwealth (3085)",
-    "flavorText": "I was born Lyran in an age of upheaval—our wealth strained, our pride tested—but even in hardship, I carry the steel and stubborn will of the Commonwealth.",
+    "xpCost": 0,
+    "source": "Era Report 3145",
+    "name": "ComStar Service (3101)",
+    "flavorText": "I am ComStar in name, but no longer the giant that once steered the stars. Now, we are shadows and whispers, keeping knowledge alive while greater powers forget its worth.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3085,
-    "maximumYear": 3100,
+    "minimumYear": 3101,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUPPLEMENTAL"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "LA",
-            "ROS"
+            "CS"
         ]
     },
     "requirementsLifePath": {
@@ -63,7 +61,10 @@
         "0": {}
     },
     "exclusionsTraits": {
-        "0": {}
+        "0": {
+            "EXTRA_INCOME": -10,
+            "PROPERTY": 0
+        }
     },
     "exclusionsSkills": {
         "0": {}
@@ -76,52 +77,39 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": -50
+            "WILLPOWER": 50,
+            "INTELLIGENCE": 30
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": 100,
-            "EXTRA_INCOME": 50,
-            "EQUIPPED": 100
+            "REPUTATION": -250,
+            "ENEMY": -150,
+            "EQUIPPED": 125,
+            "CONNECTIONS": 50
         }
     },
     "fixedXPSkills": {
         "0": {
             "Negotiation": 15,
+            "Interest/Theology (RP Only)": 15,
+            "Communications/Any (RP Only)": 10,
             "Protocols/Any (RP Only)": 15,
-            "Appraisal (RP Only)": 10
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "SUPPORT_TECHNICIAN": 10
+        }
     },
     "fixedXPAbilities": {
         "0": {}
     },
-    "flexibleXPAttributes": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPTraits": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPMetaSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
-        "0": {
-            "atow_combat_paralysis": -100
-        },
-        "1": {
-            "flaw_glass_jaw": -100
-        }
-    },
-    "flexibleXPPickCount": 1
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
 }

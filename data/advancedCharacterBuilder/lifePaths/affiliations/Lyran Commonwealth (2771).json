@@ -9,11 +9,11 @@
     "xpCost": 140,
     "source": "A Time of War",
     "name": "Lyran Commonwealth (2771)",
-    "flavorText": "I was born into industry, raised on ambition, and trained to win—because in the Commonwealth, strength isn’t just power, it’s policy.",
+    "flavorText": "I am Lyran, standing firm as the Star League unravels. Our strength is not only in arms, but in the industry and resolve that keep the Commonwealth unbroken.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 2771,
-    "maximumYear": 9999,
+    "maximumYear": 3024,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"

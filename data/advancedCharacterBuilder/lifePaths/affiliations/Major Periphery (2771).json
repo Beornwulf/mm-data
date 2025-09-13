@@ -13,7 +13,7 @@
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 2771,
-    "maximumYear": 9999,
+    "maximumYear": 3052,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -24,13 +24,15 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "MOC",
             "CS",
+            "MOC",
+            "EF",
             "OA",
             "THW",
+            "OC",
             "MH",
-            "RWR",
             "CIR",
+            "GV",
             "TC"
         ]
     },

@@ -1,18 +1,18 @@
 {
-    "id": "d62eb05c-842a-4eec-a920-b89952d5883b",
+    "id": "09e84996-cc5e-4e45-b965-3eb50ea4f7a1",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Field Manual 3085",
-    "name": "Ghost Bear Dominion",
-    "flavorText": "I am a warrior of the Ghost Bear Dominion—born Clan, bound to Rasalhague, and tempered by both. My strength is in unity, my honor in loyalty.",
+    "xpCost": 25,
+    "source": "Era Report 3145",
+    "name": "Raven Alliance (3101)",
+    "flavorText": "I am of the Raven Alliance—once Periphery, now a voice among the stars. We are small, but through vision, resolve, and the wisdom of the Black Watch, we shape a greater destiny.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3081,
+    "minimumYear": 3101,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -25,7 +25,9 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CGB"
+            "OA",
+            "CSR",
+            "RA"
         ]
     },
     "requirementsLifePath": {
@@ -80,7 +82,11 @@
         "0": {}
     },
     "fixedXPSkills": {
-        "0": {}
+        "0": {
+            "Negotiation": 10,
+            "Interest/History (RP Only)": 5,
+            "Protocols/Any (RP Only)": 10
+        }
     },
     "fixedXPMetaSkills": {
         "0": {}

@@ -9,11 +9,11 @@
     "xpCost": 40,
     "source": "A Time of War",
     "name": "Draconis Combine (2771)",
-    "flavorText": "I was born with a sword in my soul and duty in my blood. I serve the Dragon not for glory, but because honor demands nothing less.",
+    "flavorText": "I am Combine, standing unbroken as the Star League tears itself apart. The Dragon endures, and through my loyalty and my blade, so shall I.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 2771,
-    "maximumYear": 9999,
+    "maximumYear": 3024,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -25,6 +25,7 @@
     "requirementsFactions": {
         "0": [
             "CS",
+            "ROS",
             "WOB",
             "DC"
         ]

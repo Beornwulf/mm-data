@@ -24,13 +24,10 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "MOC",
             "CS",
-            "OA",
+            "MOC",
             "THW",
-            "MH",
-            "RWR",
-            "CIR",
+            "OA",
             "TC"
         ]
     },

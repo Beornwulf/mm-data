@@ -9,11 +9,11 @@
     "xpCost": 35,
     "source": "A Time of War",
     "name": "Federated Suns (2771)",
-    "flavorText": "I fight for the Federated Suns because I believe in something bigger than myself—liberty, unity, and the fire to defend both at any cost.",
+    "flavorText": "I am Davion, forged in fire as the Star League collapses. Though chaos spreads, I stand for duty and for the Suns’ promise—that freedom is worth every sacrifice.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 2771,
-    "maximumYear": 9999,
+    "maximumYear": 3024,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -25,6 +25,7 @@
     "requirementsFactions": {
         "0": [
             "CS",
+            "ROS",
             "FS"
         ]
     },

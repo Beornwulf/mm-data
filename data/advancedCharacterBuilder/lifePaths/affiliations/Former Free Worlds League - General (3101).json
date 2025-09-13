@@ -1,18 +1,18 @@
 {
-    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "id": "dcb58266-9a54-4f95-adec-c02159611db9",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 50,
-    "source": "Unofficial",
-    "name": "Amaris Empire (Hegemony Worlds)",
-    "flavorText": "I was raised in the shadow of broken promises and shattered thrones. The Star League is dying—all that remains is the Empire.",
+    "xpCost": 95,
+    "source": "Era Report 3145",
+    "name": "Former Free Worlds League - General (3101)",
+    "flavorText": "I was born after the League’s fall, into a splintered realm of fading banners. Still, the memory of the Free Worlds lives in me, and I’ll see it rise again.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 0,
+    "minimumYear": 3101,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -24,7 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "AE"
+            "FWLR",
+            "FWL"
         ]
     },
     "requirementsLifePath": {
@@ -74,7 +75,7 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "INTELLIGENCE": 100
+            "WILLPOWER": 50
         }
     },
     "fixedXPTraits": {
@@ -82,69 +83,54 @@
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 25
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_INTEREST": 15
+        }
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_unpleasant_personality": -75,
-            "compulsion_mild_paranoia": -100
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 50
-        },
-        "1": {
-            "BODY": 50
-        },
-        "2": {
-            "DEXTERITY": 50
-        },
-        "3": {
-            "REFLEXES": 50
-        },
-        "4": {
-            "WILLPOWER": 50
-        },
-        "5": {
-            "CHARISMA": 50
-        }
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
     },
     "flexibleXPTraits": {
         "0": {},
         "1": {},
         "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "3": {}
     },
     "flexibleXPSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {
+            "Martial Arts (RP Only)": 15
+        },
+        "2": {
+            "Negotiation": 15
+        },
+        "3": {
+            "Small Arms": 15
+        }
     },
     "flexibleXPMetaSkills": {
-        "0": {},
+        "0": {
+            "ROLEPLAY_ART": 15
+        },
         "1": {},
         "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "3": {}
     },
     "flexibleXPAbilities": {
         "0": {},
         "1": {},
         "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "3": {}
     },
-    "flexibleXPPickCount": 2
+    "flexibleXPPickCount": 1
 }

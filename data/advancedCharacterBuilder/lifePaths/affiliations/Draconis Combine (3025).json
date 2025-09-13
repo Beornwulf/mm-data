@@ -1,19 +1,19 @@
 {
-    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "id": "8605c56d-b9f4-44db-a341-5adc18a1b361",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
-    "source": "Era Report: 2750",
-    "name": "Terran Hegemony (2700)",
-    "flavorText": "I am a child of the Hegemony—cradle of humanity and heart of the Star League. In my service, I carry the weight of history and the duty to lead all others.",
+    "xpCost": 40,
+    "source": "A Time of War",
+    "name": "Draconis Combine (3025)",
+    "flavorText": "I am Combine, raised from birth to serve the Dragon. In obedience I find purpose, in honor I find strength, and through sacrifice I prove my worth.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 9999,
+    "minimumYear": 3025,
+    "maximumYear": 3100,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -25,7 +25,9 @@
     "requirementsFactions": {
         "0": [
             "CS",
-            "TH"
+            "ROS",
+            "WOB",
+            "DC"
         ]
     },
     "requirementsLifePath": {
@@ -75,17 +77,19 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "INTELLIGENCE": 100
+            "WILLPOWER": 50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 100
+            "WEALTH": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 25
+            "Art/Poetry (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
@@ -93,60 +97,32 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_unpleasant_personality": -75
+            "compulsion_xenophobia": -100
         }
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 50
-        },
-        "1": {
-            "BODY": 50
-        },
-        "2": {
-            "DEXTERITY": 50
-        },
-        "3": {
-            "REFLEXES": 50
-        },
-        "4": {
-            "WILLPOWER": 50
-        },
-        "5": {
-            "CHARISMA": 50
-        }
+        "0": {},
+        "1": {}
     },
     "flexibleXPTraits": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPMetaSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPAbilities": {
-        "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
     },
-    "flexibleXPPickCount": 2
+    "flexibleXPPickCount": 1
 }

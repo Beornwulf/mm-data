@@ -1,18 +1,18 @@
 {
-    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "id": "cd772d8c-f88c-4ed6-8538-2a342670bdd6",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
+    "xpCost": 100,
     "source": "Era Report: 2750",
-    "name": "Terran Hegemony (2700)",
-    "flavorText": "I am a child of the Hegemony—cradle of humanity and heart of the Star League. In my service, I carry the weight of history and the duty to lead all others.",
+    "name": "Amaris Empire - Periphery",
+    "flavorText": "I serve the Empire because order demands a strong hand—and no one’s hand is stronger than ours. The weak may curse us, but they will kneel all the same.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
+    "minimumYear": 2766,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -24,8 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "TH"
+            "RWR"
         ]
     },
     "requirementsLifePath": {
@@ -75,17 +74,17 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "INTELLIGENCE": 100
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 100
+            "EQUIPPED": -40
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 25
+            "Survival/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
@@ -93,7 +92,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_unpleasant_personality": -75
+            "compulsion_faction_pride": -25
         }
     },
     "flexibleXPAttributes": {
@@ -110,7 +109,7 @@
             "REFLEXES": 50
         },
         "4": {
-            "WILLPOWER": 50
+            "INTELLIGENCE": 50
         },
         "5": {
             "CHARISMA": 50
@@ -148,5 +147,5 @@
         "4": {},
         "5": {}
     },
-    "flexibleXPPickCount": 2
+    "flexibleXPPickCount": 1
 }

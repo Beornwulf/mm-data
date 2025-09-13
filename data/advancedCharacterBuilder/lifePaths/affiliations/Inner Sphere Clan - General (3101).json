@@ -1,32 +1,32 @@
 {
-    "id": "adce3937-6123-4c1b-847f-9210aad98c18",
+    "id": "2d974187-0427-4c4f-89eb-5ac74e6cfabc",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 140,
-    "source": "A Time of War",
-    "name": "Lyran Commonwealth (3085)",
-    "flavorText": "I was born Lyran in an age of upheaval—our wealth strained, our pride tested—but even in hardship, I carry the steel and stubborn will of the Commonwealth.",
+    "xpCost": 0,
+    "source": "Era Report 3145",
+    "name": "Inner Sphere Clan - General (3101)",
+    "flavorText": "I am Clan, tempered by generations in the Inner Sphere. Some call us softened, but they mistake adaptation for weakness—I will prove our blood runs as true as Kerensky’s firstborn.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3085,
-    "maximumYear": 3100,
+    "minimumYear": 3101,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "LA",
-            "ROS"
+            "CHH",
+            "CW",
+            "CJF"
         ]
     },
     "requirementsLifePath": {
@@ -63,7 +63,10 @@
         "0": {}
     },
     "exclusionsTraits": {
-        "0": {}
+        "0": {
+            "PROPERTY": 0,
+            "EXTRA_INCOME": -10
+        }
     },
     "exclusionsSkills": {
         "0": {}
@@ -75,53 +78,30 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": -50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": 100,
-            "EXTRA_INCOME": 50,
-            "EQUIPPED": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 15,
-            "Protocols/Any (RP Only)": 15,
-            "Appraisal (RP Only)": 10
+            "Interest/History (RP Only)": 25,
+            "Protocols/Any (RP Only)": 25
         }
     },
     "fixedXPMetaSkills": {
         "0": {}
     },
     "fixedXPAbilities": {
-        "0": {}
-    },
-    "flexibleXPAttributes": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPTraits": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPMetaSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
         "0": {
-            "atow_combat_paralysis": -100
-        },
-        "1": {
-            "flaw_glass_jaw": -100
+            "compulsion_faction_pride": -100,
+            "compulsion_unpleasant_personality": -50
         }
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
 }

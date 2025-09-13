@@ -9,11 +9,11 @@
     "xpCost": 25,
     "source": "A Time of War",
     "name": "Free Worlds League (2771)",
-    "flavorText": "In a realm built on chaos and compromise, I learned to rely on my own strength—and that’s exactly why I’ll outlast anyone who underestimates me.",
+    "flavorText": "I am of the League, loyal to Marik even as the Star League collapses. Fractious though we are, in this moment of fire we endure together, bound by necessity and resolve.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 2771,
-    "maximumYear": 3079,
+    "maximumYear": 3024,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"

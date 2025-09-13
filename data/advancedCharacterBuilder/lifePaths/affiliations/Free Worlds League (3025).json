@@ -1,19 +1,19 @@
 {
-    "id": "adce3937-6123-4c1b-847f-9210aad98c18",
+    "id": "6d4ed4b0-f850-489d-96db-4c1146c958a4",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 140,
+    "xpCost": 25,
     "source": "A Time of War",
-    "name": "Lyran Commonwealth (3085)",
-    "flavorText": "I was born Lyran in an age of upheaval—our wealth strained, our pride tested—but even in hardship, I carry the steel and stubborn will of the Commonwealth.",
+    "name": "Free Worlds League (3025)",
+    "flavorText": "I am League-born, living in a realm of countless voices and clashing wills. Though division is our nature, I stand by Marik, for unity—even fragile—gives us strength.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3085,
-    "maximumYear": 3100,
+    "minimumYear": 3025,
+    "maximumYear": 3079,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -25,8 +25,9 @@
     "requirementsFactions": {
         "0": [
             "CS",
-            "LA",
-            "ROS"
+            "FWLR",
+            "FWL",
+            "WOB"
         ]
     },
     "requirementsLifePath": {
@@ -75,53 +76,28 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": -50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": 100,
-            "EXTRA_INCOME": 50,
-            "EQUIPPED": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Negotiation": 15,
-            "Protocols/Any (RP Only)": 15,
-            "Appraisal (RP Only)": 10
+            "Language/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_ART": 10
+        }
     },
     "fixedXPAbilities": {
         "0": {}
     },
-    "flexibleXPAttributes": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPTraits": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPMetaSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
-        "0": {
-            "atow_combat_paralysis": -100
-        },
-        "1": {
-            "flaw_glass_jaw": -100
-        }
-    },
-    "flexibleXPPickCount": 1
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
 }

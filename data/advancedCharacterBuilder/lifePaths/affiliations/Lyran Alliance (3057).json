@@ -25,7 +25,8 @@
     "requirementsFactions": {
         "0": [
             "CS",
-            "LA"
+            "LA",
+            "ROS"
         ]
     },
     "requirementsLifePath": {

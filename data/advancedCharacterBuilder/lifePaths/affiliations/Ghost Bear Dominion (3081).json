@@ -1,32 +1,31 @@
 {
-    "id": "adce3937-6123-4c1b-847f-9210aad98c18",
+    "id": "d62eb05c-842a-4eec-a920-b89952d5883b",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 140,
-    "source": "A Time of War",
-    "name": "Lyran Commonwealth (3085)",
-    "flavorText": "I was born Lyran in an age of upheaval—our wealth strained, our pride tested—but even in hardship, I carry the steel and stubborn will of the Commonwealth.",
+    "xpCost": 0,
+    "source": "Field Manual 3085",
+    "name": "Ghost Bear Dominion (3081)",
+    "flavorText": "I am a warrior of the Ghost Bear Dominion—born Clan, bound to Rasalhague, and tempered by both. My strength is in unity, my honor in loyalty.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3085,
-    "maximumYear": 3100,
+    "minimumYear": 3081,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
     ],
     "categories": [
+        "GENERAL_CLAN",
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "LA",
-            "ROS"
+            "CGB"
         ]
     },
     "requirementsLifePath": {
@@ -75,23 +74,13 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": -50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": 100,
-            "EXTRA_INCOME": 50,
-            "EQUIPPED": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
-        "0": {
-            "Negotiation": 15,
-            "Protocols/Any (RP Only)": 15,
-            "Appraisal (RP Only)": 10
-        }
+        "0": {}
     },
     "fixedXPMetaSkills": {
         "0": {}
@@ -99,29 +88,10 @@
     "fixedXPAbilities": {
         "0": {}
     },
-    "flexibleXPAttributes": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPTraits": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPMetaSkills": {
-        "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
-        "0": {
-            "atow_combat_paralysis": -100
-        },
-        "1": {
-            "flaw_glass_jaw": -100
-        }
-    },
-    "flexibleXPPickCount": 1
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
 }

@@ -1,18 +1,18 @@
 {
-    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "id": "ad7ff3ad-44d3-4fa6-a942-6c6e2119a184",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
-    "source": "Era Report: 2750",
-    "name": "Terran Hegemony (2700)",
-    "flavorText": "I am a child of the Hegemony—cradle of humanity and heart of the Star League. In my service, I carry the weight of history and the duty to lead all others.",
+    "xpCost": 140,
+    "source": "A Time of War",
+    "name": "Lyran Commonwealth (3101)",
+    "flavorText": "I am Lyran, forged from centuries of wealth, pride, and hardship. Though our strength has been tested, the Commonwealth endures—and so do I.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
+    "minimumYear": 3101,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -25,7 +25,7 @@
     "requirementsFactions": {
         "0": [
             "CS",
-            "TH"
+            "LA"
         ]
     },
     "requirementsLifePath": {
@@ -75,78 +75,52 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "INTELLIGENCE": 100
+            "WILLPOWER": -50
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": 100
+            "WEALTH": 100,
+            "EXTRA_INCOME": 50,
+            "EQUIPPED": 100
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 25
+            "Negotiation": 15,
+            "Protocols/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
         "0": {}
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_unpleasant_personality": -75
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 50
-        },
-        "1": {
-            "BODY": 50
-        },
-        "2": {
-            "DEXTERITY": 50
-        },
-        "3": {
-            "REFLEXES": 50
-        },
-        "4": {
-            "WILLPOWER": 50
-        },
-        "5": {
-            "CHARISMA": 50
-        }
+        "0": {},
+        "1": {}
     },
     "flexibleXPTraits": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPMetaSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPAbilities": {
-        "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "0": {
+            "atow_combat_paralysis": -100
+        },
+        "1": {
+            "flaw_glass_jaw": -100
+        }
     },
-    "flexibleXPPickCount": 2
+    "flexibleXPPickCount": 1
 }

@@ -6,13 +6,13 @@
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
-    "source": "Era Report: 2750",
-    "name": "Terran Hegemony (2700)",
-    "flavorText": "I am a child of the Hegemony—cradle of humanity and heart of the Star League. In my service, I carry the weight of history and the duty to lead all others.",
+    "xpCost": 50,
+    "source": "Unofficial",
+    "name": "Amaris Empire - Hegemony Worlds",
+    "flavorText": "I was raised in the shadow of broken promises and shattered thrones. The Star League is dying—all that remains is the Empire.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
+    "minimumYear": 0,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -24,8 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "TH"
+            "AE"
         ]
     },
     "requirementsLifePath": {
@@ -79,9 +78,7 @@
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "REPUTATION": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
@@ -93,7 +90,8 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_unpleasant_personality": -75
+            "compulsion_unpleasant_personality": -75,
+            "compulsion_mild_paranoia": -100
         }
     },
     "flexibleXPAttributes": {

@@ -1,18 +1,18 @@
 {
-    "id": "2fe6b58c-2662-410e-9144-7baed4377add",
+    "id": "586ba1d1-a68e-4eb1-9d6f-cb380881e0fc",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 250,
-    "source": "Era Report: 2750",
-    "name": "Terran Hegemony (2700)",
-    "flavorText": "I am a child of the Hegemony—cradle of humanity and heart of the Star League. In my service, I carry the weight of history and the duty to lead all others.",
+    "xpCost": 35,
+    "source": "A Time of War",
+    "name": "Federated Suns (3101)",
+    "flavorText": "I am Davion, heir to a legacy of sacrifice. The Suns have been scarred and tested, yet I carry our banner forward, for freedom must always endure.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
+    "minimumYear": 3101,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
@@ -25,7 +25,7 @@
     "requirementsFactions": {
         "0": [
             "CS",
-            "TH"
+            "FS"
         ]
     },
     "requirementsLifePath": {
@@ -35,7 +35,9 @@
         "0": {}
     },
     "requirementsAttributes": {
-        "0": {}
+        "0": {
+            "INTELLIGENCE": 4
+        }
     },
     "requirementsTraits": {
         "0": {}
@@ -74,79 +76,45 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "INTELLIGENCE": 100
-        }
+        "0": {}
     },
     "fixedXPTraits": {
-        "0": {
-            "REPUTATION": 100
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Language/Any (RP Only)": 25
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
         "0": {}
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_unpleasant_personality": -75
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 50
-        },
-        "1": {
-            "BODY": 50
-        },
-        "2": {
-            "DEXTERITY": 50
-        },
-        "3": {
-            "REFLEXES": 50
-        },
-        "4": {
-            "WILLPOWER": 50
-        },
-        "5": {
-            "CHARISMA": 50
-        }
+        "0": {},
+        "1": {}
     },
     "flexibleXPTraits": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPSkills": {
-        "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "0": {
+            "Protocols/Any (RP Only)": 25
+        },
+        "1": {
+            "Strategy": 25
+        }
     },
     "flexibleXPMetaSkills": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
     "flexibleXPAbilities": {
         "0": {},
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "1": {}
     },
-    "flexibleXPPickCount": 2
+    "flexibleXPPickCount": 1
 }

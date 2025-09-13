@@ -1,5 +1,5 @@
 {
-    "id": "ffc5d0d0-9caa-4736-87b5-e065a3b9f46f",
+    "id": "2317fd74-50e8-4764-8e24-0808e7eb2336",
     "version": {
         "major": 0,
         "minor": 50,
@@ -25,6 +25,8 @@
     "requirementsFactions": {
         "0": [
             "MM",
+            "LL",
+            "RT",
             "RIM",
             "FOR",
             "NIOPS",
@@ -56,10 +58,20 @@
     "exclusionsFactions": {
         "0": [
             "MOC",
-            "MH",
+            "EF",
+            "THW",
+            "CI",
             "DP",
+            "FR",
             "CIR",
-            "TC"
+            "TB",
+            "TC",
+            "GV",
+            "TD",
+            "OA",
+            "FVC",
+            "OC",
+            "MH"
         ]
     },
     "exclusionsLifePath": {
