@@ -1,5 +1,5 @@
 {
-    "id": "6d691b74-1754-4672-ae7d-ca04f6a550e5",
+    "id": "e0db51fc-a382-4f5b-9669-f8c74552878a",
     "version": {
         "major": 0,
         "minor": 50,
@@ -9,7 +9,7 @@
     "xpCost": 235,
     "source": "Era Report 3145",
     "name": "Republic of the Sphere (3101)",
-    "flavorText": "",
+    "flavorText": "I am of the Republic of the Sphere, born to a promise of peace now fractured by war. Though the dream falters, I hold to it, for even a broken Republic is worth defending.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 3101,
