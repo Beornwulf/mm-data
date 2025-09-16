@@ -487,6 +487,13 @@
         <weight>1</weight>
     </ability>
     <ability>
+        <lookupName>atow_g_tolerance</lookupName>
+        <displayName>G-Tolerance (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>100</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
         <lookupName>admin_interstellar_negotiator</lookupName>
         <displayName>Interstellar Negotiator (Unofficial)</displayName>
         <desc><![CDATA[No matter who's in charge, this character always has a way of bringing down the price.
