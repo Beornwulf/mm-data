@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "52eff4d8-c4af-48ce-bfb0-b8984b3c6d23",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 240,
+    "source": "Era Report 2750",
+    "name": "Rasalhague Military District (2400)",
+    "flavorText": "I come from the Rasalhague Military District, where the Dragon’s rule is new and our loyalty is tested each day. To endure under Kurita’s shadow is to learn strength—or be broken.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 2511,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,8 +24,6 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
             "DC"
         ]
     },
@@ -80,24 +78,26 @@
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": -25
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Negotiation": 20,
+            "Streetwise/Any (RP Only)": 20,
+            "Art/Poetry (RP Only)": 10,
+            "Language/Any (RP Only)": 25,
+            "Perception (RP Only)": 25
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_INTEREST": 15
+        }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_xenophobia": 50,
+            "compulsion_faction_loyalty": 25
         }
     },
     "flexibleXPAttributes": {},

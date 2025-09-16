@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "d4f6eacf-a7b2-415d-92a2-b79af45bc613",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 120,
+    "source": "Era Report 2750",
+    "name": "Federation of Skye (2400)",
+    "flavorText": "I come from the Federation of Skye, fierce and proud within the Commonwealth. We serve the Archon, yet we never forget our own strength—or our right to be heard.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "LA"
         ]
     },
     "requirementsLifePath": {
@@ -76,29 +74,29 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "CONNECTIONS": 75,
+            "REPUTATION": -150
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Negotiation": 25,
+            "Streetwise/Any (RP Only)": 15,
+            "Career/Any (RP Only)": 20,
+            "Language/Any (RP Only)": 20,
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
         "0": {}
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {},
     "flexibleXPTraits": {},

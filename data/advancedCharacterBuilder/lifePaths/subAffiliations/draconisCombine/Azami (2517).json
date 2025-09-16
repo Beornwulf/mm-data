@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "b652382c-5a47-4b63-9dc1-ba14afc55164",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 110,
+    "source": "Era Report 2750",
+    "name": "Azami (2517)",
+    "flavorText": "I come from the Azami Brotherhood, newly bound to the Dragon. We bend to Kurita rule, but in our hearts we remain free, carrying our faith and traditions into every battle and every breath.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 2517,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "AB"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,23 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 75
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "WEALTH": -100,
+            "EQUIPPED": -50
         }
     },
     "fixedXPSkills": {
         "0": {
+            "Animal Handling (RP Only)": 25,
+            "Survival/Any (RP Only)": 50,
+            "Language/Any (RP Only)": 35,
             "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Perception (RP Only)": 50,
+            "Melee Weapons (RP Only)": 50
         }
     },
     "fixedXPMetaSkills": {
@@ -96,7 +98,6 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
             "compulsion_xenophobia": -50
         }
     },

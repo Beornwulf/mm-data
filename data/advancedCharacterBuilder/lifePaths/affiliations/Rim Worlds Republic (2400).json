@@ -1,19 +1,19 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "df283654-23a0-4ff0-baad-1be67697ab9e",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 95,
+    "source": "Era Digest: Age of War",
+    "name": "Rim Worlds Republic (2400)",
+    "flavorText": "I am of the Rim Worlds Republic, forged on the edge of civilization. Out here, we are far from Terra’s reach, yet closer to freedom than any empire dares allow.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 2570,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "RWR"
         ]
     },
     "requirementsLifePath": {
@@ -76,34 +74,64 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "INTELLIGENCE": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "EQUIPPED": -50,
+            "CONNECTIONS": 50,
+            "REPUTATION": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Streetwise/Any (RP Only)": 25
         }
     },
     "fixedXPMetaSkills": {
         "0": {}
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {
+            "Negotiation": 10
+        },
+        "2": {
+            "Small Arms": 10
+        },
+        "3": {
+            "Survival/Any (RP Only)": 10
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPMetaSkills": {
+        "0": {
+            "ROLEPLAY_INTEREST": 10
+        },
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPPickCount": 2
 }

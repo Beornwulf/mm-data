@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "06679dae-8216-4340-9846-6fc0d0d2fd6d",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 65,
+    "source": "Era Report 2750",
+    "name": "Alarion Province (2400)",
+    "flavorText": "I come from the Alarion Province, where industry and loyalty bind us to the Commonwealth. Though far from the capital, our strength fuels the Lyran state, and we take pride in that duty.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "LA"
         ]
     },
     "requirementsLifePath": {
@@ -76,34 +74,54 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "CHARISMA": -50,
+            "BODY": 50
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": -25
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Survival/Any (RP Only)": 20,
+            "Career/Any (RP Only)": 15,
+            "Communications/Any (RP Only)": 25
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "SUPPORT_TECHNICIAN": 20
+        }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "atow_fit": 25,
+            "compulsion_faction_loyalty": -50
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Survival/Any (RP Only)": 10
+        },
+        "1": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {
+            "SUPPORT_TECHNICIAN": 10
+        }
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
 }

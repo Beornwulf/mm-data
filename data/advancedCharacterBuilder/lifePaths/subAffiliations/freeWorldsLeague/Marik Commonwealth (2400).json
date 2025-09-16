@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "3e29a4f6-92bf-40ba-b278-6e12a7fd00f5",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 115,
+    "source": "Era Report 2750",
+    "name": "Marik Commonwealth (2400)",
+    "flavorText": "I come from the Marik Commonwealth, heart of the League and seat of House Marik. Here, loyalty to the Captain-General is not questioned—it is the foundation of our strength and unity.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "FWLR",
+            "FWL"
         ]
     },
     "requirementsLifePath": {
@@ -75,30 +74,29 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": 50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "WEALTH": 50,
+            "EQUIPPED": 50,
+            "REPUTATION": -40
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Negotiation": 25,
+            "Protocols/Any (RP Only)": 15,
+            "Appraisal (RP Only)": 5
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_INTEREST": 10
+        }
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {},
     "flexibleXPTraits": {},

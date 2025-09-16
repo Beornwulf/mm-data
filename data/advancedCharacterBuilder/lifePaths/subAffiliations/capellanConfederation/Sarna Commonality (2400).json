@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "ef79cc52-00b4-4940-8df1-0c01c9904e64",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 50,
+    "source": "Era Report 2750",
+    "name": "Sarna Commonality (2400)",
+    "flavorText": "I come from the Sarna Commonality, where the Confederation was born. In these halls of power, service to the Chancellor is not duty alone—it is destiny.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -75,20 +73,18 @@
         "0": {}
     },
     "fixedXPAttributes": {
-        "0": {
-            "WILLPOWER": 50
-        }
+        "0": {}
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "WEALTH": 15
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Martial Arts (RP Only)": 10,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 5
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +92,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "atow_citizenship": 10
         }
     },
     "flexibleXPAttributes": {},

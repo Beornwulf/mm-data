@@ -1,19 +1,19 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "5ca9df43-7cc7-4e58-b818-4a6b68097b84",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 40,
+    "source": "A Time of War",
+    "name": "Draconis Combine (2517)",
+    "flavorText": "I come from the Draconis Combine, where the Dragon’s will shapes every breath I take. In service and in honor, I find purpose greater than myself.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 2699,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -24,7 +24,6 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
             "AB",
             "DC"
         ]
@@ -81,14 +80,14 @@
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "WEALTH": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Art/Poetry (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
@@ -96,14 +95,32 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_xenophobia": -100
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "pain_resistance": 100
+        },
+        "1": {
+            "atow_combat_sense": 100
+        }
+    },
+    "flexibleXPPickCount": 1
 }

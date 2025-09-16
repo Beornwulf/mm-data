@@ -1,19 +1,19 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "e0ae7898-c655-40fa-8487-f2cfe298a52a",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
+    "xpCost": 100,
     "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "name": "Rim Worlds Republic (2571)",
+    "flavorText": "I serve the Republic because we dared to dream beyond the Inner Sphere’s decay. Out here, we build something new—without their chains, without their lies.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 2571,
+    "maximumYear": 2765,
     "randomWeight": 1.0,
     "lifeStages": [
         "AFFILIATION"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "RWR"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,17 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "EQUIPPED": -40
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Survival/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
@@ -96,14 +92,60 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_faction_pride": -25
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPAttributes": {
+        "0": {
+            "STRENGTH": 50
+        },
+        "1": {
+            "BODY": 50
+        },
+        "2": {
+            "DEXTERITY": 50
+        },
+        "3": {
+            "REFLEXES": 50
+        },
+        "4": {
+            "INTELLIGENCE": 50
+        },
+        "5": {
+            "CHARISMA": 50
+        }
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 1
 }

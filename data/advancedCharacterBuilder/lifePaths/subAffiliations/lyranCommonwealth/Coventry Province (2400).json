@@ -1,22 +1,22 @@
 {
-    "id": "292f838c-ee31-41bd-9031-f1b29103540d",
+    "id": "12048251-74ce-4abe-b9a0-b128ec2f9341",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 40,
-    "source": "A Time of War",
-    "name": "Draconis Combine (3101)",
-    "flavorText": "I am Combine, shaped by centuries of discipline and sacrifice. The Dragon is eternal, and through my honor and loyalty, so too am I.",
+    "xpCost": 105,
+    "source": "Era Report 2750",
+    "name": "Coventry Province (2400)",
+    "flavorText": "I come from the Coventry Province, proud to serve the Commonwealth. Our factories and fields alike strengthen Lyran might, and our loyalty to Tharkad is the bedrock of our lives.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 3101,
+    "minimumYear": 0,
     "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,10 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "WOB",
-            "DC"
+            "LA"
         ]
     },
     "requirementsLifePath": {
@@ -77,19 +74,19 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 75
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -50
+            "WEALTH": 15,
+            "CONNECTIONS": 25
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Art/Poetry (RP Only)": 15,
-            "Martial Arts (RP Only)": 10,
-            "Protocols/Any (RP Only)": 15
+            "Administration": 10,
+            "Language/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
@@ -97,32 +94,60 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_xenophobia": -100
+            "flaw_introvert": -50
         }
     },
     "flexibleXPAttributes": {
         "0": {},
-        "1": {}
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
     },
     "flexibleXPTraits": {
         "0": {},
-        "1": {}
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
     },
     "flexibleXPSkills": {
-        "0": {},
-        "1": {}
+        "0": {
+            "Career/Any (RP Only)": 10
+        },
+        "1": {},
+        "2": {
+            "Language/Any (RP Only)": 10
+        },
+        "3": {
+            "Perception (RP Only)": 10
+        },
+        "4": {
+            "Protocols/Any (RP Only)": 10
+        },
+        "5": {}
     },
     "flexibleXPMetaSkills": {
         "0": {},
-        "1": {}
-    },
-    "flexibleXPAbilities": {
-        "0": {
-            "pain_resistance": 100
-        },
         "1": {
-            "atow_combat_sense": 100
+            "ROLEPLAY_INTEREST": 10
+        },
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {
+            "SUPPORT_TECHNICIAN": 10
         }
     },
-    "flexibleXPPickCount": 1
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {}
+    },
+    "flexibleXPPickCount": 2
 }

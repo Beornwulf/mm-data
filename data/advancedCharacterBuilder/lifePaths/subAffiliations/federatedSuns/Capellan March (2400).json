@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "47bfe184-8d72-48da-9d95-f5cf973f1928",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 40,
+    "source": "Era Report 2750",
+    "name": "Capellan March (2400)",
+    "flavorText": "I come from the Capellan March, proud frontier of the Federated Suns. Here, we live with the enemy always at our border, and every day is a test of vigilance and resolve.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "FS"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,19 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 25
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "CONNECTIONS": 25
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Language/Any (RP Only)": 15,
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +94,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_faction_loyalty": -50
         }
     },
     "flexibleXPAttributes": {},

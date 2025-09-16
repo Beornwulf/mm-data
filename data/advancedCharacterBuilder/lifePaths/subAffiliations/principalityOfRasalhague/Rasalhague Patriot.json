@@ -1,5 +1,5 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "72019d95-a152-44d4-bd21-01e56637dd79",
     "version": {
         "major": 0,
         "minor": 50,
@@ -7,16 +7,16 @@
         "extra": ""
     },
     "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "source": "Era Digest: Age of War",
+    "name": "Rasalhague Patriot",
+    "flavorText": "I am Rasalhagian, loyal to my people above all. For too long we have been pawns of greater powers, but I will fight so our flag flies free and our voice is never silenced again.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "PoR"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,20 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 125
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "WEALTH": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Small Arms": 15,
+            "Language/Any (RP Only)": 15,
+            "Martial Arts (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +95,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_faction_loyalty": -150
         }
     },
     "flexibleXPAttributes": {},

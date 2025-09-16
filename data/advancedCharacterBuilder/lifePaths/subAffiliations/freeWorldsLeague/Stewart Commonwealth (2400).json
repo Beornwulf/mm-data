@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "454e68bb-ad99-4467-b804-0aca6ad3e432",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 115,
+    "source": "Era Report 2750",
+    "name": "Stewart Commonwealth (2400)",
+    "flavorText": "I come from the Stewart Commonwealth, loyal to Marik yet proud of our own heritage. In our unity with the League, we bring both stability and strength to the whole.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "FWLR",
+            "FWL"
         ]
     },
     "requirementsLifePath": {
@@ -76,28 +75,28 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "CHARISMA": 25,
+            "BODY": 25
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": -25
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Survival/Any (RP Only)": 15,
+            "Protocols/Any (RP Only)": 5,
+            "Melee Weapons (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_INTEREST": 5
+        }
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "atow_fit": 25
         }
     },
     "flexibleXPAttributes": {},

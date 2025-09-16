@@ -1,5 +1,5 @@
 {
-    "id": "8605c56d-b9f4-44db-a341-5adc18a1b361",
+    "id": "e06eecf3-9a2e-411d-8f5e-7b4a9aeb3269",
     "version": {
         "major": 0,
         "minor": 50,
@@ -25,6 +25,7 @@
     "requirementsFactions": {
         "0": [
             "CS",
+            "AB",
             "ROS",
             "WOB",
             "DC"

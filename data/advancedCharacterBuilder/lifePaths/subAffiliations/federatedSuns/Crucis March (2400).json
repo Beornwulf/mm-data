@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "d85c71ed-a715-47b9-a787-89907655615a",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 90,
+    "source": "Era Report 2750",
+    "name": "Crucis March (2400)",
+    "flavorText": "I come from the Crucis March, heart of the Federated Suns. Here, loyalty to House Davion is unshaken, for we are the center from which the Suns’ light spreads across the stars.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "FS"
         ]
     },
     "requirementsLifePath": {
@@ -80,25 +78,21 @@
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": -25
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Strategy": 15,
+            "Protocols/Any (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
-        "0": {}
+        "0": {
+            "ROLEPLAY_ART": 10
+        }
     },
     "fixedXPAbilities": {
-        "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {},
     "flexibleXPTraits": {},

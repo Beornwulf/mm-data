@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "ad6f3c97-0225-4bc0-bafd-d09e333bd734",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 215,
+    "source": "Era Report 2750",
+    "name": "Principality of Regulus (2400)",
+    "flavorText": "I come from the Principality of Regulus, proud jewel of the League. We serve the Captain-General, but never forget our own strength—for Regulus is more than a vassal, it is a power unto itself.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,8 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "FWLR",
+            "FWL"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +75,20 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "REPUTATION": -40
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Negotiation": 15,
+            "Perception (RP Only)": 15,
+            "Interest/History (RP Only)": 15,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +96,8 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_faction_pride": 50,
+            "atow_gregarious": 50
         }
     },
     "flexibleXPAttributes": {},

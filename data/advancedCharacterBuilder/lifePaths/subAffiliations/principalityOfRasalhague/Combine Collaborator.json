@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "1868b6d2-f5dd-46f5-ae29-d4c28aa1b207",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 50,
+    "source": "Era Digest: Age of War",
+    "name": "Combine Collaborator",
+    "flavorText": "I am Rasalhagian, but my fate belongs to the Dragon. Better to serve in order and strength than chase a freedom that only brings ruin.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "PoR"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,20 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "CHARISMA": -50,
+            "WILLPOWER": 100
         }
     },
     "fixedXPTraits": {
-        "0": {
-            "WEALTH": -25
-        }
+        "0": {}
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Negotiation": 5,
+            "Streetwise/Any (RP Only)": 10,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 10,
+            "Melee Weapons (RP Only)": 15
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +95,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "compulsion_faction_loyalty": -50
         }
     },
     "flexibleXPAttributes": {},

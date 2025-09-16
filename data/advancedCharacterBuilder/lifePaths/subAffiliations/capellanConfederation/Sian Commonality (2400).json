@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "4c4dc701-5262-4f90-a7c8-ce59c1672e45",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 100,
+    "source": "Era Report 2750",
+    "name": "Sian Commonality (2400)",
+    "flavorText": "I come from the Sian Commonality, where the Chancellor’s hand is strongest and loyalty is absolute. Here, obedience is not a burden but the highest calling.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,20 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 85
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "CONNECTIONS": 40
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Language/Any (RP Only)": 10,
+            "Perception (RP Only)": 10,
+            "Interest/History (RP Only)": 20,
+            "Protocols/Any (RP Only)": 10
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +95,8 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "atow_citizenship": 50,
+            "compulsion_faction_loyalty": -125
         }
     },
     "flexibleXPAttributes": {},

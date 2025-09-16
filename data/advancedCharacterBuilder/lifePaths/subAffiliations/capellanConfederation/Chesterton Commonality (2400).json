@@ -1,22 +1,22 @@
 {
-    "id": "cd999069-2b84-4103-aeb9-86825f8ba21f",
+    "id": "ff775197-c434-4d1b-8728-19c0f57e9ba1",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 0,
-    "source": "Era Report: 2750",
-    "name": "Draconis Combine (2700)",
-    "flavorText": "I am Combine, born to duty and bound by the Dragon’s will. My honor is my life, and through obedience I give meaning to both.",
+    "xpCost": 85,
+    "source": "Era Report 2750",
+    "name": "Chesterton Commonality (2400)",
+    "flavorText": "I come from Chesterton, where borders shift like tides and loyalty is tested with every generation. The Chancellor may rule, but here survival teaches me to trust myself first.",
     "age": 0,
     "xpDiscount": 0,
-    "minimumYear": 2700,
-    "maximumYear": 2770,
+    "minimumYear": 0,
+    "maximumYear": 9999,
     "randomWeight": 1.0,
     "lifeStages": [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories": [
         "GENERAL_INNER_SPHERE"
@@ -24,9 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "CS",
-            "AB",
-            "DC"
+            "CC"
         ]
     },
     "requirementsLifePath": {
@@ -76,19 +74,21 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "WILLPOWER": 50
+            "WILLPOWER": 50,
+            "INTELLIGENCE": 45
         }
     },
     "fixedXPTraits": {
         "0": {
-            "WEALTH": -25
+            "REPUTATION": -50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Martial Arts (RP Only)": 25,
-            "Art/Poetry (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+            "Language/Any (RP Only)": 15,
+            "Perception (RP Only)": 20,
+            "Interest/History (RP Only)": 10,
+            "Protocols/Any (RP Only)": 20
         }
     },
     "fixedXPMetaSkills": {
@@ -96,8 +96,7 @@
     },
     "fixedXPAbilities": {
         "0": {
-            "compulsion_faction_loyalty": -50,
-            "compulsion_xenophobia": -50
+            "flaw_introvert": -25
         }
     },
     "flexibleXPAttributes": {},
