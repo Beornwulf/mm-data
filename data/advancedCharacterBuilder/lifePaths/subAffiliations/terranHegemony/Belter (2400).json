@@ -1,0 +1,110 @@
+{
+    "id": "8166f03e-89a6-4f54-9cd6-1784e287e9a4",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 0,
+    "source": "Era Report 2750",
+    "name": "Belter (2400)",
+    "flavorText": "I am a Belter, born to the void and hardened by it. We answer to no throne—our loyalty is to our kin, our habitats, and the stars that keep us alive.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 0.001,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "TH"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "BODY": -25,
+            "STRENGTH": -25
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "REPUTATION": -50,
+            "WEALTH": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 30,
+            "Navigation/Any": 15,
+            "Survival/Any (RP Only)": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {
+            "SUPPORT_TECHNICIAN": 10
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_xenophobia": -100
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}
