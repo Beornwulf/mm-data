@@ -1,15 +1,15 @@
 {
-    "id": "abec9f83-4744-4230-a1e9-87dc2423fd82",
+    "id": "d467d80c-8c4b-42ab-8c07-c69f71ba5e80",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 115,
+    "xpCost": 155,
     "source": "Era Report 2750",
-    "name": "Belter (2400)",
-    "flavorText": "I am a Belter, born to the void and hardened by it. We answer to no throne—our loyalty is to our kin, our habitats, and the stars that keep us alive.",
+    "name": "Lunar Citizen (2400)",
+    "flavorText": "I am a Lunar citizen, child of Earth’s shadow. Life here is harsh, but we carry the pride of living where humanity first reached beyond its cradle.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
@@ -74,97 +74,73 @@
     },
     "fixedXPAttributes": {
         "0": {
+            "STRENGTH": -20,
+            "INTELLIGENCE": 50,
             "BODY": -25,
-            "STRENGTH": -25
+            "WILLPOWER": 40
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": -50,
+            "EQUIPPED": 25,
             "WEALTH": 50
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Zero-G Operations (RP Only)": 30,
-            "Navigation/Any": 15,
-            "Survival/Any (RP Only)": 10
+            "Negotiation": 10,
+            "Perception (RP Only)": -5,
+            "Computers (RP Only)": 15,
+            "Interest/History (RP Only)": 25
         }
     },
     "fixedXPMetaSkills": {
         "0": {
-            "SUPPORT_TECHNICIAN": 10
+            "SUPPORT_TECHNICIAN": 5
         }
     },
     "fixedXPAbilities": {
         "0": {
-            "atow_g_tolerance": 50,
-            "compulsion_xenophobia": -100
+            "flaw_poor_vision": -25
         }
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 100
-        },
-        "1": {
-            "BODY": 100
-        },
-        "2": {
-            "DEXTERITY": 100
-        },
-        "3": {
-            "REFLEXES": 100
-        },
-        "4": {
-            "INTELLIGENCE": 100
-        },
-        "5": {
-            "WILLPOWER": 100
-        }
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
     },
     "flexibleXPTraits": {
         "0": {},
         "1": {},
         "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "3": {}
     },
     "flexibleXPSkills": {
         "0": {},
         "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
+        "2": {
+            "Survival/Any (RP Only)": 10
+        },
+        "3": {
+            "Zero-G Operations (RP Only)": 10
+        }
     },
     "flexibleXPMetaSkills": {
+        "0": {
+            "ROLEPLAY_ART": 10
+        },
+        "1": {
+            "ROLEPLAY_INTEREST": 10
+        },
+        "2": {},
+        "3": {}
+    },
+    "flexibleXPAbilities": {
         "0": {},
         "1": {},
         "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
-    },
-    "flexibleXPAbilities": {
-        "0": {
-            "exceptional_attribute_strength": 50
-        },
-        "1": {
-            "exceptional_attribute_body": 50
-        },
-        "2": {
-            "exceptional_attribute_dexterity": 50
-        },
-        "3": {
-            "exceptional_attribute_reflexes": 50
-        },
-        "4": {
-            "exceptional_attribute_intelligence": 50
-        },
-        "5": {
-            "exceptional_attribute_willpower": 50
-        }
+        "3": {}
     },
     "flexibleXPPickCount": 1
 }

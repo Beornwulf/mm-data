@@ -1,20 +1,20 @@
 {
-    "id": "abec9f83-4744-4230-a1e9-87dc2423fd82",
+    "id": "8304c3da-877a-40e9-a9a8-7469469475ba",
     "version": {
         "major": 0,
         "minor": 50,
         "patch": 7,
         "extra": ""
     },
-    "xpCost": 115,
+    "xpCost": 150,
     "source": "Era Report 2750",
-    "name": "Belter (2400)",
-    "flavorText": "I am a Belter, born to the void and hardened by it. We answer to no throne—our loyalty is to our kin, our habitats, and the stars that keep us alive.",
+    "name": "Apollo Province (2400)",
+    "flavorText": "I come from Apollo, heart of the Rim Worlds Republic. Though far from Terra’s core, we are no backwater—our industry and ambition prove that the Rim can stand as strong as any Great House.",
     "age": 0,
     "xpDiscount": 0,
     "minimumYear": 0,
     "maximumYear": 9999,
-    "randomWeight": 0.001,
+    "randomWeight": 1.0,
     "lifeStages": [
         "SUB_AFFILIATION"
     ],
@@ -24,7 +24,7 @@
     "isPlayerRestricted": false,
     "requirementsFactions": {
         "0": [
-            "TH"
+            "RWR"
         ]
     },
     "requirementsLifePath": {
@@ -74,53 +74,39 @@
     },
     "fixedXPAttributes": {
         "0": {
-            "BODY": -25,
-            "STRENGTH": -25
+            "STRENGTH": -50,
+            "INTELLIGENCE": 50,
+            "CHARISMA": 25
         }
     },
     "fixedXPTraits": {
         "0": {
-            "REPUTATION": -50,
-            "WEALTH": 50
+            "CONNECTIONS": 25
         }
     },
     "fixedXPSkills": {
         "0": {
-            "Zero-G Operations (RP Only)": 30,
-            "Navigation/Any": 15,
-            "Survival/Any (RP Only)": 10
+            "Administration": 10,
+            "Language/Any (RP Only)": 20
         }
     },
     "fixedXPMetaSkills": {
         "0": {
+            "ROLEPLAY_INTEREST": 10,
             "SUPPORT_TECHNICIAN": 10
         }
     },
     "fixedXPAbilities": {
-        "0": {
-            "atow_g_tolerance": 50,
-            "compulsion_xenophobia": -100
-        }
+        "0": {}
     },
     "flexibleXPAttributes": {
-        "0": {
-            "STRENGTH": 100
-        },
-        "1": {
-            "BODY": 100
-        },
-        "2": {
-            "DEXTERITY": 100
-        },
-        "3": {
-            "REFLEXES": 100
-        },
-        "4": {
-            "INTELLIGENCE": 100
-        },
-        "5": {
-            "WILLPOWER": 100
-        }
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
     },
     "flexibleXPTraits": {
         "0": {},
@@ -128,7 +114,8 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {}
     },
     "flexibleXPSkills": {
         "0": {},
@@ -136,7 +123,8 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {}
     },
     "flexibleXPMetaSkills": {
         "0": {},
@@ -144,25 +132,29 @@
         "2": {},
         "3": {},
         "4": {},
-        "5": {}
+        "5": {},
+        "6": {}
     },
     "flexibleXPAbilities": {
         "0": {
-            "exceptional_attribute_strength": 50
+            "exceptional_attribute_body": 50
         },
         "1": {
-            "exceptional_attribute_body": 50
+            "exceptional_attribute_charisma": 50
         },
         "2": {
             "exceptional_attribute_dexterity": 50
         },
         "3": {
-            "exceptional_attribute_reflexes": 50
-        },
-        "4": {
             "exceptional_attribute_intelligence": 50
         },
+        "4": {
+            "exceptional_attribute_reflexes": 50
+        },
         "5": {
+            "exceptional_attribute_strength": 50
+        },
+        "6": {
             "exceptional_attribute_willpower": 50
         }
     },
