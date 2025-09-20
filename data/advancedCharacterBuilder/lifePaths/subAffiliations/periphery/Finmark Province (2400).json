@@ -1,0 +1,161 @@
+{
+    "id": "dd5c8568-5d7d-47b6-93b8-33729393c377",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 125,
+    "source": "Era Report 2750",
+    "name": "Finmark Province (2400)",
+    "flavorText": "I come from Finmark, where the Republic’s reach pushes ever outward. Every day is discovery, every step a chance to carve our mark into the unknown.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "RWR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "CHARISMA": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {}
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 15,
+            "Small Arms": 15,
+            "Career/Any (RP Only)": 10,
+            "Language/Any (RP Only)": 10,
+            "Perception (RP Only)": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {
+            "SUPPORT_TECHNICIAN": 15
+        }
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {
+            "exceptional_attribute_body": 75
+        },
+        "1": {
+            "exceptional_attribute_charisma": 75
+        },
+        "2": {
+            "exceptional_attribute_dexterity": 75
+        },
+        "3": {
+            "exceptional_attribute_intelligence": 75
+        },
+        "4": {
+            "exceptional_attribute_reflexes": 75
+        },
+        "5": {
+            "exceptional_attribute_strength": 75
+        },
+        "6": {
+            "exceptional_attribute_willpower": 75
+        }
+    },
+    "flexibleXPPickCount": 1
+}

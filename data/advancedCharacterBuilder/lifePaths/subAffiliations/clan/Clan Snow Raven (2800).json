@@ -1,0 +1,120 @@
+{
+    "id": "fdc440e0-94fd-4a2a-9f95-fa4c70869653",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 75,
+    "source": "Era Digest Golden Century",
+    "name": "Clan Snow Raven (2800)",
+    "flavorText": "I am Clan Snow Raven—patient, precise, and far-seeing. In the void I find my strength, and through mastery of the stars I secure my path.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CSR"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsFlexibleAttribute": {
+        "0": null
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsFlexibleAttribute": {
+        "0": null
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "CHARISMA": 25,
+            "WILLPOWER": 25
+        }
+    },
+    "fixedXPFlexibleAttribute": {
+        "0": null
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 50,
+            "EQUIPPED": 75
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 15,
+            "Negotiation": 15,
+            "Protocols/Any (RP Only)": 20
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "atow_patient": 25,
+            "compulsion_mild_paranoia": -200
+        }
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPFlexibleAttribute": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

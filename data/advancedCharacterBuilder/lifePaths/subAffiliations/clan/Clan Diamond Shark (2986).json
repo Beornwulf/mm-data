@@ -1,0 +1,116 @@
+{
+    "id": "d701e92b-d841-458e-976a-2570556a509a",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 95,
+    "source": "Era Digest Golden Century",
+    "name": "Clan Diamond Shark (2986)",
+    "flavorText": "I am Clan Diamond Shark—astute, resilient, and ever-adapting. In trade I find strength, in cunning I find survival, and through both I secure my future.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 2986,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CDS"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsFlexibleAttribute": {
+        "0": null
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsFlexibleAttribute": {
+        "0": null
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "CHARISMA": 25,
+            "WILLPOWER": 10
+        }
+    },
+    "fixedXPFlexibleAttribute": {
+        "0": null
+    },
+    "fixedXPTraits": {
+        "0": {
+            "CONNECTIONS": 25,
+            "REPUTATION": -25,
+            "EQUIPPED": 25
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Negotiation": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {}
+    },
+    "flexibleXPAttributes": {},
+    "flexibleXPFlexibleAttribute": {},
+    "flexibleXPTraits": {},
+    "flexibleXPSkills": {},
+    "flexibleXPMetaSkills": {},
+    "flexibleXPAbilities": {},
+    "flexibleXPPickCount": 0
+}

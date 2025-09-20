@@ -1,0 +1,130 @@
+{
+    "id": "a470b88f-5f05-4d8a-a41b-b2ede253e59a",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 300,
+    "source": "Era Report 2750",
+    "name": "Outworlds Alliance (2400)",
+    "flavorText": "I come from the Outworlds Alliance, where peace is our strength. We choose unity over conquest, and though the Inner Sphere calls us weak, we know the true power of living free from endless war.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "OA"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "DEXTERITY": 50,
+            "WILLPOWER": 50,
+            "INTELLIGENCE": -50
+        }
+    },
+    "fixedXPTraits": {
+        "0": {
+            "EQUIPPED": -50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Zero-G Operations (RP Only)": 15,
+            "Negotiation": 15,
+            "Survival/Any (RP Only)": 20,
+            "Language/Any (RP Only)": 15,
+            "Communications/Any (RP Only)": 15
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "exceptional_attribute_dexterity": 100,
+            "atow_g_tolerance": 100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPSkills": {
+        "0": {
+            "Piloting/Aerospace": 20
+        },
+        "1": {
+            "Piloting/Spacecraft": 20
+        }
+    },
+    "flexibleXPMetaSkills": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {}
+    },
+    "flexibleXPPickCount": 1
+}

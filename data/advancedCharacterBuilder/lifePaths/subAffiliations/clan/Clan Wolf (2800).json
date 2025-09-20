@@ -1,0 +1,163 @@
+{
+    "id": "4a16106f-1361-4d9a-a7f2-d2805440279c",
+    "version": {
+        "major": 0,
+        "minor": 50,
+        "patch": 7,
+        "extra": ""
+    },
+    "xpCost": 25,
+    "source": "Era Digest Golden Century",
+    "name": "Clan Wolf (2800)",
+    "flavorText": "I am Clan Wolf—fierce, cunning, and loyal to the path I choose. My strength is adaptability, and through it I claim victory where others fall.",
+    "age": 0,
+    "xpDiscount": 0,
+    "minimumYear": 0,
+    "maximumYear": 9999,
+    "randomWeight": 1.0,
+    "lifeStages": [
+        "SUB_AFFILIATION"
+    ],
+    "categories": [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted": false,
+    "requirementsFactions": {
+        "0": [
+            "CW"
+        ]
+    },
+    "requirementsLifePath": {
+        "0": []
+    },
+    "requirementsCategories": {
+        "0": {}
+    },
+    "requirementsAttributes": {
+        "0": {}
+    },
+    "requirementsFlexibleAttribute": {
+        "0": null
+    },
+    "requirementsTraits": {
+        "0": {}
+    },
+    "requirementsSkills": {
+        "0": {}
+    },
+    "requirementsMetaSkills": {
+        "0": {}
+    },
+    "requirementsAbilities": {
+        "0": {}
+    },
+    "exclusionsFactions": {
+        "0": []
+    },
+    "exclusionsLifePath": {
+        "0": []
+    },
+    "exclusionsCategories": {
+        "0": {}
+    },
+    "exclusionsAttributes": {
+        "0": {}
+    },
+    "exclusionsFlexibleAttribute": {
+        "0": null
+    },
+    "exclusionsTraits": {
+        "0": {}
+    },
+    "exclusionsSkills": {
+        "0": {}
+    },
+    "exclusionsMetaSkills": {
+        "0": {}
+    },
+    "exclusionsAbilities": {
+        "0": {}
+    },
+    "fixedXPAttributes": {
+        "0": {
+            "INTELLIGENCE": 25,
+            "WILLPOWER": 25
+        }
+    },
+    "fixedXPFlexibleAttribute": {
+        "0": null
+    },
+    "fixedXPTraits": {
+        "0": {
+            "ENEMY": -100,
+            "REPUTATION": 100,
+            "EQUIPPED": 50
+        }
+    },
+    "fixedXPSkills": {
+        "0": {
+            "Protocols/Any (RP Only)": 10
+        }
+    },
+    "fixedXPMetaSkills": {
+        "0": {}
+    },
+    "fixedXPAbilities": {
+        "0": {
+            "compulsion_unpleasant_personality": -100
+        }
+    },
+    "flexibleXPAttributes": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPFlexibleAttribute": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null
+    },
+    "flexibleXPTraits": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPSkills": {
+        "0": {},
+        "1": {
+            "Leadership": 5
+        },
+        "2": {
+            "Negotiation": 5
+        },
+        "3": {
+            "Perception (RP Only)": 5
+        },
+        "4": {
+            "Strategy": 5
+        }
+    },
+    "flexibleXPMetaSkills": {
+        "0": {
+            "ROLEPLAY_INTEREST": 5
+        },
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPAbilities": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+    },
+    "flexibleXPPickCount": 3
+}
