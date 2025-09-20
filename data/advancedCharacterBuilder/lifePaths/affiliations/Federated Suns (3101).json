@@ -1,5 +1,5 @@
 {
-    "id": "586ba1d1-a68e-4eb1-9d6f-cb380881e0fc",
+    "id": "efae675c-1e29-4036-bee9-49757e75a051",
     "version": {
         "major": 0,
         "minor": 50,
@@ -39,6 +39,7 @@
             "INTELLIGENCE": 4
         }
     },
+    "requirementsFlexibleAttribute": {},
     "requirementsTraits": {
         "0": {}
     },
@@ -63,6 +64,7 @@
     "exclusionsAttributes": {
         "0": {}
     },
+    "exclusionsFlexibleAttribute": {},
     "exclusionsTraits": {
         "0": {}
     },
@@ -78,6 +80,7 @@
     "fixedXPAttributes": {
         "0": {}
     },
+    "fixedXPFlexibleAttribute": {},
     "fixedXPTraits": {
         "0": {}
     },
@@ -96,13 +99,14 @@
         "0": {},
         "1": {}
     },
+    "flexibleXPFlexibleAttribute": {},
     "flexibleXPTraits": {
         "0": {},
         "1": {}
     },
     "flexibleXPSkills": {
         "0": {
-            "Protocols/Any (RP Only)": 25
+            "Tactics/Any": 25
         },
         "1": {
             "Strategy": 25
