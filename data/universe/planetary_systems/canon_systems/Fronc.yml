@@ -30,7 +30,7 @@ planet:
     sysPos: 1
     icon: barren4
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Ammonia, plus trace amounts of Methane
     gravity: 0.86
     diameter: 9500
@@ -60,7 +60,7 @@ planet:
     sysPos: 3
     icon: frozen21
     pressure: THIN
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Methane and Carbon Dioxide, plus trace amounts of Chlorine
     gravity: 0.68
     diameter: 11500
@@ -82,7 +82,7 @@ planet:
     sysPos: 4
     icon: frozen33
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Methane and Ammonia, plus trace amounts of Sulfur Dioxide
     gravity: 1.21
     diameter: 14500

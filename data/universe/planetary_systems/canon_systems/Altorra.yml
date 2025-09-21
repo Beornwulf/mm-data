@@ -32,7 +32,7 @@ planet:
     sysPos: 1
     icon: rock17
     pressure: TRACE
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Nitrogen, plus trace amounts of Sulfur Dioxide
     gravity: 0.58
     diameter: 8500
@@ -66,7 +66,7 @@ planet:
     sysPos: 3
     icon: frozen25
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Nitrogen and Methane, plus trace amounts of Sulfur Dioxide
     gravity: 1.41
     diameter: 16500

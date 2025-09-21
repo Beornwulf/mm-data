@@ -43,7 +43,7 @@ planet:
       value: 1
     icon: mercury
     pressure: TRACE
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Oxygen and Sodium, plus trace gases
     gravity: 0.38
     diameter: 4880
@@ -60,7 +60,7 @@ planet:
       value: 2
     icon: venus
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide and Nitrogen, plus trace gases
     gravity: 0.904
     diameter: 12100
@@ -271,7 +271,7 @@ planet:
         population: 148298.0
         atmosphere:
           source: canon
-          value: TOXICPOISON
+          value: TOXIC_POISON
         pressure:
           source: canon
           value: VERY_HIGH
@@ -697,7 +697,7 @@ planet:
       value: 4
     icon: mars
     pressure: TRACE
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, Argon, and Nitrogen, plus trace gases
     gravity: 0.38
     diameter: 6779
@@ -990,7 +990,7 @@ planet:
       value: 6
     icon: jupiter
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.53
     diameter: 139820
@@ -1047,7 +1047,7 @@ planet:
       value: 7
     icon: saturn
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.07
     diameter: 116460
@@ -1124,7 +1124,7 @@ planet:
       value: 8
     icon: uranus
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.89
     diameter: 50724
@@ -1172,7 +1172,7 @@ planet:
       value: 9
     icon: neptune
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.14
     diameter: 49244

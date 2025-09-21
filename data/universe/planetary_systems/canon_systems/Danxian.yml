@@ -28,7 +28,7 @@ planet:
     sysPos: 1
     icon: greenhouse3
     pressure: HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen, plus trace amounts of Carbon Dioxide
     gravity: 0.79
     diameter: 9500
@@ -236,7 +236,7 @@ planet:
     sysPos: 3
     icon: badwater22
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Nitrogen and Carbon Dioxide, plus trace amounts of Chlorine
     gravity: 0.86
     diameter: 9500
@@ -259,7 +259,7 @@ planet:
     sysPos: 4
     icon: frozen13
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Methane and Ammonia
     gravity: 1.03
     diameter: 14500
