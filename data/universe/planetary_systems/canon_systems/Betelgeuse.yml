@@ -35,7 +35,7 @@ planet:
     sysPos: 1
     icon: greenhouse5
     pressure: VERY_HIGH
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Ammonia and Carbon Dioxide, plus trace amounts of Chlorine
     gravity: 1.04
     diameter: 12500
@@ -263,7 +263,7 @@ planet:
     sysPos: 3
     icon: rock6
     pressure: TRACE
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Methane and Ammonia, plus trace amounts of Sulfur Dioxide
     gravity: 0.52
     diameter: 10500
@@ -285,7 +285,7 @@ planet:
     sysPos: 5
     icon: gasg9
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.72
     diameter: 110000
@@ -304,7 +304,7 @@ planet:
     sysPos: 6
     icon: gasg27
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 3.63
     diameter: 170000

@@ -46,7 +46,7 @@ planet:
     sysPos: 2
     icon: barren5
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Nitrous Oxide
     gravity: 0.64
     diameter: 8500

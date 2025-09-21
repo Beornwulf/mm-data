@@ -37,7 +37,7 @@ planet:
     sysPos: 1
     icon: gasg21
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.79
     diameter: 18500
@@ -51,7 +51,7 @@ planet:
     sysPos: 2
     icon: barren7
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Water Vapor
     gravity: 0.86
     diameter: 9500
@@ -66,7 +66,7 @@ planet:
     sysPos: 3
     icon: greenhouse8
     pressure: HIGH
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Chlorine and Water
       Vapor
     gravity: 0.57
@@ -90,7 +90,7 @@ planet:
       value: STANDARD
     atmosphere:
       source: 'Handbook: House Davion, pg. 94'
-      value: TAINTEDPOISON
+      value: TAINTED_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: 'Handbook: House Davion, pg. 94'
@@ -359,7 +359,7 @@ planet:
     sysPos: 5
     icon: barren24
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen, plus trace amounts of Methane
     gravity: 1.04
     diameter: 12500

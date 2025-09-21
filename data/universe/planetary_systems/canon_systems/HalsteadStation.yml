@@ -32,7 +32,7 @@ planet:
     sysPos: 1
     icon: frozen16
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Nitrogen and Ammonia, plus trace amounts of Sulfur Dioxide
     gravity: 0.86
     diameter: 14500
@@ -52,7 +52,7 @@ planet:
     sysPos: 2
     icon: badwater23
     pressure: THIN
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Ammonia and Carbon Dioxide, plus trace amounts of Sulfur Dioxide
     gravity: 0.86
     diameter: 9500
@@ -90,7 +90,7 @@ planet:
       value: STANDARD
     atmosphere:
       source: MWDA world profiles
-      value: TOXICPOISON
+      value: TOXIC_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: MWDA world profiles
@@ -380,7 +380,7 @@ planet:
     sysPos: 5
     icon: gasg13
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.18
     diameter: 170000
@@ -398,7 +398,7 @@ planet:
     sysPos: 6
     icon: iceg19
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.8
     diameter: 40000

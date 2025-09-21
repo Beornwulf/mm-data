@@ -37,7 +37,7 @@ planet:
     sysPos: 1
     icon: barren24
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Carbon Dioxide
     gravity: 0.47
     diameter: 9500
@@ -52,7 +52,7 @@ planet:
     sysPos: 2
     icon: barren9
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Ammonia, plus trace amounts of Argon
     gravity: 0.42
     diameter: 8500
@@ -437,7 +437,7 @@ planet:
     sysPos: 4
     icon: rock14
     pressure: TRACE
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Ammonia
     gravity: 0.79
     diameter: 9500

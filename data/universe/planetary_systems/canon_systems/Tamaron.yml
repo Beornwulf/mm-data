@@ -44,7 +44,7 @@ planet:
       value: THIN
     atmosphere:
       source: Warriors of Kerensky, pg. 112
-      value: TAINTEDPOISON
+      value: TAINTED_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: Warriors of Kerensky, pg. 112
@@ -221,7 +221,7 @@ planet:
     sysPos: 3
     icon: barren21
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Methane and Hydrogen Sulfide
     gravity: 0.87
     diameter: 11500
@@ -246,7 +246,7 @@ planet:
     sysPos: 4
     icon: greenhouse27
     pressure: HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Ammonia
     gravity: 1.21
     diameter: 14500
@@ -261,7 +261,7 @@ planet:
     sysPos: 5
     icon: gasg20
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.65
     diameter: 14500
@@ -279,7 +279,7 @@ planet:
     sysPos: 6
     icon: barren15
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Methane
     gravity: 0.57
     diameter: 9500
@@ -296,7 +296,7 @@ planet:
     sysPos: 7
     icon: gasg17
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.84
     diameter: 18500

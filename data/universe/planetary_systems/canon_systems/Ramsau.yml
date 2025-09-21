@@ -52,7 +52,7 @@ planet:
     sysPos: 2
     icon: rock5
     pressure: TRACE
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Carbon Dioxide and Ammonia, plus trace amounts of Sulfur Dioxide
     gravity: 0.65
     diameter: 9500
@@ -67,7 +67,7 @@ planet:
     sysPos: 3
     icon: barren23
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Argon
     gravity: 0.72
     diameter: 9500
