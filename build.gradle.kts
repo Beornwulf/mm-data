@@ -122,6 +122,12 @@ tasks.register<Copy>("stageFiles") {
     dependsOn("canonSystemZip")
     dependsOn("connectorSystemZip")
 
+    from("data/mekfiles") {
+        include("*.txt")
+        include("*.xml")
+        into("mekfiles")
+    }
+
     from("data") {
         exclude("mekfiles")
         exclude("rat")
@@ -137,7 +143,6 @@ tasks.register<Copy>("stageFiles") {
     }
 
     into("${stagingFolder}/all")
-
 }
 
 tasks.register<Delete>("clean") {
