@@ -8,11 +8,14 @@
 var stagingFolder = File(project.layout.buildDirectory.get().toString(), "staging")
 
 tasks.register<Zip>("unitFilesZip") {
-    description = "Creates zip archives of all the unit file folders."
+    description = "Creates zip archives of all the unit file folders (excluding loose .txt and .xml files)."
     group = "build"
     destinationDirectory.set(File(stagingFolder, "mekfiles"))
     archiveFileName.set("unit_files.zip")
-    from("data/mekfiles")
+    from("data/mekfiles") {
+        exclude("*.txt")
+        exclude("*.xml")
+    }
 }
 
 tasks.register<Zip>("ratZip") {
