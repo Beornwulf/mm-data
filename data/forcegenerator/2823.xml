@@ -18,7 +18,10 @@
 # affiliated with Microsoft.
 -->
 <!-- Era 2823-->
-<ratgen>
+<ratgen
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
     <factions>
         <faction key='BoS'>
             <salvage pct='10'></salvage>
@@ -3196,7 +3199,7 @@
             </model>
         </chassis>
         <chassis name='Jump Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2</availability>
+            <availability>IS:2,DC:0</availability>
             <model name='(Laser)'>
                 <roles>specops</roles>
                 <availability>IS:5,DC:7</availability>
