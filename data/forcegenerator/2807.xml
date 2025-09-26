@@ -2708,6 +2708,7 @@
                 <availability>DC:3-</availability>
             </model>
             <model name='(Laser 2620+)'>
+                <roles>anti_mek</roles>
                 <availability>DC:7</availability>
             </model>
             <model name='(MG 2620+)'>
