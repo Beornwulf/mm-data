@@ -25,7 +25,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>7650</tuition>
+        <tuition>18900</tuition>
         <ageMax>3</ageMax>
         <durationDays>10</durationDays>
         <educationLevelMax>Early Childhood</educationLevelMax>
@@ -43,7 +43,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>47500</tuition>
+        <tuition>75900</tuition>
         <durationDays>10</durationDays>
         <educationLevelMax>Early Childhood</educationLevelMax>
         <facultySkill>11</facultySkill>
@@ -61,7 +61,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>12250</tuition>
+        <tuition>40650</tuition>
         <durationDays>10</durationDays>
         <educationLevelMax>Early Childhood</educationLevelMax>
         <facultySkill>12</facultySkill>
@@ -80,7 +80,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>3750</tuition>
+        <tuition>28100</tuition>
         <facultySkill>12</facultySkill>
         <ageMin>10</ageMin>
         <ageMax>16</ageMax>
@@ -97,7 +97,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>22500</tuition>
+        <tuition>48850</tuition>
         <facultySkill>11</facultySkill>
         <ageMin>10</ageMin>
         <ageMax>16</ageMax>
@@ -115,7 +115,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>6250</tuition>
+        <tuition>30600</tuition>
         <durationDays>10</durationDays>
         <facultySkill>12</facultySkill>
         <ageMin>10</ageMin>
@@ -131,7 +131,7 @@
         <isLocal>true</isLocal>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>6250</tuition>
+        <tuition>30600</tuition>
         <educationLevelMax>Early Childhood</educationLevelMax>
         <facultySkill>12</facultySkill>
         <ageMin>10</ageMin>
