@@ -25,8 +25,6 @@ source:ForcePack:Wolfs Dragoons
 rules level:2
 role:Brawler
 
-
-
 quirk:battle_fists_la
 quirk:battle_fists_ra
 quirk:command_mech
