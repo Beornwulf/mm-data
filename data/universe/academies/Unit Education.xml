@@ -25,7 +25,7 @@
         <isHomeSchool>true</isHomeSchool>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>0</tuition>
+        <tuition>15000</tuition>
         <ageMax>3</ageMax>
         <durationDays>10</durationDays>
         <educationLevelMax>Early Childhood</educationLevelMax>
@@ -43,7 +43,7 @@
         <isHomeSchool>true</isHomeSchool>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>0</tuition>
+        <tuition>35000</tuition>
         <durationDays>10</durationDays>
         <educationLevelMax>Early Childhood</educationLevelMax>
         <facultySkill>12</facultySkill>
@@ -62,7 +62,7 @@
         <isHomeSchool>true</isHomeSchool>
         <locationSystem>Terra</locationSystem>
         <constructionYear>2300</constructionYear>
-        <tuition>0</tuition>
+        <tuition>30000</tuition>
         <educationLevelMax>Early Childhood</educationLevelMax>
         <facultySkill>9</facultySkill>
         <ageMin>10</ageMin>
