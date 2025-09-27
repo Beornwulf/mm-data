@@ -16,116 +16,120 @@
 # affiliated with Microsoft.
 
 {
-"id": "7a3236b2-f06e-412b-8ae6-ba47b81bfa24",
+"id": "7e73e91f-ed9c-4910-91d0-a685dda55949",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 200,
-"source" : "Era Report 2750",
-"name": "Tikonov Commonality (2400)",
-"flavorText": "I come from the Tikonov Commonality, proud and resourceful. Our strength and traditions make us vital to the Confederation's future.",
+},
+"xpCost": 0,
+"source" : "Era Report 3052",
+"name": "St. Ives Compact",
+"flavorText": "I come from the St. Ives Compact, free of Capellan chains at last. Here, we choose our own path, guided by culture, pride, and the will to stand independent.",
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 3024,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "CC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"SIC"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
-"exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
-"0": {
-"WILLPOWER": 50,
-"INTELLIGENCE": 25
-        }
-    },
-"fixedXPFlexibleAttribute": { },
+"0": { }
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
 "fixedXPTraits": {
 "0": {
-"REPUTATION": 50
-        }
-    },
+"REPUTATION": -100,
+"WEALTH": 55
+}
+},
 "fixedXPSkills": {
 "0": {
-"Language/Any (RP Only)": 50,
-"Perception (RP Only)": 20,
-"Interest/History (RP Only)": 10,
-"Protocols/Any (RP Only)": 20
-        }
-    },
-"fixedXPMetaSkills": {
-"0": {}
-    },
+"Language/Any (RP Only)": 15
+}
+},
+"fixedXPMetaSkills" : {
+"0": {
+"ROLEPLAY_ART": 5
+}
+},
 "fixedXPAbilities": {
 "0": {
-"flaw_introvert": -25
-        }
-    },
-"flexibleXPAttributes" : {},
+"compulsion_mild_paranoia": -100
+}
+},
+"flexibleXPAttributes": {},
 "flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits" : {},
+"flexibleXPTraits": {},
 "flexibleXPSkills": {},
-"flexibleXPMetaSkills" : {},
-"flexibleXPAbilities": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPAbilities": {
+},
 "flexibleXPPickCount": 0
 }
