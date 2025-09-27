@@ -1,29 +1,46 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 {
-    "id": "4e46b333-acb7-45ab-bef9-face8e8d2664",
-    "version": {
-        "major": 0,
-        "minor": 50,
-        "patch": 7,
-        "extra": ""
+"id": "4e46b333-acb7-45ab-bef9-face8e8d2664",
+"version": {
+"major": 0,
+"minor": 50,
+"patch": 7,
+"extra": ""
     },
-    "xpCost": 0,
-    "source": "A Time of War",
-    "name": "Invading Clan (3081)",
-    "flavorText": "I am Clan, forged to conquer—but now the crusade is fractured, our purpose questioned. Still, I fight, for to stop is to betray everything I was bred to be.",
-    "age": 0,
-    "xpDiscount": 0,
-    "minimumYear": 3081,
-    "maximumYear": 3100,
-    "randomWeight": 1.0,
-    "lifeStages": [
+"xpCost": 0,
+"source" : "A Time of War",
+"name": "Invading Clan (3081)",
+"flavorText": "I am Clan, forged to conquer—but now the crusade is fractured, our purpose questioned. Still, I fight, for to stop is to betray everything I was bred to be.",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear" : 3081,
+"maximumYear": 3100,
+"randomWeight": 1.0,
+"lifeStages": [
         "AFFILIATION"
     ],
-    "categories": [
+"categories": [
         "GENERAL_CLAN"
     ],
-    "isPlayerRestricted": false,
-    "requirementsFactions": {
-        "0": [
+"isPlayerRestricted": false,
+"requirementsFactions": {
+"0": [
             "CHH",
             "CDS",
             "CW",
@@ -33,78 +50,86 @@
         ]
     },
     "requirementsLifePath": {
-        "0": []
+    "0": []
     },
     "requirementsCategories": {
-        "0": {}
+    "0": {}
     },
-    "requirementsAttributes": {
-        "0": {}
+"requirementsAttributes": {
+"0": {
+}
     },
-    "requirementsTraits": {
-        "0": {}
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {
+"0": {}
     },
-    "requirementsSkills": {
-        "0": {}
+"requirementsSkills": {
+"0": { }
     },
-    "requirementsMetaSkills": {
-        "0": {}
+"requirementsMetaSkills": {
+"0": {}
     },
     "requirementsAbilities": {
-        "0": {}
+    "0": {}
     },
-    "exclusionsFactions": {
-        "0": []
+"exclusionsFactions": {
+"0": []
     },
     "exclusionsLifePath": {
-        "0": []
+    "0": []
     },
     "exclusionsCategories": {
-        "0": {}
+    "0": {}
     },
-    "exclusionsAttributes": {
-        "0": {}
+"exclusionsAttributes": {
+"0": {
+}
     },
-    "exclusionsTraits": {
-        "0": {
-            "PROPERTY": 0,
-            "EXTRA_INCOME": -10
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {
+"0": {
+"PROPERTY": 0,
+"EXTRA_INCOME": -10
         }
     },
-    "exclusionsSkills": {
-        "0": {}
+"exclusionsSkills": {
+"0": {
+}
     },
-    "exclusionsMetaSkills": {
-        "0": {}
+"exclusionsMetaSkills": {
+"0": {}
     },
-    "exclusionsAbilities": {
-        "0": {}
+"exclusionsAbilities" : {
+"0": {}
     },
-    "fixedXPAttributes": {
-        "0": {}
+"fixedXPAttributes": {
+"0": {}
     },
-    "fixedXPTraits": {
-        "0": {}
+"fixedXPFlexibleAttribute": { },
+"fixedXPTraits": {
+"0": {}
     },
-    "fixedXPSkills": {
-        "0": {
-            "Interest/History (RP Only)": 25,
-            "Protocols/Any (RP Only)": 25
+"fixedXPSkills": {
+"0": {
+"Interest/History (RP Only)": 25,
+"Protocols/Any (RP Only)": 25
         }
     },
-    "fixedXPMetaSkills": {
-        "0": {}
+"fixedXPMetaSkills": {
+"0": {}
     },
-    "fixedXPAbilities": {
-        "0": {
-            "compulsion_unpleasant_personality": -50,
-            "compulsion_faction_pride": -100
+"fixedXPAbilities": {
+"0" : {
+"compulsion_unpleasant_personality": -50,
+"compulsion_faction_pride": -100
         }
     },
     "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+    "flexibleXPFlexibleAttribute": { },
+"flexibleXPTraits": {},
+"flexibleXPSkills": { },
+"flexibleXPMetaSkills": {},
+"flexibleXPAbilities": {
+},
+"flexibleXPPickCount": 0
 }

@@ -1,104 +1,128 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 {
-    "id": "b99754a5-ec94-4bcf-b0a5-83922de7040e",
-    "version": {
-        "major": 0,
-        "minor": 50,
-        "patch": 7,
-        "extra": ""
+"id": "b99754a5-ec94-4bcf-b0a5-83922de7040e",
+"version": {
+"major": 0,
+"minor": 50,
+"patch": 7,
+"extra": ""
     },
-    "xpCost": 15,
-    "source": "Era Report 2750",
-    "name": "Draconis March (2400)",
-    "flavorText": "I come from the Draconis March, ever watchful of the Dragon across our border. Service here is shaped by vigilance and steel, for Kurita’s shadow is the measure of our resolve.",
-    "age": 0,
-    "xpDiscount": 0,
-    "minimumYear": 0,
-    "maximumYear": 9999,
-    "randomWeight": 1.0,
-    "lifeStages": [
+"xpCost": 15,
+"source" : "Era Report 2750",
+"name": "Draconis March (2400)",
+"flavorText": "I come from the Draconis March, ever watchful of the Dragon across our border. Service here is shaped by vigilance and steel, for Kurita’s shadow is the measure of our resolve.",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear" : 0,
+"maximumYear": 9999,
+"randomWeight": 1.0,
+"lifeStages": [
         "SUB_AFFILIATION"
     ],
-    "categories": [
+"categories": [
         "GENERAL_INNER_SPHERE"
     ],
-    "isPlayerRestricted": false,
-    "requirementsFactions": {
-        "0": [
+"isPlayerRestricted": false,
+"requirementsFactions": {
+"0": [
             "FS"
         ]
     },
     "requirementsLifePath": {
-        "0": []
+    "0": []
     },
     "requirementsCategories": {
-        "0": {}
+    "0": {}
     },
-    "requirementsAttributes": {
-        "0": {}
+"requirementsAttributes": {
+"0": {
+}
     },
-    "requirementsTraits": {
-        "0": {}
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {
+"0": {}
     },
-    "requirementsSkills": {
-        "0": {}
+"requirementsSkills": {
+"0": { }
     },
-    "requirementsMetaSkills": {
-        "0": {}
+"requirementsMetaSkills": {
+"0": {}
     },
     "requirementsAbilities": {
-        "0": {}
+    "0": {}
     },
-    "exclusionsFactions": {
-        "0": []
+"exclusionsFactions": {
+"0": []
     },
     "exclusionsLifePath": {
-        "0": []
+    "0": []
     },
     "exclusionsCategories": {
-        "0": {}
+    "0": {}
     },
-    "exclusionsAttributes": {
-        "0": {}
+"exclusionsAttributes": {
+"0": {
+}
     },
-    "exclusionsTraits": {
-        "0": {}
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {
+"0": {}
     },
-    "exclusionsSkills": {
-        "0": {}
+"exclusionsSkills": {
+"0": { }
     },
-    "exclusionsMetaSkills": {
-        "0": {}
+"exclusionsMetaSkills": {
+"0": {}
     },
     "exclusionsAbilities": {
-        "0": {}
+    "0": {}
     },
-    "fixedXPAttributes": {
-        "0": {}
+"fixedXPAttributes": {
+"0": {
+}
     },
-    "fixedXPTraits": {
-        "0": {}
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {}
     },
-    "fixedXPSkills": {
-        "0": {
-            "Survival/Any (RP Only)": 25,
-            "Language/Any (RP Only)": 5,
-            "Protocols/Any (RP Only)": 25
+"fixedXPSkills": {
+"0": {
+"Survival/Any (RP Only)": 25,
+"Language/Any (RP Only)": 5,
+"Protocols/Any (RP Only)": 25
         }
     },
-    "fixedXPMetaSkills": {
-        "0": {
-            "ROLEPLAY_ART": 10
+"fixedXPMetaSkills": {
+"0": {
+"ROLEPLAY_ART": 10
         }
     },
-    "fixedXPAbilities": {
-        "0": {
-            "compulsion_faction_loyalty": -50
+"fixedXPAbilities": {
+"0" : {
+"compulsion_faction_loyalty": -50
         }
     },
-    "flexibleXPAttributes": {},
-    "flexibleXPTraits": {},
-    "flexibleXPSkills": {},
-    "flexibleXPMetaSkills": {},
-    "flexibleXPAbilities": {},
-    "flexibleXPPickCount": 0
+"flexibleXPAttributes": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCount": 0
 }
