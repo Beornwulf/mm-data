@@ -4270,6 +4270,7 @@
                 <availability>DC:3-</availability>
             </model>
             <model name='(Laser 2620+)'>
+                <roles>urban</roles>
                 <availability>DC!A:7!B:5!C:1</availability>
             </model>
             <model name='(Laser XCT 2460+)'>
@@ -4285,6 +4286,7 @@
                 <availability>DC:7</availability>
             </model>
             <model name='(SRM 2620+)'>
+                <roles>urban</roles>
                 <availability>DC!A:4!B:2!C:1</availability>
             </model>
         </chassis>
