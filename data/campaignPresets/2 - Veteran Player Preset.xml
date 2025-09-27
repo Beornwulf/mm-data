@@ -552,7 +552,7 @@
         <mothballUnitMarketDeliveries>true</mothballUnitMarketDeliveries>
         <unitMarketReportRefresh>true</unitMarketReportRefresh>
         <contractMarketMethod>ATB_MONTHLY</contractMarketMethod>
-        <contractSearchRadius>400</contractSearchRadius>
+        <contractSearchRadius>200</contractSearchRadius>
         <variableContractLength>true</variableContractLength>
         <useDynamicDifficulty>true</useDynamicDifficulty>
         <contractMarketReportRefresh>true</contractMarketReportRefresh>

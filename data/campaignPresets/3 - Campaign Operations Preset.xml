@@ -552,7 +552,7 @@
         <mothballUnitMarketDeliveries>false</mothballUnitMarketDeliveries>
         <unitMarketReportRefresh>true</unitMarketReportRefresh>
         <contractMarketMethod>NONE</contractMarketMethod>
-        <contractSearchRadius>400</contractSearchRadius>
+        <contractSearchRadius>200</contractSearchRadius>
         <variableContractLength>true</variableContractLength>
         <useDynamicDifficulty>true</useDynamicDifficulty>
         <contractMarketReportRefresh>true</contractMarketReportRefresh>
