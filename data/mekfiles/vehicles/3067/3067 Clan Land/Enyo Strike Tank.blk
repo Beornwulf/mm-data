@@ -1,30 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.07 on 2025-09-27
 <UnitType>
 Tank
 </UnitType>
@@ -33,9 +7,9 @@ Tank
 Enyo Strike Tank
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 4127
@@ -44,6 +18,10 @@ Enyo Strike Tank
 <year>
 3063
 </year>
+
+<originalBuildYear>
+3063
+</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -69,9 +47,13 @@ Tracked
 1
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 2
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 30
@@ -86,6 +68,7 @@ Clan Streak SRM 6 Ammo
 Clan Streak SRM 6 Ammo
 Clan Machine Gun Ammo - Half
 CLCASE
+Clan Streak SRM 6 Ammo
 </Body Equipment>
 
 <Front Equipment>
@@ -109,10 +92,11 @@ CLStreakSRM6
 CLLargePulseLaser
 </Turret Equipment>
 
+<source>
+TRO: 3067
+</source>
+
 <tonnage>
 55.0
 </tonnage>
 
-<source>
-TRO: 3067
-</source>

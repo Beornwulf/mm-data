@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 chassis:Firestarter
-model:FS9-M 'Mirage II'
+model:FS9-N 'Mirage II'
 mul id:9374
 Config:Biped
 techbase:Mixed (IS Chassis)
