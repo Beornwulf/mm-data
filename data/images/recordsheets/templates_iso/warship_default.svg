@@ -1392,13 +1392,6 @@
         <g
            id="armor_diagram_jumpship"
            transform="matrix(1,0,0,-1,-247.13184,720.37232)">
-          <rect
-             fill="#ffffff"
-             x="250.13184"
-             width="90"
-             id="aeroCompass_spacer"
-             y="255.37199"
-             height="50" />
           <g
              id="g2800"
              transform="translate(462.16159,548.95632)">

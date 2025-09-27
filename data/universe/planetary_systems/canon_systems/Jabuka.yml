@@ -223,7 +223,7 @@ planet:
     sysPos: 2
     icon: iceg14
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.25
     diameter: 55000
@@ -258,7 +258,7 @@ planet:
     sysPos: 4
     icon: gasg33
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.4
     diameter: 130000
@@ -289,7 +289,7 @@ planet:
     sysPos: 5
     icon: gasg34
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.56
     diameter: 120000

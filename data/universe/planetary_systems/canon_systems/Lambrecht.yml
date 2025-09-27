@@ -43,7 +43,7 @@ planet:
       value: STANDARD
     atmosphere:
       source: MWDA world profiles
-      value: TAINTEDPOISON
+      value: TAINTED_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: MWDA world profiles
@@ -442,7 +442,7 @@ planet:
     sysPos: 2
     icon: barren8
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen, plus trace amounts of Nitrous Oxide and Methane
     gravity: 0.57
     diameter: 11500
@@ -465,7 +465,7 @@ planet:
     sysPos: 3
     icon: barren13
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Nitrogen, plus trace amounts of Chlorine
     gravity: 1.64
     diameter: 16500
@@ -487,7 +487,7 @@ planet:
     sysPos: 4
     icon: barren21
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Argon
     gravity: 0.37
     diameter: 5500

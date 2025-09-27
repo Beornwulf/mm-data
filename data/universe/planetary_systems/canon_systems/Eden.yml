@@ -45,7 +45,7 @@ planet:
       value: STANDARD
     atmosphere:
       source: 'Historical: Operation Klondike, pg. 138'
-      value: TAINTEDPOISON
+      value: TAINTED_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: 'Historical: Operation Klondike, pg. 138'
@@ -257,7 +257,7 @@ planet:
     sysPos: 4
     icon: iceg8
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.96
     diameter: 45000
@@ -278,7 +278,7 @@ planet:
     sysPos: 5
     icon: greenhouse23
     pressure: HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Methane
     gravity: 0.42
     diameter: 8500
@@ -294,7 +294,7 @@ planet:
     sysPos: 6
     icon: gasg24
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.15
     diameter: 13500
@@ -315,7 +315,7 @@ planet:
     sysPos: 7
     icon: gasg16
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.25
     diameter: 17500
@@ -344,7 +344,7 @@ planet:
     sysPos: 8
     icon: gasg7
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.28
     diameter: 90000

@@ -61,7 +61,7 @@ planet:
     sysPos: 3
     icon: barren15
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen and Ammonia, plus trace amounts of Argon
     gravity: 0.95
     diameter: 12500
@@ -204,7 +204,7 @@ planet:
     sysPos: 5
     icon: rock15
     pressure: TRACE
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Methane and Carbon Dioxide, plus trace amounts of Argon
     gravity: 0.71
     diameter: 10500

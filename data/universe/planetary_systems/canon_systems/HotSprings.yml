@@ -35,7 +35,7 @@ planet:
     sysPos: 1
     icon: barren12
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen and Carbon Dioxide, plus trace amounts of Nitrous Oxide
     gravity: 0.79
     diameter: 9500
@@ -65,7 +65,7 @@ planet:
     sysPos: 3
     icon: barren6
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Water Vapor
     gravity: 0.42
     diameter: 8500
@@ -342,7 +342,7 @@ planet:
     sysPos: 6
     icon: gasg37
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.85
     diameter: 130000
@@ -378,7 +378,7 @@ planet:
     sysPos: 7
     icon: gasg32
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.5
     diameter: 160000
@@ -408,7 +408,7 @@ planet:
     sysPos: 8
     icon: gasg4
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.19
     diameter: 110000
@@ -423,7 +423,7 @@ planet:
     sysPos: 9
     icon: gasg34
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.22
     diameter: 130000

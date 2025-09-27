@@ -54,7 +54,7 @@ planet:
     sysPos: 2
     icon: gasg33
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.44
     diameter: 14500
@@ -97,7 +97,7 @@ planet:
     sysPos: 4
     icon: frozen38
     pressure: THIN
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen and Ammonia
     gravity: 0.77
     diameter: 8500
@@ -115,7 +115,7 @@ planet:
     sysPos: 5
     icon: gasg30
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.88
     diameter: 15500
@@ -452,7 +452,7 @@ planet:
     sysPos: 7
     icon: gasg35
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 2.11
     diameter: 18500
@@ -465,7 +465,7 @@ planet:
     sysPos: 8
     icon: gasg20
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.88
     diameter: 110000
@@ -493,7 +493,7 @@ planet:
     sysPos: 9
     icon: gasg4
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.29
     diameter: 70000
@@ -526,7 +526,7 @@ planet:
     sysPos: 10
     icon: gasg18
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.66
     diameter: 15500
@@ -547,7 +547,7 @@ planet:
     sysPos: 11
     icon: gasg1
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.15
     diameter: 90000
@@ -571,7 +571,7 @@ planet:
     sysPos: 12
     icon: iceg2
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.14
     diameter: 50000

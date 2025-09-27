@@ -1598,7 +1598,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
-           id="turret_locker_r" />
+           id="turret_locked_r" />
         <text
            x="70.587"
            y="6.000"
@@ -1949,13 +1949,6 @@
         <g
            id="armor_diagram_superheavy_vee_dualturret"
            transform="translate(-400.802,-35.489748)">
-          <rect
-             fill="#ffffff"
-             x="523.401"
-             width="50"
-             id="logo_spacer"
-             y="338.289"
-             height="30" />
           <polyline
              style="fill:#c7c8ca"
              id="polyline4675"

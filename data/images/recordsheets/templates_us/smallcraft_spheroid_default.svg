@@ -3289,6 +3289,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="engine_hit_3" />
         <text
            x="89.730003"
@@ -3350,6 +3351,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="fcs_hit_3" />
         <text
            x="89.730003"

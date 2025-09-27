@@ -2625,6 +2625,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="cic_hit_3" />
         <text
            x="92.459999"
@@ -2770,6 +2771,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="thruster_left_hit_4" />
         <text
            x="95.459999"
@@ -2847,6 +2849,7 @@
            stroke-width="0.96"
            stroke-linejoin="round"
            stroke="#000000"
+           destroy="1"
            id="thruster_right_hit_4" />
         <text
            x="95.459999"

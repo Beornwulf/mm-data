@@ -43,16 +43,16 @@ walk mp:5
 jump mp:5
 
 armor:Standard(Inner Sphere)
-LA armor:16
-RA armor:16
-LT armor:19
-RT armor:19
-CT armor:25
+LA armor:18
+RA armor:18
+LT armor:20
+RT armor:20
+CT armor:27
 HD armor:9
-LL armor:23
-RL armor:23
-RTL armor:5
-RTR armor:5
+LL armor:26
+RL armor:26
+RTL armor:6
+RTR armor:6
 RTC armor:8
 
 Weapons:5

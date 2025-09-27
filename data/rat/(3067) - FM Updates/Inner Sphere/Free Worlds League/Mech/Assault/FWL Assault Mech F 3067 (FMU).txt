@@ -24,6 +24,6 @@ Stalker STK-3F,5
 BattleMaster BLR-1G,6
 Stalker STK-3F,5
 Victor VTR-9B,4
-Cyclops CP-10Z,3
+Cyclops CP-10-Z,3
 Banshee BNC-3E,2
 Awesome AWS-9M,1

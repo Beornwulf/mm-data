@@ -45,7 +45,7 @@ planet:
     sysPos: 2
     icon: green44
     pressure: STANDARD
-    atmosphere: TAINTEDPOISON
+    atmosphere: TAINTED_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity: 1.22
     diameter: 13500
@@ -272,7 +272,7 @@ planet:
     sysPos: 4
     icon: greenhouse36
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Ammonia and Methane, plus trace amounts of Water Vapor
     gravity: 0.72
     diameter: 9500
@@ -296,7 +296,7 @@ planet:
     sysPos: 5
     icon: gasg3
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.88
     diameter: 120000

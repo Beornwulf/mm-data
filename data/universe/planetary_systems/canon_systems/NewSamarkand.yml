@@ -37,7 +37,7 @@ planet:
     sysPos: 1
     icon: iceg7
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 0.75
     diameter: 35000
@@ -62,7 +62,7 @@ planet:
     sysPos: 2
     icon: barren15
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Chlorine
     gravity: 0.42
     diameter: 8500
@@ -96,7 +96,7 @@ planet:
     sysPos: 4
     icon: iceg6
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Hydrogen and Helium, plus trace gases
     gravity: 1.14
     diameter: 50000
@@ -130,7 +130,7 @@ planet:
     pressure:
       source: Masters and Minions, pg. 27
       value: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen and Oxygen, plus trace gases
     gravity:
       source: Masters and Minions, pg. 27

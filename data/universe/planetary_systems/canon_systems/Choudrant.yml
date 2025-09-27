@@ -48,7 +48,7 @@ planet:
     sysPos: 2
     icon: barren4
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen and Carbon Dioxide, plus trace amounts of Methane
     gravity: 1.03
     diameter: 14500

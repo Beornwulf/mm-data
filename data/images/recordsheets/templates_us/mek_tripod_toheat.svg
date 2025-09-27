@@ -3061,17 +3061,19 @@
                stroke-linejoin="round" />
             <text
                id="text631"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(571.885,34.2841)"
                text-anchor="middle">DC</text>
             <text
                id="text633"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(579.349,90.901)"
                text-anchor="middle">DA</text>
             <g
                fill="none"
                id="shieldDCRA"
+                   loc="DCRA"
+                   class="shield unitLocation"
                transform="translate(558.145,30.2841)">
               <rect
                  x="2.0503271"
@@ -3125,6 +3127,8 @@
             <g
                fill="none"
                id="shieldDARA"
+                   loc="DARA"
+                   class="shield unitLocation"
                transform="rotate(86.344973,244.29065,358.25934)">
               <rect
                  x="-0.26589844"
@@ -3151,17 +3155,19 @@
                stroke-linejoin="round" />
             <text
                id="text651"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(411.434,34.2841)"
                text-anchor="middle">DC</text>
             <text
                id="text653"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7273px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(403.302,90.901)"
                text-anchor="middle">DA</text>
             <g
                fill="none"
                id="shieldDCLA"
+                   loc="DCLA"
+                   class="shield unitLocation"
                transform="matrix(-1,0,0,1,427.8,30.2841)">
               <rect
                  x="5"
@@ -3215,6 +3221,8 @@
             <g
                fill="none"
                id="shieldDALA"
+                   loc="DALA"
+                   class="shield unitLocation"
                transform="matrix(-0.063749,0.997966,0.997966,0.063749,401.123,91.6269)">
               <rect
                  x="0"
@@ -6829,7 +6837,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.96,0 -1.76,0.8 -1.76,1.759 0,0.959 0.8,1.76 1.76,1.76 0.959,0 1.758,-0.801 1.758,-1.76 C 1.758,0.8 0.959,0 0,0 Z"
-                     id="is_pip_hd_3" />
+                     id="is_pip_hd_3" loc="HD" />
                 </g>
                 <g
                    id="g5604"
@@ -6838,7 +6846,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.961,0 -1.761,0.8 -1.761,1.758 0,0.96 0.8,1.761 1.761,1.761 0.959,0 1.758,-0.801 1.758,-1.761 C 1.758,0.8 0.959,0 0,0 Z"
-                     id="is_pip_hd_1" />
+                     id="is_pip_hd_1" loc="HD" />
                 </g>
                 <g
                    id="g5608"
@@ -6847,7 +6855,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.96,0 -1.76,0.8 -1.76,1.759 0,0.959 0.8,1.76 1.76,1.76 0.959,0 1.758,-0.801 1.758,-1.76 C 1.758,0.8 0.959,0 0,0 Z"
-                     id="is_pip_hd_2" />
+                     id="is_pip_hd_2" loc="HD" />
                 </g>
               </g>
               <g
@@ -6860,6 +6868,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.96,0 -1.76,0.8 -1.76,1.759 0,0.959 0.8,1.76 1.76,1.76 0.959,0 1.758,-0.801 1.758,-1.76 C 1.758,0.8 0.959,0 0,0 Z"
+                     loc="HD"
                      id="is_pip_hd_sh_3" />
                 </g>
                 <g
@@ -6880,6 +6889,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.961,0 -1.761,0.8 -1.761,1.758 0,0.96 0.8,1.761 1.761,1.761 0.959,0 1.758,-0.801 1.758,-1.761 C 1.758,0.8 0.959,0 0,0 Z"
+                     loc="HD"
                      id="is_pip_hd_sh_2" />
                 </g>
                 <g
@@ -6889,6 +6899,7 @@
                      fill="#FFFFFF"
                      style="stroke:#000000;stroke-width:0.487;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.414;stroke-dasharray:none;stroke-opacity:1"
                      d="m 0,0 c -0.96,0 -1.76,0.8 -1.76,1.759 0,0.959 0.8,1.76 1.76,1.76 0.959,0 1.758,-0.801 1.758,-1.76 C 1.758,0.8 0.959,0 0,0 Z"
+                     loc="HD"
                      id="is_pip_hd_sh_4" />
                 </g>
               </g>

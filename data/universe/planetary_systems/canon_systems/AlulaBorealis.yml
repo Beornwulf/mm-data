@@ -49,7 +49,7 @@ planet:
     sysPos: 2
     icon: barren1
     pressure: STANDARD
-    atmosphere: TOXICCAUSTIC
+    atmosphere: TOXIC_CAUSTIC
     composition: Carbon Dioxide and Nitrogen, plus trace amounts of Sulfur Dioxide
     gravity: 0.44
     diameter: 6500

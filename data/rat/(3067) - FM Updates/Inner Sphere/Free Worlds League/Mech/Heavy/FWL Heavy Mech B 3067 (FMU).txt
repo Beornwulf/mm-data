@@ -25,5 +25,5 @@ Thunderbolt TDR-9M,6
 Ostsol OTL-7M,5
 Guillotine GLT-5M,4
 Tempest TMP-3M,3
-P1 Perseus,2
+Perseus P1,2
 Orion ON1-M,1

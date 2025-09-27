@@ -2097,17 +2097,19 @@
                stroke-linejoin="round" />
             <text
                id="text651"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(411.434,34.2841)"
                text-anchor="middle">DC</text>
             <text
                id="text653"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(403.302,90.901)"
                text-anchor="middle">DA</text>
             <g
                fill="none"
                id="shieldDCLA"
+                   loc="DCLA"
+                   class="shield unitLocation"
                transform="matrix(-1,0,0,1,427.8,30.2841)">
               <rect
                  x="5"
@@ -2161,6 +2163,8 @@
             <g
                fill="none"
                id="shieldDALA"
+                   loc="DALA"
+                   class="shield unitLocation"
                transform="matrix(-0.063749,0.997966,0.997966,0.063749,401.123,91.6269)">
               <rect
                  x="0"
@@ -3147,17 +3151,19 @@
                stroke-linejoin="round" />
             <text
                id="text631"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(571.885,34.2841)"
                text-anchor="middle">DC</text>
             <text
                id="text633"
-               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#110f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72730017px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(579.349,90.901)"
                text-anchor="middle">DA</text>
             <g
                fill="none"
                id="shieldDCRA"
+                   loc="DCRA"
+                   class="shield unitLocation"
                transform="translate(558.145,30.2841)">
               <rect
                  x="2.0048256"
@@ -3211,6 +3217,8 @@
             <g
                fill="none"
                id="shieldDARA"
+                   loc="DARA"
+                   class="shield unitLocation"
                transform="matrix(0.063749,0.997966,-0.997966,0.063749,586.248,91.6269)">
               <rect
                  x="-0.27389538"

@@ -51,7 +51,7 @@ planet:
     sysPos: 2
     icon: greenhouse16
     pressure: VERY_HIGH
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Nitrogen, plus trace amounts of Carbon Dioxide
     gravity: 0.72
     diameter: 9500
@@ -67,7 +67,7 @@ planet:
     sysPos: 3
     icon: barren5
     pressure: STANDARD
-    atmosphere: TOXICPOISON
+    atmosphere: TOXIC_POISON
     composition: Carbon Dioxide, plus trace amounts of Nitrous Oxide
     gravity: 0.78
     diameter: 11500
