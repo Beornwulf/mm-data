@@ -41,6 +41,7 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
+"CS",
             "THW",
             "TC"
         ]

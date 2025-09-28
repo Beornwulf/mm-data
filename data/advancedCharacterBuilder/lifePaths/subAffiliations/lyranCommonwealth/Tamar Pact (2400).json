@@ -30,7 +30,7 @@
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 9999,
+"maximumYear": 3024,
 "randomWeight": 1.0,
 "lifeStages": [
         "SUB_AFFILIATION"
@@ -41,7 +41,12 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "LA"
+"CS",
+"LA",
+"TamPact",
+"TamP",
+"NTamP",
+"FC"
         ]
     },
     "requirementsLifePath": {

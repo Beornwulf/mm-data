@@ -41,7 +41,8 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-"CC"
+"CC",
+"CS"
 ]
 },
 "requirementsLifePath": {

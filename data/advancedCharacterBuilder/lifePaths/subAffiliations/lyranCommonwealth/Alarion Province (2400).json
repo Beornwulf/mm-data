@@ -41,7 +41,9 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "LA"
+"CS",
+"LA",
+"FC"
         ]
     },
     "requirementsLifePath": {

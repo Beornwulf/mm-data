@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "391977d6-7b25-449a-bc80-37207492a729",
+"id": "318d6747-3b58-4ed4-a7c0-961d338dfa07",
 "version": {
 "major": 0,
 "minor": 50,
@@ -25,11 +25,11 @@
 },
 "xpCost": 60,
 "source" : "Era Report 3052",
-"name": "Tamar Pact",
+"name": "Tamar Pact (3025)",
 "flavorText": "I come from the Tamar Pact, forged on the frontier. Life here is harsh and demanding, but we endure with pride, for our courage is our shield.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 0,
+"minimumYear" : 3025,
 "maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
@@ -41,9 +41,12 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
+"CS",
 "TamPact",
+"LA",
 "TamP",
-"NTamP"
+"NTamP",
+"FC"
 ]
 },
 "requirementsLifePath": {

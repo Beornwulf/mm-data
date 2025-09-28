@@ -41,7 +41,8 @@
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-"MOC"
+"MOC",
+"CS"
 ]
 },
 "requirementsLifePath": {
