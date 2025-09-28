@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 205,
+        "xpCost": 105,
     "source" : "Era Report 2750",
     "name" : "Hegemony Citizen (2400)",
     "flavorText" : "I am a citizen of the Terran Hegemony, cradle of the Star League. From Terra to the farthest colony, we are the standard others strive to match, for our strength and progress lead all humanity.",
@@ -96,8 +96,12 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -100
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : 100,
@@ -122,7 +126,8 @@
         }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 75,
     "source" : "Era Digest Golden Century",
     "name" : "Clan Jade Falcon (2800)",
     "flavorText" : "I am Clan Jade Falcon—unyielding, proud, and sharp as the talon. Discipline is my creed, and through it I carve a destiny that will not be denied.",
@@ -103,6 +103,7 @@
         }
     },
 "fixedXPEdge": {
+"0": 25
 },
     "fixedXPFlexibleAttribute" : {
         "0" : null

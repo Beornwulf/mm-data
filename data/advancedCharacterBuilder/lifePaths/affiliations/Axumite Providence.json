@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 50,
     "source" : "Interstellar Expeditions",
     "name" : "Axumite Providence",
     "flavorText" : "I am Axumite, heir to a people who endured exile and hardship. In the Providence, faith is our compass and strength our survival.",
@@ -101,8 +101,11 @@
         }
     },
 "fixedXPEdge": {
+"0": 50
 },
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPFlexibleAttribute" : {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EXTRA_INCOME" : -50,
@@ -134,7 +137,7 @@
         "3" : { },
         "4" : { }
     },
-"flexibleXPEdge" : {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 100,
+        "xpCost": 0,
     "source" : "Era Report: 2750",
     "name" : "Rim Worlds Republic (2571)",
     "flavorText" : "I serve the Republic because we dared to dream beyond the Inner Sphere’s decay. Out here, we build something new—without their chains, without their lies.",
@@ -98,8 +98,12 @@
             "WILLPOWER" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -100
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -40
@@ -138,7 +142,8 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

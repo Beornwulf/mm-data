@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 75,
     "source" : "Era Digest: Age of War",
     "name" : "Rasalhague Patriot",
     "flavorText" : "I am Rasalhagian, loyal to my people above all. For too long we have been pawns of greater powers, but I will fight so our flag flies free and our voice is never silenced again.",
@@ -98,8 +98,12 @@
             "WILLPOWER" : 125
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 100
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : -50
@@ -122,7 +126,8 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

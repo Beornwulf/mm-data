@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 100,
     "source" : "Era Report 2750",
     "name" : "Sarna Commonality (2400)",
     "flavorText" : "I come from the Sarna Commonality, where the Confederation was born. In these halls of power, service to the Chancellor is not duty alone—it is destiny.",
@@ -96,8 +96,12 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 50
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 15
@@ -119,7 +123,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

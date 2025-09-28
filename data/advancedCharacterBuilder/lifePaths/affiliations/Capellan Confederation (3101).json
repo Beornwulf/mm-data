@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 25,
     "source" : "A Time of War",
     "name" : "Capellan Confederation (3101)",
     "flavorText" : "I am Capellan, tempered by centuries of scorn, yet stronger than ever. The Chancellor has proven our destiny, and I am the blade that makes it real.",
@@ -100,8 +100,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -121,7 +125,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

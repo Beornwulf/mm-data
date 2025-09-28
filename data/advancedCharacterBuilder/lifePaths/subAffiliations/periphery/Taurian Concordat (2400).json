@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 100,
     "source" : "Era Report 2750",
     "name" : "Taurian Concordat (2400)",
     "flavorText" : "I come from the Taurian Concordat, proud and stubborn on the edge of the stars. We bow to no Great House—our strength is our independence, and we will defend it with our lives.",
@@ -97,13 +97,17 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 150,
             "INTELLIGENCE" : 100,
+"WILLPOWER": 150,
             "CHARISMA" : -50
         }
     },
-            "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+            "fixedXPEdge": {
+            "0" : 50
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -75
@@ -131,7 +135,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-        "flexibleXPEdge": {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

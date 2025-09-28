@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 290,
+        "xpCost": 240,
     "source" : "Unofficial",
     "name" : "Star League Service - Magistracy of Canopus",
     "flavorText" : "I serve the Star League as a child of Canopus—our strength is not only in war, but in the freedom and spirit we bring to a galaxy ruled by crowns and chains.",
@@ -99,8 +99,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": -50
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -122,7 +126,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

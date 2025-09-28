@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 75,
+        "xpCost": 100,
     "source" : "Field Manual 3085",
     "name" : "Republic of the Sphere Service (3081)",
     "flavorText" : "I serve the Republic because at last there is a banner not of lords or conquerors, but of people—fragile though it is, I’ll fight to give unity a chance to live.",
@@ -99,8 +99,12 @@
             "INTELLIGENCE" : 25
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": 25
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : 100
@@ -123,7 +127,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+    "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

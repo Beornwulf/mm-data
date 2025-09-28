@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 0,
     "source" : "Unofficial",
     "name" : "Amaris Empire - Hegemony Worlds",
     "flavorText" : "I was raised in the shadow of broken promises and shattered thrones. The Star League is dying—all that remains is the Empire.",
@@ -98,8 +98,12 @@
             "INTELLIGENCE" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -150
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -137,7 +141,7 @@
             "CHARISMA" : 50
         }
     },
-            "flexibleXPEdge": {},
+    "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

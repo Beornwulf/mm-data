@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 75,
     "source" : "Era Digest Golden Century",
     "name" : "Clan Nova Cat (2800)",
     "flavorText" : "I am Clan Nova Cat—patient, perceptive, and guided by vision. In the quiet between battles, I find the path that shapes my destiny.",
@@ -103,6 +103,7 @@
         }
     },
 "fixedXPEdge": {
+"0": 25
 },
     "fixedXPFlexibleAttribute" : {
         "0" : null
@@ -126,7 +127,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

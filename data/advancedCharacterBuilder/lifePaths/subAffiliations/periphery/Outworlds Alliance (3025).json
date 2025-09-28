@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 15,
+        "xpCost": 90,
     "source" : "A Time of War",
     "name" : "Outworlds Alliance (3025)",
     "flavorText" : "I come from the Outworlds Alliance, where peace is our strength. We choose cooperation over conquest, and though others call us weak, we know true power lies in living free from endless war.",
@@ -101,7 +101,9 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": 75
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -129,7 +131,7 @@
         "1" : { },
         "2" : { }
     },
-"flexibleXPEdge" : {},
+    "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : {
         "0" : null,
         "1" : null,

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 140,
+        "xpCost": 90,
     "source" : "A Time of War",
     "name" : "Lyran Commonwealth (3025)",
     "flavorText" : "I am Lyran, born to privilege and burden both. They call us merchants, not warriors—but with industry at my back and pride in my heart, I will not be underestimated.",
@@ -99,8 +99,12 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 100,
@@ -125,7 +129,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+        "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

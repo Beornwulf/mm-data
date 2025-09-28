@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 90,
+        "xpCost": 40,
     "source" : "Era Report 2750",
     "name" : "Crucis March (2400)",
     "flavorText" : "I come from the Crucis March, heart of the Federated Suns. Here, loyalty to House Davion is unshaken, for we are the center from which the Suns’ light spreads across the stars.",
@@ -100,8 +100,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -120,7 +124,7 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+    "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

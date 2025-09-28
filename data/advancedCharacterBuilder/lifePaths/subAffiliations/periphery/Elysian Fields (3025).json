@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 80,
+        "xpCost": 155,
     "source" : "Era Report 3052",
     "name" : "Elysian Fields (3025)",
     "flavorText" : "I am an Inheritor of the Elysian Fields. We swore to keep our worlds free of armies and war, choosing instead the strength of peace and the protection of our agreements. Our survival is not in conquest, but in the sanctity of our home.",
@@ -104,7 +104,9 @@
             "CHARISMA" : 100
         }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": 75
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -134,8 +136,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

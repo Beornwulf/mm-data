@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 65,
+        "xpCost": 90,
     "source" : "Era Report 2750",
     "name" : "St. Ives Commonality (2400)",
     "flavorText" : "I come from St. Ives, a land of refinement and culture within the Confederation. The Chancellor demands obedience, yet here we remember that strength also lies in art, learning, and pride of our own.",
@@ -96,8 +96,12 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 25
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 25,
@@ -121,8 +125,7 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge": { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

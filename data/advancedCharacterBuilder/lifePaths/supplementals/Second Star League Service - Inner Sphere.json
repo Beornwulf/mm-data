@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 290,
+        "xpCost": 240,
     "source" : "Era Report: 3062",
     "name" : "Second Star League Service - Inner Sphere",
     "flavorText" : "I swore loyalty to the Second Star League because the dream deserves another chance—and this time, I’ll fight to make it more than just words in the history books.",
@@ -106,8 +106,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": -50
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -129,7 +133,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 100,
+        "xpCost": 150,
     "source" : "Era Report: 2750",
     "name" : "Capellan Confederation (2700)",
     "flavorText" : "I am Capellan, bound to my Chancellor and my House. In loyalty I find strength, and in service I find purpose—our unity is our greatest weapon.",
@@ -116,10 +116,12 @@
         "0" : { }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+    "0": {
+    "exceptional_attribute_edge": 50
+    }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+    "flexibleXPEdge": { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

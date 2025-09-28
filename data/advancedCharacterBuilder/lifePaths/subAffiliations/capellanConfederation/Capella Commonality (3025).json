@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 25,
+        "xpCost": 75,
     "source" : "Era Report 3052",
     "name" : "Capella Commonality (3025)",
     "flavorText" : "I come from the Capella Commonality, heart of the Confederation. Here, loyalty is life itself, and to serve the Chancellor is both duty and destiny.",
@@ -101,7 +101,9 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": 50
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -122,7 +124,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

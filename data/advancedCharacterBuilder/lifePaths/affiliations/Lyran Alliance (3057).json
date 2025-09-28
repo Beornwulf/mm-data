@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 140,
+        "xpCost": 90,
     "source" : "A Time of War",
     "name" : "Lyran Alliance (3057)",
     "flavorText" : "I stand with the Lyran Alliance—born of wealth, tempered by industry, and made unbreakable by the will to endure.",
@@ -100,8 +100,12 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 100,
@@ -126,7 +130,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+        "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

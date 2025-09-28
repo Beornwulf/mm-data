@@ -24,7 +24,7 @@
         "extra" : ""
     },
     "xpCost" : 0,
-    "source" : "A Time of War",
+        "source" : "Interstellar Operations",
     "name" : "The Barrens",
     "flavorText" : "I was born in the Barrens, where law is a myth and survival is the only creed. Out here, you carve your place—or vanish into the void.",
     "age" : 0,
@@ -95,15 +95,20 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 60
+"WILLPOWER": 20
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 20
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
-            "EQUIPPED" : 20,
-            "REPUTATION" : -100
+"EQUIPPED": 80,
+"WEALTH": -10,
+"REPUTATION": -110
         }
     },
     "fixedXPSkills" : {

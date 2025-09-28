@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 240,
+        "xpCost": 200,
     "source" : "Era Report 2750",
     "name" : "Rasalhague Military District (2400)",
     "flavorText" : "I come from the Rasalhague Military District, where the Dragon’s rule is new and our loyalty is tested each day. To endure under Kurita’s shadow is to learn strength—or be broken.",
@@ -98,8 +98,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -40
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -124,7 +128,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-        "flexibleXPEdge": {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

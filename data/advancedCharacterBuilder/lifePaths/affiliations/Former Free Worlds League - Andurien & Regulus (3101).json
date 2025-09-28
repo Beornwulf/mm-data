@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 45,
+        "xpCost": 70,
     "source" : "Era Report 3145",
     "name" : "Former Free Worlds League - Andurien & Regulus (3101)",
     "flavorText" : "I come from a League broken, where Andurien and Regulus stand apart—our pride unbowed, our resolve sharpened. If unity failed us once, we’ll forge our own path.",
@@ -99,8 +99,12 @@
             "WILLPOWER" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 25
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -125,7 +129,7 @@
         "2" : { },
         "3" : { }
     },
-"flexibleXPEdge": { },
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

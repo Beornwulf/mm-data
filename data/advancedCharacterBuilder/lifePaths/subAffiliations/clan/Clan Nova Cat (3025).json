@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 50,
     "source" : "Era Report 3052",
     "name" : "Clan Nova Cat (3025)",
     "flavorText" : "I am Clan Nova Cat—patient, perceptive, and guided by vision. My strength is in foresight, and in the path I see laid before me, I find my destiny.",
@@ -103,6 +103,7 @@
         }
     },
 "fixedXPEdge": {
+"0": 50
 },
     "fixedXPFlexibleAttribute" : {
         "0" : null
@@ -126,7 +127,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

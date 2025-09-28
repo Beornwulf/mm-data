@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 5,
+        "xpCost": 105,
     "source" : "Era Report 3052",
     "name" : "Magistracy of Canopus (3025)",
     "flavorText" : "I come from the Magistracy of Canopus, where freedom shapes every life. We thrive in culture and commerce, proud to stand apart from the wars that consume the Inner Sphere.",
@@ -100,11 +100,13 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-            "CHARISMA" : 100,
-            "WILLPOWER" : 25
+"WILLPOWER": 25,
+"CHARISMA" : 100
         }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": 100
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },

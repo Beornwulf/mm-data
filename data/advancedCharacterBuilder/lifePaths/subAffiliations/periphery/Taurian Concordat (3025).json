@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 55,
+        "xpCost": 105,
     "source" : "A Time of War",
     "name" : "Taurian Concordat (3025)",
     "flavorText" : "I come from the Taurian Concordat, proud and stubborn on the edge of the stars. We bow to no master, and our strength is in the independence we defend with our lives.",
@@ -105,6 +105,7 @@
         }
     },
 "fixedXPEdge": {
+"0": 50
 },
     "fixedXPFlexibleAttribute" : {
         "0" : null
@@ -131,8 +132,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
