@@ -16,120 +16,148 @@
 # affiliated with Microsoft.
 
 {
-"id": "215477c3-cd78-4cad-95a7-26b1febe09c4",
+"id": "7c4bbf13-16ed-4934-8e2b-66da1b3f1e0c",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 200,
-"source" : "Era Report 2750",
-"name": "Magistracy of Canopus (2400)",
-"flavorText": "I come from the Magistracy of Canopus, where freedom is our birthright. In the Periphery we live by our own ways—rich in culture, proud in spirit, and beholden to no throne beyond our own.",
+},
+"xpCost": 15,
+"source" : "A Time of War",
+"name": "Outworlds Alliance (3025)",
+"flavorText": "I come from the Outworlds Alliance, where peace is our strength. We choose cooperation over conquest, and though others call us weak, we know true power lies in living free from endless war.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 0,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "MOC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"OA"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
+"0": {}
+},
 "exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
 "fixedXPAttributes": {
+"0": { }
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
+"fixedXPTraits": {
 "0": {
-"CHARISMA": 100
-        }
-    },
-        "fixedXPFlexibleAttribute": {},
-        "fixedXPTraits": {
-"0": {}
-    },
+"EQUIPPED": -55,
+"WEALTH": -75
+}
+},
 "fixedXPSkills": {
 "0": {
-"Negotiation": 15,
-"Streetwise/Any (RP Only)": 10,
-"MedTech/Any": 10
-        }
-    },
-"fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_ART": 15
-        }
-    },
-"fixedXPAbilities" : {
-"0": {
-"atow_gregarious": 50
-        }
-    },
-"flexibleXPAttributes": {
+"Streetwise/Any (RP Only)": 10
+}
 },
-"flexibleXPFlexibleAttribute": {
+"fixedXPMetaSkills" : {
+"0": {}
+},
+"fixedXPAbilities": {
+"0": {
+"atow_g_tolerance": 125
+}
+},
+"flexibleXPAttributes": {
+"0": {},
+"1": {},
+"2": {}
+},
+"flexibleXPFlexibleAttribute" : {
+"0": null,
+"1": null,
+"2": null
 },
 "flexibleXPTraits": {
+"0": {},
+"1": {},
+"2": {}
 },
 "flexibleXPSkills": {
+"0": {
+"Martial Arts (RP Only)": 10
+},
+"1": {
+"MedTech/Any": 10
+},
+"2": {
+"Small Arms": 10
+}
 },
 "flexibleXPMetaSkills": {
+"0": {},
+"1": {},
+"2": {}
 },
 "flexibleXPAbilities": {
+"0": {
 },
-"flexibleXPPickCount": 0
+"1" : {},
+"2": {}
+},
+"flexibleXPPickCount": 1
 }

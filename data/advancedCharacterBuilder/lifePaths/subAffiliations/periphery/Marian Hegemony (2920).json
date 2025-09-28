@@ -16,121 +16,119 @@
 # affiliated with Microsoft.
 
 {
-"id": "23dbeb59-9f89-4fa3-b695-72c88ad3dc20",
+"id": "dede6e04-576c-49dc-8035-ca5bbc1b1d3a",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 50,
-"source" : "Era Report 2750",
-"name": "Taurian Concordat (2400)",
-"flavorText": "I come from the Taurian Concordat, proud and stubborn on the edge of the stars. We bow to no Great House—our strength is our independence, and we will defend it with our lives.",
+},
+"xpCost": 95,
+"source" : "Era Report 3052",
+"name": "Marian Hegemony (2920)",
+"flavorText": "I come from the Marian Hegemony, forged in strength and discipline. Order is our shield, conquest our duty, and through both we secure the destiny of our people.",
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 3024,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "THW",
-            "TC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"MH"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
-"exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
 "0": {
-"WILLPOWER": 150,
-"INTELLIGENCE": 100,
-"CHARISMA": -50
-        }
-    },
+"WILLPOWER": 100
+}
+},
 "fixedXPFlexibleAttribute": {
+"0" : null
 },
 "fixedXPTraits": {
-"0" : {
-"EQUIPPED": -75
-        }
-    },
-"fixedXPSkills": {
 "0": {
-"Negotiation": 15,
-"Streetwise/Any (RP Only)": 15,
-"Small Arms": 20,
-"Survival/Any (RP Only)": 15,
-"Career/Any (RP Only)": 15,
-"Language/Any (RP Only)": 15,
-"Martial Arts (RP Only)": 15,
-"Perception (RP Only)": 15
-        }
-    },
+"REPUTATION": -200
+}
+},
+"fixedXPSkills": {
+"0" : {
+"Streetwise/Any (RP Only)": 20,
+"Martial Arts (RP Only)": 20,
+"Strategy": 5,
+"Interest/History (RP Only)": 15,
+"Protocols/Any (RP Only)": 10
+}
+},
 "fixedXPMetaSkills": {
-"0": {}
-    },
+"0": { }
+},
 "fixedXPAbilities": {
 "0": {
-"compulsion_faction_loyalty": -100,
-"compulsion_unpleasant_personality": -100
-        }
-    },
-        "flexibleXPAttributes": {},
-        "flexibleXPFlexibleAttribute": {},
+"atow_toughness" : 125
+}
+},
+"flexibleXPAttributes": {},
+"flexibleXPFlexibleAttribute": {},
 "flexibleXPTraits": {},
 "flexibleXPSkills": {},
 "flexibleXPMetaSkills": {},

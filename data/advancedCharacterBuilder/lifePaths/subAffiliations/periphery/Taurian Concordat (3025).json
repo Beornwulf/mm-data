@@ -16,111 +16,119 @@
 # affiliated with Microsoft.
 
 {
-"id": "215477c3-cd78-4cad-95a7-26b1febe09c4",
+"id": "01b7d485-79cf-4a0a-99f5-4b45daff4750",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 200,
-"source" : "Era Report 2750",
-"name": "Magistracy of Canopus (2400)",
-"flavorText": "I come from the Magistracy of Canopus, where freedom is our birthright. In the Periphery we live by our own ways—rich in culture, proud in spirit, and beholden to no throne beyond our own.",
+},
+"xpCost": 55,
+"source" : "A Time of War",
+"name": "Taurian Concordat (3025)",
+"flavorText": "I come from the Taurian Concordat, proud and stubborn on the edge of the stars. We bow to no master, and our strength is in the independence we defend with our lives.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 0,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "MOC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"THW",
+"TC"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
-"exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
 "0": {
-"CHARISMA": 100
-        }
-    },
-        "fixedXPFlexibleAttribute": {},
-        "fixedXPTraits": {
-"0": {}
-    },
+"WILLPOWER": 150
+}
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
+"fixedXPTraits": {
+"0": { }
+},
 "fixedXPSkills": {
 "0": {
-"Negotiation": 15,
-"Streetwise/Any (RP Only)": 10,
-"MedTech/Any": 10
-        }
-    },
+"Negotiation" : 10,
+"Streetwise/Any (RP Only)": 15,
+"Small Arms": 15,
+"Survival/Any (RP Only)": 5,
+"Martial Arts (RP Only)": 10
+}
+},
 "fixedXPMetaSkills": {
 "0": {
-"ROLEPLAY_ART": 15
-        }
-    },
-"fixedXPAbilities" : {
-"0": {
-"atow_gregarious": 50
-        }
-    },
-"flexibleXPAttributes": {
+}
 },
+"fixedXPAbilities": {
+"0": {
+"compulsion_faction_pride": -75,
+"compulsion_unpleasant_personality": -75
+}
+},
+"flexibleXPAttributes": {},
 "flexibleXPFlexibleAttribute": {
 },
 "flexibleXPTraits": {

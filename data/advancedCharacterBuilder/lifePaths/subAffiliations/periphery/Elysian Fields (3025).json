@@ -16,109 +16,121 @@
 # affiliated with Microsoft.
 
 {
-"id": "215477c3-cd78-4cad-95a7-26b1febe09c4",
+"id": "4b90d22a-77a3-4703-ae1f-37c0bb6e7672",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 200,
-"source" : "Era Report 2750",
-"name": "Magistracy of Canopus (2400)",
-"flavorText": "I come from the Magistracy of Canopus, where freedom is our birthright. In the Periphery we live by our own ways—rich in culture, proud in spirit, and beholden to no throne beyond our own.",
+},
+"xpCost": 80,
+"source" : "Era Report 3052",
+"name": "Elysian Fields (3025)",
+"flavorText": "I am an Inheritor of the Elysian Fields. We swore to keep our worlds free of armies and war, choosing instead the strength of peace and the protection of our agreements. Our survival is not in conquest, but in the sanctity of our home.",
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 3024,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "MOC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"EF"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
-"exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
 "0": {
+"WILLPOWER": -50,
 "CHARISMA": 100
-        }
-    },
-        "fixedXPFlexibleAttribute": {},
-        "fixedXPTraits": {
+}
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
+"fixedXPTraits": {
 "0": {}
-    },
+},
 "fixedXPSkills": {
 "0": {
+"Acting (RP Only)": 10,
 "Negotiation": 15,
-"Streetwise/Any (RP Only)": 10,
-"MedTech/Any": 10
-        }
-    },
+"Survival/Any (RP Only)": 10,
+"MedTech/Any": 15,
+"Navigation/Any" : 10
+}
+},
 "fixedXPMetaSkills": {
 "0": {
+"ROLEPLAY_INTEREST": 5,
 "ROLEPLAY_ART": 15
-        }
-    },
-"fixedXPAbilities" : {
+}
+},
+"fixedXPAbilities": {
 "0": {
-"atow_gregarious": 50
-        }
-    },
+"atow_patient": 100,
+"atow_combat_paralysis": -100,
+"flaw_introvert": -50
+}
+},
 "flexibleXPAttributes": {
 },
 "flexibleXPFlexibleAttribute": {
