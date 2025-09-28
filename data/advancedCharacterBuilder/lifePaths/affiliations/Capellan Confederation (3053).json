@@ -44,7 +44,8 @@
             "CC",
             "CS",
             "ROS",
-            "WOB"
+            "WOB",
+            "SIC"
         ]
     },
     "requirementsLifePath": {
