@@ -99,7 +99,7 @@ ISSmallPulseLaser
 </Turret Equipment>
 
 <source>
-XTRO:RISC
+XTR: RISC
 </source>
 
 <tonnage>

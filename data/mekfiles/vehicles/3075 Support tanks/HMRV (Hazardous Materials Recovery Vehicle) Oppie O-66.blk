@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-#Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.05 on 2025-05-26
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -34,104 +25,129 @@ HMRV (Hazardous Materials Recovery Vehicle)
 </Name>
 
 <Model>
- 'Oppie' O-66
+'Oppie' O-66
 </Model>
 
 <mul id:>
 4740
 </mul id:>
 
-<Tonnage>
-150
-</Tonnage>
+<year>
+3069
+</year>
+
+<originalBuildYear>
+3069
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<transporters>
+LiquidCargoBay:18.0:1:1::-1:0
+troopspace:5.0
+</transporters>
 
 <cruiseMP>
 2
 </cruiseMP>
 
-<barrating>
-8
-</barrating>
+<engine_type>
+0
+</engine_type>
 
-<Armor>
+<armor_type>
+49
+</armor_type>
+
+<armor_tech_rating>
+4
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
 100
 40
 40
 40
 40
 40
-</Armor>
+</armor>
+
+<Body Equipment>
+Environmental Sealing
+SV Chassis Mod [Tractor]
+Paramedic Equipment
+</Body Equipment>
+
+<Front Equipment>
+ISMineSweeper
+Bulldozer
+Searchlight
+</Front Equipment>
+
+<Front Right Equipment>
+Searchlight
+Manipulator (Non-Mech/Non-Battle Armor)
+</Front Right Equipment>
+
+<Front Left Equipment>
+Searchlight
+Manipulator (Non-Mech/Non-Battle Armor)
+</Front Left Equipment>
+
+<Rear Right Equipment>
+Manipulator (Non-Mech/Non-Battle Armor)
+Tank Sprayer
+</Rear Right Equipment>
+
+<Rear Left Equipment>
+Manipulator (Non-Mech/Non-Battle Armor)
+Tank Sprayer
+</Rear Left Equipment>
+
+<Rear Equipment>
+Searchlight
+Backhoe
+</Rear Equipment>
+
+<barrating>
+8
+</barrating>
 
 <structural_tech_rating>
 4
 </structural_tech_rating>
 
-<Front Equipment>
-ISMinesweeper
-Bulldozer
-Searchlight
-</Front Equipment>
-
-<Front Left Equipment>
-Manipulator
-Searchlight
-</Front Left Equipment>
-
-<Front Right Equipment>
-Manipulator
-Searchlight
-</Front Right Equipment>
-
-<Rear Left Equipment>
-Manipulator
-Tank Sprayer
-</Rear Left Equipment>
-
-<Rear Right Equipment>
-Manipulator
-Tank Sprayer
-</Rear Right Equipment>
-
-<Rear Equipment>
-Backhoe
-Searchlight
-</Rear Equipment>
-
-<Body Equipment>
-Paramedic Equipment
-Environmental Sealing
-Tractor
-</Body Equipment>
-
-<transporters>
-TroopSpace:5
-liquidcargobay:18:1
-</transporters>
-
-<type>
-IS Level 3
-</type>
-
-<year>
-3069
-</year>
-
-<internal_type>
-0
-</internal_type>
-
-<armor_type>
-0
-</armor_type>
-
-<engine_type>
-0
-</engine_type>
-
-<motion_type>
-Tracked
-</motion_type>
+<engine_tech_rating>
+4
+</engine_tech_rating>
 
 <source>
 TRO: 3075
 </source>
+
+<tonnage>
+150.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+

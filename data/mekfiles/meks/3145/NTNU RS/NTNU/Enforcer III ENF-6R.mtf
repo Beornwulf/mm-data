@@ -24,6 +24,9 @@ era:3102
 source:Record Sheets: 3150
 rules level:2
 
+quirk:barrel_fists_ra
+quirk:barrel_fists_la
+
 mass:50
 engine:250 XL Engine(IS)
 structure:IS Endo Steel
