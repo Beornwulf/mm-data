@@ -42,7 +42,8 @@
     "requirementsFactions" : {
         "0" : [
             "CS",
-            "OA"
+            "OA",
+            "WOB"
         ]
     },
     "requirementsLifePath" : {

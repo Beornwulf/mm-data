@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+"maximumYear": 3058,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -45,6 +45,7 @@
             "TamPact",
             "LA",
             "TamP",
+            "WOB",
             "NTamP",
             "FC"
         ]
