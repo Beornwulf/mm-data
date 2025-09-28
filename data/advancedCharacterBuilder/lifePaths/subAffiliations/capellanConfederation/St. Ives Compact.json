@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "3aaa3877-3233-4d49-bf51-e1f21bbccc6f",
+    "id" : "7e73e91f-ed9c-4910-91d0-a685dda55949",
     "version" : {
         "major" : 0,
         "minor" : 50,
@@ -24,24 +24,24 @@
         "extra" : ""
     },
     "xpCost" : 0,
-    "source" : "Era Digest: Golden Century",
-    "name" : "Homeworld Clan (2800)",
-    "flavorText" : "I was born from discipline, bred for war, and bound by honor. The Clans are not a dream—they are the perfection the Inner Sphere could never achieve.",
+    "source" : "Era Report 3052",
+    "name" : "St. Ives Compact",
+    "flavorText" : "I come from the St. Ives Compact, free of Capellan chains at last. Here, we choose our own path, guided by culture, pride, and the will to stand independent.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 0,
-    "maximumYear" : 3024,
+    "maximumYear" : 9999,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CLAN"
+            "SIC"
         ]
     },
     "requirementsLifePath" : {
@@ -53,7 +53,9 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-    "requirementsFlexibleAttribute" : { },
+    "requirementsFlexibleAttribute" : {
+        "0" : null
+    },
     "requirementsTraits" : {
         "0" : { }
     },
@@ -78,12 +80,11 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-    "exclusionsFlexibleAttribute" : { },
+    "exclusionsFlexibleAttribute" : {
+        "0" : null
+    },
     "exclusionsTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : -10,
-            "PROPERTY" : 0
-        }
+        "0" : { }
     },
     "exclusionsSkills" : {
         "0" : { }
@@ -97,22 +98,28 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
-        "0" : { }
+        "0" : {
+            "REPUTATION" : -100,
+            "WEALTH" : 55
+        }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Interest/History (RP Only)" : 25,
-            "Protocols/Any (RP Only)" : 25
+            "Language/Any (RP Only)" : 15
         }
     },
     "fixedXPMetaSkills" : {
-        "0" : { }
+        "0" : {
+            "ROLEPLAY_ART" : 5
+        }
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -200
+            "compulsion_mild_paranoia" : -100
         }
     },
     "flexibleXPAttributes" : { },
