@@ -30,7 +30,7 @@
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 9999,
+"maximumYear": 3024,
 "randomWeight": 1.0,
 "lifeStages": [
         "SUB_AFFILIATION"
@@ -131,86 +131,37 @@
 "0": {},
 "1": {},
 "2": {},
-"3": {},
-"4": {},
-"5": {},
-"6": {},
-"7": {},
-"8": {},
-"9": {}
+"3": {}
     },
 "flexibleXPFlexibleAttribute": {
 "0": null,
 "1": null,
 "2": null,
-"3" : null,
-"4": null,
-"5": null,
-"6": null,
-"7": null,
-"8" : null,
-"9": null
+"3" : null
     },
 "flexibleXPTraits": {
+"0": { },
+"1": {},
+"2": { },
+"3": {}
+    },
+"flexibleXPSkills": {
 "0": {},
 "1": {},
 "2": {
-},
-"3": {
-},
-"4": {
-},
-"5": {
-},
-"6": {
-},
-"7": {
-},
-"8": {
-},
-"9": {
-}
-    },
-    "flexibleXPSkills": {
-    "0": {},
-"1": {
-"Gunnery/Aerospace": 50
+"Melee Weapons (RP Only)": 50
         },
-"2": {
-"Gunnery/Aircraft": 50
-        },
-"3": {
-"Gunnery/BattleArmor" : 50
-        },
-"4": {
-"Gunnery/Mek": 50
-        },
-        "5": {
-        "Gunnery/ProtoMek": 50
-        },
-"6": {
-"Gunnery/Spacecraft": 50
-        },
-"7": {
-"Gunnery/Vehicle": 50
-        },
-"8": {
-"Melee Weapons (RP Only)" : 50
-        },
-"9": {}
+"3" : {}
     },
 "flexibleXPMetaSkills": {
 "0": {},
-"1": {},
-"2": {},
-"3": {},
-"4": {},
-"5": {},
-"6": {},
-"7": {},
-"8": {},
-"9": {
-"ROLEPLAY_INTEREST": 50
+"1": {
+"COMBAT_GUNNERY": 50
+},
+"2": {
+},
+"3": {
+"ROLEPLAY_INTEREST" : 50
         }
     },
 "flexibleXPAbilities": {
@@ -218,14 +169,9 @@
 "exceptional_attribute_intelligence": 50
         },
 "1": {},
-"2": {},
-"3": {},
-"4": {},
-"5": {},
-"6": {},
-"7": {},
-"8": {},
-"9": {
+"2": {
+},
+"3": {
 }
     },
 "flexibleXPPickCount": 1

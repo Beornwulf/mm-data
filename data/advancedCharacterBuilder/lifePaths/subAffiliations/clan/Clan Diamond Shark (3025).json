@@ -16,124 +16,125 @@
 # affiliated with Microsoft.
 
 {
-"id": "0bb0d34a-8eae-4458-b8ad-512066e80daa",
+"id": "b770a1c7-3ac0-4d1e-bc2b-2da792e0a601",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 0,
-"source" : "Era Digest Golden Century",
-"name": "Clan Ghost Bear (2922)",
-"flavorText": "I am Clan Ghost Bear—tested by rivalry, but stronger for it. My path is patience and endurance, for I carry my strength with calm until the moment it must be unleashed.",
+},
+"xpCost": 100,
+"source" : "A Time of War",
+"name": "Clan Diamond Shark (3025)",
+"flavorText": "I am Clan Diamond Shark—clever, adaptive, and always seeking opportunity. My strength lies in trade as much as in battle, for survival favors those who know when to strike and when to bargain.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 2922,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_CLAN"
-    ],
+"GENERAL_CLAN"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "CGB"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"CDS"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
+},
 "requirementsFlexibleAttribute": {
 "0": null
-    },
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
 "0": {}
-    },
+},
 "requirementsMetaSkills": {
 "0" : {}
-    },
+},
 "requirementsAbilities": {
 "0": {}
-    },
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
+},
 "exclusionsFlexibleAttribute": {
 "0": null
-    },
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
 "0": {}
-    },
+},
 "exclusionsMetaSkills": {
 "0" : {}
-    },
+},
 "exclusionsAbilities": {
 "0": {}
-    },
+},
 "fixedXPAttributes": {
 "0": {
-"STRENGTH": 25,
-"INTELLIGENCE": -50,
-"BODY": 25,
-"WILLPOWER": -50
-        }
-    },
+"STRENGTH": -45,
+"INTELLIGENCE": 25
+}
+},
 "fixedXPFlexibleAttribute": {
 "0": null
-    },
+},
 "fixedXPTraits": {
-"0" : {}
-    },
+"0": {
+"CONNECTIONS": 25,
+"WEALTH": 30,
+"EQUIPPED": 25
+}
+},
 "fixedXPSkills": {
 "0": {
+"Negotiation": 20,
+"Perception (RP Only)": 10,
 "Protocols/Any (RP Only)": 10
-        }
-    },
+}
+},
 "fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_ART": 10
-        }
-    },
-"fixedXPAbilities" : {
-"0": {
-"atow_patient": 80,
-"flaw_slow_learner" : -50,
-"compulsion_faction_loyalty": -200,
-"exceptional_attribute_strength": 50
-        }
-    },
-        "flexibleXPAttributes": {},
-        "flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
+"0": {}
+},
+"fixedXPAbilities": {
+"0": {}
+},
+"flexibleXPAttributes": {},
+"flexibleXPFlexibleAttribute": {
+},
+"flexibleXPTraits": {
+},
+"flexibleXPSkills": {
+},
+"flexibleXPMetaSkills": {
+},
 "flexibleXPAbilities": {
 },
 "flexibleXPPickCount": 0

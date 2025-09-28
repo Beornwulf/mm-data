@@ -16,125 +16,123 @@
 # affiliated with Microsoft.
 
 {
-"id": "0bb0d34a-8eae-4458-b8ad-512066e80daa",
+"id": "e95e619b-5755-431e-b606-7a2a9e77b314",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 0,
-"source" : "Era Digest Golden Century",
-"name": "Clan Ghost Bear (2922)",
-"flavorText": "I am Clan Ghost Bear—tested by rivalry, but stronger for it. My path is patience and endurance, for I carry my strength with calm until the moment it must be unleashed.",
+},
+"xpCost": 50,
+"source" : "Era Report 3052",
+"name": "Clan Steel Viper (3025)",
+"flavorText": "I am Clan Steel Viper—unyielding, disciplined, and pure. My strength is in my clarity of purpose, and I strike without hesitation or compromise.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 2922,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_CLAN"
-    ],
+"GENERAL_CLAN"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "CGB"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"CSV"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
+},
 "requirementsFlexibleAttribute": {
 "0": null
-    },
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
 "0": {}
-    },
+},
 "requirementsMetaSkills": {
 "0" : {}
-    },
+},
 "requirementsAbilities": {
 "0": {}
-    },
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
+},
 "exclusionsFlexibleAttribute": {
 "0": null
-    },
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
 "0": {}
-    },
+},
 "exclusionsMetaSkills": {
 "0" : {}
-    },
+},
 "exclusionsAbilities": {
 "0": {}
-    },
+},
 "fixedXPAttributes": {
 "0": {
-"STRENGTH": 25,
-"INTELLIGENCE": -50,
-"BODY": 25,
-"WILLPOWER": -50
-        }
-    },
+"WILLPOWER": 100,
+"CHARISMA": -50,
+"INTELLIGENCE": 75
+}
+},
 "fixedXPFlexibleAttribute": {
 "0": null
-    },
+},
 "fixedXPTraits": {
-"0" : {}
-    },
+"0": {
+"CONNECTIONS": 80
+}
+},
 "fixedXPSkills": {
 "0": {
-"Protocols/Any (RP Only)": 10
-        }
-    },
-"fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_ART": 10
-        }
-    },
-"fixedXPAbilities" : {
-"0": {
-"atow_patient": 80,
-"flaw_slow_learner" : -50,
-"compulsion_faction_loyalty": -200,
-"exceptional_attribute_strength": 50
-        }
-    },
-        "flexibleXPAttributes": {},
-        "flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
-"flexibleXPAbilities": {
+"Negotiation": 10,
+"Survival/Any (RP Only)": 20,
+"Protocols/Any (RP Only)": 15
+}
 },
+"fixedXPMetaSkills": {
+"0": { }
+},
+"fixedXPAbilities": {
+"0": {
+"clan_pilot_training" : -100,
+"compulsion_faction_loyalty": -100
+}
+},
+"flexibleXPAttributes" : {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits" : {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills" : {},
+"flexibleXPAbilities": {},
 "flexibleXPPickCount": 0
 }

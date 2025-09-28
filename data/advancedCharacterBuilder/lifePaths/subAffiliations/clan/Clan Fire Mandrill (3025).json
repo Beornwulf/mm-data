@@ -16,115 +16,115 @@
 # affiliated with Microsoft.
 
 {
-"id": "08220bcb-0bc1-4357-854e-42be8db0fdd3",
+"id": "b0f991bd-094c-4332-93d7-9b0c867070a3",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 40,
-"source" : "Era Digest Golden Century",
-"name": "Clan Fire Mandrill (2800)",
-"flavorText": "I am Clan Fire Mandrill—proud, fierce, and unwilling to be silenced. My strength is my voice, and I will never bow my head when I know my cause is just.",
+},
+"xpCost": 145,
+"source" : "A Time of War",
+"name": "Clan Fire Mandrill (3025)",
+"flavorText": "I am Clan Fire Mandrill—fierce, divided, yet unbowed. My strength is struggle itself, for through conflict I prove who I am.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 0,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_CLAN"
-    ],
+"GENERAL_CLAN"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "CFM"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"CFM"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
+},
 "requirementsFlexibleAttribute": {},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
 "0": { }
-    },
+},
 "requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
+},
 "exclusionsFlexibleAttribute": {},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
 "0": { }
-    },
+},
 "exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
 "0": {
 "WILLPOWER": 25
-        }
-    },
-        "fixedXPFlexibleAttribute": {
-        "0": -20
-    },
+}
+},
+"fixedXPFlexibleAttribute": {
+"0": 75
+},
 "fixedXPTraits": {
 "0": {
-"REPUTATION": -50,
-"ENEMY": -25
-        }
-    },
+"ENEMY": -25,
+"REPUTATION": -25
+}
+},
 "fixedXPSkills": {
 "0": {
-"Language/Any (RP Only)": 20,
 "Martial Arts (RP Only)": 15,
-"Protocols/Any (RP Only)": 15
-        }
-    },
+"Protocols/Any (RP Only)": 25,
+"Language/Any (RP Only)": 20
+}
+},
 "fixedXPMetaSkills": {
 "0": {}
-    },
+},
 "fixedXPAbilities": {
 "0" : {
 "compulsion_religious_fanaticism": -25,
-"compulsion_unpleasant_personality": -25
-        }
-    },
-    "flexibleXPAttributes": {
-    "0": {},
+"compulsion_unpleasant_personality": -100
+}
+},
+"flexibleXPAttributes": {
+"0": {},
 "1": {},
 "2": {},
 "3": {},
@@ -174,164 +174,164 @@
 "47": {},
 "48": {},
 "49": {}
-    },
+},
 "flexibleXPFlexibleAttribute": {},
 "flexibleXPTraits": {
 "0": {
 }
-    },
+},
 "flexibleXPSkills": {
 "0": {
 "Leadership": 10
-        },
+},
 "1": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "2" : {
 "Negotiation": 10
-        },
+},
 "3": {
 "Perception (RP Only)": 10
-        },
+},
 "4": {
 "Tactics/Any": 10
-        },
+},
 "5": {
 "Leadership": 10
-        },
+},
 "6": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "7" : {
 "Negotiation": 10
-        },
+},
 "8": {
 "Perception (RP Only)": 10
-        },
+},
 "9": {
 "Tactics/Any": 10
-        },
+},
 "10": {
 "Leadership": 10
-        },
+},
 "11": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "12" : {
 "Negotiation": 10
-        },
+},
 "13": {
 "Perception (RP Only)": 10
-        },
+},
 "14": {
 "Tactics/Any": 10
-        },
+},
 "15": {
 "Leadership": 10
-        },
+},
 "16": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "17" : {
 "Negotiation": 10
-        },
+},
 "18": {
 "Perception (RP Only)": 10
-        },
+},
 "19": {
 "Tactics/Any": 10
-        },
+},
 "20": {
 "Leadership": 10
-        },
+},
 "21": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "22" : {
 "Negotiation": 10
-        },
+},
 "23": {
 "Perception (RP Only)": 10
-        },
+},
 "24": {
 "Tactics/Any": 10
-        },
+},
 "25": {
 "Leadership": 10
-        },
+},
 "26": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "27" : {
 "Negotiation": 10
-        },
+},
 "28": {
 "Perception (RP Only)": 10
-        },
+},
 "29": {
 "Tactics/Any": 10
-        },
+},
 "30": {
 "Leadership": 10
-        },
+},
 "31": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "32" : {
 "Negotiation": 10
-        },
+},
 "33": {
 "Perception (RP Only)": 10
-        },
+},
 "34": {
 "Tactics/Any": 10
-        },
+},
 "35": {
 "Leadership": 10
-        },
+},
 "36": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "37" : {
 "Negotiation": 10
-        },
+},
 "38": {
 "Perception (RP Only)": 10
-        },
+},
 "39": {
 "Tactics/Any": 10
-        },
+},
 "40": {
 "Leadership": 10
-        },
+},
 "41": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "42" : {
 "Negotiation": 10
-        },
+},
 "43": {
 "Perception (RP Only)": 10
-        },
+},
 "44": {
 "Tactics/Any": 10
-        },
+},
 "45": {
 "Leadership": 10
-        },
+},
 "46": {
 "Melee Weapons (RP Only)": 10
-        },
+},
 "47" : {
 "Negotiation": 10
-        },
+},
 "48": {
 "Perception (RP Only)": 10
-        },
+},
 "49": {
 "Tactics/Any": 10
-        }
-    },
+}
+},
 "flexibleXPMetaSkills": {
 "0": { },
 "1": {},
@@ -383,158 +383,158 @@
 "47": {},
 "48": { },
 "49": {}
-    },
+},
 "flexibleXPAbilities": {
 "0": {
-"atow_combat_sense": 100
-        },
+"atow_combat_sense": 150
+},
 "1" : {
-"atow_fast_learner": 100
-        },
+"atow_fast_learner": 150
+},
 "2": {
-"atow_sixth_sense": 100
-        },
+"atow_sixth_sense": 150
+},
 "3": {
-"exceptional_attribute_strength": 100
-        },
+"exceptional_attribute_strength": 150
+},
 "4": {
-"exceptional_attribute_body": 100
-        },
+"exceptional_attribute_body": 150
+},
 "5": {
-"exceptional_attribute_reflexes": 100
-        },
+"exceptional_attribute_reflexes": 150
+},
 "6" : {
-"exceptional_attribute_dexterity": 100
-        },
+"exceptional_attribute_dexterity": 150
+},
 "7": {
-"exceptional_attribute_intelligence": 100
-        },
+"exceptional_attribute_intelligence": 150
+},
 "8": {
-"exceptional_attribute_willpower": 100
-        },
+"exceptional_attribute_willpower": 150
+},
 "9": {
-"exceptional_attribute_charisma": 100
-        },
+"exceptional_attribute_charisma": 150
+},
 "10": {
-"atow_combat_sense": 100
-        },
+"atow_combat_sense": 150
+},
 "11" : {
-"atow_fast_learner": 100
-        },
+"atow_fast_learner": 150
+},
 "12": {
-"atow_sixth_sense": 100
-        },
+"atow_sixth_sense": 150
+},
 "13": {
-"exceptional_attribute_strength": 100
-        },
+"exceptional_attribute_strength": 150
+},
 "14": {
-"exceptional_attribute_body": 100
-        },
+"exceptional_attribute_body": 150
+},
 "15": {
-"exceptional_attribute_reflexes": 100
-        },
+"exceptional_attribute_reflexes": 150
+},
 "16" : {
-"exceptional_attribute_dexterity": 100
-        },
+"exceptional_attribute_dexterity": 150
+},
 "17": {
-"exceptional_attribute_intelligence": 100
-        },
+"exceptional_attribute_intelligence": 150
+},
 "18": {
-"exceptional_attribute_willpower": 100
-        },
+"exceptional_attribute_willpower": 150
+},
 "19": {
-"exceptional_attribute_charisma": 100
-        },
+"exceptional_attribute_charisma": 150
+},
 "20": {
-"atow_combat_sense": 100
-        },
+"atow_combat_sense": 150
+},
 "21" : {
-"atow_fast_learner": 100
-        },
+"atow_fast_learner": 150
+},
 "22": {
-"atow_sixth_sense": 100
-        },
+"atow_sixth_sense": 150
+},
 "23": {
-"exceptional_attribute_strength": 100
-        },
+"exceptional_attribute_strength": 150
+},
 "24": {
-"exceptional_attribute_body": 100
-        },
+"exceptional_attribute_body": 150
+},
 "25": {
-"exceptional_attribute_reflexes": 100
-        },
+"exceptional_attribute_reflexes": 150
+},
 "26" : {
-"exceptional_attribute_dexterity": 100
-        },
+"exceptional_attribute_dexterity": 150
+},
 "27": {
-"exceptional_attribute_intelligence": 100
-        },
+"exceptional_attribute_intelligence": 150
+},
 "28": {
-"exceptional_attribute_willpower": 100
-        },
+"exceptional_attribute_willpower": 150
+},
 "29": {
-"exceptional_attribute_charisma": 100
-        },
+"exceptional_attribute_charisma": 150
+},
 "30": {
-"atow_combat_sense": 100
-        },
+"atow_combat_sense": 150
+},
 "31" : {
-"atow_fast_learner": 100
-        },
+"atow_fast_learner": 150
+},
 "32": {
-"atow_sixth_sense": 100
-        },
+"atow_sixth_sense": 150
+},
 "33": {
-"exceptional_attribute_strength": 100
-        },
+"exceptional_attribute_strength": 150
+},
 "34": {
-"exceptional_attribute_body": 100
-        },
+"exceptional_attribute_body": 150
+},
 "35": {
-"exceptional_attribute_reflexes": 100
-        },
+"exceptional_attribute_reflexes": 150
+},
 "36" : {
-"exceptional_attribute_dexterity": 100
-        },
+"exceptional_attribute_dexterity": 150
+},
 "37": {
-"exceptional_attribute_intelligence": 100
-        },
+"exceptional_attribute_intelligence": 150
+},
 "38": {
-"exceptional_attribute_willpower": 100
-        },
+"exceptional_attribute_willpower": 150
+},
 "39": {
-"exceptional_attribute_charisma": 100
-        },
+"exceptional_attribute_charisma": 150
+},
 "40": {
-"atow_combat_sense": 100
-        },
+"atow_combat_sense": 150
+},
 "41" : {
-"atow_fast_learner": 100
-        },
+"atow_fast_learner": 150
+},
 "42": {
-"atow_sixth_sense": 100
-        },
+"atow_sixth_sense": 150
+},
 "43": {
-"exceptional_attribute_strength": 100
-        },
+"exceptional_attribute_strength": 150
+},
 "44": {
-"exceptional_attribute_body": 100
-        },
+"exceptional_attribute_body": 150
+},
 "45": {
-"exceptional_attribute_reflexes": 100
-        },
+"exceptional_attribute_reflexes": 150
+},
 "46" : {
-"exceptional_attribute_dexterity": 100
-        },
+"exceptional_attribute_dexterity": 150
+},
 "47": {
-"exceptional_attribute_intelligence": 100
-        },
+"exceptional_attribute_intelligence": 150
+},
 "48": {
-"exceptional_attribute_willpower": 100
-        },
+"exceptional_attribute_willpower": 150
+},
 "49": {
-"exceptional_attribute_charisma": 100
-        }
-    },
+"exceptional_attribute_charisma": 150
+}
+},
 "flexibleXPPickCount": 1
 }
