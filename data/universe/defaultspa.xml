@@ -1349,9 +1349,9 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>compulsion_inner_sphere_hate</lookupName>
-        <displayName>Trivial Compulsion - Hates the Inner Sphere (ATOW)</displayName>
+        <displayName>Serious Compulsion - Hates the Inner Sphere (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
-        <xpCost>-100</xpCost>
+        <xpCost>-200</xpCost>
         <weight>1</weight>
         <skillPrereq />
     </ability>
