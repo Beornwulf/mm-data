@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,122 +12,119 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "52eff4d8-c4af-48ce-bfb0-b8984b3c6d23",
-"version": {
-"major": 0,
-"minor": 50,
-"patch": 7,
-"extra": ""
+    "id" : "52eff4d8-c4af-48ce-bfb0-b8984b3c6d23",
+    "version" : {
+        "major" : 0,
+        "minor" : 50,
+        "patch" : 7,
+        "extra" : ""
     },
-"xpCost": 240,
-"source" : "Era Report 2750",
-"name": "Rasalhague Military District (2400)",
-"flavorText": "I come from the Rasalhague Military District, where the Dragon’s rule is new and our loyalty is tested each day. To endure under Kurita’s shadow is to learn strength—or be broken.",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear" : 2511,
-"maximumYear": 9999,
-"randomWeight": 1.0,
-"lifeStages": [
+    "xpCost" : 240,
+    "source" : "Era Report 2750",
+    "name" : "Rasalhague Military District (2400)",
+    "flavorText" : "I come from the Rasalhague Military District, where the Dragon’s rule is new and our loyalty is tested each day. To endure under Kurita’s shadow is to learn strength—or be broken.",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 2511,
+    "maximumYear" : 9999,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
         "SUB_AFFILIATION"
     ],
-"categories": [
+    "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
-"isPlayerRestricted": false,
-"requirementsFactions": {
-"0": [
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
             "DC"
         ]
     },
-    "requirementsLifePath": {
-    "0": []
+    "requirementsLifePath" : {
+        "0" : [ ]
     },
-    "requirementsCategories": {
-    "0": {}
+    "requirementsCategories" : {
+        "0" : { }
     },
-"requirementsAttributes": {
-"0": {
-}
+    "requirementsAttributes" : {
+        "0" : { }
     },
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {
-"0": {}
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : {
+        "0" : { }
     },
-"requirementsSkills": {
-"0": { }
+    "requirementsSkills" : {
+        "0" : { }
     },
-"requirementsMetaSkills": {
-"0": {}
+    "requirementsMetaSkills" : {
+        "0" : { }
     },
-    "requirementsAbilities": {
-    "0": {}
+    "requirementsAbilities" : {
+        "0" : { }
     },
-"exclusionsFactions": {
-"0": []
+    "exclusionsFactions" : {
+        "0" : [ ]
     },
-    "exclusionsLifePath": {
-    "0": []
+    "exclusionsLifePath" : {
+        "0" : [ ]
     },
-    "exclusionsCategories": {
-    "0": {}
+    "exclusionsCategories" : {
+        "0" : { }
     },
-"exclusionsAttributes": {
-"0": {
-}
+    "exclusionsAttributes" : {
+        "0" : { }
     },
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {
-"0": {}
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : {
+        "0" : { }
     },
-"exclusionsSkills": {
-"0": { }
+    "exclusionsSkills" : {
+        "0" : { }
     },
-"exclusionsMetaSkills": {
-"0": {}
+    "exclusionsMetaSkills" : {
+        "0" : { }
     },
-    "exclusionsAbilities": {
-    "0": {}
+    "exclusionsAbilities" : {
+        "0" : { }
     },
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": 50
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 50
         }
     },
-        "fixedXPFlexibleAttribute": {},
-        "fixedXPTraits": {
-"0": {}
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : { }
     },
-"fixedXPSkills": {
-"0": {
-"Negotiation": 20,
-"Streetwise/Any (RP Only)": 20,
-"Art/Poetry (RP Only)": 10,
-"Language/Any (RP Only)": 25,
-"Perception (RP Only)" : 25
+    "fixedXPSkills" : {
+        "0" : {
+            "Negotiation" : 20,
+            "Streetwise/Any (RP Only)" : 20,
+            "Art/Poetry (RP Only)" : 10,
+            "Language/Any (RP Only)" : 25,
+            "Perception (RP Only)" : 25
         }
     },
-"fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_INTEREST": 15
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 15
         }
     },
-"fixedXPAbilities": {
-"0": {
-"compulsion_xenophobia": 50,
-"compulsion_faction_loyalty": 25
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_xenophobia" : 50,
+            "compulsion_faction_loyalty" : 25
         }
     },
-        "flexibleXPAttributes": {},
-        "flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
-"flexibleXPAbilities": {
-},
-"flexibleXPPickCount": 0
+    "flexibleXPAttributes" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCount" : 0
 }

@@ -16,32 +16,34 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "3aaa3877-3233-4d49-bf51-e1f21bbccc6f",
+    "id" : "391977d6-7b25-449a-bc80-37207492a729",
     "version" : {
         "major" : 0,
         "minor" : 50,
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
-    "source" : "Era Digest: Golden Century",
-    "name" : "Homeworld Clan (2800)",
-    "flavorText" : "I was born from discipline, bred for war, and bound by honor. The Clans are not a dream—they are the perfection the Inner Sphere could never achieve.",
+    "xpCost" : 60,
+    "source" : "Era Report 3052",
+    "name" : "Tamar Pact",
+    "flavorText" : "I come from the Tamar Pact, forged on the frontier. Life here is harsh and demanding, but we endure with pride, for our courage is our shield.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 0,
-    "maximumYear" : 3024,
+    "maximumYear" : 9999,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CLAN"
+            "TamPact",
+            "TamP",
+            "NTamP"
         ]
     },
     "requirementsLifePath" : {
@@ -53,7 +55,9 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-    "requirementsFlexibleAttribute" : { },
+    "requirementsFlexibleAttribute" : {
+        "0" : null
+    },
     "requirementsTraits" : {
         "0" : { }
     },
@@ -78,12 +82,11 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-    "exclusionsFlexibleAttribute" : { },
+    "exclusionsFlexibleAttribute" : {
+        "0" : null
+    },
     "exclusionsTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : -10,
-            "PROPERTY" : 0
-        }
+        "0" : { }
     },
     "exclusionsSkills" : {
         "0" : { }
@@ -95,16 +98,21 @@
         "0" : { }
     },
     "fixedXPAttributes" : {
-        "0" : { }
+        "0" : {
+            "WILLPOWER" : 75
+        }
     },
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : { }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Interest/History (RP Only)" : 25,
-            "Protocols/Any (RP Only)" : 25
+            "Small Arms" : 10,
+            "Survival/Any (RP Only)" : 15,
+            "Stealth (RP Only)" : 10
         }
     },
     "fixedXPMetaSkills" : {
@@ -112,7 +120,7 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -200
+            "compulsion_faction_loyalty" : -50
         }
     },
     "flexibleXPAttributes" : { },
