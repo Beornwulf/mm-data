@@ -53,6 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
+"requirementsEdge": {},
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -78,6 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
+"exclusionsEdge": {},
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : {
@@ -100,6 +102,7 @@
             "INTELLIGENCE" : 30
         }
     },
+"fixedXPEdge" : {},
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
@@ -128,6 +131,8 @@
         }
     },
     "flexibleXPAttributes" : { },
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

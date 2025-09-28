@@ -53,6 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
+"requirementsEdge": {},
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -80,6 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
+"exclusionsEdge": {},
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -100,6 +102,8 @@
             "WILLPOWER" : 25
         }
     },
+"fixedXPEdge": {
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -126,6 +130,7 @@
         }
     },
     "flexibleXPAttributes" : { },
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
