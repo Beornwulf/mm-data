@@ -133,7 +133,7 @@
 "0" : {
 "compulsion_other_faction_hate": -100,
 "flaw_introvert": -30,
-"compulsion_inner_sphere_hate": 100
+"compulsion_inner_sphere_hate": -100
 }
 },
 "flexibleXPAttributes": {},
