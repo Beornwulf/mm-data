@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3048,
-    "maximumYear" : 3062,
+"maximumYear": 3059,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"

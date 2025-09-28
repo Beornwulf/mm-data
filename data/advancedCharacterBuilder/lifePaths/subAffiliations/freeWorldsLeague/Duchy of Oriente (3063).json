@@ -16,20 +16,20 @@
 # affiliated with Microsoft.
 
 {
-"id": "8d1a5ee8-9fcc-4576-94fb-980b2a5ca8f1",
+"id": "f2b84665-ffd1-4bca-91c5-ea35fba36a4d",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
 },
-"xpCost": 95,
-"source" : "Era Report 3062",
-"name": "Marian Hegemony (3052)",
-"flavorText": "I come from the Marian Hegemony, where order is strength and conquest is duty. Discipline binds us, and through it we carve our place among the stars.",
+"xpCost": 125,
+"source" : "A Time of War",
+"name": "Duchy of Oriente (3063)",
+"flavorText": "I come from the Duchy of Oriente, steadfast and proud within the League. Our loyalty is deep, our traditions strong, and through both we hold the realm together even as others falter.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 3052,
+"minimumYear" : 3063,
 "maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
@@ -42,7 +42,8 @@
 "requirementsFactions": {
 "0": [
 "CS",
-"MH",
+"FWLR",
+"FWL",
 "WOB"
 ]
 },
@@ -106,46 +107,44 @@
 "0": {}
 },
 "fixedXPAttributes": {
-"0": {
-"WILLPOWER": 100
-}
+"0": {}
 },
 "fixedXPEdge": {
 "0": 0
 },
-"fixedXPFlexibleAttribute": {
+"fixedXPFlexibleAttribute" : {
 "0": null
 },
 "fixedXPTraits": {
 "0": {
-"REPUTATION": -175,
-"CONNECTIONS": 20
+"REPUTATION": 100
 }
 },
-"fixedXPSkills": {
-"0" : {
-"Streetwise/Any (RP Only)": 10,
-"Martial Arts (RP Only)": 10,
-"Strategy": 5,
-"Interest/History (RP Only)": 15,
-"Protocols/Any (RP Only)": 10
+"fixedXPSkills" : {
+"0": {
+"Negotiation": 15,
+"Appraisal (RP Only)" : 5
 }
 },
 "fixedXPMetaSkills": {
-"0": { }
-},
-"fixedXPAbilities": {
 "0": {
-"compulsion_mild_paranoia" : -25,
-"atow_toughness": 125
+"SUPPORT_TECHNICIAN": 5
 }
 },
-"flexibleXPAttributes" : {},
-"flexibleXPEdge": {},
-"flexibleXPFlexibleAttribute" : {},
-"flexibleXPTraits": {},
-"flexibleXPSkills" : {},
-"flexibleXPMetaSkills": {},
+"fixedXPAbilities": {
+"0": {}
+},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {
+},
+"flexibleXPFlexibleAttribute": {
+},
+"flexibleXPTraits": {
+},
+"flexibleXPSkills": {
+},
+"flexibleXPMetaSkills": {
+},
 "flexibleXPAbilities": {
 },
 "flexibleXPPickCount": 0

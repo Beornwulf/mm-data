@@ -26,11 +26,11 @@
     "xpCost" : 105,
     "source" : "Era Report 2750",
     "name" : "Coventry Province (2400)",
-    "flavorText" : "I come from the Coventry Province, proud to serve the Commonwealth. Our factories and fields alike strengthen Lyran might, and our loyalty to Tharkad is the bedrock of our lives.",
+"flavorText": "I come from the Coventry Province, proud to serve House Steiner. Our factories and fields alike strengthen Lyran might, and our loyalty to Tharkad is the bedrock of our lives.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 0,
-    "maximumYear" : 9999,
+"maximumYear": 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
