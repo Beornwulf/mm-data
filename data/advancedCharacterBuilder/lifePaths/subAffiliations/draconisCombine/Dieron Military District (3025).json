@@ -16,117 +16,126 @@
 # affiliated with Microsoft.
 
 {
-"id": "048db0e5-eb19-4106-90f8-6c95339e1eba",
+"id": "8957fcfd-3fcd-4277-b6c5-9e3fd1ebbcb3",
 "version": {
 "major": 0,
 "minor": 50,
 "patch": 7,
 "extra": ""
-    },
-"xpCost": 175,
-"source" : "Era Report 2750",
-"name": "Pesht Military District (2400)",
-"flavorText": "I come from the Pesht Military District, heart of the Dragon’s realm. Here, service to Kurita is life itself, and every act is weighed against honor and obedience.",
+},
+"xpCost": 100,
+"source" : "A Time of War",
+"name": "Dieron Military District (3025)",
+"flavorText": "I come from the Dieron Military District, where duty is forged in vigilance. Here, obedience is absolute, and in serving without question I honor the Dragon.",
 "age": 0,
 "xpDiscount": 0,
-"minimumYear" : 0,
-"maximumYear": 3024,
+"minimumYear" : 3025,
+"maximumYear": 9999,
 "randomWeight": 1.0,
 "lifeStages": [
-        "SUB_AFFILIATION"
-    ],
+"SUB_AFFILIATION"
+],
 "categories": [
-        "GENERAL_INNER_SPHERE"
-    ],
+"GENERAL_INNER_SPHERE"
+],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-            "DC"
-        ]
-    },
-    "requirementsLifePath": {
-    "0": []
-    },
-    "requirementsCategories": {
-    "0": {}
-    },
+"DC"
+]
+},
+"requirementsLifePath": {
+"0": []
+},
+"requirementsCategories": {
+"0": {}
+},
 "requirementsAttributes": {
 "0": {
 }
-    },
-"requirementsFlexibleAttribute": {},
+},
+"requirementsFlexibleAttribute": {
+"0": null
+},
 "requirementsTraits": {
 "0": {}
-    },
+},
 "requirementsSkills": {
-"0": { }
-    },
-"requirementsMetaSkills": {
 "0": {}
-    },
-    "requirementsAbilities": {
-    "0": {}
-    },
+},
+"requirementsMetaSkills": {
+"0" : {}
+},
+"requirementsAbilities": {
+"0": {}
+},
 "exclusionsFactions": {
 "0": []
-    },
-    "exclusionsLifePath": {
-    "0": []
-    },
-    "exclusionsCategories": {
-    "0": {}
-    },
+},
+"exclusionsLifePath": {
+"0": []
+},
+"exclusionsCategories": {
+"0": {}
+},
 "exclusionsAttributes": {
 "0": {
 }
-    },
-"exclusionsFlexibleAttribute": {},
+},
+"exclusionsFlexibleAttribute": {
+"0": null
+},
 "exclusionsTraits": {
 "0": {}
-    },
+},
 "exclusionsSkills": {
-"0": { }
-    },
-"exclusionsMetaSkills": {
 "0": {}
-    },
-    "exclusionsAbilities": {
-    "0": {}
-    },
+},
+"exclusionsMetaSkills": {
+"0" : {}
+},
+"exclusionsAbilities": {
+"0": {}
+},
 "fixedXPAttributes": {
 "0": {
-"WILLPOWER": 100
-        }
-    },
-        "fixedXPFlexibleAttribute": {},
-        "fixedXPTraits": {
+"INTELLIGENCE": 50,
+"WILLPOWER": -50
+}
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
+"fixedXPTraits": {
 "0": {
+"CONNECTIONS": 60,
+"ENEMY": -100,
 "WEALTH": 50
-        }
-    },
+}
+},
 "fixedXPSkills": {
 "0": {
-"Survival/Any (RP Only)": 20,
-"Language/Any (RP Only)": 5,
-"Martial Arts (RP Only)": 15,
-"Protocols/Any (RP Only)": 15
-        }
-    },
+"Negotiation": 5,
+"Language/Any (RP Only)": 15,
+"Interest/History (RP Only)": 5
+}
+},
 "fixedXPMetaSkills": {
 "0": {
-"SUPPORT_TECHNICIAN": 20
-        }
-    },
+"ROLEPLAY_ART": 15
+}
+},
 "fixedXPAbilities": {
-"0" : {
-"compulsion_xenophobia": -50
-        }
-    },
+"0": {
+"compulsion_xenophobia": 50
+}
+},
 "flexibleXPAttributes": {},
-"flexibleXPFlexibleAttribute": {},
+"flexibleXPFlexibleAttribute": { },
 "flexibleXPTraits": {},
-"flexibleXPSkills": {},
+"flexibleXPSkills": { },
 "flexibleXPMetaSkills": {},
-"flexibleXPAbilities": {},
+"flexibleXPAbilities": {
+},
 "flexibleXPPickCount": 0
 }

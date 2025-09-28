@@ -23,7 +23,7 @@
 "patch": 7,
 "extra": ""
     },
-"xpCost": 40,
+"xpCost": 50,
 "source" : "A Time of War",
 "name": "Draconis Combine (3101)",
 "flavorText": "I am Combine, shaped by centuries of discipline and sacrifice. The Dragon is eternal, and through my honor and loyalty, so too am I.",
@@ -125,26 +125,72 @@
 "flexibleXPAttributes": {
 "0": {
 },
-"1" : {}
+"1" : {},
+"2": {},
+"3" : {},
+"4": {},
+"5" : {}
+},
+"flexibleXPFlexibleAttribute": {
+"1": null,
+"2": null,
+"3": null,
+"4": null,
+"5": null
     },
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {
+"flexibleXPTraits" : {
 "0": {},
-"1": {}
+"1": { },
+"2": {},
+"3": { },
+"4": {},
+"5": { }
     },
 "flexibleXPSkills": {
-"0": { },
-"1": {}
+"0": {
+"Archery (RP Only)" : 10
+},
+"1": {
+"Melee Weapons (RP Only)": 10
+},
+"2": {
+"Thrown Weapons (RP Only)": 10
+},
+"3": {
+"Archery (RP Only)": 10
+},
+"4": {
+"Melee Weapons (RP Only)": 10
+},
+"5": {
+"Thrown Weapons (RP Only)" : 10
+}
     },
 "flexibleXPMetaSkills": {
 "0": {},
-"1": {}
+"1": {},
+"2": {},
+"3": {},
+"4": {},
+"5": {}
     },
-    "flexibleXPAbilities": {
-    "0": {
-    "pain_resistance": 100
+"flexibleXPAbilities" : {
+"0": {
+"pain_resistance": 100
         },
 "1": {
+"pain_resistance": 100
+},
+"2": {
+"pain_resistance": 100
+},
+"3": {
+"atow_combat_sense" : 100
+},
+"4": {
+"atow_combat_sense": 100
+},
+"5": {
 "atow_combat_sense": 100
         }
     },
