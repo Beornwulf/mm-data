@@ -36,8 +36,8 @@
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN",
-        "GENERAL_INNER_SPHERE"
+"GENERAL_INNER_SPHERE",
+"GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
@@ -54,6 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
+"requirementsEdge": {},
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,6 +80,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
+"exclusionsEdge": {},
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -95,6 +97,7 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
+"fixedXPEdge": {},
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : { }
@@ -109,6 +112,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -53,6 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
+"requirementsEdge": {},
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -80,6 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
+"exclusionsEdge": {},
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -101,6 +103,7 @@
             "INTELLIGENCE" : 25
         }
     },
+"fixedXPEdge": {},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -131,6 +134,7 @@
         "3" : { },
         "4" : { }
     },
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : {
         "0" : null,
         "1" : null,
