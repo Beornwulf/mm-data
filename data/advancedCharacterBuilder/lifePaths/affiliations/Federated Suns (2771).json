@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 35,
+        "xpCost": 110,
     "source" : "A Time of War",
     "name" : "Federated Suns (2771)",
     "flavorText" : "I am Davion, forged in fire as the Star League collapses. Though chaos spreads, I stand for duty and for the Suns’ promise—that freedom is worth every sacrifice.",
@@ -42,7 +42,6 @@
     "requirementsFactions" : {
         "0" : [
             "CS",
-            "ROS",
             "FS"
         ]
     },
@@ -128,10 +127,10 @@
     },
     "flexibleXPSkills" : {
         "0" : {
-            "Tactics/Any" : 25
+    "Tactics/Any": 100
         },
         "1" : {
-            "Strategy" : 25
+"Strategy": 100
         }
     },
     "flexibleXPMetaSkills" : {

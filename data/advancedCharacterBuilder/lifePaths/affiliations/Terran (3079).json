@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 250,
+        "xpCost": 100,
     "source" : "Field Manual 3085",
     "name" : "Terran (3079)",
     "flavorText" : "I am Terran in an age of ruins and ambition—our cradle is coveted by all, yet I endure, carrying the weight of every empire that claimed us.",
@@ -99,8 +99,12 @@
             "INTELLIGENCE" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -150
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100
@@ -139,7 +143,8 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

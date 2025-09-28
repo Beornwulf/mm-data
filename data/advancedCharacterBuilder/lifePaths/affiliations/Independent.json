@@ -103,13 +103,17 @@
             "WILLPOWER" : 20
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 20
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -20,
-            "REPUTATION" : -10,
-            "WEALTH" : -10
+            "WEALTH": -10,
+            "REPUTATION": -10
         }
     },
     "fixedXPSkills" : {
@@ -122,7 +126,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

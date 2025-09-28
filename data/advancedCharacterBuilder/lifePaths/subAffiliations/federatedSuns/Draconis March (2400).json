@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 15,
+        "xpCost": 40,
     "source" : "Era Report 2750",
     "name" : "Draconis March (2400)",
     "flavorText" : "I come from the Draconis March, ever watchful of the Dragon across our border. Service here is shaped by vigilance and steel, for Kurita’s shadow is the measure of our resolve.",
@@ -42,6 +42,7 @@
     "requirementsFactions" : {
         "0" : [
             "CS",
+            "WOB",
             "FS",
             "FC"
         ]
@@ -98,8 +99,12 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 25
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -117,11 +122,11 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -50
+    "compulsion_other_faction_hate": -50
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

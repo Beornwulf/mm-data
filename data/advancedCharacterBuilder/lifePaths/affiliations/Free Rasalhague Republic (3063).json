@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 25,
     "source" : "A Time of War",
     "name" : "Free Rasalhague Republic (3063)",
     "flavorText" : "I grew up in a republic carved from struggle, and though the Clans circle like wolves, I’ll fight to prove Rasalhague’s spirit cannot be broken.",
@@ -100,8 +100,12 @@
             "WILLPOWER" : 25
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -25
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -119,7 +123,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

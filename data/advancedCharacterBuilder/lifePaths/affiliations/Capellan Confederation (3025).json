@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 25,
     "source" : "Era Report: 3052",
     "name" : "Capellan Confederation (3025)",
     "flavorText" : "I am Capellan—dismissed as weak, mocked as broken. Let them laugh. We endure, we sharpen in silence, and when the Chancellor calls, we strike with all we have left.",
@@ -118,11 +118,12 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150
+"compulsion_mild_paranoia": -150,
+"exceptional_attribute_edge": 50
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+    "flexibleXPEdge": { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -41,7 +41,8 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CW"
+"CW",
+"CWIE"
         ]
     },
     "requirementsLifePath" : {

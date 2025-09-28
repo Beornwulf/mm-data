@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 155,
+        "xpCost": 130,
     "source" : "Era Report 2750",
     "name" : "Lunar Citizen (2400)",
     "flavorText" : "I am a Lunar citizen, child of Earth’s shadow. Life here is harsh, but we carry the pride of living where humanity first reached beyond its cradle.",
@@ -97,12 +97,16 @@
         "0" : {
             "STRENGTH" : -20,
             "INTELLIGENCE" : 50,
-            "BODY" : -25,
-            "WILLPOWER" : 40
+"WILLPOWER": 40,
+"BODY": -25
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -25
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : 25,

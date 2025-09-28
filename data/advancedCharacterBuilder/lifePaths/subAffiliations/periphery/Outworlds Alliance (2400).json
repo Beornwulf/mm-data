@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 300,
+        "xpCost": 250,
     "source" : "Era Report 2750",
     "name" : "Outworlds Alliance (2400)",
     "flavorText" : "I come from the Outworlds Alliance, where peace is our strength. We choose unity over conquest, and though the Inner Sphere calls us weak, we know the true power of living free from endless war.",
@@ -97,12 +97,16 @@
     "fixedXPAttributes" : {
         "0" : {
             "DEXTERITY" : 50,
-            "WILLPOWER" : 50,
-            "INTELLIGENCE" : -50
+"INTELLIGENCE": -50,
+"WILLPOWER": 50
         }
     },
-            "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0" : -50
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -50
@@ -130,7 +134,8 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 290,
+        "xpCost": 240,
     "source" : "Unofficial",
     "name" : "Star League Service - Outworlds Alliance",
     "flavorText" : "I serve the Star League as one who comes from the Outworlds, where peace was our creed. If unity must be defended with steel, then let my hands carry that burden.",
@@ -99,8 +99,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": -50
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -122,7 +126,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

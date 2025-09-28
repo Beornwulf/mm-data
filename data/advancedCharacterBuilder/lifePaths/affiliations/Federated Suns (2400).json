@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 35,
+        "xpCost": 110,
     "source" : "A Time of War",
     "name" : "Federated Suns (2400)",
     "flavorText" : "I fight for the Federated Suns because I believe in something bigger than myself—liberty, unity, and the fire to defend both at any cost.",
@@ -126,10 +126,10 @@
     },
     "flexibleXPSkills" : {
         "0" : {
-            "Strategy" : 25
+    "Strategy": 100
         },
         "1" : {
-            "Tactics/Any" : 25
+"Tactics/Any": 100
         }
     },
     "flexibleXPMetaSkills" : {

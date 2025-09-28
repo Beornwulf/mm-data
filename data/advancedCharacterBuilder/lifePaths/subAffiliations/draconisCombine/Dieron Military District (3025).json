@@ -41,6 +41,8 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
+"CS",
+"WOB",
             "DC"
         ]
     },

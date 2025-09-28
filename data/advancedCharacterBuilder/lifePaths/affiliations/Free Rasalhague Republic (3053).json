@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 90,
+        "xpCost": 40,
     "source" : "Era Report: 3052",
     "name" : "Free Rasalhague Republic (3053)",
     "flavorText" : "I was raised in the dawn of our Republic, when hope felt fragile but real—and I’ll fight to see that hope grow stronger than the chains we broke.",
@@ -117,10 +117,12 @@
         }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+"0": {
+"compulsion_merc_hate": -50
+}
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

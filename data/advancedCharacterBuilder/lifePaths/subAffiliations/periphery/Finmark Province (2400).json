@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 125,
+        "xpCost": 150,
     "source" : "Era Report 2750",
     "name" : "Finmark Province (2400)",
     "flavorText" : "I come from Finmark, where the Republic’s reach pushes ever outward. Every day is discovery, every step a chance to carve our mark into the unknown.",
@@ -99,8 +99,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": 25
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -130,7 +134,7 @@
         "5" : { },
         "6" : { }
     },
-"flexibleXPEdge" : {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

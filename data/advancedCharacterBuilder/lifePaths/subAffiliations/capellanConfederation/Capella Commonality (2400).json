@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 45,
+        "xpCost": 100,
     "source" : "Era Report 2750",
     "name" : "Capella Commonality (2400)",
     "flavorText" : "I come from the heart of the Confederation, where loyalty is life. To serve the Chancellor is not duty alone; it is the highest honor my blood can carry.",
@@ -96,8 +96,12 @@
     "fixedXPAttributes" : {
         "0" : { }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 55
+},
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 10,
@@ -117,7 +121,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

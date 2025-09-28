@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 100,
+        "xpCost": 50,
     "source" : "A Time of War",
     "name" : "Clan Diamond Shark (3025)",
     "flavorText" : "I am Clan Diamond Shark—clever, adaptive, and always seeking opportunity. My strength lies in trade as much as in battle, for survival favors those who know when to strike and when to bargain.",
@@ -103,7 +103,9 @@
             "INTELLIGENCE" : 25
         }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": -50
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -128,8 +130,7 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

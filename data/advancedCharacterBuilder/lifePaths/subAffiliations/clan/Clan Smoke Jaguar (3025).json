@@ -23,14 +23,14 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 100,
+        "xpCost": 50,
     "source" : "Era Report 3052",
     "name" : "Clan Smoke Jaguar (3025)",
     "flavorText" : "I am Clan Smoke Jaguar—fierce, relentless, and unmerciful. My strength is domination, and through battle I carve the only truth that matters: victory.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+"maximumYear": 3059,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -104,7 +104,9 @@
             "REFLEXES" : 50
         }
     },
-"fixedXPEdge" : {},
+"fixedXPEdge" : {
+"0": -50
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -124,13 +126,13 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -100,
+    "compulsion_other_faction_dislike": -100,
             "atow_combat_sense" : 100,
             "compulsion_unpleasant_personality" : -100
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+    "flexibleXPEdge": { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

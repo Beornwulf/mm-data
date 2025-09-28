@@ -119,7 +119,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "atow_citizenship" : 50,
-            "compulsion_faction_loyalty" : -125
+"compulsion_other_faction_hate": -125
         }
     },
     "flexibleXPAttributes" : { },

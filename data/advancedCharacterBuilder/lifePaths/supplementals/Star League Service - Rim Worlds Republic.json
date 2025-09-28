@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 290,
+        "xpCost": 240,
     "source" : "Unofficial",
     "name" : "Star League Service - Rim Worlds Republic",
     "flavorText" : "I serve the Star League as a citizen of the Rim Worlds Republic—proof that even those on the fringe can stand in the heart of history and shape its course.",
@@ -99,8 +99,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": -50
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -122,7 +126,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -23,14 +23,14 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 240,
+        "xpCost": 151,
     "source" : "Era Report 2750",
     "name" : "Rasalhague Military District (2400)",
     "flavorText" : "I come from the Rasalhague Military District, where the Dragon’s rule is new and our loyalty is tested each day. To endure under Kurita’s shadow is to learn strength—or be broken.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 2511,
-    "maximumYear" : 9999,
+"maximumYear": 3034,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -41,6 +41,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
+"CS",
             "DC"
         ]
     },
@@ -98,8 +99,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -40
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -119,16 +124,42 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_xenophobia" : 50,
-            "compulsion_faction_loyalty" : 25
+        "compulsion_xenophobia" : 50
         }
     },
-    "flexibleXPAttributes" : { },
-        "flexibleXPEdge": {},
-    "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCount" : 0
+"flexibleXPAttributes": {
+"0": {},
+"1": {}
+},
+"flexibleXPEdge" : {
+"0": 1,
+"1": 1
+},
+"flexibleXPFlexibleAttribute": {
+"0": null,
+"1": null
+},
+"flexibleXPTraits": {
+"0": {},
+"1": {
+}
+},
+"flexibleXPSkills": {
+"0": {},
+"1": {}
+},
+"flexibleXPMetaSkills": {
+"0": {
+},
+"1" : {}
+},
+"flexibleXPAbilities": {
+"0": {
+"compulsion_parent_faction_hate": -25
+},
+"1": {
+"compulsion_other_faction_hate": -25
+}
+},
+"flexibleXPPickCount": 1
 }

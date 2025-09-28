@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 140,
+        "xpCost": 90,
     "source" : "A Time of War",
     "name" : "Lyran Commonwealth (2400)",
     "flavorText" : "I was born into industry, raised on ambition, and trained to win—because in the Commonwealth, strength isn’t just power, it’s policy.",
@@ -98,8 +98,12 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 100,
@@ -124,7 +128,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+        "flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

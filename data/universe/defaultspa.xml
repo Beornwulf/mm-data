@@ -963,6 +963,14 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
         <skillPrereq />
     </ability>
     <ability>
+        <lookupName>exceptional_attribute_edge</lookupName>
+        <displayName>Exceptional Attribute - Edge (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
         <lookupName>eagle_eyes</lookupName>
         <xpCost>100</xpCost>
         <weight>2</weight>
@@ -1324,6 +1332,40 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <skillPrereq />
     </ability>
     <ability>
+        <lookupName>compulsion_other_faction_dislike</lookupName>
+        <displayName>Trivial Compulsion - Dislikes Other Factions (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_parent_faction_dislike</lookupName>
+        <displayName>Trivial Compulsion - Dislikes Own Faction (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_inner_sphere_hate</lookupName>
+        <displayName>Trivial Compulsion - Hates the Inner Sphere (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-100</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_clan_hate</lookupName>
+        <displayName>Serious Compulsion - Hates the Clans/Aliens (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now).
+
+If taken by an Inner Sphere character prior to the Clan Invasion, this SPA represents a fear of a mysterious threat from beyond the Periphery.]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
         <lookupName>compulsion_gambling</lookupName>
         <displayName>Trivial Compulsion - Gambling (ATOW)</displayName>
         <desc><![CDATA[Each month the character's Wealth Trait will randomly improve or decrease.
@@ -1349,6 +1391,46 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <desc><![CDATA[Improve Loyalty by 1 if the character's faction matches the campaign faction. Otherwise, reduce Loyalty by 4.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_other_faction_hate</lookupName>
+        <displayName>Significant Compulsion - Hates Other Factions (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_merc_hate</lookupName>
+        <displayName>Significant Compulsion - Hates Mercenaries (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_pirate_hate</lookupName>
+        <displayName>Significant Compulsion - Hates Pirates (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_parent_faction_hate</lookupName>
+        <displayName>Significant Compulsion - Hates Own Faction (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <xpCost>-200</xpCost>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>compulsion_bionic_hate</lookupName>
+        <displayName>Significant Compulsion - Hates Bionics (ATOW)</displayName>
+        <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
         <weight>1</weight>
         <skillPrereq />

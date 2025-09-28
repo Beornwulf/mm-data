@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 175,
+        "xpCost": 150,
     "source" : "Era Report 2750",
     "name" : "Pesht Military District (2400)",
     "flavorText" : "I come from the Pesht Military District, heart of the Dragon’s realm. Here, service to Kurita is life itself, and every act is weighed against honor and obedience.",
@@ -41,6 +41,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
+"CS",
             "DC"
         ]
     },
@@ -98,8 +99,12 @@
             "WILLPOWER" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -25
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 50
@@ -124,7 +129,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

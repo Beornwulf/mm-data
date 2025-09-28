@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 200,
+        "xpCost": 250,
     "source" : "Era Report 2750",
     "name" : "Magistracy of Canopus (2400)",
     "flavorText" : "I come from the Magistracy of Canopus, where freedom is our birthright. In the Periphery we live by our own ways—rich in culture, proud in spirit, and beholden to no throne beyond our own.",
@@ -99,8 +99,12 @@
             "CHARISMA" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -122,8 +126,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

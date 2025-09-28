@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+"maximumYear": 3051,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -127,7 +127,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "atow_citizenship" : 50,
-            "compulsion_faction_loyalty" : -175
+"compulsion_other_faction_hate" : -175
         }
     },
     "flexibleXPAttributes" : { },

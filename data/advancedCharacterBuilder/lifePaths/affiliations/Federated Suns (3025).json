@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 35,
+        "xpCost": 110,
     "source" : "A Time of War",
     "name" : "Federated Suns (3025)",
     "flavorText" : "I am Davion, a soldier of the Federated Suns. Surrounded by enemies, I fight not for conquest, but to keep the light of freedom burning against the dark.",
@@ -128,10 +128,10 @@
     },
     "flexibleXPSkills" : {
         "0" : {
-            "Tactics/Any" : 25
+    "Tactics/Any": 100
         },
         "1" : {
-            "Strategy" : 25
+"Strategy": 100
         }
     },
     "flexibleXPMetaSkills" : {

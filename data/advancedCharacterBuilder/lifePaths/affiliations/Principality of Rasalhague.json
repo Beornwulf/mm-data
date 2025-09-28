@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 50,
+        "xpCost": 25,
     "source" : "Era Digest: Age of War",
     "name" : "Principality of Rasalhague",
     "flavorText" : "I was raised between empires that tried to own my name. I fight so my children grow up Rasalhagian—free, proud, and never conquered.",
@@ -98,8 +98,12 @@
             "WILLPOWER" : 25
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -25
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -117,7 +121,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

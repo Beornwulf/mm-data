@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 95,
+        "xpCost": 45,
     "source" : "A Time of War",
     "name" : "Lyran Commonwealth (2700)",
     "flavorText" : "I am Lyran, heir to wealth and industry. Though others mock our politics, I know our true strength lies in steel, trade, and the will to endure.",
@@ -99,8 +99,12 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 50,

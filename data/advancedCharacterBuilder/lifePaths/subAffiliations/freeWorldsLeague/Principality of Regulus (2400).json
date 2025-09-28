@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 215,
+        "xpCost": 115,
     "source" : "Era Report 2750",
     "name" : "Principality of Regulus (2400)",
     "flavorText" : "I come from the Principality of Regulus, proud jewel of the League. We serve the Captain-General, but never forget our own strength—for Regulus is more than a vassal, it is a power unto itself.",
@@ -120,7 +120,7 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : 50,
+"compulsion_parent_faction_dislike" : -50,
             "atow_gregarious" : 50
         }
     },

@@ -42,6 +42,7 @@
     "requirementsFactions" : {
         "0" : [
             "CS",
+            "WOB",
             "FC",
             "FS"
         ]

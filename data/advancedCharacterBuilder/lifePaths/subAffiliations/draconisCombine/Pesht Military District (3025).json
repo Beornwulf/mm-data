@@ -23,14 +23,14 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 125,
+        "xpCost": 100,
     "source" : "A Time of War",
     "name" : "Pesht Military District (3025)",
     "flavorText" : "I come from the Pesht Military District, where the Dragon’s rule is oldest and deepest. Here, obedience is tradition, and to serve with honor is the highest calling of life.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+"maximumYear": 3051,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -104,6 +104,7 @@
         }
     },
 "fixedXPEdge": {
+"0": -25
 },
     "fixedXPFlexibleAttribute" : {
         "0" : null
@@ -127,7 +128,7 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100
+"compulsion_other_faction_hate": -100
         }
     },
     "flexibleXPAttributes" : { },

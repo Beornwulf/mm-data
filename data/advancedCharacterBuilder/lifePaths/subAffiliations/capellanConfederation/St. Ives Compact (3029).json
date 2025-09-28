@@ -30,7 +30,7 @@
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 0,
-"maximumYear": 9999,
+"maximumYear": 3051,
 "randomWeight": 1.0,
 "lifeStages": [
 "SUB_AFFILIATION"
@@ -55,6 +55,7 @@
 "0": {
 }
 },
+"requirementsEdge": {},
 "requirementsFlexibleAttribute": {
 "0": null
 },
@@ -65,12 +66,13 @@
 "0": {}
 },
 "requirementsMetaSkills": {
-"0" : {}
+"0": {
+}
 },
 "requirementsAbilities": {
 "0": {}
 },
-"exclusionsFactions": {
+"exclusionsFactions" : {
 "0": []
 },
 "exclusionsLifePath": {
@@ -83,6 +85,7 @@
 "0": {
 }
 },
+"exclusionsEdge": {},
 "exclusionsFlexibleAttribute": {
 "0": null
 },
@@ -93,16 +96,20 @@
 "0": {}
 },
 "exclusionsMetaSkills": {
-"0" : {}
+"0": {
+}
 },
 "exclusionsAbilities": {
 "0": {}
 },
-"fixedXPAttributes": {
-"0": { }
+"fixedXPAttributes" : {
+"0": {}
+},
+"fixedXPEdge": {
+"0": 25
 },
 "fixedXPFlexibleAttribute": {
-"0": null
+"0" : null
 },
 "fixedXPTraits": {
 "0": {
@@ -115,7 +122,7 @@
 "Language/Any (RP Only)": 15
 }
 },
-"fixedXPMetaSkills" : {
+"fixedXPMetaSkills": {
 "0": {
 "ROLEPLAY_ART": 5
 }
@@ -126,10 +133,16 @@
 }
 },
 "flexibleXPAttributes": {},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
+"flexibleXPEdge": {
+},
+"flexibleXPFlexibleAttribute": {
+},
+"flexibleXPTraits": {
+},
+"flexibleXPSkills": {
+},
+"flexibleXPMetaSkills": {
+},
 "flexibleXPAbilities": {
 },
 "flexibleXPPickCount": 0

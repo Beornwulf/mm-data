@@ -110,8 +110,8 @@
     },
     "fixedXPTraits" : {
         "0" : {
-            "REPUTATION" : -50,
-            "EQUIPPED" : 25
+    "EQUIPPED": 25,
+"REPUTATION": -50
         }
     },
     "fixedXPSkills" : {
@@ -128,9 +128,9 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -50,
-            "compulsion_faction_pride" : -100,
-            "atow_toughness" : 40
+"atow_toughness": 40,
+"compulsion_other_faction_hate": -100,
+"flaw_impatient" : -50
         }
     },
     "flexibleXPAttributes" : { },

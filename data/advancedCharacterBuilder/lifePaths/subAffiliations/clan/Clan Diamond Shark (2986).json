@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 95,
+        "xpCost": 45,
     "source" : "Era Digest Golden Century",
     "name" : "Clan Diamond Shark (2986)",
     "flavorText" : "I am Clan Diamond Shark—astute, resilient, and ever-adapting. In trade I find strength, in cunning I find survival, and through both I secure my future.",
@@ -100,11 +100,13 @@
     "fixedXPAttributes" : {
         "0" : {
             "INTELLIGENCE" : 25,
-            "CHARISMA" : 25,
-            "WILLPOWER" : 10
+"WILLPOWER" : 10,
+"CHARISMA": 25
         }
     },
-"fixedXPEdge" : {},
+"fixedXPEdge" : {
+"0": -50
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -127,7 +129,7 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": { },
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

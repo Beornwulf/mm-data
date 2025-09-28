@@ -23,8 +23,8 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 100,
-    "source" : "Era Report: 2750",
+        "xpCost": 0,
+        "source" : "Unofficial",
     "name" : "Amaris Empire - Periphery",
     "flavorText" : "I serve the Empire because order demands a strong hand—and no one’s hand is stronger than ours. The weak may curse us, but they will kneel all the same.",
     "age" : 0,
@@ -98,8 +98,12 @@
             "WILLPOWER" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -100
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -40
@@ -115,7 +119,7 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -25
+        "compulsion_other_faction_dislike": -25
         }
     },
     "flexibleXPAttributes" : {
@@ -138,7 +142,8 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

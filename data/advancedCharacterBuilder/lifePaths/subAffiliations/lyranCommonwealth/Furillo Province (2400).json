@@ -43,6 +43,7 @@
         "0" : [
             "CS",
             "LA",
+            "WOB",
             "FC"
         ]
     },
@@ -121,7 +122,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "atow_fit" : 25,
-            "compulsion_faction_loyalty" : -50
+"compulsion_other_faction_hate": -50
         }
     },
     "flexibleXPAttributes" : {

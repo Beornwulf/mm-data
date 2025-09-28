@@ -41,6 +41,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
+"CS",
             "DC"
         ]
     },
@@ -118,9 +119,9 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -50,
             "compulsion_xenophobia" : 50,
-            "atow_patient" : 15
+"atow_patient": 15,
+"compulsion_other_faction_hate": -50
         }
     },
     "flexibleXPAttributes" : { },

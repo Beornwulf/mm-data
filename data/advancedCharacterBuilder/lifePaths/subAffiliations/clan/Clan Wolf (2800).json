@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 25,
+        "xpCost": 75,
     "source" : "Era Digest Golden Century",
     "name" : "Clan Wolf (2800)",
     "flavorText" : "I am Clan Wolf—fierce, cunning, and loyal to the path I choose. My strength is adaptability, and through it I claim victory where others fall.",
@@ -99,11 +99,13 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-            "INTELLIGENCE" : 25,
-            "WILLPOWER" : 25
+"WILLPOWER": 25,
+"INTELLIGENCE" : 25
         }
     },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": 50
+},
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },

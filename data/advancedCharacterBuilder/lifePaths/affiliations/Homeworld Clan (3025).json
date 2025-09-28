@@ -115,12 +115,11 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100,
-            "compulsion_faction_pride" : -100
+"compulsion_inner_sphere_hate": -200
         }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": { },
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

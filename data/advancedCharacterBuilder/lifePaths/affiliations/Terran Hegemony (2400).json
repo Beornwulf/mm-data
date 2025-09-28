@@ -23,8 +23,8 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 250,
-    "source" : "Era Digest: Age of War",
+        "xpCost": 100,
+        "source" : "A Time of War",
     "name" : "Terran Hegemony (2400)",
     "flavorText" : "I walk the soil where humanity first reached for the stars. I don’t just carry history—I carry the burden of proving we were worthy of it.",
     "age" : 0,
@@ -98,8 +98,12 @@
             "INTELLIGENCE" : 100
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": -150
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100
@@ -138,7 +142,8 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 290,
+        "xpCost": 240,
     "source" : "Era Report: 3062",
     "name" : "Second Star League Service - Clan",
     "flavorText" : "I serve the Second Star League not as penance, but as proof—the Clans are the heirs of Kerensky, and through us, the League will rise stronger than before.",
@@ -100,8 +100,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPEdge": {
+    "0": -50
+    },
+"fixedXPFlexibleAttribute": {
+"0": null
+},
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -123,7 +127,8 @@
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": {},
+"flexibleXPEdge": {
+},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

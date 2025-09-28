@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 0,
+        "xpCost": 25,
     "source" : "A Time of War",
     "name" : "Capellan Confederation (2771)",
     "flavorText" : "I am Capellan in 2771—our worlds burn, our armies bleed, yet still I stand. The Chancellor’s word is my truth, and I will not break, even as the Star League seeks to grind us down.",
@@ -99,8 +99,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
-    "fixedXPFlexibleAttribute" : { },
+"fixedXPEdge": {
+"0": 50
+},
+"fixedXPFlexibleAttribute": {
+"0" : null
+},
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -120,7 +124,7 @@
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+"flexibleXPEdge" : {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

@@ -125,13 +125,14 @@
     "fixedXPAbilities" : {
         "0" : {
             "atow_patient" : 80,
-            "compulsion_faction_pride" : -100,
+"compulsion_other_faction_dislike" : -100,
+"compulsion_other_faction_hate": -100,
             "flaw_slow_learner" : -50,
             "exceptional_attribute_strength" : 50
         }
     },
     "flexibleXPAttributes" : { },
-        "flexibleXPEdge": {},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },

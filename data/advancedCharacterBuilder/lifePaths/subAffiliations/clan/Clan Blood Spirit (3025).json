@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 9999,
+"maximumYear": 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -128,7 +128,7 @@
         "0" : {
             "exceptional_attribute_willpower" : 100,
             "flaw_introvert" : -50,
-            "compulsion_unpleasant_personality" : -50
+"compulsion_faction_loyalty": -50
         }
     },
     "flexibleXPAttributes" : { },
