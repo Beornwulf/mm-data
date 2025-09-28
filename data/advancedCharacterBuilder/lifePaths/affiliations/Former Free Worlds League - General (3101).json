@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-        "xpCost": 125,
+        "xpCost": 25,
     "source" : "Era Report 3145",
     "name" : "Former Free Worlds League - General (3101)",
     "flavorText" : "I was born after the League’s fall, into a splintered realm of fading banners. Still, the memory of the Free Worlds lives in me, and I’ll see it rise again.",
@@ -119,7 +119,9 @@
         }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+"0": {
+"compulsion_bionic_hate": -100
+}
     },
     "flexibleXPAttributes" : {
         "0" : { },

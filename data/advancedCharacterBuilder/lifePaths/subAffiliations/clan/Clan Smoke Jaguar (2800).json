@@ -121,8 +121,8 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -75,
-            "atow_combat_sense" : 100
+    "atow_combat_sense": 100,
+"compulsion_other_faction_dislike": -75
         }
     },
     "flexibleXPAttributes" : {
@@ -150,7 +150,7 @@
     },
     "flexibleXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100
+"compulsion_other_faction_hate": -100
         },
         "1" : { }
     },

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 35,
+        "xpCost": 110,
     "source" : "A Time of War",
     "name" : "Federated Suns (3101)",
     "flavorText" : "I am Davion, heir to a legacy of sacrifice. The Suns have been scarred and tested, yet I carry our banner forward, for freedom must always endure.",
@@ -127,10 +127,10 @@
     },
     "flexibleXPSkills" : {
         "0" : {
-            "Tactics/Any" : 25
+    "Tactics/Any": 100
         },
         "1" : {
-            "Strategy" : 25
+"Strategy": 100
         }
     },
     "flexibleXPMetaSkills" : {

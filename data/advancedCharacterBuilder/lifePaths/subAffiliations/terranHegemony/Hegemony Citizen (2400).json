@@ -122,7 +122,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "flaw_impatient" : -50,
-            "compulsion_faction_pride" : -75
+"compulsion_other_faction_dislike": -75
         }
     },
     "flexibleXPAttributes" : { },

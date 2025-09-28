@@ -126,7 +126,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "clan_pilot_training" : -100,
-            "compulsion_faction_loyalty" : -100
+"compulsion_other_faction_hate": -100
         }
     },
     "flexibleXPAttributes" : { },

@@ -147,10 +147,10 @@
     },
     "flexibleXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100
+"compulsion_other_faction_hate": -100
         },
         "1" : {
-            "compulsion_faction_pride" : -100
+"compulsion_other_faction_dislike": -100
         }
     },
     "flexibleXPPickCount" : 1

@@ -126,8 +126,8 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -50,
-            "compulsion_unpleasant_personality" : -100
+    "compulsion_faction_pride": -100,
+"compulsion_other_faction_hate": -50
         }
     },
     "flexibleXPAttributes" : { },

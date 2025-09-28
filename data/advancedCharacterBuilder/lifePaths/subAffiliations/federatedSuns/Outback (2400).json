@@ -127,28 +127,42 @@
     },
     "flexibleXPAttributes" : {
         "0" : { },
-        "1" : { }
+"1": {
+},
+"2": {
+}
+},
+"flexibleXPEdge": {
+"2": 1
     },
-"flexibleXPEdge": { },
-    "flexibleXPFlexibleAttribute" : { },
+"flexibleXPFlexibleAttribute": {
+"2": null
+},
     "flexibleXPTraits" : {
         "0" : { },
-        "1" : { }
+"1": {},
+"2": {
+}
     },
     "flexibleXPSkills" : {
         "0" : { },
-        "1" : { }
+        "1": {},
+"2": {}
     },
     "flexibleXPMetaSkills" : {
         "0" : { },
-        "1" : { }
+"1": {},
+"2" : {}
     },
     "flexibleXPAbilities" : {
         "0" : {
             "flaw_illiterate" : -50
         },
         "1" : {
-            "compulsion_faction_loyalty" : -50
+"compulsion_other_faction_hate" : -50
+},
+"2": {
+"compulsion_pirate_hate": -50
         }
     },
     "flexibleXPPickCount" : 1

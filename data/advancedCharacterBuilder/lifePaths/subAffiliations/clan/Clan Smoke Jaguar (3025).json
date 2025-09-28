@@ -126,7 +126,7 @@
     },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -100,
+    "compulsion_other_faction_dislike": -100,
             "atow_combat_sense" : 100,
             "compulsion_unpleasant_personality" : -100
         }

@@ -23,7 +23,7 @@
         "patch" : 7,
         "extra" : ""
     },
-    "xpCost" : 45,
+        "xpCost": 0,
     "source" : "A Time of War",
     "name" : "Former Free Worlds League - General (3080)",
     "flavorText" : "I come from the ashes of the League—our banners scattered, our unity broken—yet I still carry its memory, and I will see its strength reborn in me.",
@@ -116,7 +116,9 @@
         }
     },
     "fixedXPAbilities" : {
-        "0" : { }
+"0": {
+"compulsion_bionic_hate": -100
+}
     },
     "flexibleXPAttributes" : {
         "0" : { },
@@ -124,8 +126,7 @@
         "2" : { },
         "3" : { }
     },
-"flexibleXPEdge": {
-},
+"flexibleXPEdge": {},
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
