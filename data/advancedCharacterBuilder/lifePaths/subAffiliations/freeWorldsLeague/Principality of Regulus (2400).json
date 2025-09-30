@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 0,
-    "maximumYear" : 9999,
+"maximumYear": 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -43,7 +43,8 @@
         "0" : [
             "CS",
             "FWLR",
-            "FWL"
+            "FWL",
+            "WOB"
         ]
     },
     "requirementsLifePath" : {

@@ -1349,15 +1349,15 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>compulsion_inner_sphere_hate</lookupName>
-        <displayName>Trivial Compulsion - Hates the Inner Sphere (ATOW)</displayName>
+        <displayName>Significant Compulsion - Hates the Inner Sphere (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
-        <xpCost>-100</xpCost>
+        <xpCost>-200</xpCost>
         <weight>1</weight>
         <skillPrereq />
     </ability>
     <ability>
         <lookupName>compulsion_clan_hate</lookupName>
-        <displayName>Serious Compulsion - Hates the Clans/Aliens (ATOW)</displayName>
+        <displayName>Significant Compulsion - Hates the Clans/Aliens (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now).
 
 If taken by an Inner Sphere character prior to the Clan Invasion, this SPA represents a fear of a mysterious threat from beyond the Periphery.]]></desc>

@@ -30,7 +30,7 @@
 "age": 0,
 "xpDiscount": 0,
 "minimumYear" : 3053,
-"maximumYear": 9999,
+"maximumYear": 3062,
 "randomWeight": 1.0,
 "lifeStages": [
 "SUB_AFFILIATION"
@@ -133,7 +133,7 @@
 "0" : {
 "compulsion_other_faction_hate": -100,
 "flaw_introvert": -30,
-"compulsion_inner_sphere_hate": -100
+"compulsion_inner_sphere_hate": 100
 }
 },
 "flexibleXPAttributes": {},
