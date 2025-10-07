@@ -487,6 +487,27 @@
         <weight>1</weight>
     </ability>
     <ability>
+        <lookupName>unofficial_master_impersonator</lookupName>
+        <displayName>Master Impersonator (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the Target Number for all Disguise checks by 2.]]></desc>
+        <xpCost>100</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
+        <lookupName>unofficial_counterfeiter</lookupName>
+        <displayName>Counterfeiter (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the Target Number for all Forgery checks by 2.]]></desc>
+        <xpCost>100</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
+        <lookupName>unofficial_natural_thespian</lookupName>
+        <displayName>Natural Thespian (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the Target Number for all Acting checks by 2.]]></desc>
+        <xpCost>100</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
         <lookupName>flaw_in_for_life</lookupName>
         <displayName>In For Life (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
