@@ -544,6 +544,7 @@
         <phenotypeProbabilities>95,100,95,0,95,25</phenotypeProbabilities>
         <useAtB>false</useAtB>
         <useStratCon>false</useStratCon>
+        <useAdvancedScouting>false</useAdvancedScouting>
         <useAero>false</useAero>
         <useVehicles>false</useVehicles>
         <clanVehicles>true</clanVehicles>
