@@ -3025,6 +3025,17 @@
             <choiceValues></choiceValues>
         </ability>
         <ability>
+            <displayName>Pick Pocket (Unofficial)</displayName>
+            <lookupName>unofficial_pick_pocket</lookupName>
+            <desc>Decreases the Target Number for all Sleight of Hand checks by 2.</desc>
+            <xpCost>100</xpCost>
+            <weight>1</weight>
+            <prereqAbilities></prereqAbilities>
+            <invalidAbilities></invalidAbilities>
+            <removeAbilities></removeAbilities>
+            <choiceValues></choiceValues>
+        </ability>
+        <ability>
             <displayName>Maintainer (Unofficial)</displayName>
             <lookupName>tech_maintainer</lookupName>
             <desc>The tech is slow and methodical at their work. They take a +1 penalty to their repair rolls, but are better at maintaining units than most, with a -1 bonus.</desc>
