@@ -501,6 +501,13 @@
         <weight>1</weight>
     </ability>
     <ability>
+        <lookupName>unofficial_pick_pocket</lookupName>
+        <displayName>Pick Pocket (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the Target Number for all Sleight of Hand checks by 2.]]></desc>
+        <xpCost>100</xpCost>
+        <weight>1</weight>
+    </ability>
+    <ability>
         <lookupName>unofficial_natural_thespian</lookupName>
         <displayName>Natural Thespian (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Acting checks by 2.]]></desc>
