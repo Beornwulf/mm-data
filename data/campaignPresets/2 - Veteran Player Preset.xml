@@ -158,22 +158,22 @@
         <useUsefulAsTechs>true</useUsefulAsTechs>
         <useQuirks>true</useQuirks>
         <xpCostMultiplier>1.0</xpCostMultiplier>
-        <scenarioXP>0</scenarioXP>
-        <killsForXP>0</killsForXP>
-        <killXPAward>0</killXPAward>
+        <scenarioXP>1</scenarioXP>
+        <killsForXP>2</killsForXP>
+        <killXPAward>1</killXPAward>
         <nTasksXP>25</nTasksXP>
-        <tasksXP>0</tasksXP>
+        <tasksXP>1</tasksXP>
         <mistakeXP>0</mistakeXP>
         <successXP>0</successXP>
         <vocationalXP>2</vocationalXP>
         <vocationalXPTargetNumber>7</vocationalXPTargetNumber>
-        <vocationalXPCheckFrequency>1</vocationalXPCheckFrequency>
+        <vocationalXPCheckFrequency>3</vocationalXPCheckFrequency>
         <contractNegotiationXP>0</contractNegotiationXP>
         <adminWeeklyXP>0</adminWeeklyXP>
         <adminXPPeriod>1</adminXPPeriod>
         <missionXpFail>1</missionXpFail>
-        <missionXpSuccess>3</missionXpSuccess>
-        <missionXpOutstandingSuccess>5</missionXpOutstandingSuccess>
+        <missionXpSuccess>4</missionXpSuccess>
+        <missionXpOutstandingSuccess>7</missionXpOutstandingSuccess>
         <edgeCost>100</edgeCost>
         <limitByYear>true</limitByYear>
         <disallowExtinctStuff>false</disallowExtinctStuff>
